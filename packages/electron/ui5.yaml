@@ -1,0 +1,9 @@
+---
+specVersion: "2.0"
+type: module
+resources:
+  configuration:
+    paths:
+      /resources/jss.native-electron: ./lib-web/
+metadata:
+  name: jss.native-electron
