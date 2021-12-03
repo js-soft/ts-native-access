@@ -1,7 +1,7 @@
 {
     "name": "@js-soft/native-common",
     "version": "1.0.0",
-    "description": "Native Common.",
+    "description": "Native Common",
     "homepage": "https://github.com/js-soft/ts-native-access#readme",
     "repository": {
         "type": "git",

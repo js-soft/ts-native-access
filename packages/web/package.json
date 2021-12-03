@@ -1,7 +1,7 @@
 {
     "name": "@js-soft/native-web",
     "version": "1.0.0",
-    "description": "Native Web.",
+    "description": "Native Web",
     "homepage": "https://github.com/js-soft/ts-native-access#readme",
     "repository": {
         "type": "git",
