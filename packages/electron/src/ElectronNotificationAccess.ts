@@ -7,6 +7,10 @@ import { notify } from "node-notifier";
 export class ElectronNotificationAccess implements INativeNotificationAccess {
     // Store scheduled notifications in memory => resets after restart
     private notifications: number[] = [];
+
+    // TODO: JSSNMSHDD-2684 (make appid configurable)
+    private readonly appId = "eu.enmeshed.app";
+
     public constructor(private readonly logger: ILogger) {}
 
     public init(): Promise<Result<void>> {
@@ -25,7 +29,7 @@ export class ElectronNotificationAccess implements INativeNotificationAccess {
                 actions: options?.buttonInput?.map((elem) => elem.title),
                 icon: `${__dirname}.unpacked/img/app.png`,
                 id: id,
-                appID: "eu.enmeshed.app" // TODO: JSSNMSHDD-2684 (make appid configurable)
+                appID: this.appId
             },
             (err: string, response: any) => {
                 if (err) this.logger.error(["Local Notifications Error:", err]);
@@ -67,7 +71,7 @@ export class ElectronNotificationAccess implements INativeNotificationAccess {
     }
 
     public clear(id: number): Promise<Result<void>> {
-        notify({ remove: id, message: "", appID: "eu.enmeshed.app", title: "" }); // TODO: JSSNMSHDD-2684 (make appid configurable)
+        notify({ remove: id, message: "", appID: this.appId, title: "" }); // TODO: JSSNMSHDD-2684 (make appid configurable)
         this.filterNotifications(id);
         return Promise.resolve(Result.ok(undefined));
     }
