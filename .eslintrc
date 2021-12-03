@@ -1,0 +1,7 @@
+{
+    "ignorePatterns": ["/*", "!/packages", "/packages/*/*", "!/packages/*/src"],
+    "extends": ["@js-soft/ts"],
+    "parserOptions": {
+        "project": ["./packages/*/tsconfig.json", "./packages/*/test/tsconfig.json"]
+    }
+}

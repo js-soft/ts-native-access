@@ -1,0 +1,33 @@
+{
+    "name": "@js-soft/native-abstractions",
+    "version": "1.0.0",
+    "description": "Native Abstractions",
+    "homepage": "https://github.com/js-soft/ts-native-access#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/js-soft/ts-native-access.git",
+        "directory": "packages/abstractions"
+    },
+    "license": "MIT",
+    "author": "j&s-soft GmbH",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@js-soft/docdb-access-loki": "^1.0.2",
+        "@js-soft/logging-abstractions": "^1.0.0",
+        "@js-soft/ts-utils": "^1.1.1"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.11",
+        "typescript": "^4.5.2"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
