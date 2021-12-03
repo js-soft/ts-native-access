@@ -205,7 +205,7 @@ export class ElectronFileAccess implements INativeFileAccess {
     public async deleteDirectory(path: string, storage: NativeFileStorage = NativeFileStorage.Data): Promise<Result<void>> {
         try {
             const directoryPath = this.getStoragePath(path, storage);
-            // TODO: Check this rimraf call!
+            // TODO: JSSNMSHDD-2686 (Check this rimraf call!)
             await new Promise((resolve) => rimraf(directoryPath, resolve));
             return Result.ok(undefined);
         } catch (err) {

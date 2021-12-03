@@ -34,7 +34,7 @@ interface Window {
 }
 
 /** This interface represents a file system. */
-// TODO: why does filesystem collide with lib.dom ?
+// TODO: JSSNMSHDD-2686 (why does filesystem collide with lib.dom?)
 // interface FileSystem {
 //     /* The name of the file system, unique across the list of exposed file systems. */
 //     name: string;

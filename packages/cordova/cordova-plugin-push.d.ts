@@ -288,8 +288,8 @@ declare namespace PhonegapPluginPush {
         additionalData: NotificationEventAdditionalData;
     }
 
+    // TODO: JSSNMSHDD-2686 (document all possible properties (I only got the android ones))
     /**
-     * TODO: document all possible properties (I only got the android ones)
      *
      * Loosened up with a dictionary notation, but all non-defined properties need to use (map['prop']) notation
      *
