@@ -13,8 +13,11 @@ export class CommonScannerAccess implements INativeScannerAccess {
                 QRScanner.initiate({ onResult: resolve, onError: reject, onTimeout: reject, timeout: 60000 });
             });
             return Result.ok(result);
-        } catch (err) {
-            return Result.fail(new ApplicationError(NativeErrorCodes.SCANNER_UNKNOWN, `QR Code Scanning Failed! Reason: ${err}`, err));
+        } catch (err: any) {
+            if (err.code === "SCAN_CANCELLED") {
+                return Result.fail(new ApplicationError(NativeErrorCodes.SCANNER_CANCELLED, `QR Code Scanning Failed! Reason: ${err.err}`, err));
+            }
+            return Result.fail(new ApplicationError(NativeErrorCodes.SCANNER_UNKNOWN, `QR Code Scanning Failed! Reason: ${err.err}`, err));
         }
     }
 }
