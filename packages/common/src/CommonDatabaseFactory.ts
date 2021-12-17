@@ -66,7 +66,7 @@ class DatabaseFilesystemAdapter {
             try {
                 const dbmeta = await loadDatabaseMetadata();
                 const promiseArray: Promise<Document>[] = [];
-                if (dbmeta?.collection) {
+                if (dbmeta?.collections) {
                     for (const collection of dbmeta.collections) {
                         promiseArray.push(loadCollectionData(collection.name));
                     }
