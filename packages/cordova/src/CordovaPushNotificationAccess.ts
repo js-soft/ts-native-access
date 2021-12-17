@@ -78,18 +78,16 @@ export class CordovaPushNotificationAccess implements INativePushNotificationAcc
             let content = addDat.content;
             if (!content) {
                 this.logger.error("No payload found in push notification! Wrong format or test message.", addDat);
-                content = ""
+                content = "";
             }
             if (typeof content === "string") {
                 try {
-                    content = JSON.parse(content)
-                }
-                catch (e) {
-                    this.logger.error("Error while parsing content of Push Notification", e)
-                    content = content
+                    content = JSON.parse(content);
+                } catch (e) {
+                    this.logger.error("Error while parsing content of Push Notification", e);
                 }
             }
-            
+
             const notification: INativePushNotification = {
                 // Add id of notification to the content
                 id: id,
