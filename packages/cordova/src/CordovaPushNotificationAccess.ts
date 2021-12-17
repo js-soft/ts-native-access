@@ -75,18 +75,28 @@ export class CordovaPushNotificationAccess implements INativePushNotificationAcc
             const addDat = data.additionalData;
             const id = addDat.notId;
             // content is a property which should be set by the backend and contain all data to be delivered to the app
-            const content = addDat.content;
+            let content = addDat.content;
             if (!content) {
-                this.logger.error("No payload found in push notification! Wrong format or test message.");
-                return false;
+                this.logger.error("No payload found in push notification! Wrong format or test message.", addDat);
+                content = ""
             }
+            if (typeof content === "string") {
+                try {
+                    content = JSON.parse(content)
+                }
+                catch (e) {
+                    this.logger.error("Error while parsing content of Push Notification", e)
+                    content = content
+                }
+            }
+            
             const notification: INativePushNotification = {
                 // Add id of notification to the content
                 id: id,
                 // Add info to the content if the notification event occured while the app was in the foreground
                 // Property is set by phonegap-plugin-push
                 foreground: addDat.foreground,
-                content: JSON.parse(content)
+                content: content
             };
 
             // Immediately cancel the remote push notification
