@@ -2,6 +2,34 @@ import { ILogger } from "@js-soft/logging-abstractions";
 import { Result } from "@js-soft/ts-utils";
 import { INativeFileAccess } from "./INativeFileAccess";
 
+enum AppType {
+    Debug = "debug",
+    Release = "release",
+    Webapp = "webapp"
+}
+
+export interface IAppConfig {
+    name: string;
+    applicationId: string;
+    type: AppType;
+    pushToken: string | null;
+    theme: string | null;
+    transport: ITransportConfig;
+    cordova?: ICordovaConfig;
+    electron?: IElectronConfig;
+    firebase?: IFirebaseConfig;
+    localforage?: ILocalForageConfig;
+    launchOptions?: ILaunchOptionsConfig;
+}
+
+export interface ITransportConfig {
+    baseUrl: string;
+    logLevel: string;
+    datawalletEnabled: boolean;
+    platformClientId: string;
+    platformClientSecret: string;
+}
+
 export interface IFirebaseConfig {
     config: {
         apiKey: string;
