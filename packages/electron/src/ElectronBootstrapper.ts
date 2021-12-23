@@ -107,7 +107,7 @@ export class ElectronBootstrapper implements INativeBootstrapper {
         const keychainAccess = new ElectronKeychainAccess(this.logger, this.nativeConfigAccess);
         await keychainAccess.init();
         this.nativeKeychainAccess = keychainAccess;
-        this.nativeNotificationAccess = new ElectronNotificationAccess(this.logger);
+        this.nativeNotificationAccess = new ElectronNotificationAccess(this.logger, this.nativeConfigAccess);
         await this.nativeNotificationAccess.init();
         this.nativeScannerAccess = new CommonScannerAccess(this.logger);
         this.nativePushNotificationAccess = new ElectronPushNotificationAccess(this.logger, this.nativeConfigAccess, this.nativeEventBus);
