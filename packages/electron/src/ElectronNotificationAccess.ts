@@ -7,9 +7,9 @@ import { notify } from "node-notifier";
 export class ElectronNotificationAccess implements INativeNotificationAccess {
     // Store scheduled notifications in memory => resets after restart
     private notifications: number[] = [];
-    private appId: string
-    
-    public constructor(private readonly logger: ILogger,private readonly config: INativeConfigAccess) {}
+    private appId: string;
+
+    public constructor(private readonly logger: ILogger, private readonly config: INativeConfigAccess) {}
 
     public init(): Promise<Result<void>> {
         this.appId = this.config.get("appId").value;
