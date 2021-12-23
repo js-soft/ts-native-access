@@ -7,12 +7,12 @@ import { notify } from "node-notifier";
 export class ElectronNotificationAccess implements INativeNotificationAccess {
     // Store scheduled notifications in memory => resets after restart
     private notifications: number[] = [];
-    private appId: string;
+    private applicationId: string;
 
     public constructor(private readonly logger: ILogger, private readonly config: INativeConfigAccess) {}
 
     public init(): Promise<Result<void>> {
-        this.appId = this.config.get("appId").value;
+        this.applicationId = this.config.get("applicationId").value;
         return Promise.resolve(Result.ok(undefined));
     }
 
@@ -28,7 +28,7 @@ export class ElectronNotificationAccess implements INativeNotificationAccess {
                 actions: options?.buttonInput?.map((elem) => elem.title),
                 icon: `${__dirname}.unpacked/img/app.png`,
                 id: id,
-                appID: this.appId
+                appID: this.applicationId
             },
             (err: string, response: any) => {
                 if (err) this.logger.error(["Local Notifications Error:", err]);
@@ -70,7 +70,7 @@ export class ElectronNotificationAccess implements INativeNotificationAccess {
     }
 
     public clear(id: number): Promise<Result<void>> {
-        notify({ remove: id, message: "", appID: this.appId, title: "" }); // TODO: JSSNMSHDD-2684 (make appid configurable)
+        notify({ remove: id, message: "", appID: this.applicationId, title: "" });
         this.filterNotifications(id);
         return Promise.resolve(Result.ok(undefined));
     }
