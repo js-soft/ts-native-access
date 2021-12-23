@@ -1,5 +1,5 @@
 import { ILogger } from "@js-soft/logging-abstractions";
-import { INativeNotificationAccess, INativeNotificationScheduleOptions } from "@js-soft/native-abstractions";
+import { INativeConfigAccess, INativeNotificationAccess, INativeNotificationScheduleOptions } from "@js-soft/native-abstractions";
 import { Result } from "@js-soft/ts-utils";
 // @ts-expect-error
 import { notify } from "node-notifier";
@@ -7,13 +7,12 @@ import { notify } from "node-notifier";
 export class ElectronNotificationAccess implements INativeNotificationAccess {
     // Store scheduled notifications in memory => resets after restart
     private notifications: number[] = [];
-
-    // TODO: JSSNMSHDD-2684 (make appid configurable)
-    private readonly appId = "eu.enmeshed.app";
-
-    public constructor(private readonly logger: ILogger) {}
+    private appId: string
+    
+    public constructor(private readonly logger: ILogger,private readonly config: INativeConfigAccess) {}
 
     public init(): Promise<Result<void>> {
+        this.appId = this.config.get("appId").value;
         return Promise.resolve(Result.ok(undefined));
     }
 
