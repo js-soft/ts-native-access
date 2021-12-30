@@ -1,6 +1,6 @@
 import { ILogger } from "@js-soft/logging-abstractions";
-import { INativeNotificationAccess, INativeNotificationScheduleOptions } from "@js-soft/native-abstractions";
-import { Result } from "@js-soft/ts-utils";
+import { INativeNotificationAccess, INativeNotificationScheduleOptions, NativeErrorCodes } from "@js-soft/native-abstractions";
+import { ApplicationError, Result } from "@js-soft/ts-utils";
 
 export class WebNotificationAccess implements INativeNotificationAccess {
     private actions: Record<string, Function> = {}; // In memory storage of all actions => Callbacks are lost when application closes
@@ -36,14 +36,20 @@ export class WebNotificationAccess implements INativeNotificationAccess {
             return { action, title };
         });
         if (options?.callback) this.callbacks[id] = options.callback;
-        await this.serviceWorker.showNotification(title, {
-            body: body,
-            icon: "assets/images/logo.png",
-            tag: id.toString(),
-            data: options?.data,
-            actions,
-            requireInteraction: !!options?.buttonInput
-        });
+
+        await this.serviceWorker
+            .showNotification(title, {
+                body: body,
+                icon: "assets/images/logo.png",
+                tag: id.toString(),
+                data: options?.data,
+                actions,
+                requireInteraction: !!options?.buttonInput
+            })
+            .catch((err) => {
+                return Result.fail(new ApplicationError(NativeErrorCodes.NOTIFICATION_UNKNOWN, `Scheduling Notification Failed! Reason: ${err.err}`, err));
+            });
+
         return Result.ok(id);
     }
 
