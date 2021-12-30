@@ -14,7 +14,7 @@ interface Window {
      * @param successCallback   The callback that is called when the user agent provides a filesystem.
      * @param errorCallback     A callback that is called when errors happen, or when the request to obtain the filesystem is denied.
      */
-    requestFileSystem(type: LocalFileSystem, size: number, successCallback: (fileSystem: FileSystem) => void, errorCallback?: (fileError: FileError) => void): void;
+    requestFileSystem(type: LocalFileSystem, size: number, successCallback: (fileSystem: CordovaFileSystem) => void, errorCallback?: (fileError: FileError) => void): void;
     /**
      * Look up file system Entry referred to by local URL.
      * @param string url       URL referring to a local file or directory
@@ -34,13 +34,12 @@ interface Window {
 }
 
 /** This interface represents a file system. */
-// TODO: JSSNMSHDD-2686 (why does filesystem collide with lib.dom?)
-// interface FileSystem {
-//     /* The name of the file system, unique across the list of exposed file systems. */
-//     name: string;
-//     /** The root directory of the file system. */
-//     root: DirectoryEntry;
-// }
+interface CordovaFileSystem {
+    /* The name of the file system, unique across the list of exposed file systems. */
+    name: string;
+    /** The root directory of the file system. */
+    root: DirectoryEntry;
+}
 
 /**
  * An abstract interface representing entries in a file system,
@@ -56,7 +55,7 @@ interface Entry {
     /** The full absolute path from the root to the entry. */
     fullPath: string;
     /** The file system on which the entry resides. */
-    filesystem: FileSystem;
+    filesystem: CordovaFileSystem;
     nativeURL: string;
     /**
      * Look up metadata about this entry.
