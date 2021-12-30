@@ -1,5 +1,5 @@
 import { ILogger } from "@js-soft/logging-abstractions";
-import { INativeNotificationAccess, INativeNotificationScheduleOptions } from "@js-soft/native-abstractions";
+import { INativeConfigAccess, INativeNotificationAccess, INativeNotificationScheduleOptions } from "@js-soft/native-abstractions";
 import { Result } from "@js-soft/ts-utils";
 // @ts-expect-error
 import { notify } from "node-notifier";
@@ -7,13 +7,12 @@ import { notify } from "node-notifier";
 export class ElectronNotificationAccess implements INativeNotificationAccess {
     // Store scheduled notifications in memory => resets after restart
     private notifications: number[] = [];
+    private applicationId: string;
 
-    // TODO: JSSNMSHDD-2684 (make appid configurable)
-    private readonly appId = "eu.enmeshed.app";
-
-    public constructor(private readonly logger: ILogger) {}
+    public constructor(private readonly logger: ILogger, private readonly config: INativeConfigAccess) {}
 
     public init(): Promise<Result<void>> {
+        this.applicationId = this.config.get("applicationId").value;
         return Promise.resolve(Result.ok(undefined));
     }
 
@@ -29,7 +28,7 @@ export class ElectronNotificationAccess implements INativeNotificationAccess {
                 actions: options?.buttonInput?.map((elem) => elem.title),
                 icon: `${__dirname}.unpacked/img/app.png`,
                 id: id,
-                appID: this.appId
+                appID: this.applicationId
             },
             (err: string, response: any) => {
                 if (err) this.logger.error(["Local Notifications Error:", err]);
@@ -71,7 +70,7 @@ export class ElectronNotificationAccess implements INativeNotificationAccess {
     }
 
     public clear(id: number): Promise<Result<void>> {
-        notify({ remove: id, message: "", appID: this.appId, title: "" }); // TODO: JSSNMSHDD-2684 (make appid configurable)
+        notify({ remove: id, message: "", appID: this.applicationId, title: "" });
         this.filterNotifications(id);
         return Promise.resolve(Result.ok(undefined));
     }
