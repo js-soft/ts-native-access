@@ -16,9 +16,10 @@ export class CordovaPushNotificationAccess implements INativePushNotificationAcc
 
     private push: any;
 
-    private readonly notificationClickHandler = (data: any) => {
-        // Remote notifications are deleted immediately and replaced by local notifications which handle selection events themselves
+    /*
+    private readonly notificationClickHandler = (data: any) => {      
     };
+    */
 
     /**
      * Handle the registration of a push token for remote push notifications
@@ -107,7 +108,8 @@ export class CordovaPushNotificationAccess implements INativePushNotificationAcc
                 if (addDat.foreground ? !addDat.coldstart : addDat.dismissed === undefined ? addDat.coldstart : !addDat.coldstart) {
                     this.eventBus.publish(new RemoteNotificationEvent(notification));
                 } else if (!addDat.foreground && addDat.dismissed === undefined && !addDat.coldstart) {
-                    this.notificationClickHandler(content);
+                    // Remote notifications are deleted immediately and replaced by local notifications which handle selection events themselves
+                    // this.notificationClickHandler(content);
                 }
             } else if (cordova.platformId === "ios") {
                 if (addDat.coldstart) {
@@ -130,7 +132,8 @@ export class CordovaPushNotificationAccess implements INativePushNotificationAcc
                     }, 15000);
                 }
                 if (!addDat.foreground && addDat.coldstart) {
-                    this.notificationClickHandler(content);
+                    // Remote notifications are deleted immediately and replaced by local notifications which handle selection events themselves
+                    // this.notificationClickHandler(content);
                 } else {
                     this.eventBus.publish(new RemoteNotificationEvent(notification));
                 }
