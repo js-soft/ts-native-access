@@ -4,6 +4,8 @@ import { Result } from "@js-soft/ts-utils";
 
 export class WebNotificationAccess implements INativeNotificationAccess {
     private actions: Record<string, Function> = {}; // In memory storage of all actions => Callbacks are lost when application closes
+    private callbacks: Record<string, Function> = {}; // In memory storage of all selection callbacks => Callbacks are lost when application closes
+
     public constructor(private readonly logger: ILogger, private readonly serviceWorker: ServiceWorkerRegistration) {}
 
     public init(): Promise<Result<void>> {
@@ -11,8 +13,13 @@ export class WebNotificationAccess implements INativeNotificationAccess {
         const broadcast = new BroadcastChannel("notificationclick");
         broadcast.onmessage = (event) => {
             const action = event.data.action;
-            const callback = this.actions[action];
-            callback();
+            if (action !== "") {
+                const callback = this.actions[action];
+                callback();
+            } else {
+                const callback = this.callbacks[event.data.notId];
+                callback();
+            }
         };
 
         const result = Result.ok(undefined);
@@ -28,6 +35,7 @@ export class WebNotificationAccess implements INativeNotificationAccess {
             this.actions[action] = callback;
             return { action, title };
         });
+        if (options?.callback) this.callbacks[id] = options.callback;
         await this.serviceWorker.showNotification(title, {
             body: body,
             icon: "assets/images/logo.png",
