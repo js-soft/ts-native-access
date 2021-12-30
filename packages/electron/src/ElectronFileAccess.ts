@@ -206,10 +206,14 @@ export class ElectronFileAccess implements INativeFileAccess {
         try {
             const directoryPath = this.getStoragePath(path, storage);
 
-            if (!directoryPath.includes(__dirname)) return Result.fail(this.resolveErrorCode("EACCES"));
-            if (!directoryPath.includes(this.datadir)) return Result.fail(this.resolveErrorCode("EACCES"));
-            if (!directoryPath.includes(this.homedir)) return Result.fail(this.resolveErrorCode("EACCES"));
-            if (!directoryPath.includes(this.tmpdir)) return Result.fail(this.resolveErrorCode("EACCES"));
+            if (
+                !directoryPath.startsWith(__dirname) &&
+                !directoryPath.startsWith(this.datadir) &&
+                !directoryPath.startsWith(this.homedir) &&
+                !directoryPath.startsWith(this.tmpdir)
+            ) {
+                return Result.fail(this.resolveErrorCode("EACCES"));
+            }
 
             await new Promise((resolve) => rimraf(directoryPath, resolve));
             return Result.ok(undefined);
