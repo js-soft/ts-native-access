@@ -37,18 +37,18 @@ export class WebNotificationAccess implements INativeNotificationAccess {
         });
         if (options?.callback) this.callbacks[id] = options.callback;
 
-        await this.serviceWorker
-            .showNotification(title, {
+        try {
+            await this.serviceWorker.showNotification(title, {
                 body: body,
                 icon: "assets/images/logo.png",
                 tag: id.toString(),
                 data: options?.data,
                 actions,
                 requireInteraction: !!options?.buttonInput
-            })
-            .catch((err) => {
-                return Result.fail(new ApplicationError(NativeErrorCodes.NOTIFICATION_UNKNOWN, `Scheduling Notification Failed! Reason: ${err.err}`, err));
             });
+        } catch (err) {
+            return Result.fail(new ApplicationError(NativeErrorCodes.NOTIFICATION_UNKNOWN, `Scheduling Notification Failed! Reason: ${err}`));
+        }
 
         return Result.ok(id);
     }
