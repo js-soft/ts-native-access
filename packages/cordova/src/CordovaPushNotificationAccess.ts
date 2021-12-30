@@ -17,9 +17,7 @@ export class CordovaPushNotificationAccess implements INativePushNotificationAcc
     private push: any;
 
     private readonly notificationClickHandler = (data: any) => {
-        // TODO: JSSNMSHDD-2686 (Publish Event)
-        // this.oEventBus.publish("push", "selection", data);
-        this.logger.info("Selection:", data);
+        // Remote notifications are deleted immediately and replaced by local notifications which handle selection events themselves
     };
 
     /**
@@ -99,14 +97,12 @@ export class CordovaPushNotificationAccess implements INativePushNotificationAcc
 
             // Immediately cancel the remote push notification
             // Do not wait until promise is resolved to minimize time of display
-            // TODO: JSSNMSHDD-2686 (on iOS the notification is still visible vor about 1sec)
             new Promise((resolve, reject) => this.push.clearNotification(resolve, reject, parseInt(id))).catch((err) =>
                 this.logger.error("Error while canceling notification:", err)
             );
 
             // The phonegap-plugin-push fires the notification event multiple times
             // Therefore cases in which we want a notification event or selection event to be handled must be filtered
-            // TODO: JSSNMSHDD-2686 (Find better way than this mess of conditions)
             if (cordova.platformId === "android") {
                 if (addDat.foreground ? !addDat.coldstart : addDat.dismissed === undefined ? addDat.coldstart : !addDat.coldstart) {
                     this.eventBus.publish(new RemoteNotificationEvent(notification));
