@@ -36,6 +36,17 @@ export class CordovaNotificationAccess implements INativeNotificationAccess {
             return action;
         });
 
+        const notificationClickHandler = (notification: any) => {
+            // Only handle notification selection of own id
+            if (options?.callback && notification.id === id) {
+                this.logger.info("Notification selection of", notification);
+                options.callback();
+                cordova.plugins.notification.local.un("click", notificationClickHandler);
+            }
+        };
+
+        if (options?.callback) cordova.plugins.notification.local.on("click", notificationClickHandler);
+
         await cordova.plugins.notification.local.schedule({
             title: title,
             text: body,

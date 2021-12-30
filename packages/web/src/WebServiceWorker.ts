@@ -17,5 +17,5 @@ broadcast.onmessage = (event) => {
 self.addEventListener("notificationclick", function (event: any) {
     console.log("On notification click: ", event.notification.tag);
     const broadcast = new BroadcastChannel("notificationclick");
-    broadcast.postMessage({ action: event.action });
+    broadcast.postMessage({ action: event.action, notId: event.notification.tag });
 });

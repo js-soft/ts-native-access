@@ -1,9 +1,11 @@
 import { ILogger } from "@js-soft/logging-abstractions";
-import { INativeNotificationAccess, INativeNotificationScheduleOptions } from "@js-soft/native-abstractions";
-import { Result } from "@js-soft/ts-utils";
+import { INativeNotificationAccess, INativeNotificationScheduleOptions, NativeErrorCodes } from "@js-soft/native-abstractions";
+import { ApplicationError, Result } from "@js-soft/ts-utils";
 
 export class WebNotificationAccess implements INativeNotificationAccess {
     private actions: Record<string, Function> = {}; // In memory storage of all actions => Callbacks are lost when application closes
+    private callbacks: Record<string, Function> = {}; // In memory storage of all selection callbacks => Callbacks are lost when application closes
+
     public constructor(private readonly logger: ILogger, private readonly serviceWorker: ServiceWorkerRegistration) {}
 
     public init(): Promise<Result<void>> {
@@ -11,8 +13,13 @@ export class WebNotificationAccess implements INativeNotificationAccess {
         const broadcast = new BroadcastChannel("notificationclick");
         broadcast.onmessage = (event) => {
             const action = event.data.action;
-            const callback = this.actions[action];
-            callback();
+            if (action !== "") {
+                const callback = this.actions[action];
+                callback();
+            } else {
+                const callback = this.callbacks[event.data.notId];
+                callback();
+            }
         };
 
         const result = Result.ok(undefined);
@@ -28,14 +35,21 @@ export class WebNotificationAccess implements INativeNotificationAccess {
             this.actions[action] = callback;
             return { action, title };
         });
-        await this.serviceWorker.showNotification(title, {
-            body: body,
-            icon: "assets/images/logo.png",
-            tag: id.toString(),
-            data: options?.data,
-            actions,
-            requireInteraction: !!options?.buttonInput
-        });
+        if (options?.callback) this.callbacks[id] = options.callback;
+
+        try {
+            await this.serviceWorker.showNotification(title, {
+                body: body,
+                icon: "assets/images/logo.png",
+                tag: id.toString(),
+                data: options?.data,
+                actions,
+                requireInteraction: !!options?.buttonInput
+            });
+        } catch (err) {
+            return Result.fail(new ApplicationError(NativeErrorCodes.NOTIFICATION_UNKNOWN, `Scheduling Notification Failed! Reason: ${err}`));
+        }
+
         return Result.ok(id);
     }
 
