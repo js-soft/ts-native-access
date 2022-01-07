@@ -166,6 +166,14 @@ export class WebFileAccess implements INativeFileAccess {
             if (!parentDirectoryEntry.isDirectory) {
                 return Result.fail(new ApplicationError(NativeErrorCodes.FILESYSTEM_INVALID_MODIFICATION, `Parent directory ${normalizedParentDirectoryPath} is no directory!`));
             }
+            if (append) {
+                // Delete metadata from parent directory if file is updated
+                parentDirectoryEntry.content.files.forEach((file: INativeFileMetadata, idx: number) => {
+                    if (file.path === fileMetadata.path && file.storage === fileMetadata.storage) {
+                        delete parentDirectoryEntry.content.files[idx];
+                    }
+                });
+            }
             parentDirectoryEntry.content.files.push(fileMetadata);
             await _fs.setItem(normalizedParentDirectoryPath, parentDirectoryEntry);
             await _fs.setItem(normalizedFilePath, fileEntry);
