@@ -36,7 +36,8 @@ export class CommonEventBus implements INativeEventBus {
      */
     public publish(event: Event): Result<void> {
         if (this.locked) {
-            if (event instanceof AppReadyEvent) {
+            // check for namespace to avoid problems with version differences
+            if (event.namespace === AppReadyEvent.namespace) {
                 this.locked = false;
                 // eslint-disable-next-line no-console
                 console.log("Unlocked EventBus."); // No js-soft logger available at this stage
