@@ -45,7 +45,7 @@ export class CommonLoggerFactory implements INativeLoggerFactory {
         };
 
         Logger.setHandler(async (messages: any[], context: any) => {
-            await saveLogs(context.name, this.formatMessages(messages, context));
+            await saveLogs(context.name === "" ? "default" : context.name, this.formatMessages(messages, context));
             consoleHandler(messages, context);
         });
     }
