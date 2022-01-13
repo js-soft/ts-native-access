@@ -168,11 +168,7 @@ export class WebFileAccess implements INativeFileAccess {
             }
             if (append) {
                 // Delete metadata from parent directory if file is updated
-                parentDirectoryEntry.content.files.forEach((file: INativeFileMetadata, idx: number) => {
-                    if (file.path === fileMetadata.path && file.storage === fileMetadata.storage) {
-                        delete parentDirectoryEntry.content.files[idx];
-                    }
-                });
+                parentDirectoryEntry.content.files = parentDirectoryEntry.content.files.filter((file) => file.path === fileMetadata.path && file.storage === fileMetadata.storage);
             }
             parentDirectoryEntry.content.files.push(fileMetadata);
             await _fs.setItem(normalizedParentDirectoryPath, parentDirectoryEntry);
