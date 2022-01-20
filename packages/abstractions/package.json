@@ -16,8 +16,8 @@
         "dist"
     ],
     "scripts": {
-        "build": "tsc",
-        "license-check": "license-check"
+        "license-check": "license-check",
+        "build": "tsc && npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts"
     },
     "dependencies": {
         "@js-soft/docdb-access-loki": "^1.0.2",
@@ -26,6 +26,8 @@
     },
     "devDependencies": {
         "@types/node": "^16.11.11",
+        "typedoc": "^0.22.11",
+        "typedoc-plugin-markdown": "^3.11.12",
         "typescript": "^4.5.2"
     },
     "publishConfig": {
