@@ -61,8 +61,15 @@ export class CommonLoggerFactory implements INativeLoggerFactory {
         this.busy = false;
     }
 
+    /**
+     * Add the log to a queue for saving to filesystem
+     * @param loggerName
+     * @param message
+     */
     private async addLog(loggerName: string, message: string) {
+        // add log to queue
         this.queue.push({ loggerName, message });
+        // save queue to fs if not already happening
         if (!this.busy) await this.saveQueue();
     }
 
