@@ -2,6 +2,8 @@
 
 # Interface: INativeAuthenticationAccess
 
+Authentication of user
+
 ## Table of contents
 
 ### Methods
@@ -14,16 +16,20 @@
 
 ▸ **authenticate**(`options?`): `Promise`<`Result`<`boolean`, `ApplicationError`\>\>
 
+Start the authentication process
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `options?` | [`INativeAuthenticationOptions`](INativeAuthenticationOptions.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `options?` | [`INativeAuthenticationOptions`](INativeAuthenticationOptions.md) | Configuration of the authentication process |
 
 #### Returns
 
 `Promise`<`Result`<`boolean`, `ApplicationError`\>\>
 
+True if authentication was successful and false if authentication was unsuccessful
+
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeAuthenticationAccess.ts#L11)
+[src/INativeAuthenticationAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeAuthenticationAccess.ts#L34)

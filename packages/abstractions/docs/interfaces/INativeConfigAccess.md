@@ -2,6 +2,8 @@
 
 # Interface: INativeConfigAccess
 
+Management of default and runtime config
+
 ## Table of contents
 
 ### Methods
@@ -19,6 +21,8 @@
 
 ▸ **get**(`key`): `Result`<`any`, `ApplicationError`\>
 
+Read the value associated to a key
+
 #### Parameters
 
 | Name | Type |
@@ -31,7 +35,7 @@
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:82](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L82)
+[src/INativeConfigAccess.ts:89](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L89)
 
 ___
 
@@ -39,19 +43,23 @@ ___
 
 ▸ **initDefaultConfig**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Initialize the default config (this does not yet require the filesystem to be initialized)
+
 #### Returns
 
 `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:87](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L87)
+[src/INativeConfigAccess.ts:108](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L108)
 
 ___
 
 ### initRuntimeConfig
 
 ▸ **initRuntimeConfig**(`logger`, `fileAccess`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
+
+Initialize the runtime config by reading the existing runtime config from the filesystem
 
 #### Parameters
 
@@ -66,13 +74,15 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:86](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L86)
+[src/INativeConfigAccess.ts:114](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L114)
 
 ___
 
 ### remove
 
 ▸ **remove**(`key`): `Result`<`void`, `ApplicationError`\>
+
+Remove a key-value pair
 
 #### Parameters
 
@@ -86,7 +96,7 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:84](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L84)
+[src/INativeConfigAccess.ts:100](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L100)
 
 ___
 
@@ -94,19 +104,23 @@ ___
 
 ▸ **save**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Save the runtime config on the filesystem
+
 #### Returns
 
 `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:85](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L85)
+[src/INativeConfigAccess.ts:104](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L104)
 
 ___
 
 ### set
 
 ▸ **set**(`key`, `value`): `Result`<`void`, `ApplicationError`\>
+
+Save a key-value pair in memory
 
 #### Parameters
 
@@ -121,4 +135,4 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:83](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L83)
+[src/INativeConfigAccess.ts:95](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L95)

@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L13)
+[src/INativeConfigAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L13)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L18)
+[src/INativeConfigAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L18)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L19)
+[src/INativeConfigAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L19)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L20)
+[src/INativeConfigAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L20)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L22)
+[src/INativeConfigAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L22)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L21)
+[src/INativeConfigAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L21)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L12)
+[src/INativeConfigAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L12)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L15)
+[src/INativeConfigAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L15)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L16)
+[src/INativeConfigAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L16)
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L17)
+[src/INativeConfigAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L17)
 
 ___
 
@@ -126,4 +126,4 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L14)
+[src/INativeConfigAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L14)

@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L34)
+[src/INativeConfigAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L34)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:42](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L42)
+[src/INativeConfigAccess.ts:42](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L42)

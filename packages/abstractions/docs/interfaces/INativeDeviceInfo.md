@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeDeviceInfoAccess.ts#L20)
+[src/INativeDeviceInfoAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L20)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeDeviceInfoAccess.ts#L21)
+[src/INativeDeviceInfoAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L21)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeDeviceInfoAccess.ts#L19)
+[src/INativeDeviceInfoAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L19)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeDeviceInfoAccess.ts#L15)
+[src/INativeDeviceInfoAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L15)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeDeviceInfoAccess.ts#L16)
+[src/INativeDeviceInfoAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L16)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeDeviceInfoAccess.ts#L22)
+[src/INativeDeviceInfoAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L22)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeDeviceInfoAccess.ts#L17)
+[src/INativeDeviceInfoAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L17)
 
 ___
 
@@ -93,4 +93,4 @@ ___
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeDeviceInfoAccess.ts#L18)
+[src/INativeDeviceInfoAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L18)

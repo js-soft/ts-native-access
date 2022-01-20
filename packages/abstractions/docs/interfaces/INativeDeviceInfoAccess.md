@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeDeviceInfoAccess.ts#L11)
+[src/INativeDeviceInfoAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L11)
 
 ## Methods
 
@@ -34,4 +34,4 @@
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeDeviceInfoAccess.ts#L10)
+[src/INativeDeviceInfoAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L10)

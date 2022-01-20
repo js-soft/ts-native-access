@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:61](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeConfigAccess.ts#L61)
+[src/INativeConfigAccess.ts:61](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L61)

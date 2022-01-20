@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeNotificationAccess.ts#L11)
+[src/INativeNotificationAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeNotificationAccess.ts#L11)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeNotificationAccess.ts#L13)
+[src/INativeNotificationAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeNotificationAccess.ts#L13)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeNotificationAccess.ts#L14)
+[src/INativeNotificationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeNotificationAccess.ts#L14)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeNotificationAccess.ts#L15)
+[src/INativeNotificationAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeNotificationAccess.ts#L15)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeNotificationAccess.ts#L12)
+[src/INativeNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeNotificationAccess.ts#L12)

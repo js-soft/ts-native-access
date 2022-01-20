@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeKeychainAccess.ts#L11)
+[src/INativeKeychainAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeKeychainAccess.ts#L11)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeKeychainAccess.ts#L9)
+[src/INativeKeychainAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeKeychainAccess.ts#L9)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeKeychainAccess.ts#L13)
+[src/INativeKeychainAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeKeychainAccess.ts#L13)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeKeychainAccess.ts#L12)
+[src/INativeKeychainAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeKeychainAccess.ts#L12)
 
 ___
 
@@ -100,4 +100,4 @@ ___
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeKeychainAccess.ts#L10)
+[src/INativeKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeKeychainAccess.ts#L10)

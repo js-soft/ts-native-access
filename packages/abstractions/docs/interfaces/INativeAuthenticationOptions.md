@@ -2,6 +2,8 @@
 
 # Interface: INativeAuthenticationOptions
 
+Options for authentication process
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • `Optional` **cancelButtonTitle**: `string`
 
+Text of the button which cancels the authentication process
+
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeAuthenticationAccess.ts#L7)
+[src/INativeAuthenticationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeAuthenticationAccess.ts#L22)
 
 ___
 
@@ -27,9 +31,11 @@ ___
 
 • `Optional` **description**: `string`
 
+Text which is displayed to the user during authentication request
+
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeAuthenticationAccess.ts#L6)
+[src/INativeAuthenticationAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeAuthenticationAccess.ts#L18)
 
 ___
 
@@ -37,9 +43,11 @@ ___
 
 • `Optional` **subtitle**: `string`
 
+Text which is displayed to the user during authentication request
+
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:5](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeAuthenticationAccess.ts#L5)
+[src/INativeAuthenticationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeAuthenticationAccess.ts#L14)
 
 ___
 
@@ -47,6 +55,8 @@ ___
 
 • `Optional` **title**: `string`
 
+Text which is displayed to the user during authentication request
+
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:4](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeAuthenticationAccess.ts#L4)
+[src/INativeAuthenticationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeAuthenticationAccess.ts#L10)

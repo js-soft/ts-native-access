@@ -2,6 +2,8 @@
 
 # Interface: INativeBootstrapper
 
+Initialization of native features
+
 ## Table of contents
 
 ### Properties
@@ -19,9 +21,11 @@
 
 • **isInitialized**: `boolean`
 
+Indicates whether the initalisation is finished
+
 #### Defined in
 
-[src/INativeBootstrapper.ts:5](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeBootstrapper.ts#L5)
+[src/INativeBootstrapper.ts:11](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeBootstrapper.ts#L11)
 
 ___
 
@@ -29,9 +33,11 @@ ___
 
 • **nativeEnvironment**: [`INativeEnvironment`](INativeEnvironment.md)
 
+Environment of initialized native features
+
 #### Defined in
 
-[src/INativeBootstrapper.ts:6](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeBootstrapper.ts#L6)
+[src/INativeBootstrapper.ts:15](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeBootstrapper.ts#L15)
 
 ## Methods
 
@@ -39,10 +45,12 @@ ___
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Function for starting the initialization process
+
 #### Returns
 
 `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeBootstrapper.ts:7](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeBootstrapper.ts#L7)
+[src/INativeBootstrapper.ts:19](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeBootstrapper.ts#L19)

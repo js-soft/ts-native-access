@@ -51,4 +51,4 @@ ___
 
 #### Defined in
 
-[src/INativeLoggerFactory.ts:5](https://github.com/js-soft/ts-native-access/blob/93dbc36/packages/abstractions/src/INativeLoggerFactory.ts#L5)
+[src/INativeLoggerFactory.ts:5](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeLoggerFactory.ts#L5)

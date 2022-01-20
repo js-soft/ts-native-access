@@ -78,11 +78,38 @@ export interface ICordovaConfig {
     };
 }
 
+/**
+ * Management of default and runtime config
+ */
 export interface INativeConfigAccess {
+    /**
+     * Read the value associated to a key
+     * @param key
+     */
     get(key: string): Result<any>;
+    /**
+     * Save a key-value pair in memory
+     * @param key
+     * @param value
+     */
     set(key: string, value: any): Result<void>;
+    /**
+     * Remove a key-value pair
+     * @param key
+     */
     remove(key: string): Result<void>;
+    /**
+     * Save the runtime config on the filesystem
+     */
     save(): Promise<Result<void>>;
-    initRuntimeConfig(logger: ILogger, fileAccess: INativeFileAccess): Promise<Result<void>>;
+    /**
+     * Initialize the default config (this does not yet require the filesystem to be initialized)
+     */
     initDefaultConfig(): Promise<Result<void>>;
+    /**
+     * Initialize the runtime config by reading the existing runtime config from the filesystem
+     * @param logger
+     * @param fileAccess
+     */
+    initRuntimeConfig(logger: ILogger, fileAccess: INativeFileAccess): Promise<Result<void>>;
 }
