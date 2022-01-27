@@ -2,6 +2,8 @@
 
 # Interface: INativeKeychainEntry
 
+Entry of the keychain
+
 ## Table of contents
 
 ### Properties
@@ -17,7 +19,7 @@
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:4](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeKeychainAccess.ts#L4)
+[src/INativeKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeKeychainAccess.ts#L7)
 
 ___
 
@@ -27,4 +29,4 @@ ___
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:5](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeKeychainAccess.ts#L5)
+[src/INativeKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeKeychainAccess.ts#L8)

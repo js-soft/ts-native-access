@@ -2,6 +2,8 @@
 
 # Interface: INativeFile
 
+Meta information and content of file
+
 ## Table of contents
 
 ### Properties
@@ -15,9 +17,11 @@
 
 • **data**: `string` \| `Uint8Array`
 
+Content of file
+
 #### Defined in
 
-[src/INativeFileAccess.ts:59](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L59)
+[src/INativeFileAccess.ts:62](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L62)
 
 ___
 
@@ -25,6 +29,8 @@ ___
 
 • **metadata**: [`INativeFileMetadata`](INativeFileMetadata.md)
 
+Metadata of file
+
 #### Defined in
 
-[src/INativeFileAccess.ts:60](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L60)
+[src/INativeFileAccess.ts:66](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L66)

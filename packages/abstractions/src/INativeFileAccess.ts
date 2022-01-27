@@ -53,22 +53,52 @@ export enum NativeFileStorage {
 }
 
 /**
- *
+ * Meta information and content of file
  */
 export interface INativeFile {
+    /**
+     * Content of file
+     */
     data: Uint8Array | string;
+    /**
+     * Metadata of file
+     */
     metadata: INativeFileMetadata;
 }
 
+/**
+ * Meta information of directory
+ */
 export interface INativeDirectoryMetadata {
+    /**
+     * Modification date
+     */
     modifiedAt?: string;
+    /**
+     * path of the directory relative to the {@link storage}
+     */
     path: string;
+    /**
+     * storage location of the directory
+     */
     storage?: NativeFileStorage;
 }
 
+/**
+ * Meta information and content od directory
+ */
 export interface INativeDirectory {
+    /**
+     * Files the directory contains
+     */
     files: INativeFileMetadata[];
+    /**
+     * Directories the directory contains
+     */
     directories: INativeDirectoryMetadata[];
+    /**
+     * Meta information of the directory
+     */
     metadata: INativeDirectoryMetadata;
 }
 

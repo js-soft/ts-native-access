@@ -2,6 +2,8 @@
 
 # Interface: INativeNotificationAccess
 
+Mangage local notifications
+
 ## Table of contents
 
 ### Methods
@@ -19,11 +21,13 @@
 
 ▸ **clear**(`id`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Remove a notification from being displayed
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `id` | `number` |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `number` | id of the notification to remove |
 
 #### Returns
 
@@ -31,7 +35,7 @@
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L21)
+[src/INativeNotificationAccess.ts:68](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L68)
 
 ___
 
@@ -39,13 +43,15 @@ ___
 
 ▸ **clearAll**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Remove all notifications from being displayed
+
 #### Returns
 
 `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L22)
+[src/INativeNotificationAccess.ts:72](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L72)
 
 ___
 
@@ -53,13 +59,15 @@ ___
 
 ▸ **getAll**(): `Promise`<`Result`<`number`[], `ApplicationError`\>\>
 
+Retrieve all notifications currently being displayed
+
 #### Returns
 
 `Promise`<`Result`<`number`[], `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:23](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L23)
+[src/INativeNotificationAccess.ts:76](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L76)
 
 ___
 
@@ -67,13 +75,15 @@ ___
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Initialize module
+
 #### Returns
 
 `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:24](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L24)
+[src/INativeNotificationAccess.ts:80](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L80)
 
 ___
 
@@ -81,13 +91,15 @@ ___
 
 ▸ **schedule**(`title`, `body`, `options?`): `Promise`<`Result`<`number`, `ApplicationError`\>\>
 
+Display a local notification
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `title` | `string` |
-| `body` | `string` |
-| `options?` | [`INativeNotificationScheduleOptions`](INativeNotificationScheduleOptions.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `title` | `string` | title displayed in notification |
+| `body` | `string` | body displayed in notification |
+| `options?` | [`INativeNotificationScheduleOptions`](INativeNotificationScheduleOptions.md) | additional options |
 
 #### Returns
 
@@ -95,7 +107,7 @@ ___
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L19)
+[src/INativeNotificationAccess.ts:55](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L55)
 
 ___
 
@@ -103,14 +115,16 @@ ___
 
 ▸ **update**(`id`, `title`, `body`, `options?`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Update the content of an already displayed notification
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `id` | `number` |
-| `title` | `string` |
-| `body` | `string` |
-| `options?` | [`INativeNotificationScheduleOptions`](INativeNotificationScheduleOptions.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `number` | id of the notification to update |
+| `title` | `string` | new title of the notification |
+| `body` | `string` | new body of the notification |
+| `options?` | [`INativeNotificationScheduleOptions`](INativeNotificationScheduleOptions.md) | new additional options of the notification |
 
 #### Returns
 
@@ -118,4 +132,4 @@ ___
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L20)
+[src/INativeNotificationAccess.ts:63](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L63)

@@ -2,6 +2,8 @@
 
 # Interface: INativeLaunchOptions
 
+Handle launches of the app originating from an open url or open file instruction
+
 ## Table of contents
 
 ### Methods
@@ -14,10 +16,12 @@
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Initialize handling of launch events
+
 #### Returns
 
 `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeLaunchOptions.ts:4](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeLaunchOptions.ts#L4)
+[src/INativeLaunchOptions.ts:10](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeLaunchOptions.ts#L10)

@@ -2,6 +2,8 @@
 
 # Interface: INativeDirectory
 
+Meta information and content od directory
+
 ## Table of contents
 
 ### Properties
@@ -16,9 +18,11 @@
 
 • **directories**: [`INativeDirectoryMetadata`](INativeDirectoryMetadata.md)[]
 
+Directories the directory contains
+
 #### Defined in
 
-[src/INativeFileAccess.ts:71](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L71)
+[src/INativeFileAccess.ts:98](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L98)
 
 ___
 
@@ -26,9 +30,11 @@ ___
 
 • **files**: [`INativeFileMetadata`](INativeFileMetadata.md)[]
 
+Files the directory contains
+
 #### Defined in
 
-[src/INativeFileAccess.ts:70](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L70)
+[src/INativeFileAccess.ts:94](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L94)
 
 ___
 
@@ -36,6 +42,8 @@ ___
 
 • **metadata**: [`INativeDirectoryMetadata`](INativeDirectoryMetadata.md)
 
+Meta information of the directory
+
 #### Defined in
 
-[src/INativeFileAccess.ts:72](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L72)
+[src/INativeFileAccess.ts:102](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L102)

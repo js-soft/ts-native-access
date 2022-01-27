@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[src/INativePushNotification.ts:2](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativePushNotification.ts#L2)
+[src/INativePushNotification.ts:2](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativePushNotification.ts#L2)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[src/INativePushNotification.ts:4](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativePushNotification.ts#L4)
+[src/INativePushNotification.ts:4](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativePushNotification.ts#L4)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[src/INativePushNotification.ts:3](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativePushNotification.ts#L3)
+[src/INativePushNotification.ts:3](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativePushNotification.ts#L3)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[src/INativePushNotification.ts:5](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativePushNotification.ts#L5)
+[src/INativePushNotification.ts:5](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativePushNotification.ts#L5)

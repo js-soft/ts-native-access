@@ -2,6 +2,8 @@
 
 # Interface: INativeDirectoryMetadata
 
+Meta information of directory
+
 ## Table of contents
 
 ### Properties
@@ -16,9 +18,11 @@
 
 • `Optional` **modifiedAt**: `string`
 
+Modification date
+
 #### Defined in
 
-[src/INativeFileAccess.ts:64](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L64)
+[src/INativeFileAccess.ts:76](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L76)
 
 ___
 
@@ -26,9 +30,11 @@ ___
 
 • **path**: `string`
 
+path of the directory relative to the [storage](INativeDirectoryMetadata.md#storage)
+
 #### Defined in
 
-[src/INativeFileAccess.ts:65](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L65)
+[src/INativeFileAccess.ts:80](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L80)
 
 ___
 
@@ -36,6 +42,8 @@ ___
 
 • `Optional` **storage**: [`NativeFileStorage`](../enums/NativeFileStorage.md)
 
+storage location of the directory
+
 #### Defined in
 
-[src/INativeFileAccess.ts:66](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L66)
+[src/INativeFileAccess.ts:84](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L84)

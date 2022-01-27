@@ -2,6 +2,8 @@
 
 # Interface: INativeNotificationScheduleOptions
 
+Additional options for displaying notifications
+
 ## Table of contents
 
 ### Properties
@@ -18,9 +20,11 @@
 
 • `Optional` **buttonInput**: [`INativeNotificationAction`](INativeNotificationAction.md)[]
 
+buttons which should be displayed as part of the notification
+
 #### Defined in
 
-[src/INativeNotificationAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L11)
+[src/INativeNotificationAccess.ts:26](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L26)
 
 ___
 
@@ -28,9 +32,11 @@ ___
 
 • `Optional` **callback**: `Function`
 
+callback function for the notification selection
+
 #### Defined in
 
-[src/INativeNotificationAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L13)
+[src/INativeNotificationAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L34)
 
 ___
 
@@ -38,9 +44,11 @@ ___
 
 • `Optional` **data**: `any`
 
+additional data stored as part of the notification => can be accessed for example in the [callback](INativeNotificationScheduleOptions.md#callback)
+
 #### Defined in
 
-[src/INativeNotificationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L14)
+[src/INativeNotificationAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L38)
 
 ___
 
@@ -48,9 +56,11 @@ ___
 
 • `Optional` **id**: `number`
 
+explicitly specify the id of the notification
+
 #### Defined in
 
-[src/INativeNotificationAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L15)
+[src/INativeNotificationAccess.ts:42](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L42)
 
 ___
 
@@ -58,6 +68,8 @@ ___
 
 • `Optional` **textInput**: [`INativeNotificationAction`](INativeNotificationAction.md)[]
 
+input field which should be displayed as part of the notification
+
 #### Defined in
 
-[src/INativeNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L12)
+[src/INativeNotificationAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L30)

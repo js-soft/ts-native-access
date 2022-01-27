@@ -25,7 +25,7 @@ Indicates whether the initalisation is finished
 
 #### Defined in
 
-[src/INativeBootstrapper.ts:11](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeBootstrapper.ts#L11)
+[src/INativeBootstrapper.ts:11](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeBootstrapper.ts#L11)
 
 ___
 
@@ -37,7 +37,7 @@ Environment of initialized native features
 
 #### Defined in
 
-[src/INativeBootstrapper.ts:15](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeBootstrapper.ts#L15)
+[src/INativeBootstrapper.ts:15](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeBootstrapper.ts#L15)
 
 ## Methods
 
@@ -53,4 +53,4 @@ Function for starting the initialization process
 
 #### Defined in
 
-[src/INativeBootstrapper.ts:19](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeBootstrapper.ts#L19)
+[src/INativeBootstrapper.ts:19](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeBootstrapper.ts#L19)

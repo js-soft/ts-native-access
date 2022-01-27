@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:6](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeEvents.ts#L6)
+[src/NativeEvents.ts:6](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L6)
 
 ## Properties
 
@@ -68,4 +68,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:5](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeEvents.ts#L5)
+[src/NativeEvents.ts:5](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L5)

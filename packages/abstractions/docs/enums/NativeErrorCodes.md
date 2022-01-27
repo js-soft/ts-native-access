@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:6](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L6)
+[src/NativeErrorCodes.ts:6](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L6)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:12](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L12)
+[src/NativeErrorCodes.ts:12](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L12)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:8](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L8)
+[src/NativeErrorCodes.ts:8](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L8)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:11](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L11)
+[src/NativeErrorCodes.ts:11](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L11)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:15](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L15)
+[src/NativeErrorCodes.ts:15](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L15)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:16](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L16)
+[src/NativeErrorCodes.ts:16](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L16)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:10](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L10)
+[src/NativeErrorCodes.ts:10](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L10)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:9](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L9)
+[src/NativeErrorCodes.ts:9](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L9)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:13](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L13)
+[src/NativeErrorCodes.ts:13](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L13)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:14](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L14)
+[src/NativeErrorCodes.ts:14](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L14)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:7](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L7)
+[src/NativeErrorCodes.ts:7](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L7)
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:17](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L17)
+[src/NativeErrorCodes.ts:17](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L17)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:5](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L5)
+[src/NativeErrorCodes.ts:5](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L5)
 
 ___
 
@@ -180,7 +180,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:4](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L4)
+[src/NativeErrorCodes.ts:4](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L4)
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:34](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L34)
+[src/NativeErrorCodes.ts:34](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L34)
 
 ___
 
@@ -200,7 +200,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:35](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L35)
+[src/NativeErrorCodes.ts:35](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L35)
 
 ___
 
@@ -210,7 +210,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:31](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L31)
+[src/NativeErrorCodes.ts:31](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L31)
 
 ___
 
@@ -220,7 +220,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:32](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L32)
+[src/NativeErrorCodes.ts:32](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L32)
 
 ___
 
@@ -230,7 +230,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:33](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L33)
+[src/NativeErrorCodes.ts:33](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L33)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:30](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L30)
+[src/NativeErrorCodes.ts:30](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L30)
 
 ___
 
@@ -250,7 +250,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:27](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L27)
+[src/NativeErrorCodes.ts:27](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L27)
 
 ___
 
@@ -260,7 +260,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:24](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L24)
+[src/NativeErrorCodes.ts:24](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L24)
 
 ___
 
@@ -270,7 +270,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:26](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L26)
+[src/NativeErrorCodes.ts:26](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L26)
 
 ___
 
@@ -280,7 +280,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:28](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L28)
+[src/NativeErrorCodes.ts:28](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L28)
 
 ___
 
@@ -290,7 +290,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:25](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L25)
+[src/NativeErrorCodes.ts:25](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L25)
 
 ___
 
@@ -300,7 +300,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:29](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L29)
+[src/NativeErrorCodes.ts:29](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L29)
 
 ___
 
@@ -310,7 +310,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:23](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L23)
+[src/NativeErrorCodes.ts:23](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L23)
 
 ___
 
@@ -320,7 +320,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:22](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L22)
+[src/NativeErrorCodes.ts:22](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L22)
 
 ___
 
@@ -330,7 +330,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:21](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L21)
+[src/NativeErrorCodes.ts:21](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L21)
 
 ___
 
@@ -340,7 +340,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:37](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L37)
+[src/NativeErrorCodes.ts:37](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L37)
 
 ___
 
@@ -350,7 +350,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:3](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L3)
+[src/NativeErrorCodes.ts:3](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L3)
 
 ___
 
@@ -360,7 +360,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:18](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L18)
+[src/NativeErrorCodes.ts:18](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L18)
 
 ___
 
@@ -370,7 +370,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:19](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L19)
+[src/NativeErrorCodes.ts:19](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L19)
 
 ___
 
@@ -380,7 +380,7 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:20](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L20)
+[src/NativeErrorCodes.ts:20](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L20)
 
 ___
 
@@ -390,4 +390,4 @@ ___
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:36](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativeErrorCodes.ts#L36)
+[src/NativeErrorCodes.ts:36](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeErrorCodes.ts#L36)

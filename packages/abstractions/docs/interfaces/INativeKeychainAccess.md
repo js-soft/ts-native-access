@@ -2,6 +2,8 @@
 
 # Interface: INativeKeychainAccess
 
+Access to native keychain
+
 ## Table of contents
 
 ### Methods
@@ -16,14 +18,15 @@
 
 ### delete
 
-▸ **delete**(`key`, `value`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
+▸ **delete**(`key`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
+
+Delete key-value pair
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `key` | `string` |
-| `value` | `any` |
 
 #### Returns
 
@@ -31,19 +34,21 @@
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeKeychainAccess.ts#L11)
+[src/INativeKeychainAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeKeychainAccess.ts#L30)
 
 ___
 
 ### get
 
-▸ **get**(`name`): `Promise`<`Result`<[`INativeKeychainEntry`](INativeKeychainEntry.md), `ApplicationError`\>\>
+▸ **get**(`key`): `Promise`<`Result`<[`INativeKeychainEntry`](INativeKeychainEntry.md), `ApplicationError`\>\>
+
+Get value for the specified {@link key}
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `name` | `string` |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `key` | `string` | string identifying a value |
 
 #### Returns
 
@@ -51,7 +56,7 @@ ___
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeKeychainAccess.ts#L9)
+[src/INativeKeychainAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeKeychainAccess.ts#L19)
 
 ___
 
@@ -59,13 +64,15 @@ ___
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Initialize the module
+
 #### Returns
 
 `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeKeychainAccess.ts#L13)
+[src/INativeKeychainAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeKeychainAccess.ts#L38)
 
 ___
 
@@ -73,19 +80,23 @@ ___
 
 ▸ **list**(): `Promise`<`Result`<[`INativeKeychainEntry`](INativeKeychainEntry.md)[], `ApplicationError`\>\>
 
+List all key-value pairs added by the applicaion
+
 #### Returns
 
 `Promise`<`Result`<[`INativeKeychainEntry`](INativeKeychainEntry.md)[], `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeKeychainAccess.ts#L12)
+[src/INativeKeychainAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeKeychainAccess.ts#L34)
 
 ___
 
 ### set
 
 ▸ **set**(`key`, `value`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
+
+Add key-value pair to keychain
 
 #### Parameters
 
@@ -100,4 +111,4 @@ ___
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeKeychainAccess.ts#L10)
+[src/INativeKeychainAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeKeychainAccess.ts#L25)

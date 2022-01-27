@@ -2,6 +2,8 @@
 
 # Interface: INativeNotificationAction
 
+Content of a button or text input of a notification
+
 ## Table of contents
 
 ### Properties
@@ -15,9 +17,11 @@
 
 • **callback**: `Function`
 
+function called with the result of the action
+
 #### Defined in
 
-[src/INativeNotificationAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L7)
+[src/INativeNotificationAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L16)
 
 ___
 
@@ -25,6 +29,8 @@ ___
 
 • **title**: `string`
 
+title of the action
+
 #### Defined in
 
-[src/INativeNotificationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L6)
+[src/INativeNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeNotificationAccess.ts#L12)

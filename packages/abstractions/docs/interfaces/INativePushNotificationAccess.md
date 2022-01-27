@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/INativePushNotificationAccess.ts:4](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativePushNotificationAccess.ts#L4)
+[src/INativePushNotificationAccess.ts:4](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativePushNotificationAccess.ts#L4)

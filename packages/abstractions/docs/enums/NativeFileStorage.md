@@ -23,7 +23,7 @@ Used for storing application data on mobile
 
 #### Defined in
 
-[src/INativeFileAccess.ts:52](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L52)
+[src/INativeFileAccess.ts:52](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L52)
 
 ___
 
@@ -35,7 +35,7 @@ Used for storing application data on desktop
 
 #### Defined in
 
-[src/INativeFileAccess.ts:48](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L48)
+[src/INativeFileAccess.ts:48](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L48)
 
 ___
 
@@ -47,7 +47,7 @@ Home folder of the user
 
 #### Defined in
 
-[src/INativeFileAccess.ts:44](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L44)
+[src/INativeFileAccess.ts:44](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L44)
 
 ___
 
@@ -59,4 +59,4 @@ Used for storing temporary files
 
 #### Defined in
 
-[src/INativeFileAccess.ts:40](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L40)
+[src/INativeFileAccess.ts:40](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeFileAccess.ts#L40)

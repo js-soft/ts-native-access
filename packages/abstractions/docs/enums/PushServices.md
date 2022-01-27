@@ -20,7 +20,7 @@ Type of remote push notification service used
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeDeviceInfoAccess.ts#L7)
+[src/INativeDeviceInfoAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeDeviceInfoAccess.ts#L7)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeDeviceInfoAccess.ts#L8)
+[src/INativeDeviceInfoAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeDeviceInfoAccess.ts#L8)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeDeviceInfoAccess.ts#L9)
+[src/INativeDeviceInfoAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeDeviceInfoAccess.ts#L9)

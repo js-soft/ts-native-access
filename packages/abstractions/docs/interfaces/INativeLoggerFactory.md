@@ -2,6 +2,8 @@
 
 # Interface: INativeLoggerFactory
 
+Create logger
+
 ## Hierarchy
 
 - `ILoggerFactory`
@@ -45,10 +47,12 @@ ___
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Initialize logger
+
 #### Returns
 
 `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeLoggerFactory.ts:5](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeLoggerFactory.ts#L5)
+[src/INativeLoggerFactory.ts:11](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeLoggerFactory.ts#L11)
