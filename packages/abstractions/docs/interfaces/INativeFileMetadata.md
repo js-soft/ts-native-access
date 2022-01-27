@@ -25,7 +25,7 @@ Mime type of the file used to determine which applications can be used to open t
 
 #### Defined in
 
-[src/INativeFileAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L22)
+[src/INativeFileAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L22)
 
 ___
 
@@ -37,7 +37,7 @@ Modification date
 
 #### Defined in
 
-[src/INativeFileAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L30)
+[src/INativeFileAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L30)
 
 ___
 
@@ -49,7 +49,7 @@ Name of the file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L10)
+[src/INativeFileAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L10)
 
 ___
 
@@ -61,7 +61,7 @@ Path to the file relative to the [storage](INativeFileMetadata.md#storage)
 
 #### Defined in
 
-[src/INativeFileAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L14)
+[src/INativeFileAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L14)
 
 ___
 
@@ -73,7 +73,7 @@ Size of the file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:26](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L26)
+[src/INativeFileAccess.ts:26](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L26)
 
 ___
 
@@ -85,4 +85,4 @@ storage location of the file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L18)
+[src/INativeFileAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L18)

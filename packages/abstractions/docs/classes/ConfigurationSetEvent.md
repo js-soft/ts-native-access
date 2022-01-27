@@ -42,7 +42,7 @@ Event fired when the [configuration module](./INativeConfigAccess.md) changes th
 
 #### Defined in
 
-[src/NativeEvents.ts:39](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativeEvents.ts#L39)
+[src/NativeEvents.ts:39](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/NativeEvents.ts#L39)
 
 ## Properties
 
@@ -78,4 +78,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:38](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativeEvents.ts#L38)
+[src/NativeEvents.ts:38](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/NativeEvents.ts#L38)

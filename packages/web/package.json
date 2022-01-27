@@ -18,7 +18,7 @@
         "ui5.yaml"
     ],
     "scripts": {
-        "build": "tsc && npm run bundle",
+        "build": "tsc && npm run bundle && npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts",
         "bundle": "npm run bundle:lib && npm run bundle:min",
         "bundle:lib": "webpack --stats-all --config webpack.config.js",
         "bundle:min": "webpack --stats-all --config webpack.min.config.js",

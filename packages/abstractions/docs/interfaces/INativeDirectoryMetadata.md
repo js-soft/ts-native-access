@@ -22,7 +22,7 @@ Modification date
 
 #### Defined in
 
-[src/INativeFileAccess.ts:76](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L76)
+[src/INativeFileAccess.ts:76](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L76)
 
 ___
 
@@ -34,7 +34,7 @@ path of the directory relative to the [storage](INativeDirectoryMetadata.md#stor
 
 #### Defined in
 
-[src/INativeFileAccess.ts:80](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L80)
+[src/INativeFileAccess.ts:80](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L80)
 
 ___
 
@@ -46,4 +46,4 @@ storage location of the directory
 
 #### Defined in
 
-[src/INativeFileAccess.ts:84](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L84)
+[src/INativeFileAccess.ts:84](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L84)

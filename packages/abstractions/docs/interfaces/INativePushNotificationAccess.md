@@ -24,4 +24,4 @@ Initialize module
 
 #### Defined in
 
-[src/INativePushNotificationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativePushNotificationAccess.ts#L10)
+[src/INativePushNotificationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativePushNotificationAccess.ts#L10)
