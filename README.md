@@ -56,7 +56,7 @@ Before putting a PR you should run `lerna version <major | minor | patch>` to in
 
 ## Publishing
 
-After a PR is merged the Pipeline will push all packages that are not pushed to the registry before.
+After a PR is merged the Pipeline will push all packages that were not pushed to the registry before.
 
 ## Contribute
 
