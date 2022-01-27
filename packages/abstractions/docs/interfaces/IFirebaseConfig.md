@@ -2,6 +2,8 @@
 
 # Interface: IFirebaseConfig
 
+Configuration of firebase which can be accessed through the firebase console
+
 ## Table of contents
 
 ### Properties
@@ -28,7 +30,7 @@
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L34)
+[src/INativeConfigAccess.ts:43](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L43)
 
 ___
 
@@ -38,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:42](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L42)
+[src/INativeConfigAccess.ts:51](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L51)

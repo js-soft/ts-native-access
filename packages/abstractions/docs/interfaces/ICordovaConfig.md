@@ -2,6 +2,8 @@
 
 # Interface: ICordovaConfig
 
+Configuration for the cordova platform
+
 ## Table of contents
 
 ### Properties
@@ -15,6 +17,8 @@
 
 • **localNotificationConfig**: `Object`
 
+Configuration of the cordova local push notifiction plugin (ios/android)
+
 #### Type declaration
 
 | Name | Type |
@@ -27,13 +31,15 @@
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:72](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L72)
+[src/INativeConfigAccess.ts:133](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L133)
 
 ___
 
 ### pushChannelConfig
 
 • **pushChannelConfig**: `Object`
+
+Configuration of the cordova remote push notifiction plugin (ios/android)
 
 #### Type declaration
 
@@ -47,4 +53,4 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:65](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L65)
+[src/INativeConfigAccess.ts:123](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L123)

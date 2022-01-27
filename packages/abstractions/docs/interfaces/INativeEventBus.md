@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/INativeEventBus.ts:8](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEventBus.ts#L8)
+[src/INativeEventBus.ts:8](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEventBus.ts#L8)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[src/INativeEventBus.ts:7](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEventBus.ts#L7)
+[src/INativeEventBus.ts:7](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEventBus.ts#L7)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[src/INativeEventBus.ts:4](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEventBus.ts#L4)
+[src/INativeEventBus.ts:4](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEventBus.ts#L4)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[src/INativeEventBus.ts:5](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEventBus.ts#L5)
+[src/INativeEventBus.ts:5](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEventBus.ts#L5)
 
 ___
 
@@ -107,4 +107,4 @@ ___
 
 #### Defined in
 
-[src/INativeEventBus.ts:6](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEventBus.ts#L6)
+[src/INativeEventBus.ts:6](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEventBus.ts#L6)

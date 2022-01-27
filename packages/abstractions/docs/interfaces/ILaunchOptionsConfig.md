@@ -2,6 +2,8 @@
 
 # Interface: ILaunchOptionsConfig
 
+Configuration of the launch options
+
 ## Table of contents
 
 ### Properties
@@ -14,6 +16,8 @@
 
 • **uri**: `string`
 
+Uri which should be registered for the app
+
 #### Defined in
 
-[src/INativeConfigAccess.ts:61](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L61)
+[src/INativeConfigAccess.ts:113](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L113)

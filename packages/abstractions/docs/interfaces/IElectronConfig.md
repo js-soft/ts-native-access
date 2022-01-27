@@ -2,6 +2,8 @@
 
 # Interface: IElectronConfig
 
+Configuration of the electron platform
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • **fcmSenderId**: `string`
 
+Firebase cloud messaging sender-id which can be accessed through the firebase console
+
 #### Defined in
 
-[src/INativeConfigAccess.ts:55](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L55)
+[src/INativeConfigAccess.ts:95](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L95)
 
 ___
 
@@ -27,9 +31,11 @@ ___
 
 • **persistentIDs**: `any`
 
+Ids of remote push notifications are stored to prevent push notifications to be displayed multiple times
+
 #### Defined in
 
-[src/INativeConfigAccess.ts:57](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L57)
+[src/INativeConfigAccess.ts:103](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L103)
 
 ___
 
@@ -37,16 +43,20 @@ ___
 
 • **persistentIDsremoveDays**: `number`
 
+Days after which the stored ids of received remote push notifications should be deleted
+
 #### Defined in
 
-[src/INativeConfigAccess.ts:54](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L54)
+[src/INativeConfigAccess.ts:91](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L91)
 
 ___
 
 ### pushCredentials
 
-• **pushCredentials**: `any`
+• `Optional` **pushCredentials**: `any`
+
+Remote push notification credentials created by app during initialization
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:56](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L56)
+[src/INativeConfigAccess.ts:99](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L99)

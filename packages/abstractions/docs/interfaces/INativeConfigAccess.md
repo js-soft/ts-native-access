@@ -35,7 +35,7 @@ Read the value associated to a key
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:89](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L89)
+[src/INativeConfigAccess.ts:150](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L150)
 
 ___
 
@@ -51,7 +51,7 @@ Initialize the default config (this does not yet require the filesystem to be in
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:108](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L108)
+[src/INativeConfigAccess.ts:169](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L169)
 
 ___
 
@@ -74,7 +74,7 @@ Initialize the runtime config by reading the existing runtime config from the fi
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:114](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L114)
+[src/INativeConfigAccess.ts:175](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L175)
 
 ___
 
@@ -96,7 +96,7 @@ Remove a key-value pair
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:100](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L100)
+[src/INativeConfigAccess.ts:161](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L161)
 
 ___
 
@@ -112,7 +112,7 @@ Save the runtime config on the filesystem
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:104](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L104)
+[src/INativeConfigAccess.ts:165](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L165)
 
 ___
 
@@ -135,4 +135,4 @@ Save a key-value pair in memory
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:95](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L95)
+[src/INativeConfigAccess.ts:156](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L156)

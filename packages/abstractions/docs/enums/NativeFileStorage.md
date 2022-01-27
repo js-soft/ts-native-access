@@ -21,7 +21,7 @@ C:\Program Files\<app-id>\
 
 #### Defined in
 
-[src/INativeFileAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L25)
+[src/INativeFileAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L25)
 
 ___
 
@@ -33,7 +33,7 @@ C:\Users\<user-id>\AppData\Roaming\<app-id>\
 
 #### Defined in
 
-[src/INativeFileAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L21)
+[src/INativeFileAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L21)
 
 ___
 
@@ -45,7 +45,7 @@ C:\Users\<user-id>
 
 #### Defined in
 
-[src/INativeFileAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L17)
+[src/INativeFileAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L17)
 
 ___
 
@@ -55,4 +55,4 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L13)
+[src/INativeFileAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L13)

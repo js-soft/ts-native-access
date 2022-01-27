@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[src/INativeEnvironment.ts:17](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L17)
+[src/INativeEnvironment.ts:17](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L17)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[src/INativeEnvironment.ts:18](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L18)
+[src/INativeEnvironment.ts:18](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L18)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[src/INativeEnvironment.ts:19](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L19)
+[src/INativeEnvironment.ts:19](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L19)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[src/INativeEnvironment.ts:20](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L20)
+[src/INativeEnvironment.ts:20](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L20)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[src/INativeEnvironment.ts:16](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L16)
+[src/INativeEnvironment.ts:16](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L16)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[src/INativeEnvironment.ts:21](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L21)
+[src/INativeEnvironment.ts:21](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L21)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[src/INativeEnvironment.ts:22](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L22)
+[src/INativeEnvironment.ts:22](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L22)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[src/INativeEnvironment.ts:23](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L23)
+[src/INativeEnvironment.ts:23](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L23)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[src/INativeEnvironment.ts:24](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L24)
+[src/INativeEnvironment.ts:24](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L24)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[src/INativeEnvironment.ts:15](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L15)
+[src/INativeEnvironment.ts:15](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L15)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[src/INativeEnvironment.ts:25](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L25)
+[src/INativeEnvironment.ts:25](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L25)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-[src/INativeEnvironment.ts:26](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeEnvironment.ts#L26)
+[src/INativeEnvironment.ts:26](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEnvironment.ts#L26)

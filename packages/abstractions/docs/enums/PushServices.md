@@ -2,6 +2,8 @@
 
 # Enumeration: PushServices
 
+Type of remote push notification service used
+
 ## Table of contents
 
 ### Enumeration members
@@ -18,7 +20,7 @@
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:4](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L4)
+[src/INativeDeviceInfoAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeDeviceInfoAccess.ts#L7)
 
 ___
 
@@ -28,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:5](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L5)
+[src/INativeDeviceInfoAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeDeviceInfoAccess.ts#L8)
 
 ___
 
@@ -38,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeDeviceInfoAccess.ts#L6)
+[src/INativeDeviceInfoAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeDeviceInfoAccess.ts#L9)

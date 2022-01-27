@@ -27,4 +27,4 @@
 
 #### Defined in
 
-[src/INativeTranslationProvider.ts:4](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeTranslationProvider.ts#L4)
+[src/INativeTranslationProvider.ts:4](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeTranslationProvider.ts#L4)

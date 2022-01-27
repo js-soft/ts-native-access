@@ -32,4 +32,4 @@ True if authentication was successful and false if authentication was unsuccessf
 
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeAuthenticationAccess.ts#L34)
+[src/INativeAuthenticationAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeAuthenticationAccess.ts#L34)

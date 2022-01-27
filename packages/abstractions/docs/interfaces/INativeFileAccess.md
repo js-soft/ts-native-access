@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[src/INativeFileAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L53)
+[src/INativeFileAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L53)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:54](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L54)
+[src/INativeFileAccess.ts:54](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L54)
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:50](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L50)
+[src/INativeFileAccess.ts:50](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L50)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:55](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L55)
+[src/INativeFileAccess.ts:55](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L55)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:51](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L51)
+[src/INativeFileAccess.ts:51](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L51)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:52](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L52)
+[src/INativeFileAccess.ts:52](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L52)
 
 ___
 
@@ -166,7 +166,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:46](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L46)
+[src/INativeFileAccess.ts:46](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L46)
 
 ___
 
@@ -180,7 +180,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:59](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L59)
+[src/INativeFileAccess.ts:59](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L59)
 
 ___
 
@@ -201,7 +201,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:57](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L57)
+[src/INativeFileAccess.ts:57](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L57)
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:58](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L58)
+[src/INativeFileAccess.ts:58](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L58)
 
 ___
 
@@ -243,7 +243,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:48](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L48)
+[src/INativeFileAccess.ts:48](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L48)
 
 ___
 
@@ -264,7 +264,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:47](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L47)
+[src/INativeFileAccess.ts:47](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L47)
 
 ___
 
@@ -278,7 +278,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:56](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L56)
+[src/INativeFileAccess.ts:56](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L56)
 
 ___
 
@@ -301,4 +301,4 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:49](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeFileAccess.ts#L49)
+[src/INativeFileAccess.ts:49](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L49)

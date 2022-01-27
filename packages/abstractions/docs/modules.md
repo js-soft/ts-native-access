@@ -59,4 +59,3 @@
 - [INativePushNotificationAccess](interfaces/INativePushNotificationAccess.md)
 - [INativeScannerAccess](interfaces/INativeScannerAccess.md)
 - [INativeTranslationProvider](interfaces/INativeTranslationProvider.md)
-- [ITransportConfig](interfaces/ITransportConfig.md)

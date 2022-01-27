@@ -2,6 +2,8 @@
 
 # Interface: ILocalForageConfig
 
+[Configuration](https://github.com/localForage/localForage#configuration) of [Local Forage](https://github.com/localForage/localForage)
+
 ## Table of contents
 
 ### Properties
@@ -19,9 +21,11 @@
 
 • **description**: `string`
 
+Description of created storage
+
 #### Defined in
 
-[src/INativeConfigAccess.ts:50](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L50)
+[src/INativeConfigAccess.ts:81](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L81)
 
 ___
 
@@ -29,9 +33,11 @@ ___
 
 • **driver**: `string`
 
+Storage location (indexeddb, websql)
+
 #### Defined in
 
-[src/INativeConfigAccess.ts:45](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L45)
+[src/INativeConfigAccess.ts:61](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L61)
 
 ___
 
@@ -39,9 +45,11 @@ ___
 
 • **name**: `string`
 
+Name of app
+
 #### Defined in
 
-[src/INativeConfigAccess.ts:46](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L46)
+[src/INativeConfigAccess.ts:65](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L65)
 
 ___
 
@@ -49,9 +57,11 @@ ___
 
 • **size**: `number`
 
+Size of database
+
 #### Defined in
 
-[src/INativeConfigAccess.ts:48](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L48)
+[src/INativeConfigAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L73)
 
 ___
 
@@ -59,9 +69,11 @@ ___
 
 • **storeName**: `string`
 
+Name of created storage
+
 #### Defined in
 
-[src/INativeConfigAccess.ts:49](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L49)
+[src/INativeConfigAccess.ts:77](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L77)
 
 ___
 
@@ -69,6 +81,8 @@ ___
 
 • **version**: `number`
 
+Version number of app
+
 #### Defined in
 
-[src/INativeConfigAccess.ts:47](https://github.com/js-soft/ts-native-access/blob/6589b22/packages/abstractions/src/INativeConfigAccess.ts#L47)
+[src/INativeConfigAccess.ts:69](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeConfigAccess.ts#L69)
