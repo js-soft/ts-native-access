@@ -32,7 +32,31 @@ The packages above provide the following modules:
 | [**QR-Scanner**](packages/abstractions/docs/interfaces/INativeScannerAccess.md): accesses the camera of the device to scan qr-codes.                                                                                                                                                    | ![Android](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/AND.png)![iOS](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/IOS.png) ![Mac](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/MAC.png)![Windows](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/WIN.png) ![Linux](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/LIN.png)![Web](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/COS.png) |
 | [**Launch Options**](packages/abstractions/docs/interfaces/INativeLaunchOptions.md): start the app trough an url.                                                                                                                                                                       | ![Android](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/AND.png)![iOS](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/IOS.png) ![Mac](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/MAC.png)![Windows](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/WIN.png) ![Linux](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/LIN.png)                                                                                                          | ![Web](https://raw.githubusercontent.com/EgoistDeveloper/operating-system-logos/master/src/24x24/COS.png)<details><summary>Details</summary>Not implemented.</details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
-### Building
+## Setup
+
+1. run `npm i` in the root folder
+2. run `npx lerna bootstrap` in the root folder. The [bootstrap command](https://github.com/lerna/lerna/tree/main/commands/bootstrap) will run `npm i`, `npm run prepublish` and `npm run prepare` in all packages, and link the coherent packages using `npm link`.
+
+## Tests
+
+### All
+
+run `lerna run test:local` in the root folder
+
+`lerna run **` will run the given npm script in all packages that contain it. In that case it will run the `test:local` script in the packages.
+
+### One Package
+
+1. cd in the package directory
+2. run `npm run test:local`
+
+## Increment version
+
+Before putting a PR you should run `lerna version <major | minor | patch>` to increment the version of all changed packages.
+
+## Publishing
+
+After a PR is merged the Pipeline will push all packages that are not pushed to the registry before.
 
 ## Contribute
 
