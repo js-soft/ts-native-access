@@ -8,12 +8,12 @@ Initialization of native features
 
 ### Properties
 
-- [isInitialized](INativeBootstrapper.md#isinitialized)
-- [nativeEnvironment](INativeBootstrapper.md#nativeenvironment)
+-   [isInitialized](INativeBootstrapper.md#isinitialized)
+-   [nativeEnvironment](INativeBootstrapper.md#nativeenvironment)
 
 ### Methods
 
-- [init](INativeBootstrapper.md#init)
+-   [init](INativeBootstrapper.md#init)
 
 ## Properties
 
@@ -27,7 +27,7 @@ Indicates whether the initalisation is finished
 
 [src/INativeBootstrapper.ts:11](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeBootstrapper.ts#L11)
 
-___
+---
 
 ### nativeEnvironment
 

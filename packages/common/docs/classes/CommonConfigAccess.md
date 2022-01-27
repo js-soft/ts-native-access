@@ -4,33 +4,33 @@
 
 ## Implements
 
-- `INativeConfigAccess`
+-   `INativeConfigAccess`
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CommonConfigAccess.md#constructor)
+-   [constructor](CommonConfigAccess.md#constructor)
 
 ### Properties
 
-- [\_dirty](CommonConfigAccess.md#_dirty)
-- [config](CommonConfigAccess.md#config)
-- [defaultConfig](CommonConfigAccess.md#defaultconfig)
-- [fileAccess](CommonConfigAccess.md#fileaccess)
-- [logger](CommonConfigAccess.md#logger)
-- [runtimeConfig](CommonConfigAccess.md#runtimeconfig)
+-   [\_dirty](CommonConfigAccess.md#_dirty)
+-   [config](CommonConfigAccess.md#config)
+-   [defaultConfig](CommonConfigAccess.md#defaultconfig)
+-   [fileAccess](CommonConfigAccess.md#fileaccess)
+-   [logger](CommonConfigAccess.md#logger)
+-   [runtimeConfig](CommonConfigAccess.md#runtimeconfig)
 
 ### Methods
 
-- [get](CommonConfigAccess.md#get)
-- [initDefaultConfig](CommonConfigAccess.md#initdefaultconfig)
-- [initRuntimeConfig](CommonConfigAccess.md#initruntimeconfig)
-- [isDirty](CommonConfigAccess.md#isdirty)
-- [refreshConfig](CommonConfigAccess.md#refreshconfig)
-- [remove](CommonConfigAccess.md#remove)
-- [save](CommonConfigAccess.md#save)
-- [set](CommonConfigAccess.md#set)
+-   [get](CommonConfigAccess.md#get)
+-   [initDefaultConfig](CommonConfigAccess.md#initdefaultconfig)
+-   [initRuntimeConfig](CommonConfigAccess.md#initruntimeconfig)
+-   [isDirty](CommonConfigAccess.md#isdirty)
+-   [refreshConfig](CommonConfigAccess.md#refreshconfig)
+-   [remove](CommonConfigAccess.md#remove)
+-   [save](CommonConfigAccess.md#save)
+-   [set](CommonConfigAccess.md#set)
 
 ## Constructors
 
@@ -40,9 +40,9 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
+| Name       | Type              |
+| :--------- | :---------------- |
+| `path`     | `string`          |
 | `eventBus` | `INativeEventBus` |
 
 #### Defined in
@@ -59,7 +59,7 @@
 
 [CommonConfigAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L19)
 
-___
+---
 
 ### config
 
@@ -69,7 +69,7 @@ ___
 
 [CommonConfigAccess.ts:26](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L26)
 
-___
+---
 
 ### defaultConfig
 
@@ -79,7 +79,7 @@ ___
 
 [CommonConfigAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L25)
 
-___
+---
 
 ### fileAccess
 
@@ -89,7 +89,7 @@ ___
 
 [CommonConfigAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L15)
 
-___
+---
 
 ### logger
 
@@ -99,7 +99,7 @@ ___
 
 [CommonConfigAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L16)
 
-___
+---
 
 ### runtimeConfig
 
@@ -119,8 +119,8 @@ Optional: Config object can be accessed directly
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -135,7 +135,7 @@ INativeConfigAccess.get
 
 [CommonConfigAccess.ts:82](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L82)
 
-___
+---
 
 ### initDefaultConfig
 
@@ -153,7 +153,7 @@ INativeConfigAccess.initDefaultConfig
 
 [CommonConfigAccess.ts:32](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L32)
 
-___
+---
 
 ### initRuntimeConfig
 
@@ -161,9 +161,9 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `logger` | `ILogger` |
+| Name         | Type                |
+| :----------- | :------------------ |
+| `logger`     | `ILogger`           |
 | `fileAccess` | `INativeFileAccess` |
 
 #### Returns
@@ -178,7 +178,7 @@ INativeConfigAccess.initRuntimeConfig
 
 [CommonConfigAccess.ts:40](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L40)
 
-___
+---
 
 ### isDirty
 
@@ -192,7 +192,7 @@ ___
 
 [CommonConfigAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L20)
 
-___
+---
 
 ### refreshConfig
 
@@ -206,7 +206,7 @@ ___
 
 [CommonConfigAccess.ts:28](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L28)
 
-___
+---
 
 ### remove
 
@@ -214,8 +214,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -230,7 +230,7 @@ INativeConfigAccess.remove
 
 [CommonConfigAccess.ts:102](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L102)
 
-___
+---
 
 ### save
 
@@ -248,7 +248,7 @@ INativeConfigAccess.save
 
 [CommonConfigAccess.ts:66](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonConfigAccess.ts#L66)
 
-___
+---
 
 ### set
 
@@ -256,10 +256,10 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+| Name    | Type     |
+| :------ | :------- |
+| `key`   | `string` |
+| `value` | `any`    |
 
 #### Returns
 

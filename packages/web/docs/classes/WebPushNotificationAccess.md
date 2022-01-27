@@ -4,17 +4,17 @@
 
 ## Implements
 
-- [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
+-   [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](WebPushNotificationAccess.md#constructor)
+-   [constructor](WebPushNotificationAccess.md#constructor)
 
 ### Methods
 
-- [init](WebPushNotificationAccess.md#init)
+-   [init](WebPushNotificationAccess.md#init)
 
 ## Constructors
 
@@ -24,12 +24,12 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `logger` | `ILogger` |
-| `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
-| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
-| `serviceWorker` | `ServiceWorkerRegistration` |
+| Name            | Type                                                          |
+| :-------------- | :------------------------------------------------------------ |
+| `logger`        | `ILogger`                                                     |
+| `config`        | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
+| `eventBus`      | [`INativeEventBus`](../interfaces/INativeEventBus.md)         |
+| `serviceWorker` | `ServiceWorkerRegistration`                                   |
 
 #### Defined in
 

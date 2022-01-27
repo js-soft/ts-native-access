@@ -4,17 +4,17 @@
 
 ## Implements
 
-- [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
+-   [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ElectronPushNotificationAccess.md#constructor)
+-   [constructor](ElectronPushNotificationAccess.md#constructor)
 
 ### Methods
 
-- [init](ElectronPushNotificationAccess.md#init)
+-   [init](ElectronPushNotificationAccess.md#init)
 
 ## Constructors
 
@@ -24,11 +24,11 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `logger` | `ILogger` |
-| `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
-| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
+| Name       | Type                                                          |
+| :--------- | :------------------------------------------------------------ |
+| `logger`   | `ILogger`                                                     |
+| `config`   | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
+| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md)         |
 
 #### Defined in
 

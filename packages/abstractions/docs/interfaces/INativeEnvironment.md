@@ -8,18 +8,18 @@ Modules for native functionalities: These modules provide an interface for acces
 
 ### Properties
 
-- [authenticationAccess](INativeEnvironment.md#authenticationaccess)
-- [configAccess](INativeEnvironment.md#configaccess)
-- [databaseFactory](INativeEnvironment.md#databasefactory)
-- [deviceInfoAccess](INativeEnvironment.md#deviceinfoaccess)
-- [eventBus](INativeEnvironment.md#eventbus)
-- [fileAccess](INativeEnvironment.md#fileaccess)
-- [keychainAccess](INativeEnvironment.md#keychainaccess)
-- [loggerFactory](INativeEnvironment.md#loggerfactory)
-- [notificationAccess](INativeEnvironment.md#notificationaccess)
-- [platform](INativeEnvironment.md#platform)
-- [pushNotificationAccess](INativeEnvironment.md#pushnotificationaccess)
-- [scannerAccess](INativeEnvironment.md#scanneraccess)
+-   [authenticationAccess](INativeEnvironment.md#authenticationaccess)
+-   [configAccess](INativeEnvironment.md#configaccess)
+-   [databaseFactory](INativeEnvironment.md#databasefactory)
+-   [deviceInfoAccess](INativeEnvironment.md#deviceinfoaccess)
+-   [eventBus](INativeEnvironment.md#eventbus)
+-   [fileAccess](INativeEnvironment.md#fileaccess)
+-   [keychainAccess](INativeEnvironment.md#keychainaccess)
+-   [loggerFactory](INativeEnvironment.md#loggerfactory)
+-   [notificationAccess](INativeEnvironment.md#notificationaccess)
+-   [platform](INativeEnvironment.md#platform)
+-   [pushNotificationAccess](INativeEnvironment.md#pushnotificationaccess)
+-   [scannerAccess](INativeEnvironment.md#scanneraccess)
 
 ## Properties
 
@@ -33,7 +33,7 @@ Module for biometric user authentication
 
 [src/INativeEnvironment.ts:29](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEnvironment.ts#L29)
 
-___
+---
 
 ### configAccess
 
@@ -45,7 +45,7 @@ Module for configuration of the app
 
 [src/INativeEnvironment.ts:33](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEnvironment.ts#L33)
 
-___
+---
 
 ### databaseFactory
 
@@ -57,7 +57,7 @@ Module for database creation
 
 [src/INativeEnvironment.ts:37](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEnvironment.ts#L37)
 
-___
+---
 
 ### deviceInfoAccess
 
@@ -69,7 +69,7 @@ Module for retrieving information about the device running the app
 
 [src/INativeEnvironment.ts:41](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEnvironment.ts#L41)
 
-___
+---
 
 ### eventBus
 
@@ -81,7 +81,7 @@ Event bus for sending and receiving events
 
 [src/INativeEnvironment.ts:25](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEnvironment.ts#L25)
 
-___
+---
 
 ### fileAccess
 
@@ -93,7 +93,7 @@ Module for accessing the filesystem (read/write)
 
 [src/INativeEnvironment.ts:45](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEnvironment.ts#L45)
 
-___
+---
 
 ### keychainAccess
 
@@ -105,7 +105,7 @@ Module for accessing the native keychain (read/write)
 
 [src/INativeEnvironment.ts:49](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEnvironment.ts#L49)
 
-___
+---
 
 ### loggerFactory
 
@@ -117,7 +117,7 @@ Module for creating a logger
 
 [src/INativeEnvironment.ts:53](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEnvironment.ts#L53)
 
-___
+---
 
 ### notificationAccess
 
@@ -129,7 +129,7 @@ Module for creating local notifications
 
 [src/INativeEnvironment.ts:57](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEnvironment.ts#L57)
 
-___
+---
 
 ### platform
 
@@ -141,7 +141,7 @@ Framework used to access native functionalities
 
 [src/INativeEnvironment.ts:21](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEnvironment.ts#L21)
 
-___
+---
 
 ### pushNotificationAccess
 
@@ -153,7 +153,7 @@ Module for receiving and processing incoming remote push notifications
 
 [src/INativeEnvironment.ts:61](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEnvironment.ts#L61)
 
-___
+---
 
 ### scannerAccess
 

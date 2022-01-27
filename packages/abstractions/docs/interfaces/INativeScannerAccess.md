@@ -8,7 +8,7 @@ QR-code scanner
 
 ### Methods
 
-- [scan](INativeScannerAccess.md#scan)
+-   [scan](INativeScannerAccess.md#scan)
 
 ## Methods
 

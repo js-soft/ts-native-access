@@ -8,12 +8,12 @@
 
 ### Properties
 
-- [description](ILocalForageConfig.md#description)
-- [driver](ILocalForageConfig.md#driver)
-- [name](ILocalForageConfig.md#name)
-- [size](ILocalForageConfig.md#size)
-- [storeName](ILocalForageConfig.md#storename)
-- [version](ILocalForageConfig.md#version)
+-   [description](ILocalForageConfig.md#description)
+-   [driver](ILocalForageConfig.md#driver)
+-   [name](ILocalForageConfig.md#name)
+-   [size](ILocalForageConfig.md#size)
+-   [storeName](ILocalForageConfig.md#storename)
+-   [version](ILocalForageConfig.md#version)
 
 ## Properties
 
@@ -27,7 +27,7 @@ Description of created storage
 
 [src/INativeConfigAccess.ts:81](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L81)
 
-___
+---
 
 ### driver
 
@@ -39,7 +39,7 @@ Storage location (indexeddb, websql)
 
 [src/INativeConfigAccess.ts:61](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L61)
 
-___
+---
 
 ### name
 
@@ -51,7 +51,7 @@ Name of app
 
 [src/INativeConfigAccess.ts:65](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L65)
 
-___
+---
 
 ### size
 
@@ -63,7 +63,7 @@ Size of database
 
 [src/INativeConfigAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L73)
 
-___
+---
 
 ### storeName
 
@@ -75,7 +75,7 @@ Name of created storage
 
 [src/INativeConfigAccess.ts:77](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L77)
 
-___
+---
 
 ### version
 

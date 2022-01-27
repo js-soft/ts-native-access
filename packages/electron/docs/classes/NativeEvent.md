@@ -4,41 +4,41 @@
 
 ## Hierarchy
 
-- `Event`
+-   `Event`
 
-  ↳ **`NativeEvent`**
+    ↳ **`NativeEvent`**
 
-  ↳↳ [`RemoteNotificationRegistrationEvent`](RemoteNotificationRegistrationEvent.md)
+    ↳↳ [`RemoteNotificationRegistrationEvent`](RemoteNotificationRegistrationEvent.md)
 
-  ↳↳ [`RemoteNotificationEvent`](RemoteNotificationEvent.md)
+    ↳↳ [`RemoteNotificationEvent`](RemoteNotificationEvent.md)
 
-  ↳↳ [`ConfigurationSaveEvent`](ConfigurationSaveEvent.md)
+    ↳↳ [`ConfigurationSaveEvent`](ConfigurationSaveEvent.md)
 
-  ↳↳ [`ConfigurationSetEvent`](ConfigurationSetEvent.md)
+    ↳↳ [`ConfigurationSetEvent`](ConfigurationSetEvent.md)
 
-  ↳↳ [`ConfigurationRemoveEvent`](ConfigurationRemoveEvent.md)
+    ↳↳ [`ConfigurationRemoveEvent`](ConfigurationRemoveEvent.md)
 
-  ↳↳ [`UrlOpenEvent`](UrlOpenEvent.md)
+    ↳↳ [`UrlOpenEvent`](UrlOpenEvent.md)
 
-  ↳↳ [`FileViewEvent`](FileViewEvent.md)
+    ↳↳ [`FileViewEvent`](FileViewEvent.md)
 
-  ↳↳ [`AppReadyEvent`](AppReadyEvent.md)
+    ↳↳ [`AppReadyEvent`](AppReadyEvent.md)
 
-  ↳↳ [`AppCloseEvent`](AppCloseEvent.md)
+    ↳↳ [`AppCloseEvent`](AppCloseEvent.md)
 
-  ↳↳ [`ThemeEvent`](ThemeEvent.md)
+    ↳↳ [`ThemeEvent`](ThemeEvent.md)
 
-  ↳↳ [`BackButtonEvent`](BackButtonEvent.md)
+    ↳↳ [`BackButtonEvent`](BackButtonEvent.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](NativeEvent.md#constructor)
+-   [constructor](NativeEvent.md#constructor)
 
 ### Properties
 
-- [namespace](NativeEvent.md#namespace)
+-   [namespace](NativeEvent.md#namespace)
 
 ## Constructors
 
@@ -48,8 +48,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name        | Type     |
+| :---------- | :------- |
 | `namespace` | `string` |
 
 #### Inherited from

@@ -6,21 +6,21 @@ Event fired when the [configuration module](./INativeConfigAccess.md) removes a 
 
 ## Hierarchy
 
-- [`NativeEvent`](NativeEvent.md)
+-   [`NativeEvent`](NativeEvent.md)
 
-  ↳ **`ConfigurationRemoveEvent`**
+    ↳ **`ConfigurationRemoveEvent`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ConfigurationRemoveEvent.md#constructor)
+-   [constructor](ConfigurationRemoveEvent.md#constructor)
 
 ### Properties
 
-- [key](ConfigurationRemoveEvent.md#key)
-- [namespace](ConfigurationRemoveEvent.md#namespace)
-- [namespace](ConfigurationRemoveEvent.md#namespace)
+-   [key](ConfigurationRemoveEvent.md#key)
+-   [namespace](ConfigurationRemoveEvent.md#namespace)
+-   [namespace](ConfigurationRemoveEvent.md#namespace)
 
 ## Constructors
 
@@ -30,8 +30,8 @@ Event fired when the [configuration module](./INativeConfigAccess.md) removes a 
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Overrides
@@ -48,7 +48,7 @@ Event fired when the [configuration module](./INativeConfigAccess.md) removes a 
 
 • `Readonly` **key**: `string`
 
-___
+---
 
 ### namespace
 
@@ -62,7 +62,7 @@ ___
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
-___
+---
 
 ### namespace
 

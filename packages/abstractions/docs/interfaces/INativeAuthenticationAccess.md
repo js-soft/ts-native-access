@@ -8,7 +8,7 @@ Authentication of user
 
 ### Methods
 
-- [authenticate](INativeAuthenticationAccess.md#authenticate)
+-   [authenticate](INativeAuthenticationAccess.md#authenticate)
 
 ## Methods
 
@@ -20,8 +20,8 @@ Start the authentication process
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
+| Name       | Type                                                              | Description                                 |
+| :--------- | :---------------------------------------------------------------- | :------------------------------------------ |
 | `options?` | [`INativeAuthenticationOptions`](INativeAuthenticationOptions.md) | Configuration of the authentication process |
 
 #### Returns

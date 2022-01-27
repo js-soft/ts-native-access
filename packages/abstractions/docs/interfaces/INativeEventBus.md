@@ -8,11 +8,11 @@ Event bus used for sending and receiving messages
 
 ### Methods
 
-- [init](INativeEventBus.md#init)
-- [publish](INativeEventBus.md#publish)
-- [subscribe](INativeEventBus.md#subscribe)
-- [subscribeOnce](INativeEventBus.md#subscribeonce)
-- [unsubscribe](INativeEventBus.md#unsubscribe)
+-   [init](INativeEventBus.md#init)
+-   [publish](INativeEventBus.md#publish)
+-   [subscribe](INativeEventBus.md#subscribe)
+-   [subscribeOnce](INativeEventBus.md#subscribeonce)
+-   [unsubscribe](INativeEventBus.md#unsubscribe)
 
 ## Methods
 
@@ -32,7 +32,7 @@ The locked event bus queues published events and publishes them once it is unloc
 
 [src/INativeEventBus.ts:35](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEventBus.ts#L35)
 
-___
+---
 
 ### publish
 
@@ -42,7 +42,7 @@ Publish a specific event
 
 #### Parameters
 
-| Name | Type |
+| Name    | Type    |
 | :------ | :------ |
 | `event` | `Event` |
 
@@ -54,7 +54,7 @@ Publish a specific event
 
 [src/INativeEventBus.ts:29](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEventBus.ts#L29)
 
-___
+---
 
 ### subscribe
 
@@ -64,9 +64,9 @@ Subscribe for a handler to be called each time a specific event occurs
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `event` | `Event` |
+| Name      | Type       |
+| :-------- | :--------- |
+| `event`   | `Event`    |
 | `handler` | `Function` |
 
 #### Returns
@@ -77,7 +77,7 @@ Subscribe for a handler to be called each time a specific event occurs
 
 [src/INativeEventBus.ts:12](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEventBus.ts#L12)
 
-___
+---
 
 ### subscribeOnce
 
@@ -87,9 +87,9 @@ Subscribe for a handler to be called the next time a specific event occurs
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `event` | `Event` |
+| Name      | Type       |
+| :-------- | :--------- |
+| `event`   | `Event`    |
 | `handler` | `Function` |
 
 #### Returns
@@ -100,7 +100,7 @@ Subscribe for a handler to be called the next time a specific event occurs
 
 [src/INativeEventBus.ts:18](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeEventBus.ts#L18)
 
-___
+---
 
 ### unsubscribe
 
@@ -110,10 +110,10 @@ Unsunscribe a handler from being called when a specific event occurs
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `event` | `Event` |
-| `id` | `number` |
+| Name    | Type     |
+| :------ | :------- |
+| `event` | `Event`  |
+| `id`    | `number` |
 
 #### Returns
 

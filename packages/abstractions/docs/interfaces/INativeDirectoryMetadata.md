@@ -8,9 +8,9 @@ Meta information of directory
 
 ### Properties
 
-- [modifiedAt](INativeDirectoryMetadata.md#modifiedat)
-- [path](INativeDirectoryMetadata.md#path)
-- [storage](INativeDirectoryMetadata.md#storage)
+-   [modifiedAt](INativeDirectoryMetadata.md#modifiedat)
+-   [path](INativeDirectoryMetadata.md#path)
+-   [storage](INativeDirectoryMetadata.md#storage)
 
 ## Properties
 
@@ -24,7 +24,7 @@ Modification date
 
 [src/INativeFileAccess.ts:76](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L76)
 
-___
+---
 
 ### path
 
@@ -36,7 +36,7 @@ path of the directory relative to the [storage](INativeDirectoryMetadata.md#stor
 
 [src/INativeFileAccess.ts:80](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L80)
 
-___
+---
 
 ### storage
 

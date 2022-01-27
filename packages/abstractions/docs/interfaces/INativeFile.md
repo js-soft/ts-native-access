@@ -8,8 +8,8 @@ Meta information and content of file
 
 ### Properties
 
-- [data](INativeFile.md#data)
-- [metadata](INativeFile.md#metadata)
+-   [data](INativeFile.md#data)
+-   [metadata](INativeFile.md#metadata)
 
 ## Properties
 
@@ -23,7 +23,7 @@ Content of file
 
 [src/INativeFileAccess.ts:62](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L62)
 
-___
+---
 
 ### metadata
 

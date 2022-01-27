@@ -4,24 +4,24 @@
 
 ## Implements
 
-- [`INativeLoggerFactory`](../interfaces/INativeLoggerFactory.md)
+-   [`INativeLoggerFactory`](../interfaces/INativeLoggerFactory.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CommonLoggerFactory.md#constructor)
+-   [constructor](CommonLoggerFactory.md#constructor)
 
 ### Properties
 
-- [\_initWeb](CommonLoggerFactory.md#_initweb)
-- [fileAccess](CommonLoggerFactory.md#fileaccess)
-- [formatMessages](CommonLoggerFactory.md#formatmessages)
+-   [\_initWeb](CommonLoggerFactory.md#_initweb)
+-   [fileAccess](CommonLoggerFactory.md#fileaccess)
+-   [formatMessages](CommonLoggerFactory.md#formatmessages)
 
 ### Methods
 
-- [getLogger](CommonLoggerFactory.md#getlogger)
-- [init](CommonLoggerFactory.md#init)
+-   [getLogger](CommonLoggerFactory.md#getlogger)
+-   [init](CommonLoggerFactory.md#init)
 
 ## Constructors
 
@@ -31,8 +31,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name         | Type                                                      |
+| :----------- | :-------------------------------------------------------- |
 | `fileAccess` | [`INativeFileAccess`](../interfaces/INativeFileAccess.md) |
 
 #### Defined in
@@ -49,7 +49,7 @@ common/dist/CommonLoggerFactory.d.ts:6
 
 common/dist/CommonLoggerFactory.d.ts:9
 
-___
+---
 
 ### fileAccess
 
@@ -59,7 +59,7 @@ ___
 
 common/dist/CommonLoggerFactory.d.ts:5
 
-___
+---
 
 ### formatMessages
 
@@ -77,8 +77,8 @@ common/dist/CommonLoggerFactory.d.ts:8
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name    | Type                   |
+| :------ | :--------------------- |
 | `oName` | `string` \| `Function` |
 
 #### Returns
@@ -93,7 +93,7 @@ common/dist/CommonLoggerFactory.d.ts:8
 
 common/dist/CommonLoggerFactory.d.ts:10
 
-___
+---
 
 ### init
 

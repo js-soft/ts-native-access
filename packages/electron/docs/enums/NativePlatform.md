@@ -8,9 +8,9 @@ Frameworks used to access native functionalities
 
 ### Enumeration members
 
-- [Cordova](NativePlatform.md#cordova)
-- [Node](NativePlatform.md#node)
-- [Web](NativePlatform.md#web)
+-   [Cordova](NativePlatform.md#cordova)
+-   [Node](NativePlatform.md#node)
+-   [Web](NativePlatform.md#web)
 
 ## Enumeration members
 
@@ -22,7 +22,7 @@ Frameworks used to access native functionalities
 
 abstractions/dist/NativePlatform.d.ts:5
 
-___
+---
 
 ### Node
 
@@ -32,7 +32,7 @@ ___
 
 abstractions/dist/NativePlatform.d.ts:6
 
-___
+---
 
 ### Web
 

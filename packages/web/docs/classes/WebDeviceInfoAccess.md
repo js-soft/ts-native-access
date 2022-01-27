@@ -4,25 +4,25 @@
 
 ## Implements
 
-- [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
+-   [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](WebDeviceInfoAccess.md#constructor)
+-   [constructor](WebDeviceInfoAccess.md#constructor)
 
 ### Properties
 
-- [\_deviceInfo](WebDeviceInfoAccess.md#_deviceinfo)
+-   [\_deviceInfo](WebDeviceInfoAccess.md#_deviceinfo)
 
 ### Accessors
 
-- [deviceInfo](WebDeviceInfoAccess.md#deviceinfo)
+-   [deviceInfo](WebDeviceInfoAccess.md#deviceinfo)
 
 ### Methods
 
-- [init](WebDeviceInfoAccess.md#init)
+-   [init](WebDeviceInfoAccess.md#init)
 
 ## Constructors
 
@@ -32,8 +32,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in

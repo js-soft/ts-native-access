@@ -8,9 +8,9 @@ Type of remote push notification service used
 
 ### Enumeration members
 
-- [apns](PushServices.md#apns)
-- [fcm](PushServices.md#fcm)
-- [none](PushServices.md#none)
+-   [apns](PushServices.md#apns)
+-   [fcm](PushServices.md#fcm)
+-   [none](PushServices.md#none)
 
 ## Enumeration members
 
@@ -22,7 +22,7 @@ Type of remote push notification service used
 
 [src/INativeDeviceInfoAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeDeviceInfoAccess.ts#L7)
 
-___
+---
 
 ### fcm
 
@@ -32,7 +32,7 @@ ___
 
 [src/INativeDeviceInfoAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeDeviceInfoAccess.ts#L8)
 
-___
+---
 
 ### none
 

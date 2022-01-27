@@ -8,9 +8,9 @@ Type of remote push notification service used
 
 ### Enumeration members
 
-- [apns](PushServices.md#apns)
-- [fcm](PushServices.md#fcm)
-- [none](PushServices.md#none)
+-   [apns](PushServices.md#apns)
+-   [fcm](PushServices.md#fcm)
+-   [none](PushServices.md#none)
 
 ## Enumeration members
 
@@ -22,7 +22,7 @@ Type of remote push notification service used
 
 abstractions/dist/INativeDeviceInfoAccess.d.ts:6
 
-___
+---
 
 ### fcm
 
@@ -32,7 +32,7 @@ ___
 
 abstractions/dist/INativeDeviceInfoAccess.d.ts:7
 
-___
+---
 
 ### none
 

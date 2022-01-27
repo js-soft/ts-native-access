@@ -6,21 +6,21 @@ Event fired when the [push notification module](./INativePushNotification.md) re
 
 ## Hierarchy
 
-- [`NativeEvent`](NativeEvent.md)
+-   [`NativeEvent`](NativeEvent.md)
 
-  ↳ **`RemoteNotificationEvent`**
+    ↳ **`RemoteNotificationEvent`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](RemoteNotificationEvent.md#constructor)
+-   [constructor](RemoteNotificationEvent.md#constructor)
 
 ### Properties
 
-- [namespace](RemoteNotificationEvent.md#namespace)
-- [notification](RemoteNotificationEvent.md#notification)
-- [namespace](RemoteNotificationEvent.md#namespace)
+-   [namespace](RemoteNotificationEvent.md#namespace)
+-   [notification](RemoteNotificationEvent.md#notification)
+-   [namespace](RemoteNotificationEvent.md#namespace)
 
 ## Constructors
 
@@ -30,8 +30,8 @@ Event fired when the [push notification module](./INativePushNotification.md) re
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name           | Type                                                                  |
+| :------------- | :-------------------------------------------------------------------- |
 | `notification` | [`INativePushNotification`](../interfaces/INativePushNotification.md) |
 
 #### Overrides
@@ -56,13 +56,13 @@ Event fired when the [push notification module](./INativePushNotification.md) re
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
-___
+---
 
 ### notification
 
 • `Readonly` **notification**: [`INativePushNotification`](../interfaces/INativePushNotification.md)
 
-___
+---
 
 ### namespace
 

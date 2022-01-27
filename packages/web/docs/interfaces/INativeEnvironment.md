@@ -8,18 +8,18 @@ Modules for native functionalities: These modules provide an interface for acces
 
 ### Properties
 
-- [authenticationAccess](INativeEnvironment.md#authenticationaccess)
-- [configAccess](INativeEnvironment.md#configaccess)
-- [databaseFactory](INativeEnvironment.md#databasefactory)
-- [deviceInfoAccess](INativeEnvironment.md#deviceinfoaccess)
-- [eventBus](INativeEnvironment.md#eventbus)
-- [fileAccess](INativeEnvironment.md#fileaccess)
-- [keychainAccess](INativeEnvironment.md#keychainaccess)
-- [loggerFactory](INativeEnvironment.md#loggerfactory)
-- [notificationAccess](INativeEnvironment.md#notificationaccess)
-- [platform](INativeEnvironment.md#platform)
-- [pushNotificationAccess](INativeEnvironment.md#pushnotificationaccess)
-- [scannerAccess](INativeEnvironment.md#scanneraccess)
+-   [authenticationAccess](INativeEnvironment.md#authenticationaccess)
+-   [configAccess](INativeEnvironment.md#configaccess)
+-   [databaseFactory](INativeEnvironment.md#databasefactory)
+-   [deviceInfoAccess](INativeEnvironment.md#deviceinfoaccess)
+-   [eventBus](INativeEnvironment.md#eventbus)
+-   [fileAccess](INativeEnvironment.md#fileaccess)
+-   [keychainAccess](INativeEnvironment.md#keychainaccess)
+-   [loggerFactory](INativeEnvironment.md#loggerfactory)
+-   [notificationAccess](INativeEnvironment.md#notificationaccess)
+-   [platform](INativeEnvironment.md#platform)
+-   [pushNotificationAccess](INativeEnvironment.md#pushnotificationaccess)
+-   [scannerAccess](INativeEnvironment.md#scanneraccess)
 
 ## Properties
 
@@ -33,7 +33,7 @@ Module for biometric user authentication
 
 abstractions/dist/INativeEnvironment.d.ts:28
 
-___
+---
 
 ### configAccess
 
@@ -45,7 +45,7 @@ Module for configuration of the app
 
 abstractions/dist/INativeEnvironment.d.ts:32
 
-___
+---
 
 ### databaseFactory
 
@@ -57,7 +57,7 @@ Module for database creation
 
 abstractions/dist/INativeEnvironment.d.ts:36
 
-___
+---
 
 ### deviceInfoAccess
 
@@ -69,7 +69,7 @@ Module for retrieving information about the device running the app
 
 abstractions/dist/INativeEnvironment.d.ts:40
 
-___
+---
 
 ### eventBus
 
@@ -81,7 +81,7 @@ Event bus for sending and receiving events
 
 abstractions/dist/INativeEnvironment.d.ts:24
 
-___
+---
 
 ### fileAccess
 
@@ -93,7 +93,7 @@ Module for accessing the filesystem (read/write)
 
 abstractions/dist/INativeEnvironment.d.ts:44
 
-___
+---
 
 ### keychainAccess
 
@@ -105,7 +105,7 @@ Module for accessing the native keychain (read/write)
 
 abstractions/dist/INativeEnvironment.d.ts:48
 
-___
+---
 
 ### loggerFactory
 
@@ -117,7 +117,7 @@ Module for creating a logger
 
 abstractions/dist/INativeEnvironment.d.ts:52
 
-___
+---
 
 ### notificationAccess
 
@@ -129,7 +129,7 @@ Module for creating local notifications
 
 abstractions/dist/INativeEnvironment.d.ts:56
 
-___
+---
 
 ### platform
 
@@ -141,7 +141,7 @@ Framework used to access native functionalities
 
 abstractions/dist/INativeEnvironment.d.ts:20
 
-___
+---
 
 ### pushNotificationAccess
 
@@ -153,7 +153,7 @@ Module for receiving and processing incoming remote push notifications
 
 abstractions/dist/INativeEnvironment.d.ts:60
 
-___
+---
 
 ### scannerAccess
 

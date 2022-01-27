@@ -8,11 +8,11 @@ Additional options for displaying notifications
 
 ### Properties
 
-- [buttonInput](INativeNotificationScheduleOptions.md#buttoninput)
-- [callback](INativeNotificationScheduleOptions.md#callback)
-- [data](INativeNotificationScheduleOptions.md#data)
-- [id](INativeNotificationScheduleOptions.md#id)
-- [textInput](INativeNotificationScheduleOptions.md#textinput)
+-   [buttonInput](INativeNotificationScheduleOptions.md#buttoninput)
+-   [callback](INativeNotificationScheduleOptions.md#callback)
+-   [data](INativeNotificationScheduleOptions.md#data)
+-   [id](INativeNotificationScheduleOptions.md#id)
+-   [textInput](INativeNotificationScheduleOptions.md#textinput)
 
 ## Properties
 
@@ -26,7 +26,7 @@ buttons which should be displayed as part of the notification
 
 [src/INativeNotificationAccess.ts:26](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeNotificationAccess.ts#L26)
 
-___
+---
 
 ### callback
 
@@ -38,7 +38,7 @@ callback function for the notification selection
 
 [src/INativeNotificationAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeNotificationAccess.ts#L34)
 
-___
+---
 
 ### data
 
@@ -50,7 +50,7 @@ additional data stored as part of the notification => can be accessed for exampl
 
 [src/INativeNotificationAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeNotificationAccess.ts#L38)
 
-___
+---
 
 ### id
 
@@ -62,7 +62,7 @@ explicitly specify the id of the notification
 
 [src/INativeNotificationAccess.ts:42](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeNotificationAccess.ts#L42)
 
-___
+---
 
 ### textInput
 

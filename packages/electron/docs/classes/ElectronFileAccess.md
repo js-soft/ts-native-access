@@ -4,38 +4,38 @@
 
 ## Implements
 
-- [`INativeFileAccess`](../interfaces/INativeFileAccess.md)
+-   [`INativeFileAccess`](../interfaces/INativeFileAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ElectronFileAccess.md#constructor)
+-   [constructor](ElectronFileAccess.md#constructor)
 
 ### Properties
 
-- [datadir](ElectronFileAccess.md#datadir)
-- [homedir](ElectronFileAccess.md#homedir)
-- [tmpdir](ElectronFileAccess.md#tmpdir)
+-   [datadir](ElectronFileAccess.md#datadir)
+-   [homedir](ElectronFileAccess.md#homedir)
+-   [tmpdir](ElectronFileAccess.md#tmpdir)
 
 ### Methods
 
-- [createDirectory](ElectronFileAccess.md#createdirectory)
-- [deleteDirectory](ElectronFileAccess.md#deletedirectory)
-- [deleteFile](ElectronFileAccess.md#deletefile)
-- [existsDirectory](ElectronFileAccess.md#existsdirectory)
-- [existsFile](ElectronFileAccess.md#existsfile)
-- [getStoragePath](ElectronFileAccess.md#getstoragepath)
-- [infoDirectory](ElectronFileAccess.md#infodirectory)
-- [infoFile](ElectronFileAccess.md#infofile)
-- [init](ElectronFileAccess.md#init)
-- [openFile](ElectronFileAccess.md#openfile)
-- [openFileContent](ElectronFileAccess.md#openfilecontent)
-- [readFileAsBinary](ElectronFileAccess.md#readfileasbinary)
-- [readFileAsText](ElectronFileAccess.md#readfileastext)
-- [resolveErrorCode](ElectronFileAccess.md#resolveerrorcode)
-- [select](ElectronFileAccess.md#select)
-- [writeFile](ElectronFileAccess.md#writefile)
+-   [createDirectory](ElectronFileAccess.md#createdirectory)
+-   [deleteDirectory](ElectronFileAccess.md#deletedirectory)
+-   [deleteFile](ElectronFileAccess.md#deletefile)
+-   [existsDirectory](ElectronFileAccess.md#existsdirectory)
+-   [existsFile](ElectronFileAccess.md#existsfile)
+-   [getStoragePath](ElectronFileAccess.md#getstoragepath)
+-   [infoDirectory](ElectronFileAccess.md#infodirectory)
+-   [infoFile](ElectronFileAccess.md#infofile)
+-   [init](ElectronFileAccess.md#init)
+-   [openFile](ElectronFileAccess.md#openfile)
+-   [openFileContent](ElectronFileAccess.md#openfilecontent)
+-   [readFileAsBinary](ElectronFileAccess.md#readfileasbinary)
+-   [readFileAsText](ElectronFileAccess.md#readfileastext)
+-   [resolveErrorCode](ElectronFileAccess.md#resolveerrorcode)
+-   [select](ElectronFileAccess.md#select)
+-   [writeFile](ElectronFileAccess.md#writefile)
 
 ## Constructors
 
@@ -45,8 +45,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
@@ -63,7 +63,7 @@
 
 [electron/src/ElectronFileAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L18)
 
-___
+---
 
 ### homedir
 
@@ -73,7 +73,7 @@ ___
 
 [electron/src/ElectronFileAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L16)
 
-___
+---
 
 ### tmpdir
 
@@ -93,9 +93,9 @@ Create a directory
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value            |
+| :-------- | :--------------------------------------------------- | :----------------------- |
+| `path`    | `string`                                             | `undefined`              |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.Data` |
 
 #### Returns
@@ -110,7 +110,7 @@ Create a directory
 
 [electron/src/ElectronFileAccess.ts:195](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L195)
 
-___
+---
 
 ### deleteDirectory
 
@@ -120,9 +120,9 @@ Delete a directory
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value            |
+| :-------- | :--------------------------------------------------- | :----------------------- |
+| `path`    | `string`                                             | `undefined`              |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.Data` |
 
 #### Returns
@@ -137,7 +137,7 @@ Delete a directory
 
 [electron/src/ElectronFileAccess.ts:205](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L205)
 
-___
+---
 
 ### deleteFile
 
@@ -147,9 +147,9 @@ Delete specified file
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value            |
+| :-------- | :--------------------------------------------------- | :----------------------- |
+| `path`    | `string`                                             | `undefined`              |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.Data` |
 
 #### Returns
@@ -164,7 +164,7 @@ Delete specified file
 
 [electron/src/ElectronFileAccess.ts:128](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L128)
 
-___
+---
 
 ### existsDirectory
 
@@ -174,9 +174,9 @@ Test if a directory exists
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value            |
+| :-------- | :--------------------------------------------------- | :----------------------- |
+| `path`    | `string`                                             | `undefined`              |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.Data` |
 
 #### Returns
@@ -191,7 +191,7 @@ Test if a directory exists
 
 [electron/src/ElectronFileAccess.ts:225](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L225)
 
-___
+---
 
 ### existsFile
 
@@ -201,9 +201,9 @@ Test if a file exists
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value            |
+| :-------- | :--------------------------------------------------- | :----------------------- |
+| `path`    | `string`                                             | `undefined`              |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.Data` |
 
 #### Returns
@@ -218,7 +218,7 @@ Test if a file exists
 
 [electron/src/ElectronFileAccess.ts:138](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L138)
 
-___
+---
 
 ### getStoragePath
 
@@ -226,9 +226,9 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
+| Name      | Type                                                 |
+| :-------- | :--------------------------------------------------- |
+| `path`    | `string`                                             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
 
 #### Returns
@@ -239,7 +239,7 @@ ___
 
 [electron/src/ElectronFileAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L37)
 
-___
+---
 
 ### infoDirectory
 
@@ -249,9 +249,9 @@ Retrieve information about a specified directory
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value            |
+| :-------- | :--------------------------------------------------- | :----------------------- |
+| `path`    | `string`                                             | `undefined`              |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.Data` |
 
 #### Returns
@@ -266,7 +266,7 @@ Retrieve information about a specified directory
 
 [electron/src/ElectronFileAccess.ts:153](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L153)
 
-___
+---
 
 ### infoFile
 
@@ -276,9 +276,9 @@ Retrieve meta information about the specified file
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value            |
+| :-------- | :--------------------------------------------------- | :----------------------- |
+| `path`    | `string`                                             | `undefined`              |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.Data` |
 
 #### Returns
@@ -293,7 +293,7 @@ Retrieve meta information about the specified file
 
 [electron/src/ElectronFileAccess.ts:71](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L71)
 
-___
+---
 
 ### init
 
@@ -313,7 +313,7 @@ Initialize the native features and create a folder structure
 
 [electron/src/ElectronFileAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L20)
 
-___
+---
 
 ### openFile
 
@@ -323,9 +323,9 @@ Open a file with the standard application specified by the operating system
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value            |
+| :-------- | :--------------------------------------------------- | :----------------------- |
+| `path`    | `string`                                             | `undefined`              |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.Data` |
 
 #### Returns
@@ -340,7 +340,7 @@ Open a file with the standard application specified by the operating system
 
 [electron/src/ElectronFileAccess.ts:273](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L273)
 
-___
+---
 
 ### openFileContent
 
@@ -350,9 +350,9 @@ Create and open a file with the standard application specified by the operating 
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `Uint8Array` |
+| Name       | Type                                                          |
+| :--------- | :------------------------------------------------------------ |
+| `data`     | `Uint8Array`                                                  |
 | `metadata` | [`INativeFileMetadata`](../interfaces/INativeFileMetadata.md) |
 
 #### Returns
@@ -367,7 +367,7 @@ Create and open a file with the standard application specified by the operating 
 
 [electron/src/ElectronFileAccess.ts:279](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L279)
 
-___
+---
 
 ### readFileAsBinary
 
@@ -377,9 +377,9 @@ Read the data of the specified file as a an array
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value            |
+| :-------- | :--------------------------------------------------- | :----------------------- |
+| `path`    | `string`                                             | `undefined`              |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.Data` |
 
 #### Returns
@@ -394,7 +394,7 @@ Read the data of the specified file as a an array
 
 [electron/src/ElectronFileAccess.ts:101](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L101)
 
-___
+---
 
 ### readFileAsText
 
@@ -404,9 +404,9 @@ Read the data of the specified file as a string
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value            |
+| :-------- | :--------------------------------------------------- | :----------------------- |
+| `path`    | `string`                                             | `undefined`              |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.Data` |
 
 #### Returns
@@ -421,7 +421,7 @@ Read the data of the specified file as a string
 
 [electron/src/ElectronFileAccess.ts:91](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L91)
 
-___
+---
 
 ### resolveErrorCode
 
@@ -429,8 +429,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name    | Type  |
+| :------ | :---- |
 | `error` | `any` |
 
 #### Returns
@@ -441,7 +441,7 @@ ___
 
 [electron/src/ElectronFileAccess.ts:52](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L52)
 
-___
+---
 
 ### select
 
@@ -461,7 +461,7 @@ Open the file selection dialog of the operating system and receive the selected 
 
 [electron/src/ElectronFileAccess.ts:240](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronFileAccess.ts#L240)
 
-___
+---
 
 ### writeFile
 
@@ -471,12 +471,12 @@ Write data to a file
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
-| `data` | `string` \| `Uint8Array` | `undefined` |
+| Name      | Type                                                 | Default value            |
+| :-------- | :--------------------------------------------------- | :----------------------- |
+| `path`    | `string`                                             | `undefined`              |
+| `data`    | `string` \| `Uint8Array`                             | `undefined`              |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.Data` |
-| `append` | `boolean` | `false` |
+| `append`  | `boolean`                                            | `false`                  |
 
 #### Returns
 

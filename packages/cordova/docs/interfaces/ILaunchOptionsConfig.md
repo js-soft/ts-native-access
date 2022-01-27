@@ -8,7 +8,7 @@ Configuration of the launch options
 
 ### Properties
 
-- [uri](ILaunchOptionsConfig.md#uri)
+-   [uri](ILaunchOptionsConfig.md#uri)
 
 ## Properties
 

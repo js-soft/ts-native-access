@@ -4,25 +4,25 @@
 
 ## Implements
 
-- [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
+-   [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ElectronDeviceInfoAccess.md#constructor)
+-   [constructor](ElectronDeviceInfoAccess.md#constructor)
 
 ### Properties
 
-- [\_deviceInfo](ElectronDeviceInfoAccess.md#_deviceinfo)
+-   [\_deviceInfo](ElectronDeviceInfoAccess.md#_deviceinfo)
 
 ### Accessors
 
-- [deviceInfo](ElectronDeviceInfoAccess.md#deviceinfo)
+-   [deviceInfo](ElectronDeviceInfoAccess.md#deviceinfo)
 
 ### Methods
 
-- [init](ElectronDeviceInfoAccess.md#init)
+-   [init](ElectronDeviceInfoAccess.md#init)
 
 ## Constructors
 

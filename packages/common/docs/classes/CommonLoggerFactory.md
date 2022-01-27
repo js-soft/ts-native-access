@@ -4,20 +4,20 @@
 
 ## Implements
 
-- `INativeLoggerFactory`
+-   `INativeLoggerFactory`
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CommonLoggerFactory.md#constructor)
+-   [constructor](CommonLoggerFactory.md#constructor)
 
 ### Methods
 
-- [\_initWeb](CommonLoggerFactory.md#_initweb)
-- [formatMessages](CommonLoggerFactory.md#formatmessages)
-- [getLogger](CommonLoggerFactory.md#getlogger)
-- [init](CommonLoggerFactory.md#init)
+-   [\_initWeb](CommonLoggerFactory.md#_initweb)
+-   [formatMessages](CommonLoggerFactory.md#formatmessages)
+-   [getLogger](CommonLoggerFactory.md#getlogger)
+-   [init](CommonLoggerFactory.md#init)
 
 ## Constructors
 
@@ -27,8 +27,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name         | Type                |
+| :----------- | :------------------ |
 | `fileAccess` | `INativeFileAccess` |
 
 #### Defined in
@@ -39,12 +39,12 @@
 
 ### \_initWeb
 
-▸ `Private` **_initWeb**(`consoleHandler`): `void`
+▸ `Private` **\_initWeb**(`consoleHandler`): `void`
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name             | Type       |
+| :--------------- | :--------- |
 | `consoleHandler` | `Function` |
 
 #### Returns
@@ -55,7 +55,7 @@
 
 [CommonLoggerFactory.ts:34](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonLoggerFactory.ts#L34)
 
-___
+---
 
 ### formatMessages
 
@@ -63,9 +63,9 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `messages` | `any`[] |
+| Name       | Type       |
+| :--------- | :--------- |
+| `messages` | `any`[]    |
 | `context?` | `Function` |
 
 #### Returns
@@ -76,7 +76,7 @@ ___
 
 [CommonLoggerFactory.ts:24](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonLoggerFactory.ts#L24)
 
-___
+---
 
 ### getLogger
 
@@ -84,8 +84,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name    | Type                   |
+| :------ | :--------------------- |
 | `oName` | `string` \| `Function` |
 
 #### Returns
@@ -100,7 +100,7 @@ INativeLoggerFactory.getLogger
 
 [CommonLoggerFactory.ts:53](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonLoggerFactory.ts#L53)
 
-___
+---
 
 ### init
 

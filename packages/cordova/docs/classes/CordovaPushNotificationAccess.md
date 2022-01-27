@@ -4,23 +4,23 @@
 
 ## Implements
 
-- [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
+-   [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CordovaPushNotificationAccess.md#constructor)
+-   [constructor](CordovaPushNotificationAccess.md#constructor)
 
 ### Properties
 
-- [push](CordovaPushNotificationAccess.md#push)
+-   [push](CordovaPushNotificationAccess.md#push)
 
 ### Methods
 
-- [handleError](CordovaPushNotificationAccess.md#handleerror)
-- [handleRegistration](CordovaPushNotificationAccess.md#handleregistration)
-- [init](CordovaPushNotificationAccess.md#init)
+-   [handleError](CordovaPushNotificationAccess.md#handleerror)
+-   [handleRegistration](CordovaPushNotificationAccess.md#handleregistration)
+-   [init](CordovaPushNotificationAccess.md#init)
 
 ## Constructors
 
@@ -30,11 +30,11 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `logger` | `ILogger` |
-| `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
-| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
+| Name       | Type                                                          |
+| :--------- | :------------------------------------------------------------ |
+| `logger`   | `ILogger`                                                     |
+| `config`   | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
+| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md)         |
 
 #### Defined in
 
@@ -60,8 +60,8 @@ Handle an error during the bootstrap of remote push notifications
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
+| Name  | Type      | Description      |
+| :---- | :-------- | :--------------- |
 | `err` | `unknown` | Error to publish |
 
 #### Returns
@@ -72,7 +72,7 @@ Handle an error during the bootstrap of remote push notifications
 
 [cordova/src/CordovaPushNotificationAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaPushNotificationAccess.ts#L38)
 
-___
+---
 
 ### handleRegistration
 
@@ -82,8 +82,8 @@ Handle the registration of a push token for remote push notifications
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name    | Type     |
+| :------ | :------- |
 | `token` | `string` |
 
 #### Returns
@@ -94,7 +94,7 @@ Handle the registration of a push token for remote push notifications
 
 [cordova/src/CordovaPushNotificationAccess.ts:28](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaPushNotificationAccess.ts#L28)
 
-___
+---
 
 ### init
 

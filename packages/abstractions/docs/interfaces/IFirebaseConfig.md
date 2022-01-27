@@ -8,8 +8,8 @@ Configuration of firebase which can be accessed through the firebase console
 
 ### Properties
 
-- [config](IFirebaseConfig.md#config)
-- [vapidKey](IFirebaseConfig.md#vapidkey)
+-   [config](IFirebaseConfig.md#config)
+-   [vapidKey](IFirebaseConfig.md#vapidkey)
 
 ## Properties
 
@@ -19,20 +19,20 @@ Configuration of firebase which can be accessed through the firebase console
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `apiKey` | `string` |
-| `appId` | `string` |
-| `authDomain` | `string` |
+| Name                | Type     |
+| :------------------ | :------- |
+| `apiKey`            | `string` |
+| `appId`             | `string` |
+| `authDomain`        | `string` |
 | `messagingSenderId` | `string` |
-| `projectId` | `string` |
-| `storageBucket` | `string` |
+| `projectId`         | `string` |
+| `storageBucket`     | `string` |
 
 #### Defined in
 
 [src/INativeConfigAccess.ts:43](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L43)
 
-___
+---
 
 ### vapidKey
 

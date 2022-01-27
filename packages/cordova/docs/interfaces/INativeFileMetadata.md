@@ -8,12 +8,12 @@ Meta information about a file
 
 ### Properties
 
-- [mimeType](INativeFileMetadata.md#mimetype)
-- [modifiedAt](INativeFileMetadata.md#modifiedat)
-- [name](INativeFileMetadata.md#name)
-- [path](INativeFileMetadata.md#path)
-- [size](INativeFileMetadata.md#size)
-- [storage](INativeFileMetadata.md#storage)
+-   [mimeType](INativeFileMetadata.md#mimetype)
+-   [modifiedAt](INativeFileMetadata.md#modifiedat)
+-   [name](INativeFileMetadata.md#name)
+-   [path](INativeFileMetadata.md#path)
+-   [size](INativeFileMetadata.md#size)
+-   [storage](INativeFileMetadata.md#storage)
 
 ## Properties
 
@@ -27,7 +27,7 @@ Mime type of the file used to determine which applications can be used to open t
 
 abstractions/dist/INativeFileAccess.d.ts:21
 
-___
+---
 
 ### modifiedAt
 
@@ -39,7 +39,7 @@ Modification date
 
 abstractions/dist/INativeFileAccess.d.ts:29
 
-___
+---
 
 ### name
 
@@ -51,7 +51,7 @@ Name of the file
 
 abstractions/dist/INativeFileAccess.d.ts:9
 
-___
+---
 
 ### path
 
@@ -63,7 +63,7 @@ Path to the file relative to the [storage](INativeFileMetadata.md#storage)
 
 abstractions/dist/INativeFileAccess.d.ts:13
 
-___
+---
 
 ### size
 
@@ -75,7 +75,7 @@ Size of the file
 
 abstractions/dist/INativeFileAccess.d.ts:25
 
-___
+---
 
 ### storage
 

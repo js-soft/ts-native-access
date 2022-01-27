@@ -4,25 +4,25 @@
 
 ## Implements
 
-- [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
+-   [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CordovaDeviceInfoAccess.md#constructor)
+-   [constructor](CordovaDeviceInfoAccess.md#constructor)
 
 ### Properties
 
-- [\_deviceInfo](CordovaDeviceInfoAccess.md#_deviceinfo)
+-   [\_deviceInfo](CordovaDeviceInfoAccess.md#_deviceinfo)
 
 ### Accessors
 
-- [deviceInfo](CordovaDeviceInfoAccess.md#deviceinfo)
+-   [deviceInfo](CordovaDeviceInfoAccess.md#deviceinfo)
 
 ### Methods
 
-- [init](CordovaDeviceInfoAccess.md#init)
+-   [init](CordovaDeviceInfoAccess.md#init)
 
 ## Constructors
 

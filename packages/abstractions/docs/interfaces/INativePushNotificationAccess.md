@@ -8,7 +8,7 @@ Receive and handle remote push notifications
 
 ### Methods
 
-- [init](INativePushNotificationAccess.md#init)
+-   [init](INativePushNotificationAccess.md#init)
 
 ## Methods
 

@@ -8,10 +8,10 @@ Options for authentication process
 
 ### Properties
 
-- [cancelButtonTitle](INativeAuthenticationOptions.md#cancelbuttontitle)
-- [description](INativeAuthenticationOptions.md#description)
-- [subtitle](INativeAuthenticationOptions.md#subtitle)
-- [title](INativeAuthenticationOptions.md#title)
+-   [cancelButtonTitle](INativeAuthenticationOptions.md#cancelbuttontitle)
+-   [description](INativeAuthenticationOptions.md#description)
+-   [subtitle](INativeAuthenticationOptions.md#subtitle)
+-   [title](INativeAuthenticationOptions.md#title)
 
 ## Properties
 
@@ -25,7 +25,7 @@ Text of the button which cancels the authentication process
 
 abstractions/dist/INativeAuthenticationAccess.d.ts:21
 
-___
+---
 
 ### description
 
@@ -37,7 +37,7 @@ Text which is displayed to the user during authentication request
 
 abstractions/dist/INativeAuthenticationAccess.d.ts:17
 
-___
+---
 
 ### subtitle
 
@@ -49,7 +49,7 @@ Text which is displayed to the user during authentication request
 
 abstractions/dist/INativeAuthenticationAccess.d.ts:13
 
-___
+---
 
 ### title
 

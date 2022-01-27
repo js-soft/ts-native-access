@@ -4,17 +4,17 @@
 
 ## Implements
 
-- [`INativeLaunchOptions`](../interfaces/INativeLaunchOptions.md)
+-   [`INativeLaunchOptions`](../interfaces/INativeLaunchOptions.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CordovaLaunchOptions.md#constructor)
+-   [constructor](CordovaLaunchOptions.md#constructor)
 
 ### Methods
 
-- [init](CordovaLaunchOptions.md#init)
+-   [init](CordovaLaunchOptions.md#init)
 
 ## Constructors
 
@@ -24,11 +24,11 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `logger` | `ILogger` |
-| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
-| `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
+| Name       | Type                                                          |
+| :--------- | :------------------------------------------------------------ |
+| `logger`   | `ILogger`                                                     |
+| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md)         |
+| `config`   | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
 

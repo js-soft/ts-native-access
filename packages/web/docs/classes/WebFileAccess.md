@@ -4,39 +4,39 @@
 
 ## Implements
 
-- [`INativeFileAccess`](../interfaces/INativeFileAccess.md)
+-   [`INativeFileAccess`](../interfaces/INativeFileAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](WebFileAccess.md#constructor)
+-   [constructor](WebFileAccess.md#constructor)
 
 ### Properties
 
-- [localStorage](WebFileAccess.md#localstorage)
-- [sessionStorage](WebFileAccess.md#sessionstorage)
+-   [localStorage](WebFileAccess.md#localstorage)
+-   [sessionStorage](WebFileAccess.md#sessionstorage)
 
 ### Methods
 
-- [createDirectory](WebFileAccess.md#createdirectory)
-- [deleteDirectory](WebFileAccess.md#deletedirectory)
-- [deleteFile](WebFileAccess.md#deletefile)
-- [existsDirectory](WebFileAccess.md#existsdirectory)
-- [existsFile](WebFileAccess.md#existsfile)
-- [handleBrowserFile](WebFileAccess.md#handlebrowserfile)
-- [infoDirectory](WebFileAccess.md#infodirectory)
-- [infoFile](WebFileAccess.md#infofile)
-- [init](WebFileAccess.md#init)
-- [normalizePath](WebFileAccess.md#normalizepath)
-- [openAndWaitForUserFileSelection](WebFileAccess.md#openandwaitforuserfileselection)
-- [openFile](WebFileAccess.md#openfile)
-- [openFileContent](WebFileAccess.md#openfilecontent)
-- [readBrowserFile](WebFileAccess.md#readbrowserfile)
-- [readFileAsBinary](WebFileAccess.md#readfileasbinary)
-- [readFileAsText](WebFileAccess.md#readfileastext)
-- [select](WebFileAccess.md#select)
-- [writeFile](WebFileAccess.md#writefile)
+-   [createDirectory](WebFileAccess.md#createdirectory)
+-   [deleteDirectory](WebFileAccess.md#deletedirectory)
+-   [deleteFile](WebFileAccess.md#deletefile)
+-   [existsDirectory](WebFileAccess.md#existsdirectory)
+-   [existsFile](WebFileAccess.md#existsfile)
+-   [handleBrowserFile](WebFileAccess.md#handlebrowserfile)
+-   [infoDirectory](WebFileAccess.md#infodirectory)
+-   [infoFile](WebFileAccess.md#infofile)
+-   [init](WebFileAccess.md#init)
+-   [normalizePath](WebFileAccess.md#normalizepath)
+-   [openAndWaitForUserFileSelection](WebFileAccess.md#openandwaitforuserfileselection)
+-   [openFile](WebFileAccess.md#openfile)
+-   [openFileContent](WebFileAccess.md#openfilecontent)
+-   [readBrowserFile](WebFileAccess.md#readbrowserfile)
+-   [readFileAsBinary](WebFileAccess.md#readfileasbinary)
+-   [readFileAsText](WebFileAccess.md#readfileastext)
+-   [select](WebFileAccess.md#select)
+-   [writeFile](WebFileAccess.md#writefile)
 
 ## Constructors
 
@@ -46,8 +46,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
@@ -64,7 +64,7 @@
 
 [web/src/WebFileAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L29)
 
-___
+---
 
 ### sessionStorage
 
@@ -84,9 +84,9 @@ Create a directory
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value           |
+| :-------- | :--------------------------------------------------- | :---------------------- |
+| `path`    | `string`                                             | `undefined`             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -101,7 +101,7 @@ Create a directory
 
 [web/src/WebFileAccess.ts:240](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L240)
 
-___
+---
 
 ### deleteDirectory
 
@@ -111,9 +111,9 @@ Delete a directory
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value           |
+| :-------- | :--------------------------------------------------- | :---------------------- |
+| `path`    | `string`                                             | `undefined`             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -128,7 +128,7 @@ Delete a directory
 
 [web/src/WebFileAccess.ts:277](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L277)
 
-___
+---
 
 ### deleteFile
 
@@ -138,9 +138,9 @@ Delete specified file
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value           |
+| :-------- | :--------------------------------------------------- | :---------------------- |
+| `path`    | `string`                                             | `undefined`             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -155,7 +155,7 @@ Delete specified file
 
 [web/src/WebFileAccess.ts:187](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L187)
 
-___
+---
 
 ### existsDirectory
 
@@ -165,9 +165,9 @@ Test if a directory exists
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value           |
+| :-------- | :--------------------------------------------------- | :---------------------- |
+| `path`    | `string`                                             | `undefined`             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -182,7 +182,7 @@ Test if a directory exists
 
 [web/src/WebFileAccess.ts:316](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L316)
 
-___
+---
 
 ### existsFile
 
@@ -192,9 +192,9 @@ Test if a file exists
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value           |
+| :-------- | :--------------------------------------------------- | :---------------------- |
+| `path`    | `string`                                             | `undefined`             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -209,7 +209,7 @@ Test if a file exists
 
 [web/src/WebFileAccess.ts:212](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L212)
 
-___
+---
 
 ### handleBrowserFile
 
@@ -217,8 +217,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name        | Type   |
+| :---------- | :----- |
 | `fileEntry` | `File` |
 
 #### Returns
@@ -229,7 +229,7 @@ ___
 
 [web/src/WebFileAccess.ts:372](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L372)
 
-___
+---
 
 ### infoDirectory
 
@@ -239,9 +239,9 @@ Retrieve information about a specified directory
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value           |
+| :-------- | :--------------------------------------------------- | :---------------------- |
+| `path`    | `string`                                             | `undefined`             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -256,7 +256,7 @@ Retrieve information about a specified directory
 
 [web/src/WebFileAccess.ts:224](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L224)
 
-___
+---
 
 ### infoFile
 
@@ -266,9 +266,9 @@ Retrieve meta information about the specified file
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value           |
+| :-------- | :--------------------------------------------------- | :---------------------- |
+| `path`    | `string`                                             | `undefined`             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -283,7 +283,7 @@ Retrieve meta information about the specified file
 
 [web/src/WebFileAccess.ts:64](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L64)
 
-___
+---
 
 ### init
 
@@ -303,7 +303,7 @@ Initialize the native features and create a folder structure
 
 [web/src/WebFileAccess.ts:32](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L32)
 
-___
+---
 
 ### normalizePath
 
@@ -311,8 +311,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type     |
+| :----- | :------- |
 | `path` | `string` |
 
 #### Returns
@@ -323,7 +323,7 @@ ___
 
 [web/src/WebFileAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L53)
 
-___
+---
 
 ### openAndWaitForUserFileSelection
 
@@ -337,7 +337,7 @@ ___
 
 [web/src/WebFileAccess.ts:328](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L328)
 
-___
+---
 
 ### openFile
 
@@ -347,9 +347,9 @@ Open a file with the standard application specified by the operating system
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value           |
+| :-------- | :--------------------------------------------------- | :---------------------- |
+| `path`    | `string`                                             | `undefined`             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -364,7 +364,7 @@ Open a file with the standard application specified by the operating system
 
 [web/src/WebFileAccess.ts:415](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L415)
 
-___
+---
 
 ### openFileContent
 
@@ -374,9 +374,9 @@ Create and open a file with the standard application specified by the operating 
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `data` | `Uint8Array` |
+| Name       | Type                                                          |
+| :--------- | :------------------------------------------------------------ |
+| `data`     | `Uint8Array`                                                  |
 | `metadata` | [`INativeFileMetadata`](../interfaces/INativeFileMetadata.md) |
 
 #### Returns
@@ -391,7 +391,7 @@ Create and open a file with the standard application specified by the operating 
 
 [web/src/WebFileAccess.ts:432](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L432)
 
-___
+---
 
 ### readBrowserFile
 
@@ -399,8 +399,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type   |
+| :----- | :----- |
 | `file` | `File` |
 
 #### Returns
@@ -411,7 +411,7 @@ ___
 
 [web/src/WebFileAccess.ts:363](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L363)
 
-___
+---
 
 ### readFileAsBinary
 
@@ -421,9 +421,9 @@ Read the data of the specified file as a an array
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value           |
+| :-------- | :--------------------------------------------------- | :---------------------- |
+| `path`    | `string`                                             | `undefined`             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -438,7 +438,7 @@ Read the data of the specified file as a an array
 
 [web/src/WebFileAccess.ts:97](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L97)
 
-___
+---
 
 ### readFileAsText
 
@@ -448,9 +448,9 @@ Read the data of the specified file as a string
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
+| Name      | Type                                                 | Default value           |
+| :-------- | :--------------------------------------------------- | :---------------------- |
+| `path`    | `string`                                             | `undefined`             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -465,7 +465,7 @@ Read the data of the specified file as a string
 
 [web/src/WebFileAccess.ts:81](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L81)
 
-___
+---
 
 ### select
 
@@ -486,7 +486,7 @@ button click listener.
 
 [web/src/WebFileAccess.ts:400](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebFileAccess.ts#L400)
 
-___
+---
 
 ### writeFile
 
@@ -496,12 +496,12 @@ Write data to a file
 
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `path` | `string` | `undefined` |
-| `data` | `string` \| `Uint8Array` | `undefined` |
+| Name      | Type                                                 | Default value           |
+| :-------- | :--------------------------------------------------- | :---------------------- |
+| `path`    | `string`                                             | `undefined`             |
+| `data`    | `string` \| `Uint8Array`                             | `undefined`             |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
-| `append` | `boolean` | `false` |
+| `append`  | `boolean`                                            | `false`                 |
 
 #### Returns
 

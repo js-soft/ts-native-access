@@ -8,12 +8,12 @@ Management of default and runtime config
 
 ### Methods
 
-- [get](INativeConfigAccess.md#get)
-- [initDefaultConfig](INativeConfigAccess.md#initdefaultconfig)
-- [initRuntimeConfig](INativeConfigAccess.md#initruntimeconfig)
-- [remove](INativeConfigAccess.md#remove)
-- [save](INativeConfigAccess.md#save)
-- [set](INativeConfigAccess.md#set)
+-   [get](INativeConfigAccess.md#get)
+-   [initDefaultConfig](INativeConfigAccess.md#initdefaultconfig)
+-   [initRuntimeConfig](INativeConfigAccess.md#initruntimeconfig)
+-   [remove](INativeConfigAccess.md#remove)
+-   [save](INativeConfigAccess.md#save)
+-   [set](INativeConfigAccess.md#set)
 
 ## Methods
 
@@ -25,8 +25,8 @@ Read the value associated to a key
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -37,7 +37,7 @@ Read the value associated to a key
 
 [src/INativeConfigAccess.ts:150](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L150)
 
-___
+---
 
 ### initDefaultConfig
 
@@ -53,7 +53,7 @@ Initialize the default config (this does not yet require the filesystem to be in
 
 [src/INativeConfigAccess.ts:169](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L169)
 
-___
+---
 
 ### initRuntimeConfig
 
@@ -63,9 +63,9 @@ Initialize the runtime config by reading the existing runtime config from the fi
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `logger` | `ILogger` |
+| Name         | Type                                        |
+| :----------- | :------------------------------------------ |
+| `logger`     | `ILogger`                                   |
 | `fileAccess` | [`INativeFileAccess`](INativeFileAccess.md) |
 
 #### Returns
@@ -76,7 +76,7 @@ Initialize the runtime config by reading the existing runtime config from the fi
 
 [src/INativeConfigAccess.ts:175](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L175)
 
-___
+---
 
 ### remove
 
@@ -86,8 +86,8 @@ Remove a key-value pair
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -98,7 +98,7 @@ Remove a key-value pair
 
 [src/INativeConfigAccess.ts:161](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L161)
 
-___
+---
 
 ### save
 
@@ -114,7 +114,7 @@ Save the runtime config on the filesystem
 
 [src/INativeConfigAccess.ts:165](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L165)
 
-___
+---
 
 ### set
 
@@ -124,10 +124,10 @@ Save a key-value pair in memory
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+| Name    | Type     |
+| :------ | :------- |
+| `key`   | `string` |
+| `value` | `any`    |
 
 #### Returns
 

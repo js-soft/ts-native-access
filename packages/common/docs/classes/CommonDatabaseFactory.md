@@ -4,17 +4,17 @@
 
 ## Implements
 
-- `ILokiJsDatabaseFactory`
+-   `ILokiJsDatabaseFactory`
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CommonDatabaseFactory.md#constructor)
+-   [constructor](CommonDatabaseFactory.md#constructor)
 
 ### Methods
 
-- [create](CommonDatabaseFactory.md#create)
+-   [create](CommonDatabaseFactory.md#create)
 
 ## Constructors
 
@@ -24,9 +24,9 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `logger` | `ILogger` |
+| Name         | Type                |
+| :----------- | :------------------ |
+| `logger`     | `ILogger`           |
 | `fileAccess` | `INativeFileAccess` |
 
 #### Defined in
@@ -41,9 +41,9 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `name` | `string` |
+| Name       | Type                                                                                                             |
+| :--------- | :--------------------------------------------------------------------------------------------------------------- |
+| `name`     | `string`                                                                                                         |
 | `options?` | `Partial`<`LokiConstructorOptions`\> & `Partial`<`LokiConfigOptions`\> & `Partial`<`ThrottledSaveDrainOptions`\> |
 
 #### Returns

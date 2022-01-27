@@ -8,10 +8,10 @@ Configuration of the electron platform
 
 ### Properties
 
-- [fcmSenderId](IElectronConfig.md#fcmsenderid)
-- [persistentIDs](IElectronConfig.md#persistentids)
-- [persistentIDsremoveDays](IElectronConfig.md#persistentidsremovedays)
-- [pushCredentials](IElectronConfig.md#pushcredentials)
+-   [fcmSenderId](IElectronConfig.md#fcmsenderid)
+-   [persistentIDs](IElectronConfig.md#persistentids)
+-   [persistentIDsremoveDays](IElectronConfig.md#persistentidsremovedays)
+-   [pushCredentials](IElectronConfig.md#pushcredentials)
 
 ## Properties
 
@@ -25,7 +25,7 @@ Firebase cloud messaging sender-id which can be accessed through the firebase co
 
 abstractions/dist/INativeConfigAccess.d.ts:90
 
-___
+---
 
 ### persistentIDs
 
@@ -37,7 +37,7 @@ Ids of remote push notifications are stored to prevent push notifications to be 
 
 abstractions/dist/INativeConfigAccess.d.ts:98
 
-___
+---
 
 ### persistentIDsremoveDays
 
@@ -49,7 +49,7 @@ Days after which the stored ids of received remote push notifications should be 
 
 abstractions/dist/INativeConfigAccess.d.ts:86
 
-___
+---
 
 ### pushCredentials
 

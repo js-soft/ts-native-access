@@ -4,29 +4,29 @@
 
 ## Implements
 
-- [`INativeKeychainAccess`](../interfaces/INativeKeychainAccess.md)
+-   [`INativeKeychainAccess`](../interfaces/INativeKeychainAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](WebKeychainAccess.md#constructor)
+-   [constructor](WebKeychainAccess.md#constructor)
 
 ### Properties
 
-- [listkey](WebKeychainAccess.md#listkey)
-- [prefix](WebKeychainAccess.md#prefix)
+-   [listkey](WebKeychainAccess.md#listkey)
+-   [prefix](WebKeychainAccess.md#prefix)
 
 ### Methods
 
-- [addToList](WebKeychainAccess.md#addtolist)
-- [delete](WebKeychainAccess.md#delete)
-- [get](WebKeychainAccess.md#get)
-- [getListOfKeys](WebKeychainAccess.md#getlistofkeys)
-- [init](WebKeychainAccess.md#init)
-- [list](WebKeychainAccess.md#list)
-- [removeFromList](WebKeychainAccess.md#removefromlist)
-- [set](WebKeychainAccess.md#set)
+-   [addToList](WebKeychainAccess.md#addtolist)
+-   [delete](WebKeychainAccess.md#delete)
+-   [get](WebKeychainAccess.md#get)
+-   [getListOfKeys](WebKeychainAccess.md#getlistofkeys)
+-   [init](WebKeychainAccess.md#init)
+-   [list](WebKeychainAccess.md#list)
+-   [removeFromList](WebKeychainAccess.md#removefromlist)
+-   [set](WebKeychainAccess.md#set)
 
 ## Constructors
 
@@ -36,8 +36,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type      |
+| :------- | :-------- |
 | `logger` | `ILogger` |
 
 #### Defined in
@@ -54,7 +54,7 @@
 
 [web/src/WebKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L7)
 
-___
+---
 
 ### prefix
 
@@ -72,8 +72,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -84,7 +84,7 @@ ___
 
 [web/src/WebKeychainAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L22)
 
-___
+---
 
 ### delete
 
@@ -94,8 +94,8 @@ Delete key-value pair
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -110,7 +110,7 @@ Delete key-value pair
 
 [web/src/WebKeychainAccess.ts:63](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L63)
 
-___
+---
 
 ### get
 
@@ -120,8 +120,8 @@ Get value for the specified {@link key}
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -136,7 +136,7 @@ Get value for the specified {@link key}
 
 [web/src/WebKeychainAccess.ts:43](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L43)
 
-___
+---
 
 ### getListOfKeys
 
@@ -150,7 +150,7 @@ ___
 
 [web/src/WebKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L10)
 
-___
+---
 
 ### init
 
@@ -170,7 +170,7 @@ Initialize the module
 
 [web/src/WebKeychainAccess.ts:39](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L39)
 
-___
+---
 
 ### list
 
@@ -190,7 +190,7 @@ List all key-value pairs added by the applicaion
 
 [web/src/WebKeychainAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L73)
 
-___
+---
 
 ### removeFromList
 
@@ -198,8 +198,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -210,7 +210,7 @@ ___
 
 [web/src/WebKeychainAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L30)
 
-___
+---
 
 ### set
 
@@ -220,10 +220,10 @@ Add key-value pair to keychain
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+| Name    | Type     |
+| :------ | :------- |
+| `key`   | `string` |
+| `value` | `any`    |
 
 #### Returns
 

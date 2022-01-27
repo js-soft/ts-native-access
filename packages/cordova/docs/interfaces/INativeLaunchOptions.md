@@ -6,13 +6,13 @@ Handle launches of the app originating from an open url or open file instruction
 
 ## Implemented by
 
-- [`CordovaLaunchOptions`](../classes/CordovaLaunchOptions.md)
+-   [`CordovaLaunchOptions`](../classes/CordovaLaunchOptions.md)
 
 ## Table of contents
 
 ### Methods
 
-- [init](INativeLaunchOptions.md#init)
+-   [init](INativeLaunchOptions.md#init)
 
 ## Methods
 

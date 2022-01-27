@@ -6,8 +6,8 @@
 
 ### Enumeration members
 
-- [Dark](ThemeTextStyle.md#dark)
-- [Light](ThemeTextStyle.md#light)
+-   [Dark](ThemeTextStyle.md#dark)
+-   [Light](ThemeTextStyle.md#light)
 
 ## Enumeration members
 
@@ -19,7 +19,7 @@
 
 abstractions/dist/NativeEvents.d.ts:74
 
-___
+---
 
 ### Light
 

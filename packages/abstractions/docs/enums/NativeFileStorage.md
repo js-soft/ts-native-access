@@ -8,10 +8,10 @@ Available storage locations
 
 ### Enumeration members
 
-- [App](NativeFileStorage.md#app)
-- [Data](NativeFileStorage.md#data)
-- [Home](NativeFileStorage.md#home)
-- [Temp](NativeFileStorage.md#temp)
+-   [App](NativeFileStorage.md#app)
+-   [Data](NativeFileStorage.md#data)
+-   [Home](NativeFileStorage.md#home)
+-   [Temp](NativeFileStorage.md#temp)
 
 ## Enumeration members
 
@@ -25,7 +25,7 @@ Used for storing application data on mobile
 
 [src/INativeFileAccess.ts:52](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L52)
 
-___
+---
 
 ### Data
 
@@ -37,7 +37,7 @@ Used for storing application data on desktop
 
 [src/INativeFileAccess.ts:48](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L48)
 
-___
+---
 
 ### Home
 
@@ -49,7 +49,7 @@ Home folder of the user
 
 [src/INativeFileAccess.ts:44](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeFileAccess.ts#L44)
 
-___
+---
 
 ### Temp
 

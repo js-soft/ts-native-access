@@ -6,22 +6,22 @@ Event fired when the [configuration module](./INativeConfigAccess.md) changes th
 
 ## Hierarchy
 
-- [`NativeEvent`](NativeEvent.md)
+-   [`NativeEvent`](NativeEvent.md)
 
-  ↳ **`ConfigurationSetEvent`**
+    ↳ **`ConfigurationSetEvent`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ConfigurationSetEvent.md#constructor)
+-   [constructor](ConfigurationSetEvent.md#constructor)
 
 ### Properties
 
-- [key](ConfigurationSetEvent.md#key)
-- [namespace](ConfigurationSetEvent.md#namespace)
-- [value](ConfigurationSetEvent.md#value)
-- [namespace](ConfigurationSetEvent.md#namespace)
+-   [key](ConfigurationSetEvent.md#key)
+-   [namespace](ConfigurationSetEvent.md#namespace)
+-   [value](ConfigurationSetEvent.md#value)
+-   [namespace](ConfigurationSetEvent.md#namespace)
 
 ## Constructors
 
@@ -31,10 +31,10 @@ Event fired when the [configuration module](./INativeConfigAccess.md) changes th
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+| Name    | Type     |
+| :------ | :------- |
+| `key`   | `string` |
+| `value` | `any`    |
 
 #### Overrides
 
@@ -54,7 +54,7 @@ abstractions/dist/NativeEvents.d.ts:33
 
 abstractions/dist/NativeEvents.d.ts:30
 
-___
+---
 
 ### namespace
 
@@ -68,7 +68,7 @@ ___
 
 abstractions/node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
-___
+---
 
 ### value
 
@@ -78,11 +78,11 @@ ___
 
 abstractions/dist/NativeEvents.d.ts:31
 
-___
+---
 
 ### namespace
 
-▪ `Static` `Readonly` **namespace**: ``"ConfigurationSet"``
+▪ `Static` `Readonly` **namespace**: `"ConfigurationSet"`
 
 #### Defined in
 

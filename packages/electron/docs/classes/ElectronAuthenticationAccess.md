@@ -4,17 +4,17 @@
 
 ## Implements
 
-- [`INativeAuthenticationAccess`](../interfaces/INativeAuthenticationAccess.md)
+-   [`INativeAuthenticationAccess`](../interfaces/INativeAuthenticationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ElectronAuthenticationAccess.md#constructor)
+-   [constructor](ElectronAuthenticationAccess.md#constructor)
 
 ### Methods
 
-- [authenticate](ElectronAuthenticationAccess.md#authenticate)
+-   [authenticate](ElectronAuthenticationAccess.md#authenticate)
 
 ## Constructors
 
@@ -24,8 +24,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type      |
+| :------- | :-------- |
 | `logger` | `ILogger` |
 
 #### Defined in
@@ -42,8 +42,8 @@ Start the authentication process
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name       | Type                                                                            |
+| :--------- | :------------------------------------------------------------------------------ |
 | `options?` | [`INativeAuthenticationOptions`](../interfaces/INativeAuthenticationOptions.md) |
 
 #### Returns

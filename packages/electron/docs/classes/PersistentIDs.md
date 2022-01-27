@@ -6,21 +6,21 @@
 
 ### Constructors
 
-- [constructor](PersistentIDs.md#constructor)
+-   [constructor](PersistentIDs.md#constructor)
 
 ### Properties
 
-- [config](PersistentIDs.md#config)
-- [ids](PersistentIDs.md#ids)
+-   [config](PersistentIDs.md#config)
+-   [ids](PersistentIDs.md#ids)
 
 ### Methods
 
-- [addID](PersistentIDs.md#addid)
-- [getIDs](PersistentIDs.md#getids)
-- [load](PersistentIDs.md#load)
-- [removeID](PersistentIDs.md#removeid)
-- [removeIDsSinceDays](PersistentIDs.md#removeidssincedays)
-- [save](PersistentIDs.md#save)
+-   [addID](PersistentIDs.md#addid)
+-   [getIDs](PersistentIDs.md#getids)
+-   [load](PersistentIDs.md#load)
+-   [removeID](PersistentIDs.md#removeid)
+-   [removeIDsSinceDays](PersistentIDs.md#removeidssincedays)
+-   [save](PersistentIDs.md#save)
 
 ## Constructors
 
@@ -30,8 +30,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
 | `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
@@ -44,7 +44,7 @@
 
 • `Readonly` **config**: [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md)
 
-___
+---
 
 ### ids
 
@@ -62,8 +62,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name | Type     |
+| :--- | :------- |
 | `id` | `string` |
 
 #### Returns
@@ -74,7 +74,7 @@ ___
 
 [electron/src/ElectronPushNotificationAccess.ts:32](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronPushNotificationAccess.ts#L32)
 
-___
+---
 
 ### getIDs
 
@@ -88,7 +88,7 @@ ___
 
 [electron/src/ElectronPushNotificationAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronPushNotificationAccess.ts#L29)
 
-___
+---
 
 ### load
 
@@ -102,7 +102,7 @@ ___
 
 [electron/src/ElectronPushNotificationAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronPushNotificationAccess.ts#L25)
 
-___
+---
 
 ### removeID
 
@@ -110,8 +110,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name | Type     |
+| :--- | :------- |
 | `id` | `string` |
 
 #### Returns
@@ -122,7 +122,7 @@ ___
 
 [electron/src/ElectronPushNotificationAccess.ts:35](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronPushNotificationAccess.ts#L35)
 
-___
+---
 
 ### removeIDsSinceDays
 
@@ -130,8 +130,8 @@ ___
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type     |
+| :----- | :------- |
 | `days` | `number` |
 
 #### Returns
@@ -142,7 +142,7 @@ ___
 
 [electron/src/ElectronPushNotificationAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/electron/src/ElectronPushNotificationAccess.ts#L38)
 
-___
+---
 
 ### save
 

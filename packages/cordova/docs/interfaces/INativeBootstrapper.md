@@ -6,18 +6,18 @@ Initialization of native features
 
 ## Implemented by
 
-- [`CordovaBootstrapper`](../classes/CordovaBootstrapper.md)
+-   [`CordovaBootstrapper`](../classes/CordovaBootstrapper.md)
 
 ## Table of contents
 
 ### Properties
 
-- [isInitialized](INativeBootstrapper.md#isinitialized)
-- [nativeEnvironment](INativeBootstrapper.md#nativeenvironment)
+-   [isInitialized](INativeBootstrapper.md#isinitialized)
+-   [nativeEnvironment](INativeBootstrapper.md#nativeenvironment)
 
 ### Methods
 
-- [init](INativeBootstrapper.md#init)
+-   [init](INativeBootstrapper.md#init)
 
 ## Properties
 
@@ -31,7 +31,7 @@ Indicates whether the initalisation is finished
 
 abstractions/dist/INativeBootstrapper.d.ts:10
 
-___
+---
 
 ### nativeEnvironment
 

@@ -8,11 +8,11 @@ Get information about the device running the app
 
 ### Properties
 
-- [deviceInfo](INativeDeviceInfoAccess.md#deviceinfo)
+-   [deviceInfo](INativeDeviceInfoAccess.md#deviceinfo)
 
 ### Methods
 
-- [init](INativeDeviceInfoAccess.md#init)
+-   [init](INativeDeviceInfoAccess.md#init)
 
 ## Properties
 

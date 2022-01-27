@@ -6,9 +6,9 @@
 
 ### Classes
 
-- [CommonConfigAccess](classes/CommonConfigAccess.md)
-- [CommonDatabaseFactory](classes/CommonDatabaseFactory.md)
-- [CommonEventBus](classes/CommonEventBus.md)
-- [CommonLoggerFactory](classes/CommonLoggerFactory.md)
-- [CommonScannerAccess](classes/CommonScannerAccess.md)
-- [CommonServiceWorker](classes/CommonServiceWorker.md)
+-   [CommonConfigAccess](classes/CommonConfigAccess.md)
+-   [CommonDatabaseFactory](classes/CommonDatabaseFactory.md)
+-   [CommonEventBus](classes/CommonEventBus.md)
+-   [CommonLoggerFactory](classes/CommonLoggerFactory.md)
+-   [CommonScannerAccess](classes/CommonScannerAccess.md)
+-   [CommonServiceWorker](classes/CommonServiceWorker.md)

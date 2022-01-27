@@ -4,17 +4,17 @@
 
 ## Implements
 
-- [`INativeAuthenticationAccess`](../interfaces/INativeAuthenticationAccess.md)
+-   [`INativeAuthenticationAccess`](../interfaces/INativeAuthenticationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](WebAuthenticationAccess.md#constructor)
+-   [constructor](WebAuthenticationAccess.md#constructor)
 
 ### Methods
 
-- [authenticate](WebAuthenticationAccess.md#authenticate)
+-   [authenticate](WebAuthenticationAccess.md#authenticate)
 
 ## Constructors
 
@@ -24,8 +24,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type      |
+| :------- | :-------- |
 | `logger` | `ILogger` |
 
 #### Defined in
@@ -42,8 +42,8 @@ Start the authentication process
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name        | Type                                                                            |
+| :---------- | :------------------------------------------------------------------------------ |
 | `_options?` | [`INativeAuthenticationOptions`](../interfaces/INativeAuthenticationOptions.md) |
 
 #### Returns

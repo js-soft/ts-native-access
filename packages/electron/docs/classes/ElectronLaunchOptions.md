@@ -4,17 +4,17 @@
 
 ## Implements
 
-- [`INativeLaunchOptions`](../interfaces/INativeLaunchOptions.md)
+-   [`INativeLaunchOptions`](../interfaces/INativeLaunchOptions.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ElectronLaunchOptions.md#constructor)
+-   [constructor](ElectronLaunchOptions.md#constructor)
 
 ### Methods
 
-- [init](ElectronLaunchOptions.md#init)
+-   [init](ElectronLaunchOptions.md#init)
 
 ## Constructors
 
@@ -24,11 +24,11 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `logger` | `ILogger` |
-| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
-| `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
+| Name       | Type                                                          |
+| :--------- | :------------------------------------------------------------ |
+| `logger`   | `ILogger`                                                     |
+| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md)         |
+| `config`   | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
 

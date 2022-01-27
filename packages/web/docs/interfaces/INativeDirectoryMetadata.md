@@ -8,9 +8,9 @@ Meta information of directory
 
 ### Properties
 
-- [modifiedAt](INativeDirectoryMetadata.md#modifiedat)
-- [path](INativeDirectoryMetadata.md#path)
-- [storage](INativeDirectoryMetadata.md#storage)
+-   [modifiedAt](INativeDirectoryMetadata.md#modifiedat)
+-   [path](INativeDirectoryMetadata.md#path)
+-   [storage](INativeDirectoryMetadata.md#storage)
 
 ## Properties
 
@@ -24,7 +24,7 @@ Modification date
 
 abstractions/dist/INativeFileAccess.d.ts:72
 
-___
+---
 
 ### path
 
@@ -36,7 +36,7 @@ path of the directory relative to the [storage](INativeDirectoryMetadata.md#stor
 
 abstractions/dist/INativeFileAccess.d.ts:76
 
-___
+---
 
 ### storage
 

@@ -6,17 +6,17 @@ Access to native keychain
 
 ## Implemented by
 
-- [`WebKeychainAccess`](../classes/WebKeychainAccess.md)
+-   [`WebKeychainAccess`](../classes/WebKeychainAccess.md)
 
 ## Table of contents
 
 ### Methods
 
-- [delete](INativeKeychainAccess.md#delete)
-- [get](INativeKeychainAccess.md#get)
-- [init](INativeKeychainAccess.md#init)
-- [list](INativeKeychainAccess.md#list)
-- [set](INativeKeychainAccess.md#set)
+-   [delete](INativeKeychainAccess.md#delete)
+-   [get](INativeKeychainAccess.md#get)
+-   [init](INativeKeychainAccess.md#init)
+-   [list](INativeKeychainAccess.md#list)
+-   [set](INativeKeychainAccess.md#set)
 
 ## Methods
 
@@ -28,8 +28,8 @@ Delete key-value pair
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -40,7 +40,7 @@ Delete key-value pair
 
 abstractions/dist/INativeKeychainAccess.d.ts:28
 
-___
+---
 
 ### get
 
@@ -50,8 +50,8 @@ Get value for the specified {@link key}
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
+| Name  | Type     | Description                |
+| :---- | :------- | :------------------------- |
 | `key` | `string` | string identifying a value |
 
 #### Returns
@@ -62,7 +62,7 @@ Get value for the specified {@link key}
 
 abstractions/dist/INativeKeychainAccess.d.ts:17
 
-___
+---
 
 ### init
 
@@ -78,7 +78,7 @@ Initialize the module
 
 abstractions/dist/INativeKeychainAccess.d.ts:36
 
-___
+---
 
 ### list
 
@@ -94,7 +94,7 @@ List all key-value pairs added by the applicaion
 
 abstractions/dist/INativeKeychainAccess.d.ts:32
 
-___
+---
 
 ### set
 
@@ -104,10 +104,10 @@ Add key-value pair to keychain
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+| Name    | Type     |
+| :------ | :------- |
+| `key`   | `string` |
+| `value` | `any`    |
 
 #### Returns
 
