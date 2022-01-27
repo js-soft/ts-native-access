@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeNotificationAccess.ts#L21)
+[src/INativeNotificationAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L21)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeNotificationAccess.ts#L22)
+[src/INativeNotificationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L22)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:23](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeNotificationAccess.ts#L23)
+[src/INativeNotificationAccess.ts:23](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L23)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:24](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeNotificationAccess.ts#L24)
+[src/INativeNotificationAccess.ts:24](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L24)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeNotificationAccess.ts#L19)
+[src/INativeNotificationAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L19)
 
 ___
 
@@ -118,4 +118,4 @@ ___
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeNotificationAccess.ts#L20)
+[src/INativeNotificationAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeNotificationAccess.ts#L20)

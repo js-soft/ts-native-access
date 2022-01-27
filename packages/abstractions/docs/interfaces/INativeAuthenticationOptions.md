@@ -23,7 +23,7 @@ Text of the button which cancels the authentication process
 
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeAuthenticationAccess.ts#L22)
+[src/INativeAuthenticationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeAuthenticationAccess.ts#L22)
 
 ___
 
@@ -35,7 +35,7 @@ Text which is displayed to the user during authentication request
 
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeAuthenticationAccess.ts#L18)
+[src/INativeAuthenticationAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeAuthenticationAccess.ts#L18)
 
 ___
 
@@ -47,7 +47,7 @@ Text which is displayed to the user during authentication request
 
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeAuthenticationAccess.ts#L14)
+[src/INativeAuthenticationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeAuthenticationAccess.ts#L14)
 
 ___
 
@@ -59,4 +59,4 @@ Text which is displayed to the user during authentication request
 
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeAuthenticationAccess.ts#L10)
+[src/INativeAuthenticationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeAuthenticationAccess.ts#L10)

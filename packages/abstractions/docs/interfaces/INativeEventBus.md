@@ -2,6 +2,8 @@
 
 # Interface: INativeEventBus
 
+Event bus used for sending and receiving messages
+
 ## Table of contents
 
 ### Methods
@@ -18,19 +20,23 @@
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Initialize the event bus
+
 #### Returns
 
 `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeEventBus.ts:8](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEventBus.ts#L8)
+[src/INativeEventBus.ts:33](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeEventBus.ts#L33)
 
 ___
 
 ### publish
 
 ▸ **publish**(`event`): `Result`<`void`, `ApplicationError`\>
+
+Publish a specific event
 
 #### Parameters
 
@@ -44,7 +50,7 @@ ___
 
 #### Defined in
 
-[src/INativeEventBus.ts:7](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEventBus.ts#L7)
+[src/INativeEventBus.ts:29](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeEventBus.ts#L29)
 
 ___
 
@@ -52,6 +58,8 @@ ___
 
 ▸ **subscribe**(`event`, `handler`): `Result`<`number`, `ApplicationError`\>
 
+Subscribe for a handler to be called each time a specific event occurs
+
 #### Parameters
 
 | Name | Type |
@@ -65,7 +73,7 @@ ___
 
 #### Defined in
 
-[src/INativeEventBus.ts:4](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEventBus.ts#L4)
+[src/INativeEventBus.ts:12](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeEventBus.ts#L12)
 
 ___
 
@@ -73,6 +81,8 @@ ___
 
 ▸ **subscribeOnce**(`event`, `handler`): `Result`<`number`, `ApplicationError`\>
 
+Subscribe for a handler to be called the next time a specific event occurs
+
 #### Parameters
 
 | Name | Type |
@@ -86,13 +96,15 @@ ___
 
 #### Defined in
 
-[src/INativeEventBus.ts:5](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEventBus.ts#L5)
+[src/INativeEventBus.ts:18](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeEventBus.ts#L18)
 
 ___
 
 ### unsubscribe
 
 ▸ **unsubscribe**(`event`, `id`): `Result`<`void`, `ApplicationError`\>
+
+Unsunscribe a handler from being called when a specific event occurs
 
 #### Parameters
 
@@ -107,4 +119,4 @@ ___
 
 #### Defined in
 
-[src/INativeEventBus.ts:6](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeEventBus.ts#L6)
+[src/INativeEventBus.ts:24](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeEventBus.ts#L24)

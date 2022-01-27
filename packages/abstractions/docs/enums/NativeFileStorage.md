@@ -2,6 +2,8 @@
 
 # Enumeration: NativeFileStorage
 
+Available storage locations
+
 ## Table of contents
 
 ### Enumeration members
@@ -17,11 +19,11 @@
 
 • **App** = `"app"`
 
-C:\Program Files\<app-id>\
+Used for storing application data on mobile
 
 #### Defined in
 
-[src/INativeFileAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L25)
+[src/INativeFileAccess.ts:52](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L52)
 
 ___
 
@@ -29,11 +31,11 @@ ___
 
 • **Data** = `"data"`
 
-C:\Users\<user-id>\AppData\Roaming\<app-id>\
+Used for storing application data on desktop
 
 #### Defined in
 
-[src/INativeFileAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L21)
+[src/INativeFileAccess.ts:48](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L48)
 
 ___
 
@@ -41,11 +43,11 @@ ___
 
 • **Home** = `"home"`
 
-C:\Users\<user-id>
+Home folder of the user
 
 #### Defined in
 
-[src/INativeFileAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L17)
+[src/INativeFileAccess.ts:44](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L44)
 
 ___
 
@@ -53,6 +55,8 @@ ___
 
 • **Temp** = `"temp"`
 
+Used for storing temporary files
+
 #### Defined in
 
-[src/INativeFileAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L13)
+[src/INativeFileAccess.ts:40](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L40)

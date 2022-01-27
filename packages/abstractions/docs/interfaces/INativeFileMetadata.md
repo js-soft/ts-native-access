@@ -2,6 +2,8 @@
 
 # Interface: INativeFileMetadata
 
+Meta information about a file
+
 ## Table of contents
 
 ### Properties
@@ -17,11 +19,13 @@
 
 ### mimeType
 
-• **mimeType**: `undefined` \| `string`
+• `Optional` **mimeType**: `string`
+
+Mime type of the file used to determine which applications can be used to open the file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L7)
+[src/INativeFileAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L22)
 
 ___
 
@@ -29,9 +33,11 @@ ___
 
 • `Optional` **modifiedAt**: `string`
 
+Modification date
+
 #### Defined in
 
-[src/INativeFileAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L9)
+[src/INativeFileAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L30)
 
 ___
 
@@ -39,9 +45,11 @@ ___
 
 • **name**: `string`
 
+Name of the file
+
 #### Defined in
 
-[src/INativeFileAccess.ts:4](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L4)
+[src/INativeFileAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L10)
 
 ___
 
@@ -49,9 +57,11 @@ ___
 
 • **path**: `string`
 
+Path to the file relative to the [storage](INativeFileMetadata.md#storage)
+
 #### Defined in
 
-[src/INativeFileAccess.ts:5](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L5)
+[src/INativeFileAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L14)
 
 ___
 
@@ -59,9 +69,11 @@ ___
 
 • `Optional` **size**: `number`
 
+Size of the file
+
 #### Defined in
 
-[src/INativeFileAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L8)
+[src/INativeFileAccess.ts:26](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L26)
 
 ___
 
@@ -69,6 +81,8 @@ ___
 
 • `Optional` **storage**: [`NativeFileStorage`](../enums/NativeFileStorage.md)
 
+storage location of the file
+
 #### Defined in
 
-[src/INativeFileAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L6)
+[src/INativeFileAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L18)

@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[src/INativeFileAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L29)
+[src/INativeFileAccess.ts:59](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L59)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L30)
+[src/INativeFileAccess.ts:60](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L60)

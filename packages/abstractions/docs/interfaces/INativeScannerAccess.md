@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/INativeScannerAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeScannerAccess.ts#L6)
+[src/INativeScannerAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeScannerAccess.ts#L6)

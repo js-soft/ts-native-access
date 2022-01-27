@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/NativePlatform.ts:2](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/NativePlatform.ts#L2)
+[src/NativePlatform.ts:2](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativePlatform.ts#L2)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[src/NativePlatform.ts:3](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/NativePlatform.ts#L3)
+[src/NativePlatform.ts:3](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativePlatform.ts#L3)
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[src/NativePlatform.ts:4](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/NativePlatform.ts#L4)
+[src/NativePlatform.ts:4](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/NativePlatform.ts#L4)

@@ -24,7 +24,7 @@ Available information about the device running the app
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:23](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeDeviceInfoAccess.ts#L23)
+[src/INativeDeviceInfoAccess.ts:23](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeDeviceInfoAccess.ts#L23)
 
 ## Methods
 
@@ -40,4 +40,4 @@ Initialize the module to retrieve relevant device information
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeDeviceInfoAccess.ts#L19)
+[src/INativeDeviceInfoAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeDeviceInfoAccess.ts#L19)

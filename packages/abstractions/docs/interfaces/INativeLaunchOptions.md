@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/INativeLaunchOptions.ts:4](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeLaunchOptions.ts#L4)
+[src/INativeLaunchOptions.ts:4](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeLaunchOptions.ts#L4)

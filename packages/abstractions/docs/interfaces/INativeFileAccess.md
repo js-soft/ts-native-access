@@ -2,6 +2,8 @@
 
 # Interface: INativeFileAccess
 
+Access the native filesystem (read/write)
+
 ## Table of contents
 
 ### Methods
@@ -27,12 +29,14 @@
 
 ▸ **createDirectory**(`path`, `storage?`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Create a directory
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory |
 
 #### Returns
 
@@ -40,7 +44,7 @@
 
 #### Defined in
 
-[src/INativeFileAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L53)
+[src/INativeFileAccess.ts:128](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L128)
 
 ___
 
@@ -48,12 +52,14 @@ ___
 
 ▸ **deleteDirectory**(`path`, `storage?`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Delete a directory
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory |
 
 #### Returns
 
@@ -61,7 +67,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:54](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L54)
+[src/INativeFileAccess.ts:134](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L134)
 
 ___
 
@@ -69,12 +75,14 @@ ___
 
 ▸ **deleteFile**(`path`, `storage?`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Delete specified file
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -82,7 +90,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:50](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L50)
+[src/INativeFileAccess.ts:110](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L110)
 
 ___
 
@@ -90,12 +98,14 @@ ___
 
 ▸ **existsDirectory**(`path`, `storage?`): `Promise`<`Result`<`boolean`, `ApplicationError`\>\>
 
+Test if a directory exists
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory |
 
 #### Returns
 
@@ -103,7 +113,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:55](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L55)
+[src/INativeFileAccess.ts:140](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L140)
 
 ___
 
@@ -111,12 +121,14 @@ ___
 
 ▸ **existsFile**(`path`, `storage?`): `Promise`<`Result`<`boolean`, `ApplicationError`\>\>
 
+Test if a file exists
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -124,7 +136,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:51](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L51)
+[src/INativeFileAccess.ts:116](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L116)
 
 ___
 
@@ -132,12 +144,14 @@ ___
 
 ▸ **infoDirectory**(`path`, `storage?`): `Promise`<`Result`<[`INativeDirectory`](INativeDirectory.md), `ApplicationError`\>\>
 
+Retrieve information about a specified directory
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory |
 
 #### Returns
 
@@ -145,7 +159,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:52](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L52)
+[src/INativeFileAccess.ts:122](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L122)
 
 ___
 
@@ -153,12 +167,14 @@ ___
 
 ▸ **infoFile**(`path`, `storage?`): `Promise`<`Result`<[`INativeFileMetadata`](INativeFileMetadata.md), `ApplicationError`\>\>
 
+Retrieve meta information about the specified file
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -166,7 +182,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:46](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L46)
+[src/INativeFileAccess.ts:84](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L84)
 
 ___
 
@@ -174,13 +190,15 @@ ___
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Initialize the native features and create a folder structure
+
 #### Returns
 
 `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeFileAccess.ts:59](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L59)
+[src/INativeFileAccess.ts:160](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L160)
 
 ___
 
@@ -188,12 +206,14 @@ ___
 
 ▸ **openFile**(`path`, `storage?`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Open a file with the standard application specified by the operating system
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -201,7 +221,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:57](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L57)
+[src/INativeFileAccess.ts:150](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L150)
 
 ___
 
@@ -209,12 +229,14 @@ ___
 
 ▸ **openFileContent**(`content`, `metadata`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Create and open a file with the standard application specified by the operating system
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `content` | `Uint8Array` |
-| `metadata` | [`INativeFileMetadata`](INativeFileMetadata.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `content` | `Uint8Array` | content of the file |
+| `metadata` | [`INativeFileMetadata`](INativeFileMetadata.md) | metadata of the file |
 
 #### Returns
 
@@ -222,7 +244,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:58](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L58)
+[src/INativeFileAccess.ts:156](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L156)
 
 ___
 
@@ -230,12 +252,14 @@ ___
 
 ▸ **readFileAsBinary**(`path`, `storage?`): `Promise`<`Result`<`Uint8Array`, `ApplicationError`\>\>
 
+Read the data of the specified file as a an array
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -243,7 +267,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:48](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L48)
+[src/INativeFileAccess.ts:96](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L96)
 
 ___
 
@@ -251,12 +275,14 @@ ___
 
 ▸ **readFileAsText**(`path`, `storage?`): `Promise`<`Result`<`string`, `ApplicationError`\>\>
 
+Read the data of the specified file as a string
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -264,7 +290,7 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:47](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L47)
+[src/INativeFileAccess.ts:90](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L90)
 
 ___
 
@@ -272,13 +298,15 @@ ___
 
 ▸ **select**(): `Promise`<`Result`<[`INativeFile`](INativeFile.md), `ApplicationError`\>\>
 
+Open the file selection dialog of the operating system and receive the selected file
+
 #### Returns
 
 `Promise`<`Result`<[`INativeFile`](INativeFile.md), `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeFileAccess.ts:56](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L56)
+[src/INativeFileAccess.ts:144](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L144)
 
 ___
 
@@ -286,14 +314,16 @@ ___
 
 ▸ **writeFile**(`path`, `data`, `storage?`, `append?`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Write data to a file
+
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `data` | `string` \| `Uint8Array` |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) |
-| `append?` | `boolean` |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `data` | `string` \| `Uint8Array` | data to write to the file |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
+| `append?` | `boolean` | overwrite file or append data on the end of the file |
 
 #### Returns
 
@@ -301,4 +331,4 @@ ___
 
 #### Defined in
 
-[src/INativeFileAccess.ts:49](https://github.com/js-soft/ts-native-access/blob/f2bbc45/packages/abstractions/src/INativeFileAccess.ts#L49)
+[src/INativeFileAccess.ts:104](https://github.com/js-soft/ts-native-access/blob/7416af4/packages/abstractions/src/INativeFileAccess.ts#L104)
