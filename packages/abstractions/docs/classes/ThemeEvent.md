@@ -2,6 +2,8 @@
 
 # Class: ThemeEvent
 
+Event fired when the app changes theme
+
 ## Hierarchy
 
 - [`NativeEvent`](NativeEvent.md)
@@ -44,7 +46,7 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:74](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L74)
+[src/NativeEvents.ts:104](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L104)
 
 ## Properties
 
@@ -92,4 +94,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:73](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L73)
+[src/NativeEvents.ts:103](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L103)

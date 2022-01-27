@@ -2,6 +2,8 @@
 
 # Class: ConfigurationSetEvent
 
+Event fired when the [configuration module](./INativeConfigAccess.md) changes the configuration
+
 ## Hierarchy
 
 - [`NativeEvent`](NativeEvent.md)
@@ -40,7 +42,7 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:27](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L27)
+[src/NativeEvents.ts:39](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L39)
 
 ## Properties
 
@@ -76,4 +78,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:26](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L26)
+[src/NativeEvents.ts:38](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L38)

@@ -2,6 +2,8 @@
 
 # Interface: INativeScannerAccess
 
+QR-code scanner
+
 ## Table of contents
 
 ### Methods
@@ -14,10 +16,12 @@
 
 ▸ **scan**(): `Promise`<`Result`<`string`, `ApplicationError`\>\>
 
+Scan qr-code
+
 #### Returns
 
 `Promise`<`Result`<`string`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativeScannerAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeScannerAccess.ts#L6)
+[src/INativeScannerAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeScannerAccess.ts#L12)

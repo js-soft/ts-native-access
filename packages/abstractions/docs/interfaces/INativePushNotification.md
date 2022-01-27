@@ -2,6 +2,8 @@
 
 # Interface: INativePushNotification
 
+Remote push notification
+
 ## Table of contents
 
 ### Properties
@@ -17,9 +19,11 @@
 
 • **content**: `any`
 
+Content sent as part of the notification
+
 #### Defined in
 
-[src/INativePushNotification.ts:2](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativePushNotification.ts#L2)
+[src/INativePushNotification.ts:8](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativePushNotification.ts#L8)
 
 ___
 
@@ -27,9 +31,11 @@ ___
 
 • `Optional` **foreground**: `boolean`
 
+Indicator wether the app was in the foreground when receiving the notification
+
 #### Defined in
 
-[src/INativePushNotification.ts:4](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativePushNotification.ts#L4)
+[src/INativePushNotification.ts:16](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativePushNotification.ts#L16)
 
 ___
 
@@ -37,9 +43,11 @@ ___
 
 • `Optional` **id**: `string`
 
+Id of the notification
+
 #### Defined in
 
-[src/INativePushNotification.ts:3](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativePushNotification.ts#L3)
+[src/INativePushNotification.ts:12](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativePushNotification.ts#L12)
 
 ___
 
@@ -47,6 +55,8 @@ ___
 
 • `Optional` **limitedProcessingTime**: `string`
 
+Time available for processing the notification (ios)
+
 #### Defined in
 
-[src/INativePushNotification.ts:5](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativePushNotification.ts#L5)
+[src/INativePushNotification.ts:20](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativePushNotification.ts#L20)

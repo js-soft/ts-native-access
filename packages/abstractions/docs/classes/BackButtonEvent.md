@@ -2,6 +2,8 @@
 
 # Class: BackButtonEvent
 
+Event fired when the back button is pressed
+
 ## Hierarchy
 
 - [`NativeEvent`](NativeEvent.md)
@@ -31,7 +33,7 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:81](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L81)
+[src/NativeEvents.ts:114](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L114)
 
 ## Properties
 
@@ -55,4 +57,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:80](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L80)
+[src/NativeEvents.ts:113](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L113)

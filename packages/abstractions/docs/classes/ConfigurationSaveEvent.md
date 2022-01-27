@@ -2,6 +2,8 @@
 
 # Class: ConfigurationSaveEvent
 
+Event fired when the [configuration module](./INativeConfigAccess.md) finishes a save operation
+
 ## Hierarchy
 
 - [`NativeEvent`](NativeEvent.md)
@@ -31,7 +33,7 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:20](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L20)
+[src/NativeEvents.ts:29](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L29)
 
 ## Properties
 
@@ -55,4 +57,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:19](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L19)
+[src/NativeEvents.ts:28](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L28)

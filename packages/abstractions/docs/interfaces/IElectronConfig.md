@@ -23,7 +23,7 @@ Firebase cloud messaging sender-id which can be accessed through the firebase co
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:95](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeConfigAccess.ts#L95)
+[src/INativeConfigAccess.ts:95](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeConfigAccess.ts#L95)
 
 ___
 
@@ -35,7 +35,7 @@ Ids of remote push notifications are stored to prevent push notifications to be 
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:103](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeConfigAccess.ts#L103)
+[src/INativeConfigAccess.ts:103](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeConfigAccess.ts#L103)
 
 ___
 
@@ -47,7 +47,7 @@ Days after which the stored ids of received remote push notifications should be 
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:91](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeConfigAccess.ts#L91)
+[src/INativeConfigAccess.ts:91](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeConfigAccess.ts#L91)
 
 ___
 
@@ -59,4 +59,4 @@ Remote push notification credentials created by app during initialization
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:99](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeConfigAccess.ts#L99)
+[src/INativeConfigAccess.ts:99](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeConfigAccess.ts#L99)

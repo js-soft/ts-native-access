@@ -2,6 +2,8 @@
 
 # Class: AppCloseEvent
 
+Event fired when the app closes
+
 ## Hierarchy
 
 - [`NativeEvent`](NativeEvent.md)
@@ -31,7 +33,7 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:62](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L62)
+[src/NativeEvents.ts:89](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L89)
 
 ## Properties
 
@@ -55,4 +57,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:61](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L61)
+[src/NativeEvents.ts:88](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L88)

@@ -30,7 +30,7 @@ Configuration of firebase which can be accessed through the firebase console
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:43](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeConfigAccess.ts#L43)
+[src/INativeConfigAccess.ts:43](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeConfigAccess.ts#L43)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:51](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeConfigAccess.ts#L51)
+[src/INativeConfigAccess.ts:51](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeConfigAccess.ts#L51)

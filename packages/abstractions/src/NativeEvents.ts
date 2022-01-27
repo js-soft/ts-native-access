@@ -1,6 +1,9 @@
 import { INativePushNotification } from "./INativePushNotification";
 import { NativeEvent } from "./NativeEvent";
 
+/**
+ * Event fired when the [push notification module](./INativePushNotification.md) sucessfully received a registration token
+ */
 export class RemoteNotificationRegistrationEvent extends NativeEvent {
     public static namespace = "RemoteNotificationRegistration";
     public constructor(public readonly token: string) {
@@ -8,6 +11,9 @@ export class RemoteNotificationRegistrationEvent extends NativeEvent {
     }
 }
 
+/**
+ * Event fired when the [push notification module](./INativePushNotification.md) received a remote notification
+ */
 export class RemoteNotificationEvent extends NativeEvent {
     public static namespace = "RemoteNotification";
     public constructor(public readonly notification: INativePushNotification) {
@@ -15,6 +21,9 @@ export class RemoteNotificationEvent extends NativeEvent {
     }
 }
 
+/**
+ * Event fired when the [configuration module](./INativeConfigAccess.md) finishes a save operation
+ */
 export class ConfigurationSaveEvent extends NativeEvent {
     public static namespace = "ConfigurationSave";
     public constructor() {
@@ -22,6 +31,9 @@ export class ConfigurationSaveEvent extends NativeEvent {
     }
 }
 
+/**
+ * Event fired when the [configuration module](./INativeConfigAccess.md) changes the configuration
+ */
 export class ConfigurationSetEvent extends NativeEvent {
     public static readonly namespace = "ConfigurationSet";
     public constructor(public readonly key: string, public readonly value: any) {
@@ -29,6 +41,9 @@ export class ConfigurationSetEvent extends NativeEvent {
     }
 }
 
+/**
+ * Event fired when the [configuration module](./INativeConfigAccess.md) removes a configuration element
+ */
 export class ConfigurationRemoveEvent extends NativeEvent {
     public static namespace = "ConfigurationRemove";
     public constructor(public readonly key: string) {
@@ -36,6 +51,9 @@ export class ConfigurationRemoveEvent extends NativeEvent {
     }
 }
 
+/**
+ * Event fired when the [launch options module](./INativeLaunchOptions.md) registers, that the app was started by an url
+ */
 export class UrlOpenEvent extends NativeEvent {
     public static namespace = "UrlOpenEvent";
     public constructor(public readonly url: string) {
@@ -43,6 +61,9 @@ export class UrlOpenEvent extends NativeEvent {
     }
 }
 
+/**
+ * Event fired when the [launch options module](./INativeLaunchOptions.md) registers, that the app was started by a file open instruction
+ */
 export class FileViewEvent extends NativeEvent {
     public static namespace = "FileViewEvent";
     public constructor(public readonly uri: string) {
@@ -50,6 +71,9 @@ export class FileViewEvent extends NativeEvent {
     }
 }
 
+/**
+ * Event fired when the app is ready
+ */
 export class AppReadyEvent extends NativeEvent {
     public static namespace = "AppReadyEvent";
     public constructor() {
@@ -57,6 +81,9 @@ export class AppReadyEvent extends NativeEvent {
     }
 }
 
+/**
+ * Event fired when the app closes
+ */
 export class AppCloseEvent extends NativeEvent {
     public static namespace = "AppCloseEvent";
     public constructor() {
@@ -69,6 +96,9 @@ export enum ThemeTextStyle {
     Light = "light"
 }
 
+/**
+ * Event fired when the app changes theme
+ */
 export class ThemeEvent extends NativeEvent {
     public static namespace = "ThemeEvent";
     public constructor(public readonly backgroundColor: string, public readonly textStyle: ThemeTextStyle, public readonly textColor?: string, public readonly image?: string) {
@@ -76,6 +106,9 @@ export class ThemeEvent extends NativeEvent {
     }
 }
 
+/**
+ * Event fired when the back button is pressed
+ */
 export class BackButtonEvent extends NativeEvent {
     public static namespace = "BackButtonEvent";
     public constructor() {

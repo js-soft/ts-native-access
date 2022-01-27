@@ -2,6 +2,8 @@
 
 # Class: RemoteNotificationRegistrationEvent
 
+Event fired when the [push notification module](./INativePushNotification.md) sucessfully received a registration token
+
 ## Hierarchy
 
 - [`NativeEvent`](NativeEvent.md)
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:6](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L6)
+[src/NativeEvents.ts:9](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L9)
 
 ## Properties
 
@@ -68,4 +70,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:5](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L5)
+[src/NativeEvents.ts:8](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L8)

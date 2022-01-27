@@ -2,6 +2,8 @@
 
 # Class: FileViewEvent
 
+Event fired when the [launch options module](./INativeLaunchOptions.md) registers, that the app was started by a file open instruction
+
 ## Hierarchy
 
 - [`NativeEvent`](NativeEvent.md)
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:48](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L48)
+[src/NativeEvents.ts:69](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L69)
 
 ## Properties
 
@@ -68,4 +70,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:47](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L47)
+[src/NativeEvents.ts:68](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L68)

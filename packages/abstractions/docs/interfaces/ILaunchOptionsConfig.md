@@ -20,4 +20,4 @@ Uri which should be registered for the app
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:113](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeConfigAccess.ts#L113)
+[src/INativeConfigAccess.ts:113](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeConfigAccess.ts#L113)

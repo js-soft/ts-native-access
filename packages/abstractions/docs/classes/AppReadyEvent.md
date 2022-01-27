@@ -2,6 +2,8 @@
 
 # Class: AppReadyEvent
 
+Event fired when the app is ready
+
 ## Hierarchy
 
 - [`NativeEvent`](NativeEvent.md)
@@ -31,7 +33,7 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:55](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L55)
+[src/NativeEvents.ts:79](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L79)
 
 ## Properties
 
@@ -55,4 +57,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:54](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L54)
+[src/NativeEvents.ts:78](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L78)

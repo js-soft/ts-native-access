@@ -2,6 +2,8 @@
 
 # Class: ConfigurationRemoveEvent
 
+Event fired when the [configuration module](./INativeConfigAccess.md) removes a configuration element
+
 ## Hierarchy
 
 - [`NativeEvent`](NativeEvent.md)
@@ -38,7 +40,7 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:34](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L34)
+[src/NativeEvents.ts:49](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L49)
 
 ## Properties
 
@@ -68,4 +70,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:33](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativeEvents.ts#L33)
+[src/NativeEvents.ts:48](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L48)

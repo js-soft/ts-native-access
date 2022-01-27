@@ -55,4 +55,4 @@ Initialize logger
 
 #### Defined in
 
-[src/INativeLoggerFactory.ts:11](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/INativeLoggerFactory.ts#L11)
+[src/INativeLoggerFactory.ts:11](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeLoggerFactory.ts#L11)

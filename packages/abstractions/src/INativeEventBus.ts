@@ -28,7 +28,7 @@ export interface INativeEventBus {
      */
     publish(event: Event): Result<void>;
     /**
-     * Initialize the event bus
+     * Initialize the event bus.
      */
     init(): Promise<Result<void>>;
 }

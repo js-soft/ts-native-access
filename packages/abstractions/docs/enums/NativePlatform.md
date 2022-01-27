@@ -2,6 +2,8 @@
 
 # Enumeration: NativePlatform
 
+Frameworks used to access native functionalities
+
 ## Table of contents
 
 ### Enumeration members
@@ -18,7 +20,7 @@
 
 #### Defined in
 
-[src/NativePlatform.ts:2](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativePlatform.ts#L2)
+[src/NativePlatform.ts:5](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativePlatform.ts#L5)
 
 ___
 
@@ -28,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/NativePlatform.ts:3](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativePlatform.ts#L3)
+[src/NativePlatform.ts:6](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativePlatform.ts#L6)
 
 ___
 
@@ -38,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/NativePlatform.ts:4](https://github.com/js-soft/ts-native-access/blob/c428889/packages/abstractions/src/NativePlatform.ts#L4)
+[src/NativePlatform.ts:7](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativePlatform.ts#L7)
