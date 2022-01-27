@@ -33,7 +33,7 @@ Event fired when the back button is pressed
 
 #### Defined in
 
-[src/NativeEvents.ts:114](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L114)
+[src/NativeEvents.ts:114](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativeEvents.ts#L114)
 
 ## Properties
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:113](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L113)
+[src/NativeEvents.ts:113](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativeEvents.ts#L113)

@@ -31,7 +31,7 @@ Configuration of the cordova local push notifiction plugin (ios/android)
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:133](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeConfigAccess.ts#L133)
+[src/INativeConfigAccess.ts:133](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeConfigAccess.ts#L133)
 
 ___
 
@@ -53,4 +53,4 @@ Configuration of the cordova remote push notifiction plugin (ios/android)
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:123](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeConfigAccess.ts#L123)
+[src/INativeConfigAccess.ts:123](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeConfigAccess.ts#L123)

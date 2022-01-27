@@ -40,7 +40,7 @@ Event fired when the [configuration module](./INativeConfigAccess.md) removes a 
 
 #### Defined in
 
-[src/NativeEvents.ts:49](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L49)
+[src/NativeEvents.ts:49](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativeEvents.ts#L49)
 
 ## Properties
 
@@ -70,4 +70,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:48](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L48)
+[src/NativeEvents.ts:48](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativeEvents.ts#L48)

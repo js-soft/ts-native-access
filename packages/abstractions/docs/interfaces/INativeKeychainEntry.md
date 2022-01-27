@@ -19,7 +19,7 @@ Entry of the keychain
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeKeychainAccess.ts#L7)
+[src/INativeKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeKeychainAccess.ts#L7)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeKeychainAccess.ts#L8)
+[src/INativeKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeKeychainAccess.ts#L8)

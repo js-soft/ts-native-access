@@ -20,7 +20,7 @@ Frameworks used to access native functionalities
 
 #### Defined in
 
-[src/NativePlatform.ts:5](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativePlatform.ts#L5)
+[src/NativePlatform.ts:5](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativePlatform.ts#L5)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/NativePlatform.ts:6](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativePlatform.ts#L6)
+[src/NativePlatform.ts:6](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativePlatform.ts#L6)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/NativePlatform.ts:7](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativePlatform.ts#L7)
+[src/NativePlatform.ts:7](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativePlatform.ts#L7)

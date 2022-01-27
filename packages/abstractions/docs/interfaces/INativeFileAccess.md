@@ -44,7 +44,7 @@ Create a directory
 
 #### Defined in
 
-[src/INativeFileAccess.ts:158](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L158)
+[src/INativeFileAccess.ts:158](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L158)
 
 ___
 
@@ -67,7 +67,7 @@ Delete a directory
 
 #### Defined in
 
-[src/INativeFileAccess.ts:164](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L164)
+[src/INativeFileAccess.ts:164](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L164)
 
 ___
 
@@ -90,7 +90,7 @@ Delete specified file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:140](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L140)
+[src/INativeFileAccess.ts:140](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L140)
 
 ___
 
@@ -113,7 +113,7 @@ Test if a directory exists
 
 #### Defined in
 
-[src/INativeFileAccess.ts:170](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L170)
+[src/INativeFileAccess.ts:170](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L170)
 
 ___
 
@@ -136,7 +136,7 @@ Test if a file exists
 
 #### Defined in
 
-[src/INativeFileAccess.ts:146](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L146)
+[src/INativeFileAccess.ts:146](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L146)
 
 ___
 
@@ -159,7 +159,7 @@ Retrieve information about a specified directory
 
 #### Defined in
 
-[src/INativeFileAccess.ts:152](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L152)
+[src/INativeFileAccess.ts:152](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L152)
 
 ___
 
@@ -182,7 +182,7 @@ Retrieve meta information about the specified file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:114](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L114)
+[src/INativeFileAccess.ts:114](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L114)
 
 ___
 
@@ -198,7 +198,7 @@ Initialize the native features and create a folder structure
 
 #### Defined in
 
-[src/INativeFileAccess.ts:190](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L190)
+[src/INativeFileAccess.ts:190](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L190)
 
 ___
 
@@ -221,7 +221,7 @@ Open a file with the standard application specified by the operating system
 
 #### Defined in
 
-[src/INativeFileAccess.ts:180](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L180)
+[src/INativeFileAccess.ts:180](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L180)
 
 ___
 
@@ -244,7 +244,7 @@ Create and open a file with the standard application specified by the operating 
 
 #### Defined in
 
-[src/INativeFileAccess.ts:186](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L186)
+[src/INativeFileAccess.ts:186](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L186)
 
 ___
 
@@ -267,7 +267,7 @@ Read the data of the specified file as a an array
 
 #### Defined in
 
-[src/INativeFileAccess.ts:126](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L126)
+[src/INativeFileAccess.ts:126](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L126)
 
 ___
 
@@ -290,7 +290,7 @@ Read the data of the specified file as a string
 
 #### Defined in
 
-[src/INativeFileAccess.ts:120](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L120)
+[src/INativeFileAccess.ts:120](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L120)
 
 ___
 
@@ -306,7 +306,7 @@ Open the file selection dialog of the operating system and receive the selected 
 
 #### Defined in
 
-[src/INativeFileAccess.ts:174](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L174)
+[src/INativeFileAccess.ts:174](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L174)
 
 ___
 
@@ -331,4 +331,4 @@ Write data to a file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:134](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L134)
+[src/INativeFileAccess.ts:134](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L134)

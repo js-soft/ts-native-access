@@ -40,7 +40,7 @@ Event fired when the [launch options module](./INativeLaunchOptions.md) register
 
 #### Defined in
 
-[src/NativeEvents.ts:69](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L69)
+[src/NativeEvents.ts:69](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativeEvents.ts#L69)
 
 ## Properties
 
@@ -70,4 +70,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:68](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L68)
+[src/NativeEvents.ts:68](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativeEvents.ts#L68)

@@ -21,7 +21,7 @@ function called with the result of the action
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeNotificationAccess.ts#L16)
+[src/INativeNotificationAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeNotificationAccess.ts#L16)
 
 ___
 
@@ -33,4 +33,4 @@ title of the action
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeNotificationAccess.ts#L12)
+[src/INativeNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeNotificationAccess.ts#L12)

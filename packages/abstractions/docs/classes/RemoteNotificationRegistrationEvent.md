@@ -40,7 +40,7 @@ Event fired when the [push notification module](./INativePushNotification.md) su
 
 #### Defined in
 
-[src/NativeEvents.ts:9](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L9)
+[src/NativeEvents.ts:9](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativeEvents.ts#L9)
 
 ## Properties
 
@@ -70,4 +70,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:8](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/NativeEvents.ts#L8)
+[src/NativeEvents.ts:8](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/NativeEvents.ts#L8)

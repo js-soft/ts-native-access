@@ -2,6 +2,8 @@
 
 # Interface: INativePushNotificationAccess
 
+Receive and handle remote push notifications
+
 ## Table of contents
 
 ### Methods
@@ -14,10 +16,12 @@
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
+Initialize module
+
 #### Returns
 
 `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
 #### Defined in
 
-[src/INativePushNotificationAccess.ts:4](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativePushNotificationAccess.ts#L4)
+[src/INativePushNotificationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativePushNotificationAccess.ts#L10)

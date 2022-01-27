@@ -21,7 +21,7 @@ Content of file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:62](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L62)
+[src/INativeFileAccess.ts:62](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L62)
 
 ___
 
@@ -33,4 +33,4 @@ Metadata of file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:66](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativeFileAccess.ts#L66)
+[src/INativeFileAccess.ts:66](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativeFileAccess.ts#L66)

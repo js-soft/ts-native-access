@@ -23,7 +23,7 @@ Content sent as part of the notification
 
 #### Defined in
 
-[src/INativePushNotification.ts:8](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativePushNotification.ts#L8)
+[src/INativePushNotification.ts:8](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativePushNotification.ts#L8)
 
 ___
 
@@ -35,7 +35,7 @@ Indicator wether the app was in the foreground when receiving the notification
 
 #### Defined in
 
-[src/INativePushNotification.ts:16](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativePushNotification.ts#L16)
+[src/INativePushNotification.ts:16](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativePushNotification.ts#L16)
 
 ___
 
@@ -47,7 +47,7 @@ Id of the notification
 
 #### Defined in
 
-[src/INativePushNotification.ts:12](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativePushNotification.ts#L12)
+[src/INativePushNotification.ts:12](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativePushNotification.ts#L12)
 
 ___
 
@@ -59,4 +59,4 @@ Time available for processing the notification (ios)
 
 #### Defined in
 
-[src/INativePushNotification.ts:20](https://github.com/js-soft/ts-native-access/blob/20019e8/packages/abstractions/src/INativePushNotification.ts#L20)
+[src/INativePushNotification.ts:20](https://github.com/js-soft/ts-native-access/blob/b144064/packages/abstractions/src/INativePushNotification.ts#L20)

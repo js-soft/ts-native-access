@@ -29,6 +29,8 @@ export interface INativeEventBus {
     publish(event: Event): Result<void>;
     /**
      * Initialize the event bus.
+     * Initially the event bus is in a **locked state**. Once an {@link AppReadyEvent} is fired (usually from outside), the event bus is unlocked.
+     * The locked event bus queues published events and publishes them once it is unlocked.
      */
     init(): Promise<Result<void>>;
 }
