@@ -1,6 +1,6 @@
 {
     "name": "@js-soft/native-web",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Native Web",
     "homepage": "https://github.com/js-soft/ts-native-access#readme",
     "repository": {
@@ -21,7 +21,8 @@
         "build": "tsc && npm run bundle",
         "bundle": "npm run bundle:lib && npm run bundle:min",
         "bundle:lib": "webpack --stats-all --config webpack.config.js",
-        "bundle:min": "webpack --stats-all --config webpack.min.config.js"
+        "bundle:min": "webpack --stats-all --config webpack.min.config.js",
+        "license-check": "license-check --ignoreLicenses '(MIT OR GPL-3.0-or-later)'"
     },
     "dependencies": {
         "@js-soft/docdb-access-loki": "^1.0.2",
