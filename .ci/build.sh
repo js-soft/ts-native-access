@@ -12,4 +12,4 @@ npm run lint:prettier
 
 # auditing
 npx lerna run license-check
-npx lerna-audit --no-fix
+npx better-lerna-audit --exclude 1006914
