@@ -16,7 +16,8 @@
         "dist"
     ],
     "scripts": {
-        "build": "tsc"
+        "build": "tsc",
+        "license-check": "license-check"
     },
     "dependencies": {
         "@js-soft/docdb-access-loki": "^1.0.2",

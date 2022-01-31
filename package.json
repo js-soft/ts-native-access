@@ -12,7 +12,8 @@
     },
     "devDependencies": {
         "@js-soft/eslint-config-ts": "^1.4.2",
-        "better-lerna-audit": "^1.0.0-beta.1",
+        "@js-soft/license-check": "^1.0.3",
+        "better-lerna-audit": "^1.0.0",
         "eslint": "^8.8.0",
         "lerna": "^4.0.0",
         "prettier": "^2.5.1",
