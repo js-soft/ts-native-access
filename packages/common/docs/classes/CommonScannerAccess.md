@@ -4,17 +4,17 @@
 
 ## Implements
 
--   `INativeScannerAccess`
+- `INativeScannerAccess`
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CommonScannerAccess.md#constructor)
+- [constructor](CommonScannerAccess.md#constructor)
 
 ### Methods
 
--   [scan](CommonScannerAccess.md#scan)
+- [scan](CommonScannerAccess.md#scan)
 
 ## Constructors
 
@@ -24,13 +24,13 @@
 
 #### Parameters
 
-| Name     | Type      |
-| :------- | :-------- |
+| Name | Type |
+| :------ | :------ |
 | `logger` | `ILogger` |
 
 #### Defined in
 
-[CommonScannerAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonScannerAccess.ts#L8)
+[CommonScannerAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonScannerAccess.ts#L8)
 
 ## Methods
 
@@ -48,4 +48,4 @@ INativeScannerAccess.scan
 
 #### Defined in
 
-[CommonScannerAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonScannerAccess.ts#L10)
+[CommonScannerAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonScannerAccess.ts#L10)

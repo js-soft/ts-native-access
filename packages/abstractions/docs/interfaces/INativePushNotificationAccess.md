@@ -8,7 +8,7 @@ Receive and handle remote push notifications
 
 ### Methods
 
--   [init](INativePushNotificationAccess.md#init)
+- [init](INativePushNotificationAccess.md#init)
 
 ## Methods
 
@@ -16,7 +16,9 @@ Receive and handle remote push notifications
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
-Initialize module
+Initialize module.
+Once initialized it publishes a [RemoteNotificationRegistrationEvent](../classes/RemoteNotificationRegistrationEvent.md) when the registration of the push notification service was successful.
+It also publishes a [RemoteNotificationEvent](../classes/RemoteNotificationEvent.md) when a remote push notification is received.
 
 #### Returns
 
@@ -24,4 +26,4 @@ Initialize module
 
 #### Defined in
 
-[src/INativePushNotificationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativePushNotificationAccess.ts#L10)
+[src/INativePushNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativePushNotificationAccess.ts#L12)

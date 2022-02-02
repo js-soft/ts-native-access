@@ -4,17 +4,17 @@
 
 ## Implements
 
--   `ILokiJsDatabaseFactory`
+- `INativeDatabaseFactory`
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CommonDatabaseFactory.md#constructor)
+- [constructor](CommonDatabaseFactory.md#constructor)
 
 ### Methods
 
--   [create](CommonDatabaseFactory.md#create)
+- [create](CommonDatabaseFactory.md#create)
 
 ## Constructors
 
@@ -24,14 +24,14 @@
 
 #### Parameters
 
-| Name         | Type                |
-| :----------- | :------------------ |
-| `logger`     | `ILogger`           |
+| Name | Type |
+| :------ | :------ |
+| `logger` | `ILogger` |
 | `fileAccess` | `INativeFileAccess` |
 
 #### Defined in
 
-[CommonDatabaseFactory.ts:9](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonDatabaseFactory.ts#L9)
+[CommonDatabaseFactory.ts:8](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonDatabaseFactory.ts#L8)
 
 ## Methods
 
@@ -41,9 +41,9 @@
 
 #### Parameters
 
-| Name       | Type                                                                                                             |
-| :--------- | :--------------------------------------------------------------------------------------------------------------- |
-| `name`     | `string`                                                                                                         |
+| Name | Type |
+| :------ | :------ |
+| `name` | `string` |
 | `options?` | `Partial`<`LokiConstructorOptions`\> & `Partial`<`LokiConfigOptions`\> & `Partial`<`ThrottledSaveDrainOptions`\> |
 
 #### Returns
@@ -52,8 +52,8 @@
 
 #### Implementation of
 
-ILokiJsDatabaseFactory.create
+INativeDatabaseFactory.create
 
 #### Defined in
 
-[CommonDatabaseFactory.ts:11](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonDatabaseFactory.ts#L11)
+[CommonDatabaseFactory.ts:10](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonDatabaseFactory.ts#L10)

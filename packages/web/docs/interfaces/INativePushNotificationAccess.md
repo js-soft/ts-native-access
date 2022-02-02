@@ -6,13 +6,13 @@ Receive and handle remote push notifications
 
 ## Implemented by
 
--   [`WebPushNotificationAccess`](../classes/WebPushNotificationAccess.md)
+- [`WebPushNotificationAccess`](../classes/WebPushNotificationAccess.md)
 
 ## Table of contents
 
 ### Methods
 
--   [init](INativePushNotificationAccess.md#init)
+- [init](INativePushNotificationAccess.md#init)
 
 ## Methods
 
@@ -20,7 +20,9 @@ Receive and handle remote push notifications
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
-Initialize module
+Initialize module.
+Once initialized it publishes a [RemoteNotificationRegistrationEvent](../classes/RemoteNotificationRegistrationEvent.md) when the registration of the push notification service was successful.
+It also publishes a [RemoteNotificationEvent](../classes/RemoteNotificationEvent.md) when a remote push notification is received.
 
 #### Returns
 
@@ -28,4 +30,4 @@ Initialize module
 
 #### Defined in
 
-abstractions/dist/INativePushNotificationAccess.d.ts:9
+abstractions/dist/INativePushNotificationAccess.d.ts:11

@@ -6,22 +6,22 @@ Event fired when the [configuration module](./INativeConfigAccess.md) changes th
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`ConfigurationSetEvent`**
+  ↳ **`ConfigurationSetEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ConfigurationSetEvent.md#constructor)
+- [constructor](ConfigurationSetEvent.md#constructor)
 
 ### Properties
 
--   [key](ConfigurationSetEvent.md#key)
--   [namespace](ConfigurationSetEvent.md#namespace)
--   [value](ConfigurationSetEvent.md#value)
--   [namespace](ConfigurationSetEvent.md#namespace)
+- [key](ConfigurationSetEvent.md#key)
+- [namespace](ConfigurationSetEvent.md#namespace)
+- [value](ConfigurationSetEvent.md#value)
+- [namespace](ConfigurationSetEvent.md#namespace)
 
 ## Constructors
 
@@ -31,10 +31,10 @@ Event fired when the [configuration module](./INativeConfigAccess.md) changes th
 
 #### Parameters
 
-| Name    | Type     |
-| :------ | :------- |
-| `key`   | `string` |
-| `value` | `any`    |
+| Name | Type |
+| :------ | :------ |
+| `key` | `string` |
+| `value` | `any` |
 
 #### Overrides
 
@@ -42,7 +42,7 @@ Event fired when the [configuration module](./INativeConfigAccess.md) changes th
 
 #### Defined in
 
-[src/NativeEvents.ts:39](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/NativeEvents.ts#L39)
+[src/NativeEvents.ts:39](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L39)
 
 ## Properties
 
@@ -50,7 +50,7 @@ Event fired when the [configuration module](./INativeConfigAccess.md) changes th
 
 • `Readonly` **key**: `string`
 
----
+___
 
 ### namespace
 
@@ -64,18 +64,18 @@ Event fired when the [configuration module](./INativeConfigAccess.md) changes th
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### value
 
 • `Readonly` **value**: `any`
 
----
+___
 
 ### namespace
 
-▪ `Static` `Readonly` **namespace**: `"ConfigurationSet"`
+▪ `Static` `Readonly` **namespace**: ``"ConfigurationSet"``
 
 #### Defined in
 
-[src/NativeEvents.ts:38](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/NativeEvents.ts#L38)
+[src/NativeEvents.ts:38](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L38)

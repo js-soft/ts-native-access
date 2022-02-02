@@ -82,8 +82,8 @@ export class ElectronBootstrapper implements INativeBootstrapper {
             this.nativeEventBus.publish(new AppCloseEvent());
         });
 
-        const configAccess = new CommonConfigAccess(ElectronBootstrapper.configPath, this.nativeEventBus);
-        await configAccess.initDefaultConfig();
+        const configAccess = new CommonConfigAccess(this.nativeEventBus);
+        await configAccess.initDefaultConfig(ElectronBootstrapper.configPath);
         this.nativeConfigAccess = configAccess;
         const fileAccess = new ElectronFileAccess(this.nativeConfigAccess);
         await fileAccess.init();
@@ -97,7 +97,7 @@ export class ElectronBootstrapper implements INativeBootstrapper {
         this.nativeLoggerFactory = new CommonLoggerFactory(this.nativeFileAccess);
         await this.nativeLoggerFactory.init();
         this.logger = this.nativeLoggerFactory.getLogger(ElectronBootstrapper);
-        await configAccess.initRuntimeConfig(this.logger, this.nativeFileAccess);
+        await configAccess.initRuntimeConfig(ElectronBootstrapper.configPath, this.logger, this.nativeFileAccess);
         this.nativeLaunchOptions = new ElectronLaunchOptions(this.logger, this.nativeEventBus, this.nativeConfigAccess);
         await this.nativeLaunchOptions.init();
         this.nativeAuthenticationAccess = new ElectronAuthenticationAccess(this.logger);

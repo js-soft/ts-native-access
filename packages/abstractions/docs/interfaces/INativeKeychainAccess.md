@@ -8,11 +8,11 @@ Access to native keychain
 
 ### Methods
 
--   [delete](INativeKeychainAccess.md#delete)
--   [get](INativeKeychainAccess.md#get)
--   [init](INativeKeychainAccess.md#init)
--   [list](INativeKeychainAccess.md#list)
--   [set](INativeKeychainAccess.md#set)
+- [delete](INativeKeychainAccess.md#delete)
+- [get](INativeKeychainAccess.md#get)
+- [init](INativeKeychainAccess.md#init)
+- [list](INativeKeychainAccess.md#list)
+- [set](INativeKeychainAccess.md#set)
 
 ## Methods
 
@@ -24,8 +24,8 @@ Delete key-value pair
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `key` | `string` |
 
 #### Returns
@@ -34,9 +34,9 @@ Delete key-value pair
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeKeychainAccess.ts#L30)
+[src/INativeKeychainAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeKeychainAccess.ts#L30)
 
----
+___
 
 ### get
 
@@ -46,8 +46,8 @@ Get value for the specified {@link key}
 
 #### Parameters
 
-| Name  | Type     | Description                |
-| :---- | :------- | :------------------------- |
+| Name | Type | Description |
+| :------ | :------ | :------ |
 | `key` | `string` | string identifying a value |
 
 #### Returns
@@ -56,9 +56,9 @@ Get value for the specified {@link key}
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeKeychainAccess.ts#L19)
+[src/INativeKeychainAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeKeychainAccess.ts#L19)
 
----
+___
 
 ### init
 
@@ -72,9 +72,9 @@ Initialize the module
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeKeychainAccess.ts#L38)
+[src/INativeKeychainAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeKeychainAccess.ts#L38)
 
----
+___
 
 ### list
 
@@ -88,9 +88,9 @@ List all key-value pairs added by the applicaion
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeKeychainAccess.ts#L34)
+[src/INativeKeychainAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeKeychainAccess.ts#L34)
 
----
+___
 
 ### set
 
@@ -100,10 +100,10 @@ Add key-value pair to keychain
 
 #### Parameters
 
-| Name    | Type     |
-| :------ | :------- |
-| `key`   | `string` |
-| `value` | `any`    |
+| Name | Type |
+| :------ | :------ |
+| `key` | `string` |
+| `value` | `any` |
 
 #### Returns
 
@@ -111,4 +111,4 @@ Add key-value pair to keychain
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeKeychainAccess.ts#L25)
+[src/INativeKeychainAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeKeychainAccess.ts#L25)

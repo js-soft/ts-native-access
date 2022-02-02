@@ -140,37 +140,43 @@ export interface ICordovaConfig {
 }
 
 /**
- * Management of default and runtime config
+ * Management of default and runtime config. The default config is created during development and delivered as part of the application. The runtime
+ * config is created by the applocation during execution. Default and runtime config are merged to a single config object which can be accessed
+ * through the {@link get} method. The default config is read-only. However, values of the runtime config can "overlay" the default config.
  */
 export interface INativeConfigAccess {
     /**
-     * Read the value associated to a key
+     * Read the value of the config associated to the key.
      * @param key
      */
     get(key: string): Result<any>;
     /**
-     * Save a key-value pair in memory
+     * Change or add a value of/to the runtime config - in memory. To persist the change onto the filesystem, call {@link save}.
+     * A {@link ConfigurationSetEvent} is published on the {@link INativeEventBus} after the value was changed.
      * @param key
      * @param value
      */
     set(key: string, value: any): Result<void>;
     /**
-     * Remove a key-value pair
+     * Remove a key-value pair from the runtime config.
+     * A {@link ConfigurationRemoveEvent} is published on the {@link INativeEventBus} after the value was changed.
      * @param key
      */
     remove(key: string): Result<void>;
     /**
-     * Save the runtime config on the filesystem
+     * Save the runtime config on the filesystem.
+     * A {@link ConfigurationSaveEvent} is published on the {@link INativeEventBus} after the value was changed.
      */
     save(): Promise<Result<void>>;
     /**
-     * Initialize the default config (this does not yet require the filesystem to be initialized)
+     * Initialization of the config module without the requirement of a filesystem.
+     * It loads the default config while keeping the runtime config empty.
+     * @param path Path where the default config is fetched.
      */
-    initDefaultConfig(): Promise<Result<void>>;
+    initDefaultConfig(path: string): Promise<Result<void>>;
     /**
-     * Initialize the runtime config by reading the existing runtime config from the filesystem
-     * @param logger
-     * @param fileAccess
+     * Initialization of the runtime config in addition to the default config with the requirement of a filesystem.
+     * @param path Path where the runtime config is read from the filesystem.
      */
-    initRuntimeConfig(logger: ILogger, fileAccess: INativeFileAccess): Promise<Result<void>>;
+    initRuntimeConfig(path: string, logger: ILogger, fileAccess: INativeFileAccess): Promise<Result<void>>;
 }

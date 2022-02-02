@@ -4,17 +4,17 @@
 
 ## Implements
 
--   [`INativeLaunchOptions`](../interfaces/INativeLaunchOptions.md)
+- [`INativeLaunchOptions`](../interfaces/INativeLaunchOptions.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CordovaLaunchOptions.md#constructor)
+- [constructor](CordovaLaunchOptions.md#constructor)
 
 ### Methods
 
--   [init](CordovaLaunchOptions.md#init)
+- [init](CordovaLaunchOptions.md#init)
 
 ## Constructors
 
@@ -24,15 +24,15 @@
 
 #### Parameters
 
-| Name       | Type                                                          |
-| :--------- | :------------------------------------------------------------ |
-| `logger`   | `ILogger`                                                     |
-| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md)         |
-| `config`   | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
+| Name | Type |
+| :------ | :------ |
+| `logger` | `ILogger` |
+| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
+| `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
 
-[cordova/src/CordovaLaunchOptions.ts:6](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaLaunchOptions.ts#L6)
+[cordova/src/CordovaLaunchOptions.ts:6](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaLaunchOptions.ts#L6)
 
 ## Methods
 
@@ -40,7 +40,8 @@
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
-Initialize handling of launch events
+Initialize handling of launch events. Once initialized, it publishes a [UrlOpenEvent](UrlOpenEvent.md) when the app was started by an url or a [FileViewEvent](FileViewEvent.md)
+when the app was started to open a file.
 
 #### Returns
 
@@ -52,4 +53,4 @@ Initialize handling of launch events
 
 #### Defined in
 
-[cordova/src/CordovaLaunchOptions.ts:8](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaLaunchOptions.ts#L8)
+[cordova/src/CordovaLaunchOptions.ts:8](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaLaunchOptions.ts#L8)

@@ -8,7 +8,7 @@ Handle launches of the app originating from an open url or open file instruction
 
 ### Methods
 
--   [init](INativeLaunchOptions.md#init)
+- [init](INativeLaunchOptions.md#init)
 
 ## Methods
 
@@ -16,7 +16,8 @@ Handle launches of the app originating from an open url or open file instruction
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
-Initialize handling of launch events
+Initialize handling of launch events. Once initialized, it publishes a [UrlOpenEvent](../classes/UrlOpenEvent.md) when the app was started by an url or a [FileViewEvent](../classes/FileViewEvent.md)
+when the app was started to open a file.
 
 #### Returns
 
@@ -24,4 +25,4 @@ Initialize handling of launch events
 
 #### Defined in
 
-abstractions/dist/INativeLaunchOptions.d.ts:9
+abstractions/dist/INativeLaunchOptions.d.ts:10

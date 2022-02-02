@@ -6,21 +6,21 @@ Event fired when the [launch options module](./INativeLaunchOptions.md) register
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`UrlOpenEvent`**
+  ↳ **`UrlOpenEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](UrlOpenEvent.md#constructor)
+- [constructor](UrlOpenEvent.md#constructor)
 
 ### Properties
 
--   [namespace](UrlOpenEvent.md#namespace)
--   [url](UrlOpenEvent.md#url)
--   [namespace](UrlOpenEvent.md#namespace)
+- [namespace](UrlOpenEvent.md#namespace)
+- [url](UrlOpenEvent.md#url)
+- [namespace](UrlOpenEvent.md#namespace)
 
 ## Constructors
 
@@ -30,8 +30,8 @@ Event fired when the [launch options module](./INativeLaunchOptions.md) register
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `url` | `string` |
 
 #### Overrides
@@ -56,7 +56,7 @@ abstractions/dist/NativeEvents.d.ts:49
 
 abstractions/node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### url
 
@@ -66,7 +66,7 @@ abstractions/node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
 abstractions/dist/NativeEvents.d.ts:47
 
----
+___
 
 ### namespace
 

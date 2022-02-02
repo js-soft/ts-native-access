@@ -8,12 +8,12 @@ Mangage local notifications
 
 ### Methods
 
--   [clear](INativeNotificationAccess.md#clear)
--   [clearAll](INativeNotificationAccess.md#clearall)
--   [getAll](INativeNotificationAccess.md#getall)
--   [init](INativeNotificationAccess.md#init)
--   [schedule](INativeNotificationAccess.md#schedule)
--   [update](INativeNotificationAccess.md#update)
+- [clear](INativeNotificationAccess.md#clear)
+- [clearAll](INativeNotificationAccess.md#clearall)
+- [getAll](INativeNotificationAccess.md#getall)
+- [init](INativeNotificationAccess.md#init)
+- [schedule](INativeNotificationAccess.md#schedule)
+- [update](INativeNotificationAccess.md#update)
 
 ## Methods
 
@@ -25,8 +25,8 @@ Remove a notification from being displayed
 
 #### Parameters
 
-| Name | Type     | Description                      |
-| :--- | :------- | :------------------------------- |
+| Name | Type | Description |
+| :------ | :------ | :------ |
 | `id` | `number` | id of the notification to remove |
 
 #### Returns
@@ -37,7 +37,7 @@ Remove a notification from being displayed
 
 abstractions/dist/INativeNotificationAccess.d.ts:63
 
----
+___
 
 ### clearAll
 
@@ -53,7 +53,7 @@ Remove all notifications from being displayed
 
 abstractions/dist/INativeNotificationAccess.d.ts:67
 
----
+___
 
 ### getAll
 
@@ -69,7 +69,7 @@ Retrieve all notifications currently being displayed
 
 abstractions/dist/INativeNotificationAccess.d.ts:71
 
----
+___
 
 ### init
 
@@ -85,7 +85,7 @@ Initialize module
 
 abstractions/dist/INativeNotificationAccess.d.ts:75
 
----
+___
 
 ### schedule
 
@@ -95,11 +95,11 @@ Display a local notification
 
 #### Parameters
 
-| Name       | Type                                                                          | Description                     |
-| :--------- | :---------------------------------------------------------------------------- | :------------------------------ |
-| `title`    | `string`                                                                      | title displayed in notification |
-| `body`     | `string`                                                                      | body displayed in notification  |
-| `options?` | [`INativeNotificationScheduleOptions`](INativeNotificationScheduleOptions.md) | additional options              |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `title` | `string` | title displayed in notification |
+| `body` | `string` | body displayed in notification |
+| `options?` | [`INativeNotificationScheduleOptions`](INativeNotificationScheduleOptions.md) | additional options |
 
 #### Returns
 
@@ -109,7 +109,7 @@ Display a local notification
 
 abstractions/dist/INativeNotificationAccess.d.ts:50
 
----
+___
 
 ### update
 
@@ -119,11 +119,11 @@ Update the content of an already displayed notification
 
 #### Parameters
 
-| Name       | Type                                                                          | Description                                |
-| :--------- | :---------------------------------------------------------------------------- | :----------------------------------------- |
-| `id`       | `number`                                                                      | id of the notification to update           |
-| `title`    | `string`                                                                      | new title of the notification              |
-| `body`     | `string`                                                                      | new body of the notification               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `number` | id of the notification to update |
+| `title` | `string` | new title of the notification |
+| `body` | `string` | new body of the notification |
 | `options?` | [`INativeNotificationScheduleOptions`](INativeNotificationScheduleOptions.md) | new additional options of the notification |
 
 #### Returns

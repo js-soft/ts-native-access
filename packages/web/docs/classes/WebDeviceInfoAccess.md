@@ -4,25 +4,25 @@
 
 ## Implements
 
--   [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
+- [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](WebDeviceInfoAccess.md#constructor)
+- [constructor](WebDeviceInfoAccess.md#constructor)
 
 ### Properties
 
--   [\_deviceInfo](WebDeviceInfoAccess.md#_deviceinfo)
+- [\_deviceInfo](WebDeviceInfoAccess.md#_deviceinfo)
 
 ### Accessors
 
--   [deviceInfo](WebDeviceInfoAccess.md#deviceinfo)
+- [deviceInfo](WebDeviceInfoAccess.md#deviceinfo)
 
 ### Methods
 
--   [init](WebDeviceInfoAccess.md#init)
+- [init](WebDeviceInfoAccess.md#init)
 
 ## Constructors
 
@@ -32,13 +32,13 @@
 
 #### Parameters
 
-| Name     | Type                                                          |
-| :------- | :------------------------------------------------------------ |
+| Name | Type |
+| :------ | :------ |
 | `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
 
-[web/src/WebDeviceInfoAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebDeviceInfoAccess.ts#L6)
+[web/src/WebDeviceInfoAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebDeviceInfoAccess.ts#L6)
 
 ## Properties
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[web/src/WebDeviceInfoAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebDeviceInfoAccess.ts#L11)
+[web/src/WebDeviceInfoAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebDeviceInfoAccess.ts#L11)
 
 ## Accessors
 
@@ -68,7 +68,7 @@ Available information about the device running the app
 
 #### Defined in
 
-[web/src/WebDeviceInfoAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebDeviceInfoAccess.ts#L8)
+[web/src/WebDeviceInfoAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebDeviceInfoAccess.ts#L8)
 
 ## Methods
 
@@ -88,4 +88,4 @@ Initialize the module to retrieve relevant device information
 
 #### Defined in
 
-[web/src/WebDeviceInfoAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebDeviceInfoAccess.ts#L13)
+[web/src/WebDeviceInfoAccess.ts:13](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebDeviceInfoAccess.ts#L13)

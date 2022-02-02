@@ -4,29 +4,29 @@
 
 ## Implements
 
--   [`INativeKeychainAccess`](../interfaces/INativeKeychainAccess.md)
+- [`INativeKeychainAccess`](../interfaces/INativeKeychainAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](WebKeychainAccess.md#constructor)
+- [constructor](WebKeychainAccess.md#constructor)
 
 ### Properties
 
--   [listkey](WebKeychainAccess.md#listkey)
--   [prefix](WebKeychainAccess.md#prefix)
+- [listkey](WebKeychainAccess.md#listkey)
+- [prefix](WebKeychainAccess.md#prefix)
 
 ### Methods
 
--   [addToList](WebKeychainAccess.md#addtolist)
--   [delete](WebKeychainAccess.md#delete)
--   [get](WebKeychainAccess.md#get)
--   [getListOfKeys](WebKeychainAccess.md#getlistofkeys)
--   [init](WebKeychainAccess.md#init)
--   [list](WebKeychainAccess.md#list)
--   [removeFromList](WebKeychainAccess.md#removefromlist)
--   [set](WebKeychainAccess.md#set)
+- [addToList](WebKeychainAccess.md#addtolist)
+- [delete](WebKeychainAccess.md#delete)
+- [get](WebKeychainAccess.md#get)
+- [getListOfKeys](WebKeychainAccess.md#getlistofkeys)
+- [init](WebKeychainAccess.md#init)
+- [list](WebKeychainAccess.md#list)
+- [removeFromList](WebKeychainAccess.md#removefromlist)
+- [set](WebKeychainAccess.md#set)
 
 ## Constructors
 
@@ -36,13 +36,13 @@
 
 #### Parameters
 
-| Name     | Type      |
-| :------- | :-------- |
+| Name | Type |
+| :------ | :------ |
 | `logger` | `ILogger` |
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L8)
+[web/src/WebKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebKeychainAccess.ts#L8)
 
 ## Properties
 
@@ -52,9 +52,9 @@
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L7)
+[web/src/WebKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebKeychainAccess.ts#L7)
 
----
+___
 
 ### prefix
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L6)
+[web/src/WebKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebKeychainAccess.ts#L6)
 
 ## Methods
 
@@ -72,8 +72,8 @@
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `key` | `string` |
 
 #### Returns
@@ -82,9 +82,9 @@
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L22)
+[web/src/WebKeychainAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebKeychainAccess.ts#L22)
 
----
+___
 
 ### delete
 
@@ -94,8 +94,8 @@ Delete key-value pair
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `key` | `string` |
 
 #### Returns
@@ -108,9 +108,9 @@ Delete key-value pair
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:63](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L63)
+[web/src/WebKeychainAccess.ts:63](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebKeychainAccess.ts#L63)
 
----
+___
 
 ### get
 
@@ -120,8 +120,8 @@ Get value for the specified {@link key}
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `key` | `string` |
 
 #### Returns
@@ -134,9 +134,9 @@ Get value for the specified {@link key}
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:43](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L43)
+[web/src/WebKeychainAccess.ts:43](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebKeychainAccess.ts#L43)
 
----
+___
 
 ### getListOfKeys
 
@@ -148,9 +148,9 @@ Get value for the specified {@link key}
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L10)
+[web/src/WebKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebKeychainAccess.ts#L10)
 
----
+___
 
 ### init
 
@@ -168,9 +168,9 @@ Initialize the module
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:39](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L39)
+[web/src/WebKeychainAccess.ts:39](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebKeychainAccess.ts#L39)
 
----
+___
 
 ### list
 
@@ -188,9 +188,9 @@ List all key-value pairs added by the applicaion
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L73)
+[web/src/WebKeychainAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebKeychainAccess.ts#L73)
 
----
+___
 
 ### removeFromList
 
@@ -198,8 +198,8 @@ List all key-value pairs added by the applicaion
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `key` | `string` |
 
 #### Returns
@@ -208,9 +208,9 @@ List all key-value pairs added by the applicaion
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L30)
+[web/src/WebKeychainAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebKeychainAccess.ts#L30)
 
----
+___
 
 ### set
 
@@ -220,10 +220,10 @@ Add key-value pair to keychain
 
 #### Parameters
 
-| Name    | Type     |
-| :------ | :------- |
-| `key`   | `string` |
-| `value` | `any`    |
+| Name | Type |
+| :------ | :------ |
+| `key` | `string` |
+| `value` | `any` |
 
 #### Returns
 
@@ -235,4 +235,4 @@ Add key-value pair to keychain
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebKeychainAccess.ts#L53)
+[web/src/WebKeychainAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebKeychainAccess.ts#L53)

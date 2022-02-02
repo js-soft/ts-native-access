@@ -4,24 +4,27 @@
 
 ## Implements
 
--   [`INativeLoggerFactory`](../interfaces/INativeLoggerFactory.md)
+- [`INativeLoggerFactory`](../interfaces/INativeLoggerFactory.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CommonLoggerFactory.md#constructor)
+- [constructor](CommonLoggerFactory.md#constructor)
 
 ### Properties
 
--   [\_initWeb](CommonLoggerFactory.md#_initweb)
--   [fileAccess](CommonLoggerFactory.md#fileaccess)
--   [formatMessages](CommonLoggerFactory.md#formatmessages)
+- [addLog](CommonLoggerFactory.md#addlog)
+- [busy](CommonLoggerFactory.md#busy)
+- [fileAccess](CommonLoggerFactory.md#fileaccess)
+- [formatMessages](CommonLoggerFactory.md#formatmessages)
+- [queue](CommonLoggerFactory.md#queue)
+- [saveQueue](CommonLoggerFactory.md#savequeue)
 
 ### Methods
 
--   [getLogger](CommonLoggerFactory.md#getlogger)
--   [init](CommonLoggerFactory.md#init)
+- [getLogger](CommonLoggerFactory.md#getlogger)
+- [init](CommonLoggerFactory.md#init)
 
 ## Constructors
 
@@ -31,8 +34,8 @@
 
 #### Parameters
 
-| Name         | Type                                                      |
-| :----------- | :-------------------------------------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `fileAccess` | [`INativeFileAccess`](../interfaces/INativeFileAccess.md) |
 
 #### Defined in
@@ -41,15 +44,27 @@ common/dist/CommonLoggerFactory.d.ts:6
 
 ## Properties
 
-### \_initWeb
+### addLog
 
-• `Private` **\_initWeb**: `any`
+• `Private` **addLog**: `any`
+
+Add the log to a queue for saving to filesystem
 
 #### Defined in
 
-common/dist/CommonLoggerFactory.d.ts:9
+common/dist/CommonLoggerFactory.d.ts:18
 
----
+___
+
+### busy
+
+• `Private` **busy**: `any`
+
+#### Defined in
+
+common/dist/CommonLoggerFactory.d.ts:10
+
+___
 
 ### fileAccess
 
@@ -59,7 +74,7 @@ common/dist/CommonLoggerFactory.d.ts:9
 
 common/dist/CommonLoggerFactory.d.ts:5
 
----
+___
 
 ### formatMessages
 
@@ -69,6 +84,28 @@ common/dist/CommonLoggerFactory.d.ts:5
 
 common/dist/CommonLoggerFactory.d.ts:8
 
+___
+
+### queue
+
+• `Private` `Readonly` **queue**: `any`
+
+#### Defined in
+
+common/dist/CommonLoggerFactory.d.ts:9
+
+___
+
+### saveQueue
+
+• `Private` **saveQueue**: `any`
+
+Save the queue of logs to the filesystem
+
+#### Defined in
+
+common/dist/CommonLoggerFactory.d.ts:14
+
 ## Methods
 
 ### getLogger
@@ -77,8 +114,8 @@ common/dist/CommonLoggerFactory.d.ts:8
 
 #### Parameters
 
-| Name    | Type                   |
-| :------ | :--------------------- |
+| Name | Type |
+| :------ | :------ |
 | `oName` | `string` \| `Function` |
 
 #### Returns
@@ -91,9 +128,9 @@ common/dist/CommonLoggerFactory.d.ts:8
 
 #### Defined in
 
-common/dist/CommonLoggerFactory.d.ts:10
+common/dist/CommonLoggerFactory.d.ts:19
 
----
+___
 
 ### init
 

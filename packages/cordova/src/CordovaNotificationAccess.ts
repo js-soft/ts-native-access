@@ -22,6 +22,7 @@ export class CordovaNotificationAccess implements INativeNotificationAccess {
                 type: "button",
                 id: Math.round(Math.random() * 1000)
             };
+            // register the button press handler
             cordova.plugins.notification.local.on(action.id, button.callback);
             return action;
         });
@@ -32,6 +33,7 @@ export class CordovaNotificationAccess implements INativeNotificationAccess {
                 type: "input",
                 id: Math.round(Math.random() * 1000)
             };
+            // register the text input handler
             cordova.plugins.notification.local.on(action.id, (notification: any, input: any) => text.callback(input.text));
             return action;
         });

@@ -4,48 +4,48 @@
 
 ## Implements
 
--   [`INativeFileAccess`](../interfaces/INativeFileAccess.md)
+- [`INativeFileAccess`](../interfaces/INativeFileAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CordovaFileAccess.md#constructor)
+- [constructor](CordovaFileAccess.md#constructor)
 
 ### Properties
 
--   [fs](CordovaFileAccess.md#fs)
--   [fstmp](CordovaFileAccess.md#fstmp)
+- [fs](CordovaFileAccess.md#fs)
+- [fstmp](CordovaFileAccess.md#fstmp)
 
 ### Methods
 
--   [createDirectory](CordovaFileAccess.md#createdirectory)
--   [createDirectoryEntry](CordovaFileAccess.md#createdirectoryentry)
--   [createFileEntry](CordovaFileAccess.md#createfileentry)
--   [deleteDirectory](CordovaFileAccess.md#deletedirectory)
--   [deleteFile](CordovaFileAccess.md#deletefile)
--   [existsDirectory](CordovaFileAccess.md#existsdirectory)
--   [existsFile](CordovaFileAccess.md#existsfile)
--   [getDirectoryEntries](CordovaFileAccess.md#getdirectoryentries)
--   [getDirectoryEntry](CordovaFileAccess.md#getdirectoryentry)
--   [getDirectoryReader](CordovaFileAccess.md#getdirectoryreader)
--   [getFile](CordovaFileAccess.md#getfile)
--   [getFileEntry](CordovaFileAccess.md#getfileentry)
--   [getFileReader](CordovaFileAccess.md#getfilereader)
--   [getFileWriter](CordovaFileAccess.md#getfilewriter)
--   [infoDirectory](CordovaFileAccess.md#infodirectory)
--   [infoFile](CordovaFileAccess.md#infofile)
--   [init](CordovaFileAccess.md#init)
--   [openFile](CordovaFileAccess.md#openfile)
--   [openFileContent](CordovaFileAccess.md#openfilecontent)
--   [readFileAsBinary](CordovaFileAccess.md#readfileasbinary)
--   [readFileAsText](CordovaFileAccess.md#readfileastext)
--   [removeDirectoryEntry](CordovaFileAccess.md#removedirectoryentry)
--   [removeFileEntry](CordovaFileAccess.md#removefileentry)
--   [resolveErrorCode](CordovaFileAccess.md#resolveerrorcode)
--   [resolveNativePath](CordovaFileAccess.md#resolvenativepath)
--   [select](CordovaFileAccess.md#select)
--   [writeFile](CordovaFileAccess.md#writefile)
+- [createDirectory](CordovaFileAccess.md#createdirectory)
+- [createDirectoryEntry](CordovaFileAccess.md#createdirectoryentry)
+- [createFileEntry](CordovaFileAccess.md#createfileentry)
+- [deleteDirectory](CordovaFileAccess.md#deletedirectory)
+- [deleteFile](CordovaFileAccess.md#deletefile)
+- [existsDirectory](CordovaFileAccess.md#existsdirectory)
+- [existsFile](CordovaFileAccess.md#existsfile)
+- [getDirectoryEntries](CordovaFileAccess.md#getdirectoryentries)
+- [getDirectoryEntry](CordovaFileAccess.md#getdirectoryentry)
+- [getDirectoryReader](CordovaFileAccess.md#getdirectoryreader)
+- [getFile](CordovaFileAccess.md#getfile)
+- [getFileEntry](CordovaFileAccess.md#getfileentry)
+- [getFileReader](CordovaFileAccess.md#getfilereader)
+- [getFileWriter](CordovaFileAccess.md#getfilewriter)
+- [infoDirectory](CordovaFileAccess.md#infodirectory)
+- [infoFile](CordovaFileAccess.md#infofile)
+- [init](CordovaFileAccess.md#init)
+- [openFile](CordovaFileAccess.md#openfile)
+- [openFileContent](CordovaFileAccess.md#openfilecontent)
+- [readFileAsBinary](CordovaFileAccess.md#readfileasbinary)
+- [readFileAsText](CordovaFileAccess.md#readfileastext)
+- [removeDirectoryEntry](CordovaFileAccess.md#removedirectoryentry)
+- [removeFileEntry](CordovaFileAccess.md#removefileentry)
+- [resolveErrorCode](CordovaFileAccess.md#resolveerrorcode)
+- [resolveNativePath](CordovaFileAccess.md#resolvenativepath)
+- [select](CordovaFileAccess.md#select)
+- [writeFile](CordovaFileAccess.md#writefile)
 
 ## Constructors
 
@@ -55,13 +55,13 @@
 
 #### Parameters
 
-| Name     | Type                                                          |
-| :------- | :------------------------------------------------------------ |
+| Name | Type |
+| :------ | :------ |
 | `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L14)
+[cordova/src/CordovaFileAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L14)
 
 ## Properties
 
@@ -71,9 +71,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L16)
+[cordova/src/CordovaFileAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L16)
 
----
+___
 
 ### fstmp
 
@@ -81,7 +81,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L17)
+[cordova/src/CordovaFileAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L17)
 
 ## Methods
 
@@ -93,9 +93,9 @@ Create a directory
 
 #### Parameters
 
-| Name      | Type                                                 | Default value           |
-| :-------- | :--------------------------------------------------- | :---------------------- |
-| `path`    | `string`                                             | `undefined`             |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `path` | `string` | `undefined` |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -108,9 +108,9 @@ Create a directory
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:244](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L244)
+[cordova/src/CordovaFileAccess.ts:243](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L243)
 
----
+___
 
 ### createDirectoryEntry
 
@@ -118,10 +118,10 @@ Create a directory
 
 #### Parameters
 
-| Name   | Type     |
-| :----- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `path` | `string` |
-| `fs`   | `any`    |
+| `fs` | `any` |
 
 #### Returns
 
@@ -129,9 +129,9 @@ Create a directory
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L37)
+[cordova/src/CordovaFileAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L37)
 
----
+___
 
 ### createFileEntry
 
@@ -139,10 +139,10 @@ Create a directory
 
 #### Parameters
 
-| Name   | Type     |
-| :----- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `path` | `string` |
-| `fs`   | `any`    |
+| `fs` | `any` |
 
 #### Returns
 
@@ -150,9 +150,9 @@ Create a directory
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:33](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L33)
+[cordova/src/CordovaFileAccess.ts:33](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L33)
 
----
+___
 
 ### deleteDirectory
 
@@ -162,9 +162,9 @@ Delete a directory
 
 #### Parameters
 
-| Name      | Type                                                 | Default value           |
-| :-------- | :--------------------------------------------------- | :---------------------- |
-| `path`    | `string`                                             | `undefined`             |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `path` | `string` | `undefined` |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -177,9 +177,9 @@ Delete a directory
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:254](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L254)
+[cordova/src/CordovaFileAccess.ts:253](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L253)
 
----
+___
 
 ### deleteFile
 
@@ -189,9 +189,9 @@ Delete specified file
 
 #### Parameters
 
-| Name      | Type                                                 | Default value           |
-| :-------- | :--------------------------------------------------- | :---------------------- |
-| `path`    | `string`                                             | `undefined`             |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `path` | `string` | `undefined` |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -204,9 +204,9 @@ Delete specified file
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:179](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L179)
+[cordova/src/CordovaFileAccess.ts:179](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L179)
 
----
+___
 
 ### existsDirectory
 
@@ -216,9 +216,9 @@ Test if a directory exists
 
 #### Parameters
 
-| Name      | Type                                                 | Default value           |
-| :-------- | :--------------------------------------------------- | :---------------------- |
-| `path`    | `string`                                             | `undefined`             |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `path` | `string` | `undefined` |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -231,9 +231,9 @@ Test if a directory exists
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:265](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L265)
+[cordova/src/CordovaFileAccess.ts:264](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L264)
 
----
+___
 
 ### existsFile
 
@@ -243,9 +243,9 @@ Test if a file exists
 
 #### Parameters
 
-| Name      | Type                                                 | Default value           |
-| :-------- | :--------------------------------------------------- | :---------------------- |
-| `path`    | `string`                                             | `undefined`             |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `path` | `string` | `undefined` |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -258,9 +258,9 @@ Test if a file exists
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:190](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L190)
+[cordova/src/CordovaFileAccess.ts:190](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L190)
 
----
+___
 
 ### getDirectoryEntries
 
@@ -268,8 +268,8 @@ Test if a file exists
 
 #### Parameters
 
-| Name              | Type              |
-| :---------------- | :---------------- |
+| Name | Type |
+| :------ | :------ |
 | `directoryReader` | `DirectoryReader` |
 
 #### Returns
@@ -278,9 +278,9 @@ Test if a file exists
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:57](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L57)
+[cordova/src/CordovaFileAccess.ts:57](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L57)
 
----
+___
 
 ### getDirectoryEntry
 
@@ -288,10 +288,10 @@ Test if a file exists
 
 #### Parameters
 
-| Name   | Type     |
-| :----- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `path` | `string` |
-| `fs`   | `any`    |
+| `fs` | `any` |
 
 #### Returns
 
@@ -299,9 +299,9 @@ Test if a file exists
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L29)
+[cordova/src/CordovaFileAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L29)
 
----
+___
 
 ### getDirectoryReader
 
@@ -309,8 +309,8 @@ Test if a file exists
 
 #### Parameters
 
-| Name             | Type             |
-| :--------------- | :--------------- |
+| Name | Type |
+| :------ | :------ |
 | `directoryEntry` | `DirectoryEntry` |
 
 #### Returns
@@ -319,9 +319,9 @@ Test if a file exists
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L53)
+[cordova/src/CordovaFileAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L53)
 
----
+___
 
 ### getFile
 
@@ -329,8 +329,8 @@ Test if a file exists
 
 #### Parameters
 
-| Name        | Type        |
-| :---------- | :---------- |
+| Name | Type |
+| :------ | :------ |
 | `fileEntry` | `FileEntry` |
 
 #### Returns
@@ -339,9 +339,9 @@ Test if a file exists
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:41](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L41)
+[cordova/src/CordovaFileAccess.ts:41](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L41)
 
----
+___
 
 ### getFileEntry
 
@@ -349,10 +349,10 @@ Test if a file exists
 
 #### Parameters
 
-| Name   | Type     |
-| :----- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `path` | `string` |
-| `fs`   | `any`    |
+| `fs` | `any` |
 
 #### Returns
 
@@ -360,9 +360,9 @@ Test if a file exists
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L25)
+[cordova/src/CordovaFileAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L25)
 
----
+___
 
 ### getFileReader
 
@@ -374,9 +374,9 @@ Test if a file exists
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:49](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L49)
+[cordova/src/CordovaFileAccess.ts:49](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L49)
 
----
+___
 
 ### getFileWriter
 
@@ -384,8 +384,8 @@ Test if a file exists
 
 #### Parameters
 
-| Name        | Type        |
-| :---------- | :---------- |
+| Name | Type |
+| :------ | :------ |
 | `fileEntry` | `FileEntry` |
 
 #### Returns
@@ -394,9 +394,9 @@ Test if a file exists
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:45](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L45)
+[cordova/src/CordovaFileAccess.ts:45](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L45)
 
----
+___
 
 ### infoDirectory
 
@@ -406,9 +406,9 @@ Retrieve information about a specified directory
 
 #### Parameters
 
-| Name      | Type                                                 | Default value           |
-| :-------- | :--------------------------------------------------- | :---------------------- |
-| `path`    | `string`                                             | `undefined`             |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `path` | `string` | `undefined` |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -421,9 +421,9 @@ Retrieve information about a specified directory
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:205](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L205)
+[cordova/src/CordovaFileAccess.ts:204](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L204)
 
----
+___
 
 ### infoFile
 
@@ -433,9 +433,9 @@ Retrieve meta information about the specified file
 
 #### Parameters
 
-| Name      | Type                                                 | Default value           |
-| :-------- | :--------------------------------------------------- | :---------------------- |
-| `path`    | `string`                                             | `undefined`             |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `path` | `string` | `undefined` |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -448,9 +448,9 @@ Retrieve meta information about the specified file
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:105](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L105)
+[cordova/src/CordovaFileAccess.ts:105](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L105)
 
----
+___
 
 ### init
 
@@ -468,9 +468,9 @@ Initialize the native features and create a folder structure
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L19)
+[cordova/src/CordovaFileAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L19)
 
----
+___
 
 ### openFile
 
@@ -480,9 +480,9 @@ Open a file with the standard application specified by the operating system
 
 #### Parameters
 
-| Name      | Type                                                 | Default value           |
-| :-------- | :--------------------------------------------------- | :---------------------- |
-| `path`    | `string`                                             | `undefined`             |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `path` | `string` | `undefined` |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -495,9 +495,9 @@ Open a file with the standard application specified by the operating system
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:320](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L320)
+[cordova/src/CordovaFileAccess.ts:319](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L319)
 
----
+___
 
 ### openFileContent
 
@@ -507,9 +507,9 @@ Create and open a file with the standard application specified by the operating 
 
 #### Parameters
 
-| Name       | Type                                                          |
-| :--------- | :------------------------------------------------------------ |
-| `data`     | `Uint8Array`                                                  |
+| Name | Type |
+| :------ | :------ |
+| `data` | `Uint8Array` |
 | `metadata` | [`INativeFileMetadata`](../interfaces/INativeFileMetadata.md) |
 
 #### Returns
@@ -522,9 +522,9 @@ Create and open a file with the standard application specified by the operating 
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:340](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L340)
+[cordova/src/CordovaFileAccess.ts:339](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L339)
 
----
+___
 
 ### readFileAsBinary
 
@@ -534,9 +534,9 @@ Read the data of the specified file as a an array
 
 #### Parameters
 
-| Name      | Type                                                 | Default value           |
-| :-------- | :--------------------------------------------------- | :---------------------- |
-| `path`    | `string`                                             | `undefined`             |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `path` | `string` | `undefined` |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -549,9 +549,9 @@ Read the data of the specified file as a an array
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:141](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L141)
+[cordova/src/CordovaFileAccess.ts:141](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L141)
 
----
+___
 
 ### readFileAsText
 
@@ -561,9 +561,9 @@ Read the data of the specified file as a string
 
 #### Parameters
 
-| Name      | Type                                                 | Default value           |
-| :-------- | :--------------------------------------------------- | :---------------------- |
-| `path`    | `string`                                             | `undefined`             |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `path` | `string` | `undefined` |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
 
 #### Returns
@@ -576,9 +576,9 @@ Read the data of the specified file as a string
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:124](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L124)
+[cordova/src/CordovaFileAccess.ts:124](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L124)
 
----
+___
 
 ### removeDirectoryEntry
 
@@ -586,10 +586,10 @@ Read the data of the specified file as a string
 
 #### Parameters
 
-| Name             | Type             |
-| :--------------- | :--------------- |
+| Name | Type |
+| :------ | :------ |
 | `directoryEntry` | `DirectoryEntry` |
-| `recursive`      | `boolean`        |
+| `recursive` | `boolean` |
 
 #### Returns
 
@@ -597,9 +597,9 @@ Read the data of the specified file as a string
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:65](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L65)
+[cordova/src/CordovaFileAccess.ts:65](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L65)
 
----
+___
 
 ### removeFileEntry
 
@@ -607,8 +607,8 @@ Read the data of the specified file as a string
 
 #### Parameters
 
-| Name        | Type        |
-| :---------- | :---------- |
+| Name | Type |
+| :------ | :------ |
 | `fileEntry` | `FileEntry` |
 
 #### Returns
@@ -617,9 +617,9 @@ Read the data of the specified file as a string
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:61](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L61)
+[cordova/src/CordovaFileAccess.ts:61](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L61)
 
----
+___
 
 ### resolveErrorCode
 
@@ -627,8 +627,8 @@ Read the data of the specified file as a string
 
 #### Parameters
 
-| Name    | Type  |
-| :------ | :---- |
+| Name | Type |
+| :------ | :------ |
 | `error` | `any` |
 
 #### Returns
@@ -637,9 +637,9 @@ Read the data of the specified file as a string
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L73)
+[cordova/src/CordovaFileAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L73)
 
----
+___
 
 ### resolveNativePath
 
@@ -647,8 +647,8 @@ Read the data of the specified file as a string
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `uri` | `string` |
 
 #### Returns
@@ -657,9 +657,9 @@ Read the data of the specified file as a string
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:69](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L69)
+[cordova/src/CordovaFileAccess.ts:69](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L69)
 
----
+___
 
 ### select
 
@@ -677,9 +677,9 @@ Open the file selection dialog of the operating system and receive the selected 
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:280](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L280)
+[cordova/src/CordovaFileAccess.ts:279](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L279)
 
----
+___
 
 ### writeFile
 
@@ -689,12 +689,12 @@ Write data to a file
 
 #### Parameters
 
-| Name      | Type                                                 | Default value           |
-| :-------- | :--------------------------------------------------- | :---------------------- |
-| `path`    | `string`                                             | `undefined`             |
-| `data`    | `string` \| `Uint8Array`                             | `undefined`             |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `path` | `string` | `undefined` |
+| `data` | `string` \| `Uint8Array` | `undefined` |
 | `storage` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | `NativeFileStorage.App` |
-| `append`  | `boolean`                                            | `false`                 |
+| `append` | `boolean` | `false` |
 
 #### Returns
 
@@ -706,4 +706,4 @@ Write data to a file
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:158](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/cordova/src/CordovaFileAccess.ts#L158)
+[cordova/src/CordovaFileAccess.ts:158](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaFileAccess.ts#L158)

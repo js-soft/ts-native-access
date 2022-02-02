@@ -190,7 +190,6 @@ export class CordovaFileAccess implements INativeFileAccess {
     public async existsFile(path: string, storage: NativeFileStorage = NativeFileStorage.App): Promise<Result<boolean>> {
         try {
             const _fs = storage === NativeFileStorage.Temp ? this.fstmp : this.fs;
-            // Exception based programming (sry)
             try {
                 await this.getFileEntry(path, _fs);
             } catch (err) {

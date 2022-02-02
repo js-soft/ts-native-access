@@ -6,24 +6,24 @@ Event fired when the app changes theme
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`ThemeEvent`**
+  ↳ **`ThemeEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ThemeEvent.md#constructor)
+- [constructor](ThemeEvent.md#constructor)
 
 ### Properties
 
--   [backgroundColor](ThemeEvent.md#backgroundcolor)
--   [image](ThemeEvent.md#image)
--   [namespace](ThemeEvent.md#namespace)
--   [textColor](ThemeEvent.md#textcolor)
--   [textStyle](ThemeEvent.md#textstyle)
--   [namespace](ThemeEvent.md#namespace)
+- [backgroundColor](ThemeEvent.md#backgroundcolor)
+- [image](ThemeEvent.md#image)
+- [namespace](ThemeEvent.md#namespace)
+- [textColor](ThemeEvent.md#textcolor)
+- [textStyle](ThemeEvent.md#textstyle)
+- [namespace](ThemeEvent.md#namespace)
 
 ## Constructors
 
@@ -33,12 +33,12 @@ Event fired when the app changes theme
 
 #### Parameters
 
-| Name              | Type                                           |
-| :---------------- | :--------------------------------------------- |
-| `backgroundColor` | `string`                                       |
-| `textStyle`       | [`ThemeTextStyle`](../enums/ThemeTextStyle.md) |
-| `textColor?`      | `string`                                       |
-| `image?`          | `string`                                       |
+| Name | Type |
+| :------ | :------ |
+| `backgroundColor` | `string` |
+| `textStyle` | [`ThemeTextStyle`](../enums/ThemeTextStyle.md) |
+| `textColor?` | `string` |
+| `image?` | `string` |
 
 #### Overrides
 
@@ -46,7 +46,7 @@ Event fired when the app changes theme
 
 #### Defined in
 
-[src/NativeEvents.ts:104](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/NativeEvents.ts#L104)
+[src/NativeEvents.ts:104](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L104)
 
 ## Properties
 
@@ -54,13 +54,13 @@ Event fired when the app changes theme
 
 • `Readonly` **backgroundColor**: `string`
 
----
+___
 
 ### image
 
 • `Optional` `Readonly` **image**: `string`
 
----
+___
 
 ### namespace
 
@@ -74,19 +74,19 @@ Event fired when the app changes theme
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### textColor
 
 • `Optional` `Readonly` **textColor**: `string`
 
----
+___
 
 ### textStyle
 
 • `Readonly` **textStyle**: [`ThemeTextStyle`](../enums/ThemeTextStyle.md)
 
----
+___
 
 ### namespace
 
@@ -94,4 +94,4 @@ node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
 #### Defined in
 
-[src/NativeEvents.ts:103](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/NativeEvents.ts#L103)
+[src/NativeEvents.ts:103](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L103)

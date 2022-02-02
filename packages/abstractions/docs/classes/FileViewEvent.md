@@ -6,21 +6,21 @@ Event fired when the [launch options module](./INativeLaunchOptions.md) register
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`FileViewEvent`**
+  ↳ **`FileViewEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](FileViewEvent.md#constructor)
+- [constructor](FileViewEvent.md#constructor)
 
 ### Properties
 
--   [namespace](FileViewEvent.md#namespace)
--   [uri](FileViewEvent.md#uri)
--   [namespace](FileViewEvent.md#namespace)
+- [namespace](FileViewEvent.md#namespace)
+- [uri](FileViewEvent.md#uri)
+- [namespace](FileViewEvent.md#namespace)
 
 ## Constructors
 
@@ -30,8 +30,8 @@ Event fired when the [launch options module](./INativeLaunchOptions.md) register
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `uri` | `string` |
 
 #### Overrides
@@ -40,7 +40,7 @@ Event fired when the [launch options module](./INativeLaunchOptions.md) register
 
 #### Defined in
 
-[src/NativeEvents.ts:69](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/NativeEvents.ts#L69)
+[src/NativeEvents.ts:69](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L69)
 
 ## Properties
 
@@ -56,13 +56,13 @@ Event fired when the [launch options module](./INativeLaunchOptions.md) register
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### uri
 
 • `Readonly` **uri**: `string`
 
----
+___
 
 ### namespace
 
@@ -70,4 +70,4 @@ node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
 #### Defined in
 
-[src/NativeEvents.ts:68](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/NativeEvents.ts#L68)
+[src/NativeEvents.ts:68](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L68)

@@ -4,22 +4,22 @@
 
 ## Implements
 
--   `ILokiJsDatabaseFactory`
+- [`INativeDatabaseFactory`](../interfaces/INativeDatabaseFactory.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CommonDatabaseFactory.md#constructor)
+- [constructor](CommonDatabaseFactory.md#constructor)
 
 ### Properties
 
--   [fileAccess](CommonDatabaseFactory.md#fileaccess)
--   [logger](CommonDatabaseFactory.md#logger)
+- [fileAccess](CommonDatabaseFactory.md#fileaccess)
+- [logger](CommonDatabaseFactory.md#logger)
 
 ### Methods
 
--   [create](CommonDatabaseFactory.md#create)
+- [create](CommonDatabaseFactory.md#create)
 
 ## Constructors
 
@@ -29,14 +29,14 @@
 
 #### Parameters
 
-| Name         | Type                                                      |
-| :----------- | :-------------------------------------------------------- |
-| `logger`     | `ILogger`                                                 |
+| Name | Type |
+| :------ | :------ |
+| `logger` | `ILogger` |
 | `fileAccess` | [`INativeFileAccess`](../interfaces/INativeFileAccess.md) |
 
 #### Defined in
 
-common/dist/CommonDatabaseFactory.d.ts:8
+common/dist/CommonDatabaseFactory.d.ts:7
 
 ## Properties
 
@@ -46,9 +46,9 @@ common/dist/CommonDatabaseFactory.d.ts:8
 
 #### Defined in
 
-common/dist/CommonDatabaseFactory.d.ts:7
+common/dist/CommonDatabaseFactory.d.ts:6
 
----
+___
 
 ### logger
 
@@ -56,7 +56,7 @@ common/dist/CommonDatabaseFactory.d.ts:7
 
 #### Defined in
 
-common/dist/CommonDatabaseFactory.d.ts:6
+common/dist/CommonDatabaseFactory.d.ts:5
 
 ## Methods
 
@@ -64,11 +64,13 @@ common/dist/CommonDatabaseFactory.d.ts:6
 
 ▸ **create**(`name`, `options?`): `Loki`
 
+Create or load a database.
+
 #### Parameters
 
-| Name       | Type                                                                                                             |
-| :--------- | :--------------------------------------------------------------------------------------------------------------- |
-| `name`     | `string`                                                                                                         |
+| Name | Type |
+| :------ | :------ |
+| `name` | `string` |
 | `options?` | `Partial`<`LokiConstructorOptions`\> & `Partial`<`LokiConfigOptions`\> & `Partial`<`ThrottledSaveDrainOptions`\> |
 
 #### Returns
@@ -77,8 +79,8 @@ common/dist/CommonDatabaseFactory.d.ts:6
 
 #### Implementation of
 
-ILokiJsDatabaseFactory.create
+[INativeDatabaseFactory](../interfaces/INativeDatabaseFactory.md).[create](../interfaces/INativeDatabaseFactory.md#create)
 
 #### Defined in
 
-common/dist/CommonDatabaseFactory.d.ts:9
+common/dist/CommonDatabaseFactory.d.ts:8

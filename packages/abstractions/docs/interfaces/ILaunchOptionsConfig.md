@@ -8,7 +8,7 @@ Configuration of the launch options
 
 ### Properties
 
--   [uri](ILaunchOptionsConfig.md#uri)
+- [uri](ILaunchOptionsConfig.md#uri)
 
 ## Properties
 
@@ -20,4 +20,4 @@ Uri which should be registered for the app
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:113](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L113)
+[src/INativeConfigAccess.ts:113](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L113)

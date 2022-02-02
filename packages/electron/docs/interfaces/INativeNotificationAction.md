@@ -8,8 +8,8 @@ Content of a button or text input of a notification
 
 ### Properties
 
--   [callback](INativeNotificationAction.md#callback)
--   [title](INativeNotificationAction.md#title)
+- [callback](INativeNotificationAction.md#callback)
+- [title](INativeNotificationAction.md#title)
 
 ## Properties
 
@@ -23,7 +23,7 @@ function called with the result of the action
 
 abstractions/dist/INativeNotificationAccess.d.ts:13
 
----
+___
 
 ### title
 

@@ -26,14 +26,6 @@ export class CommonEventBus implements INativeEventBus {
         return Result.ok(undefined);
     }
 
-    /**
-     * Publish Events on the EventBus.
-     * The EventBus is initially locked.
-     * Published events are queued to be published after the EventBus is unlocked.
-     * To unlock the EventBus an AppReadyEvent has to be published.
-     * @param event
-     * @returns
-     */
     public publish(event: Event): Result<void> {
         if (this.locked) {
             // check for namespace to avoid problems with version differences

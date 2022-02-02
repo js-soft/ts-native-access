@@ -8,10 +8,10 @@ Configuration of the electron platform
 
 ### Properties
 
--   [fcmSenderId](IElectronConfig.md#fcmsenderid)
--   [persistentIDs](IElectronConfig.md#persistentids)
--   [persistentIDsremoveDays](IElectronConfig.md#persistentidsremovedays)
--   [pushCredentials](IElectronConfig.md#pushcredentials)
+- [fcmSenderId](IElectronConfig.md#fcmsenderid)
+- [persistentIDs](IElectronConfig.md#persistentids)
+- [persistentIDsremoveDays](IElectronConfig.md#persistentidsremovedays)
+- [pushCredentials](IElectronConfig.md#pushcredentials)
 
 ## Properties
 
@@ -23,9 +23,9 @@ Firebase cloud messaging sender-id which can be accessed through the firebase co
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:95](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L95)
+[src/INativeConfigAccess.ts:95](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L95)
 
----
+___
 
 ### persistentIDs
 
@@ -35,9 +35,9 @@ Ids of remote push notifications are stored to prevent push notifications to be 
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:103](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L103)
+[src/INativeConfigAccess.ts:103](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L103)
 
----
+___
 
 ### persistentIDsremoveDays
 
@@ -47,9 +47,9 @@ Days after which the stored ids of received remote push notifications should be 
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:91](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L91)
+[src/INativeConfigAccess.ts:91](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L91)
 
----
+___
 
 ### pushCredentials
 
@@ -59,4 +59,4 @@ Remote push notification credentials created by app during initialization
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:99](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeConfigAccess.ts#L99)
+[src/INativeConfigAccess.ts:99](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L99)

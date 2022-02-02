@@ -8,8 +8,8 @@ Meta information and content of file
 
 ### Properties
 
--   [data](INativeFile.md#data)
--   [metadata](INativeFile.md#metadata)
+- [data](INativeFile.md#data)
+- [metadata](INativeFile.md#metadata)
 
 ## Properties
 
@@ -23,7 +23,7 @@ Content of file
 
 abstractions/dist/INativeFileAccess.d.ts:59
 
----
+___
 
 ### metadata
 

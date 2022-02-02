@@ -16,11 +16,6 @@ export class CordovaPushNotificationAccess implements INativePushNotificationAcc
 
     private push: any;
 
-    /*
-    private readonly notificationClickHandler = (data: any) => {      
-    };
-    */
-
     /**
      * Handle the registration of a push token for remote push notifications
      * @param {String} token

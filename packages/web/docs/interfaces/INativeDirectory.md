@@ -8,9 +8,9 @@ Meta information and content od directory
 
 ### Properties
 
--   [directories](INativeDirectory.md#directories)
--   [files](INativeDirectory.md#files)
--   [metadata](INativeDirectory.md#metadata)
+- [directories](INativeDirectory.md#directories)
+- [files](INativeDirectory.md#files)
+- [metadata](INativeDirectory.md#metadata)
 
 ## Properties
 
@@ -24,7 +24,7 @@ Directories the directory contains
 
 abstractions/dist/INativeFileAccess.d.ts:93
 
----
+___
 
 ### files
 
@@ -36,7 +36,7 @@ Files the directory contains
 
 abstractions/dist/INativeFileAccess.d.ts:89
 
----
+___
 
 ### metadata
 

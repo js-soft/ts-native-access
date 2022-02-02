@@ -4,17 +4,17 @@
 
 ## Implements
 
--   [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
+- [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](WebPushNotificationAccess.md#constructor)
+- [constructor](WebPushNotificationAccess.md#constructor)
 
 ### Methods
 
--   [init](WebPushNotificationAccess.md#init)
+- [init](WebPushNotificationAccess.md#init)
 
 ## Constructors
 
@@ -24,16 +24,16 @@
 
 #### Parameters
 
-| Name            | Type                                                          |
-| :-------------- | :------------------------------------------------------------ |
-| `logger`        | `ILogger`                                                     |
-| `config`        | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
-| `eventBus`      | [`INativeEventBus`](../interfaces/INativeEventBus.md)         |
-| `serviceWorker` | `ServiceWorkerRegistration`                                   |
+| Name | Type |
+| :------ | :------ |
+| `logger` | `ILogger` |
+| `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
+| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
+| `serviceWorker` | `ServiceWorkerRegistration` |
 
 #### Defined in
 
-[web/src/WebPushNotificationAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebPushNotificationAccess.ts#L15)
+[web/src/WebPushNotificationAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebPushNotificationAccess.ts#L15)
 
 ## Methods
 
@@ -41,7 +41,9 @@
 
 ▸ **init**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
-Initialize module
+Initialize module.
+Once initialized it publishes a [RemoteNotificationRegistrationEvent](RemoteNotificationRegistrationEvent.md) when the registration of the push notification service was successful.
+It also publishes a [RemoteNotificationEvent](RemoteNotificationEvent.md) when a remote push notification is received.
 
 #### Returns
 
@@ -53,4 +55,4 @@ Initialize module
 
 #### Defined in
 
-[web/src/WebPushNotificationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/a83212d/packages/web/src/WebPushNotificationAccess.ts#L22)
+[web/src/WebPushNotificationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebPushNotificationAccess.ts#L22)

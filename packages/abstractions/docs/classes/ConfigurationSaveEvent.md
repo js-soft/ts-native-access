@@ -6,20 +6,20 @@ Event fired when the [configuration module](./INativeConfigAccess.md) finishes a
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`ConfigurationSaveEvent`**
+  ↳ **`ConfigurationSaveEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ConfigurationSaveEvent.md#constructor)
+- [constructor](ConfigurationSaveEvent.md#constructor)
 
 ### Properties
 
--   [namespace](ConfigurationSaveEvent.md#namespace)
--   [namespace](ConfigurationSaveEvent.md#namespace)
+- [namespace](ConfigurationSaveEvent.md#namespace)
+- [namespace](ConfigurationSaveEvent.md#namespace)
 
 ## Constructors
 
@@ -33,7 +33,7 @@ Event fired when the [configuration module](./INativeConfigAccess.md) finishes a
 
 #### Defined in
 
-[src/NativeEvents.ts:29](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/NativeEvents.ts#L29)
+[src/NativeEvents.ts:29](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L29)
 
 ## Properties
 
@@ -49,7 +49,7 @@ Event fired when the [configuration module](./INativeConfigAccess.md) finishes a
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### namespace
 
@@ -57,4 +57,4 @@ node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
 #### Defined in
 
-[src/NativeEvents.ts:28](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/NativeEvents.ts#L28)
+[src/NativeEvents.ts:28](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L28)

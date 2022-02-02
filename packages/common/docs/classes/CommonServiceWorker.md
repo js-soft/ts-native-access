@@ -6,11 +6,11 @@
 
 ### Constructors
 
--   [constructor](CommonServiceWorker.md#constructor)
+- [constructor](CommonServiceWorker.md#constructor)
 
 ### Methods
 
--   [init](CommonServiceWorker.md#init)
+- [init](CommonServiceWorker.md#init)
 
 ## Constructors
 
@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[CommonServiceWorker.ts:2](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonServiceWorker.ts#L2)
+[CommonServiceWorker.ts:2](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonServiceWorker.ts#L2)

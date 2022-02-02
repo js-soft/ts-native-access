@@ -4,27 +4,27 @@
 
 ## Implements
 
--   `INativeEventBus`
+- `INativeEventBus`
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CommonEventBus.md#constructor)
+- [constructor](CommonEventBus.md#constructor)
 
 ### Properties
 
--   [eventBus](CommonEventBus.md#eventbus)
--   [locked](CommonEventBus.md#locked)
--   [queue](CommonEventBus.md#queue)
+- [eventBus](CommonEventBus.md#eventbus)
+- [locked](CommonEventBus.md#locked)
+- [queue](CommonEventBus.md#queue)
 
 ### Methods
 
--   [init](CommonEventBus.md#init)
--   [publish](CommonEventBus.md#publish)
--   [subscribe](CommonEventBus.md#subscribe)
--   [subscribeOnce](CommonEventBus.md#subscribeonce)
--   [unsubscribe](CommonEventBus.md#unsubscribe)
+- [init](CommonEventBus.md#init)
+- [publish](CommonEventBus.md#publish)
+- [subscribe](CommonEventBus.md#subscribe)
+- [subscribeOnce](CommonEventBus.md#subscribeonce)
+- [unsubscribe](CommonEventBus.md#unsubscribe)
 
 ## Constructors
 
@@ -40,9 +40,9 @@
 
 #### Defined in
 
-[CommonEventBus.ts:5](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonEventBus.ts#L5)
+[CommonEventBus.ts:5](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonEventBus.ts#L5)
 
----
+___
 
 ### locked
 
@@ -50,9 +50,9 @@
 
 #### Defined in
 
-[CommonEventBus.ts:6](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonEventBus.ts#L6)
+[CommonEventBus.ts:6](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonEventBus.ts#L6)
 
----
+___
 
 ### queue
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[CommonEventBus.ts:7](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonEventBus.ts#L7)
+[CommonEventBus.ts:7](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonEventBus.ts#L7)
 
 ## Methods
 
@@ -78,22 +78,17 @@ INativeEventBus.init
 
 #### Defined in
 
-[CommonEventBus.ts:9](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonEventBus.ts#L9)
+[CommonEventBus.ts:9](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonEventBus.ts#L9)
 
----
+___
 
 ### publish
 
 ▸ **publish**(`event`): `Result`<`void`, `ApplicationError`\>
 
-Publish Events on the EventBus.
-The EventBus is initially locked.
-Published events are queued to be published after the EventBus is unlocked.
-To unlock the EventBus an AppReadyEvent has to be published.
-
 #### Parameters
 
-| Name    | Type    |
+| Name | Type |
 | :------ | :------ |
 | `event` | `Event` |
 
@@ -107,9 +102,9 @@ INativeEventBus.publish
 
 #### Defined in
 
-[CommonEventBus.ts:37](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonEventBus.ts#L37)
+[CommonEventBus.ts:29](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonEventBus.ts#L29)
 
----
+___
 
 ### subscribe
 
@@ -117,9 +112,9 @@ INativeEventBus.publish
 
 #### Parameters
 
-| Name      | Type                       |
-| :-------- | :------------------------- |
-| `event`   | `Event`                    |
+| Name | Type |
+| :------ | :------ |
+| `event` | `Event` |
 | `handler` | (`event`: `any`) => `void` |
 
 #### Returns
@@ -132,9 +127,9 @@ INativeEventBus.subscribe
 
 #### Defined in
 
-[CommonEventBus.ts:14](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonEventBus.ts#L14)
+[CommonEventBus.ts:14](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonEventBus.ts#L14)
 
----
+___
 
 ### subscribeOnce
 
@@ -142,9 +137,9 @@ INativeEventBus.subscribe
 
 #### Parameters
 
-| Name      | Type                       |
-| :-------- | :------------------------- |
-| `event`   | `Event`                    |
+| Name | Type |
+| :------ | :------ |
+| `event` | `Event` |
 | `handler` | (`event`: `any`) => `void` |
 
 #### Returns
@@ -157,9 +152,9 @@ INativeEventBus.subscribeOnce
 
 #### Defined in
 
-[CommonEventBus.ts:19](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonEventBus.ts#L19)
+[CommonEventBus.ts:19](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonEventBus.ts#L19)
 
----
+___
 
 ### unsubscribe
 
@@ -167,10 +162,10 @@ INativeEventBus.subscribeOnce
 
 #### Parameters
 
-| Name    | Type     |
-| :------ | :------- |
-| `event` | `Event`  |
-| `id`    | `number` |
+| Name | Type |
+| :------ | :------ |
+| `event` | `Event` |
+| `id` | `number` |
 
 #### Returns
 
@@ -182,4 +177,4 @@ INativeEventBus.unsubscribe
 
 #### Defined in
 
-[CommonEventBus.ts:24](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonEventBus.ts#L24)
+[CommonEventBus.ts:24](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonEventBus.ts#L24)

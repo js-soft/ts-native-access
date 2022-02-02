@@ -4,20 +4,26 @@
 
 ## Implements
 
--   `INativeLoggerFactory`
+- `INativeLoggerFactory`
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CommonLoggerFactory.md#constructor)
+- [constructor](CommonLoggerFactory.md#constructor)
+
+### Properties
+
+- [busy](CommonLoggerFactory.md#busy)
+- [queue](CommonLoggerFactory.md#queue)
 
 ### Methods
 
--   [\_initWeb](CommonLoggerFactory.md#_initweb)
--   [formatMessages](CommonLoggerFactory.md#formatmessages)
--   [getLogger](CommonLoggerFactory.md#getlogger)
--   [init](CommonLoggerFactory.md#init)
+- [addLog](CommonLoggerFactory.md#addlog)
+- [formatMessages](CommonLoggerFactory.md#formatmessages)
+- [getLogger](CommonLoggerFactory.md#getlogger)
+- [init](CommonLoggerFactory.md#init)
+- [saveQueue](CommonLoggerFactory.md#savequeue)
 
 ## Constructors
 
@@ -27,35 +33,58 @@
 
 #### Parameters
 
-| Name         | Type                |
-| :----------- | :------------------ |
+| Name | Type |
+| :------ | :------ |
 | `fileAccess` | `INativeFileAccess` |
 
 #### Defined in
 
-[CommonLoggerFactory.ts:7](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonLoggerFactory.ts#L7)
+[CommonLoggerFactory.ts:7](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonLoggerFactory.ts#L7)
 
-## Methods
+## Properties
 
-### \_initWeb
+### busy
 
-▸ `Private` **\_initWeb**(`consoleHandler`): `void`
-
-#### Parameters
-
-| Name             | Type       |
-| :--------------- | :--------- |
-| `consoleHandler` | `Function` |
-
-#### Returns
-
-`void`
+• `Private` **busy**: `boolean` = `false`
 
 #### Defined in
 
-[CommonLoggerFactory.ts:34](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonLoggerFactory.ts#L34)
+[CommonLoggerFactory.ts:33](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonLoggerFactory.ts#L33)
 
----
+___
+
+### queue
+
+• `Private` `Readonly` **queue**: { `loggerName`: `string` ; `message`: `string`  }[] = `[]`
+
+#### Defined in
+
+[CommonLoggerFactory.ts:32](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonLoggerFactory.ts#L32)
+
+## Methods
+
+### addLog
+
+▸ `Private` **addLog**(`loggerName`, `message`): `Promise`<`void`\>
+
+Add the log to a queue for saving to filesystem
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `loggerName` | `string` |
+| `message` | `string` |
+
+#### Returns
+
+`Promise`<`void`\>
+
+#### Defined in
+
+[CommonLoggerFactory.ts:70](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonLoggerFactory.ts#L70)
+
+___
 
 ### formatMessages
 
@@ -63,9 +92,9 @@
 
 #### Parameters
 
-| Name       | Type       |
-| :--------- | :--------- |
-| `messages` | `any`[]    |
+| Name | Type |
+| :------ | :------ |
+| `messages` | `any`[] |
 | `context?` | `Function` |
 
 #### Returns
@@ -74,9 +103,9 @@
 
 #### Defined in
 
-[CommonLoggerFactory.ts:24](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonLoggerFactory.ts#L24)
+[CommonLoggerFactory.ts:26](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonLoggerFactory.ts#L26)
 
----
+___
 
 ### getLogger
 
@@ -84,8 +113,8 @@
 
 #### Parameters
 
-| Name    | Type                   |
-| :------ | :--------------------- |
+| Name | Type |
+| :------ | :------ |
 | `oName` | `string` \| `Function` |
 
 #### Returns
@@ -98,9 +127,9 @@ INativeLoggerFactory.getLogger
 
 #### Defined in
 
-[CommonLoggerFactory.ts:53](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonLoggerFactory.ts#L53)
+[CommonLoggerFactory.ts:77](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonLoggerFactory.ts#L77)
 
----
+___
 
 ### init
 
@@ -116,4 +145,20 @@ INativeLoggerFactory.init
 
 #### Defined in
 
-[CommonLoggerFactory.ts:9](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/common/src/CommonLoggerFactory.ts#L9)
+[CommonLoggerFactory.ts:22](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonLoggerFactory.ts#L22)
+
+___
+
+### saveQueue
+
+▸ `Private` **saveQueue**(): `Promise`<`void`\>
+
+Save the queue of logs to the filesystem
+
+#### Returns
+
+`Promise`<`void`\>
+
+#### Defined in
+
+[CommonLoggerFactory.ts:38](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonLoggerFactory.ts#L38)

@@ -29,9 +29,12 @@ export class CommonLoggerFactory implements INativeLoggerFactory {
         return `${new Date().toISOString()} [${!context || !context.name ? "default" : context.name}] ${message}`;
     }
 
-    private readonly queue: { loggerName: string; message: string }[] = [];
-    private busy = false;
+    private readonly queue: { loggerName: string; message: string }[] = []; // queue of logs which are not yet saved to the filesystem
+    private busy = false; // indicator whether the queue is in the process of being saved
 
+    /**
+     * Save the queue of logs to the filesystem
+     */
     private async saveQueue() {
         this.busy = true;
         while (this.queue.length) {
@@ -63,8 +66,6 @@ export class CommonLoggerFactory implements INativeLoggerFactory {
 
     /**
      * Add the log to a queue for saving to filesystem
-     * @param loggerName
-     * @param message
      */
     private async addLog(loggerName: string, message: string) {
         // add log to queue

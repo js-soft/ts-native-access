@@ -8,8 +8,8 @@ Content of a button or text input of a notification
 
 ### Properties
 
--   [callback](INativeNotificationAction.md#callback)
--   [title](INativeNotificationAction.md#title)
+- [callback](INativeNotificationAction.md#callback)
+- [title](INativeNotificationAction.md#title)
 
 ## Properties
 
@@ -21,9 +21,9 @@ function called with the result of the action
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeNotificationAccess.ts#L16)
+[src/INativeNotificationAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeNotificationAccess.ts#L16)
 
----
+___
 
 ### title
 
@@ -33,4 +33,4 @@ title of the action
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/2235f5c/packages/abstractions/src/INativeNotificationAccess.ts#L12)
+[src/INativeNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeNotificationAccess.ts#L12)

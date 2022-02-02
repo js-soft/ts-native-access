@@ -4,47 +4,44 @@
 
 ## Implements
 
--   [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md)
+- [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CommonConfigAccess.md#constructor)
+- [constructor](CommonConfigAccess.md#constructor)
 
 ### Properties
 
--   [\_dirty](CommonConfigAccess.md#_dirty)
--   [config](CommonConfigAccess.md#config)
--   [defaultConfig](CommonConfigAccess.md#defaultconfig)
--   [eventBus](CommonConfigAccess.md#eventbus)
--   [fileAccess](CommonConfigAccess.md#fileaccess)
--   [logger](CommonConfigAccess.md#logger)
--   [path](CommonConfigAccess.md#path)
--   [refreshConfig](CommonConfigAccess.md#refreshconfig)
--   [runtimeConfig](CommonConfigAccess.md#runtimeconfig)
+- [config](CommonConfigAccess.md#config)
+- [defaultConfig](CommonConfigAccess.md#defaultconfig)
+- [eventBus](CommonConfigAccess.md#eventbus)
+- [fileAccess](CommonConfigAccess.md#fileaccess)
+- [logger](CommonConfigAccess.md#logger)
+- [refreshConfig](CommonConfigAccess.md#refreshconfig)
+- [runtimeConfig](CommonConfigAccess.md#runtimeconfig)
+- [runtimeConfigPath](CommonConfigAccess.md#runtimeconfigpath)
 
 ### Methods
 
--   [get](CommonConfigAccess.md#get)
--   [initDefaultConfig](CommonConfigAccess.md#initdefaultconfig)
--   [initRuntimeConfig](CommonConfigAccess.md#initruntimeconfig)
--   [isDirty](CommonConfigAccess.md#isdirty)
--   [remove](CommonConfigAccess.md#remove)
--   [save](CommonConfigAccess.md#save)
--   [set](CommonConfigAccess.md#set)
+- [get](CommonConfigAccess.md#get)
+- [initDefaultConfig](CommonConfigAccess.md#initdefaultconfig)
+- [initRuntimeConfig](CommonConfigAccess.md#initruntimeconfig)
+- [remove](CommonConfigAccess.md#remove)
+- [save](CommonConfigAccess.md#save)
+- [set](CommonConfigAccess.md#set)
 
 ## Constructors
 
 ### constructor
 
-• **new CommonConfigAccess**(`path`, `eventBus`)
+• **new CommonConfigAccess**(`eventBus`)
 
 #### Parameters
 
-| Name       | Type                                                  |
-| :--------- | :---------------------------------------------------- |
-| `path`     | `string`                                              |
+| Name | Type |
+| :------ | :------ |
 | `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
 
 #### Defined in
@@ -53,25 +50,15 @@ common/dist/CommonConfigAccess.d.ts:9
 
 ## Properties
 
-### \_dirty
-
-• `Private` **\_dirty**: `any`
-
-#### Defined in
-
-common/dist/CommonConfigAccess.d.ts:10
-
----
-
 ### config
 
 • `Private` **config**: `any`
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:14
+common/dist/CommonConfigAccess.d.ts:12
 
----
+___
 
 ### defaultConfig
 
@@ -79,9 +66,9 @@ common/dist/CommonConfigAccess.d.ts:14
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:13
+common/dist/CommonConfigAccess.d.ts:11
 
----
+___
 
 ### eventBus
 
@@ -89,9 +76,9 @@ common/dist/CommonConfigAccess.d.ts:13
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:6
+common/dist/CommonConfigAccess.d.ts:5
 
----
+___
 
 ### fileAccess
 
@@ -99,9 +86,9 @@ common/dist/CommonConfigAccess.d.ts:6
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:7
+common/dist/CommonConfigAccess.d.ts:6
 
----
+___
 
 ### logger
 
@@ -109,29 +96,22 @@ common/dist/CommonConfigAccess.d.ts:7
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:8
+common/dist/CommonConfigAccess.d.ts:7
 
----
-
-### path
-
-• `Private` `Readonly` **path**: `any`
-
-#### Defined in
-
-common/dist/CommonConfigAccess.d.ts:5
-
----
+___
 
 ### refreshConfig
 
 • `Private` **refreshConfig**: `any`
 
+Merge runtime and default config. This is done after the runtime config changes.
+The runtime config can overwrite entries of the default config.
+
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:15
+common/dist/CommonConfigAccess.d.ts:17
 
----
+___
 
 ### runtimeConfig
 
@@ -139,7 +119,17 @@ common/dist/CommonConfigAccess.d.ts:15
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:12
+common/dist/CommonConfigAccess.d.ts:10
+
+___
+
+### runtimeConfigPath
+
+• `Private` **runtimeConfigPath**: `any`
+
+#### Defined in
+
+common/dist/CommonConfigAccess.d.ts:8
 
 ## Methods
 
@@ -147,12 +137,12 @@ common/dist/CommonConfigAccess.d.ts:12
 
 ▸ **get**(`key`): `Result`<`any`, `ApplicationError`\>
 
-Optional: Config object can be accessed directly
+Read the value of the config associated to the key.
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `key` | `string` |
 
 #### Returns
@@ -165,15 +155,22 @@ Optional: Config object can be accessed directly
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:24
+common/dist/CommonConfigAccess.d.ts:21
 
----
+___
 
 ### initDefaultConfig
 
-▸ **initDefaultConfig**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
+▸ **initDefaultConfig**(`path`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
-Initialize the default config (this does not yet require the filesystem to be initialized)
+Initialization of the config module without the requirement of a filesystem.
+It loads the default config while keeping the runtime config empty.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `path` | `string` |
 
 #### Returns
 
@@ -185,21 +182,22 @@ Initialize the default config (this does not yet require the filesystem to be in
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:16
+common/dist/CommonConfigAccess.d.ts:18
 
----
+___
 
 ### initRuntimeConfig
 
-▸ **initRuntimeConfig**(`logger`, `fileAccess`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
+▸ **initRuntimeConfig**(`path`, `logger`, `fileAccess`): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
-Initialize the runtime config by reading the existing runtime config from the filesystem
+Initialization of the runtime config in addition to the default config with the requirement of a filesystem.
 
 #### Parameters
 
-| Name         | Type                                                      |
-| :----------- | :-------------------------------------------------------- |
-| `logger`     | `ILogger`                                                 |
+| Name | Type |
+| :------ | :------ |
+| `path` | `string` |
+| `logger` | `ILogger` |
 | `fileAccess` | [`INativeFileAccess`](../interfaces/INativeFileAccess.md) |
 
 #### Returns
@@ -212,34 +210,21 @@ Initialize the runtime config by reading the existing runtime config from the fi
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:17
+common/dist/CommonConfigAccess.d.ts:19
 
----
-
-### isDirty
-
-▸ **isDirty**(): `boolean`
-
-#### Returns
-
-`boolean`
-
-#### Defined in
-
-common/dist/CommonConfigAccess.d.ts:11
-
----
+___
 
 ### remove
 
 ▸ **remove**(`key`): `Result`<`void`, `ApplicationError`\>
 
-Remove a key-value pair
+Remove a key-value pair from the runtime config.
+A [ConfigurationRemoveEvent](ConfigurationRemoveEvent.md) is published on the [INativeEventBus](../interfaces/INativeEventBus.md) after the value was changed.
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `key` | `string` |
 
 #### Returns
@@ -252,15 +237,16 @@ Remove a key-value pair
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:26
+common/dist/CommonConfigAccess.d.ts:23
 
----
+___
 
 ### save
 
 ▸ **save**(): `Promise`<`Result`<`void`, `ApplicationError`\>\>
 
-Save the runtime config on the filesystem
+Save the runtime config on the filesystem.
+A [ConfigurationSaveEvent](ConfigurationSaveEvent.md) is published on the [INativeEventBus](../interfaces/INativeEventBus.md) after the value was changed.
 
 #### Returns
 
@@ -272,22 +258,23 @@ Save the runtime config on the filesystem
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:18
+common/dist/CommonConfigAccess.d.ts:20
 
----
+___
 
 ### set
 
 ▸ **set**(`key`, `value`): `Result`<`void`, `ApplicationError`\>
 
-Save a key-value pair in memory
+Change or add a value of/to the runtime config - in memory. To persist the change onto the filesystem, call [save](CommonConfigAccess.md#save).
+A [ConfigurationSetEvent](ConfigurationSetEvent.md) is published on the [INativeEventBus](../interfaces/INativeEventBus.md) after the value was changed.
 
 #### Parameters
 
-| Name    | Type     |
-| :------ | :------- |
-| `key`   | `string` |
-| `value` | `any`    |
+| Name | Type |
+| :------ | :------ |
+| `key` | `string` |
+| `value` | `any` |
 
 #### Returns
 
@@ -299,4 +286,4 @@ Save a key-value pair in memory
 
 #### Defined in
 
-common/dist/CommonConfigAccess.d.ts:25
+common/dist/CommonConfigAccess.d.ts:22
