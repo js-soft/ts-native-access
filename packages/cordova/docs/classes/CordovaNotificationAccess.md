@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaNotificationAccess.ts#L6)
+[cordova/src/CordovaNotificationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaNotificationAccess.ts#L6)
 
 ## Methods
 
@@ -62,7 +62,7 @@ Remove a notification from being displayed
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:102](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaNotificationAccess.ts#L102)
+[cordova/src/CordovaNotificationAccess.ts:102](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaNotificationAccess.ts#L102)
 
 ___
 
@@ -82,7 +82,7 @@ Remove all notifications from being displayed
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:107](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaNotificationAccess.ts#L107)
+[cordova/src/CordovaNotificationAccess.ts:107](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaNotificationAccess.ts#L107)
 
 ___
 
@@ -102,7 +102,7 @@ Retrieve all notifications currently being displayed
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:113](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaNotificationAccess.ts#L113)
+[cordova/src/CordovaNotificationAccess.ts:113](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaNotificationAccess.ts#L113)
 
 ___
 
@@ -122,7 +122,7 @@ Initialize module
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaNotificationAccess.ts#L8)
+[cordova/src/CordovaNotificationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaNotificationAccess.ts#L8)
 
 ___
 
@@ -150,7 +150,7 @@ Display a local notification
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaNotificationAccess.ts#L12)
+[cordova/src/CordovaNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaNotificationAccess.ts#L12)
 
 ___
 
@@ -179,4 +179,4 @@ Update the content of an already displayed notification
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:64](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaNotificationAccess.ts#L64)
+[cordova/src/CordovaNotificationAccess.ts:64](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaNotificationAccess.ts#L64)

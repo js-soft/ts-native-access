@@ -2,7 +2,7 @@
 
 # Class: ConfigurationRemoveEvent
 
-Event fired when the [configuration module](./INativeConfigAccess.md) removes a configuration element
+Event fired when the [INativeConfigAccess](../interfaces/INativeConfigAccess.md) removes a configuration element
 
 ## Hierarchy
 

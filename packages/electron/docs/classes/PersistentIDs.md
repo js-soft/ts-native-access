@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[electron/src/ElectronPushNotificationAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronPushNotificationAccess.ts#L16)
+[electron/src/ElectronPushNotificationAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronPushNotificationAccess.ts#L16)
 
 ## Properties
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronPushNotificationAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronPushNotificationAccess.ts#L18)
+[electron/src/ElectronPushNotificationAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronPushNotificationAccess.ts#L18)
 
 ## Methods
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronPushNotificationAccess.ts:32](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronPushNotificationAccess.ts#L32)
+[electron/src/ElectronPushNotificationAccess.ts:32](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronPushNotificationAccess.ts#L32)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronPushNotificationAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronPushNotificationAccess.ts#L29)
+[electron/src/ElectronPushNotificationAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronPushNotificationAccess.ts#L29)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronPushNotificationAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronPushNotificationAccess.ts#L25)
+[electron/src/ElectronPushNotificationAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronPushNotificationAccess.ts#L25)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronPushNotificationAccess.ts:35](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronPushNotificationAccess.ts#L35)
+[electron/src/ElectronPushNotificationAccess.ts:35](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronPushNotificationAccess.ts#L35)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronPushNotificationAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronPushNotificationAccess.ts#L38)
+[electron/src/ElectronPushNotificationAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronPushNotificationAccess.ts#L38)
 
 ___
 
@@ -154,4 +154,4 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronPushNotificationAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronPushNotificationAccess.ts#L20)
+[electron/src/ElectronPushNotificationAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronPushNotificationAccess.ts#L20)

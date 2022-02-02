@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebKeychainAccess.ts#L8)
+[web/src/WebKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebKeychainAccess.ts#L8)
 
 ## Properties
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebKeychainAccess.ts#L7)
+[web/src/WebKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebKeychainAccess.ts#L7)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebKeychainAccess.ts#L6)
+[web/src/WebKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebKeychainAccess.ts#L6)
 
 ## Methods
 
@@ -82,7 +82,7 @@ ___
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebKeychainAccess.ts#L22)
+[web/src/WebKeychainAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebKeychainAccess.ts#L22)
 
 ___
 
@@ -108,7 +108,7 @@ Delete key-value pair
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:63](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebKeychainAccess.ts#L63)
+[web/src/WebKeychainAccess.ts:63](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebKeychainAccess.ts#L63)
 
 ___
 
@@ -134,7 +134,7 @@ Get value for the specified {@link key}
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:43](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebKeychainAccess.ts#L43)
+[web/src/WebKeychainAccess.ts:43](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebKeychainAccess.ts#L43)
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebKeychainAccess.ts#L10)
+[web/src/WebKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebKeychainAccess.ts#L10)
 
 ___
 
@@ -168,7 +168,7 @@ Initialize the module
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:39](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebKeychainAccess.ts#L39)
+[web/src/WebKeychainAccess.ts:39](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebKeychainAccess.ts#L39)
 
 ___
 
@@ -188,7 +188,7 @@ List all key-value pairs added by the applicaion
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebKeychainAccess.ts#L73)
+[web/src/WebKeychainAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebKeychainAccess.ts#L73)
 
 ___
 
@@ -208,7 +208,7 @@ ___
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebKeychainAccess.ts#L30)
+[web/src/WebKeychainAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebKeychainAccess.ts#L30)
 
 ___
 
@@ -235,4 +235,4 @@ Add key-value pair to keychain
 
 #### Defined in
 
-[web/src/WebKeychainAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebKeychainAccess.ts#L53)
+[web/src/WebKeychainAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebKeychainAccess.ts#L53)

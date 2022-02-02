@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[electron/src/ElectronPushNotificationAccess.ts:51](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronPushNotificationAccess.ts#L51)
+[electron/src/ElectronPushNotificationAccess.ts:51](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronPushNotificationAccess.ts#L51)
 
 ## Methods
 
@@ -54,4 +54,4 @@ It also publishes a [RemoteNotificationEvent](RemoteNotificationEvent.md) when a
 
 #### Defined in
 
-[electron/src/ElectronPushNotificationAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronPushNotificationAccess.ts#L53)
+[electron/src/ElectronPushNotificationAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronPushNotificationAccess.ts#L53)

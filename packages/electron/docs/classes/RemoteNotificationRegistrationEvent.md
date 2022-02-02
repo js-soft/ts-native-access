@@ -2,7 +2,7 @@
 
 # Class: RemoteNotificationRegistrationEvent
 
-Event fired when the [push notification module](./INativePushNotification.md) sucessfully received a registration token
+Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotificationAccess.md) sucessfully received a registration token
 
 ## Hierarchy
 

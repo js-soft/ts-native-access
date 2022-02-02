@@ -61,7 +61,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L14)
+[cordova/src/CordovaFileAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L14)
 
 ## Properties
 
@@ -71,7 +71,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L16)
+[cordova/src/CordovaFileAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L16)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L17)
+[cordova/src/CordovaFileAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L17)
 
 ## Methods
 
@@ -108,7 +108,7 @@ Create a directory
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:243](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L243)
+[cordova/src/CordovaFileAccess.ts:243](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L243)
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L37)
+[cordova/src/CordovaFileAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L37)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:33](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L33)
+[cordova/src/CordovaFileAccess.ts:33](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L33)
 
 ___
 
@@ -177,7 +177,7 @@ Delete a directory
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:253](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L253)
+[cordova/src/CordovaFileAccess.ts:253](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L253)
 
 ___
 
@@ -204,7 +204,7 @@ Delete specified file
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:179](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L179)
+[cordova/src/CordovaFileAccess.ts:179](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L179)
 
 ___
 
@@ -231,7 +231,7 @@ Test if a directory exists
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:264](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L264)
+[cordova/src/CordovaFileAccess.ts:264](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L264)
 
 ___
 
@@ -258,7 +258,7 @@ Test if a file exists
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:190](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L190)
+[cordova/src/CordovaFileAccess.ts:190](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L190)
 
 ___
 
@@ -278,7 +278,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:57](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L57)
+[cordova/src/CordovaFileAccess.ts:57](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L57)
 
 ___
 
@@ -299,7 +299,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L29)
+[cordova/src/CordovaFileAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L29)
 
 ___
 
@@ -319,7 +319,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L53)
+[cordova/src/CordovaFileAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L53)
 
 ___
 
@@ -339,7 +339,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:41](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L41)
+[cordova/src/CordovaFileAccess.ts:41](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L41)
 
 ___
 
@@ -360,7 +360,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L25)
+[cordova/src/CordovaFileAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L25)
 
 ___
 
@@ -374,7 +374,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:49](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L49)
+[cordova/src/CordovaFileAccess.ts:49](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L49)
 
 ___
 
@@ -394,7 +394,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:45](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L45)
+[cordova/src/CordovaFileAccess.ts:45](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L45)
 
 ___
 
@@ -421,7 +421,7 @@ Retrieve information about a specified directory
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:204](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L204)
+[cordova/src/CordovaFileAccess.ts:204](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L204)
 
 ___
 
@@ -448,7 +448,7 @@ Retrieve meta information about the specified file
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:105](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L105)
+[cordova/src/CordovaFileAccess.ts:105](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L105)
 
 ___
 
@@ -468,7 +468,7 @@ Initialize the native features and create a folder structure
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L19)
+[cordova/src/CordovaFileAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L19)
 
 ___
 
@@ -495,7 +495,7 @@ Open a file with the standard application specified by the operating system
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:319](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L319)
+[cordova/src/CordovaFileAccess.ts:319](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L319)
 
 ___
 
@@ -522,7 +522,7 @@ Create and open a file with the standard application specified by the operating 
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:339](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L339)
+[cordova/src/CordovaFileAccess.ts:339](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L339)
 
 ___
 
@@ -549,7 +549,7 @@ Read the data of the specified file as a an array
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:141](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L141)
+[cordova/src/CordovaFileAccess.ts:141](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L141)
 
 ___
 
@@ -576,7 +576,7 @@ Read the data of the specified file as a string
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:124](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L124)
+[cordova/src/CordovaFileAccess.ts:124](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L124)
 
 ___
 
@@ -597,7 +597,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:65](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L65)
+[cordova/src/CordovaFileAccess.ts:65](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L65)
 
 ___
 
@@ -617,7 +617,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:61](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L61)
+[cordova/src/CordovaFileAccess.ts:61](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L61)
 
 ___
 
@@ -637,7 +637,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L73)
+[cordova/src/CordovaFileAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L73)
 
 ___
 
@@ -657,7 +657,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:69](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L69)
+[cordova/src/CordovaFileAccess.ts:69](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L69)
 
 ___
 
@@ -677,7 +677,7 @@ Open the file selection dialog of the operating system and receive the selected 
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:279](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L279)
+[cordova/src/CordovaFileAccess.ts:279](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L279)
 
 ___
 
@@ -706,4 +706,4 @@ Write data to a file
 
 #### Defined in
 
-[cordova/src/CordovaFileAccess.ts:158](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaFileAccess.ts#L158)
+[cordova/src/CordovaFileAccess.ts:158](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaFileAccess.ts#L158)

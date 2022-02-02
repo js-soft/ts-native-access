@@ -30,7 +30,7 @@ The locked event bus queues published events and publishes them once it is unloc
 
 #### Defined in
 
-[src/INativeEventBus.ts:35](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeEventBus.ts#L35)
+[src/INativeEventBus.ts:35](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeEventBus.ts#L35)
 
 ___
 
@@ -52,7 +52,7 @@ Publish a specific event
 
 #### Defined in
 
-[src/INativeEventBus.ts:29](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeEventBus.ts#L29)
+[src/INativeEventBus.ts:29](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeEventBus.ts#L29)
 
 ___
 
@@ -75,7 +75,7 @@ Subscribe for a handler to be called each time a specific event occurs
 
 #### Defined in
 
-[src/INativeEventBus.ts:12](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeEventBus.ts#L12)
+[src/INativeEventBus.ts:12](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeEventBus.ts#L12)
 
 ___
 
@@ -98,7 +98,7 @@ Subscribe for a handler to be called the next time a specific event occurs
 
 #### Defined in
 
-[src/INativeEventBus.ts:18](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeEventBus.ts#L18)
+[src/INativeEventBus.ts:18](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeEventBus.ts#L18)
 
 ___
 
@@ -121,4 +121,4 @@ Unsunscribe a handler from being called when a specific event occurs
 
 #### Defined in
 
-[src/INativeEventBus.ts:24](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeEventBus.ts#L24)
+[src/INativeEventBus.ts:24](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeEventBus.ts#L24)

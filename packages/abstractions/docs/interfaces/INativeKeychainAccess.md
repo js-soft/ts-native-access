@@ -34,7 +34,7 @@ Delete key-value pair
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeKeychainAccess.ts#L30)
+[src/INativeKeychainAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeKeychainAccess.ts#L30)
 
 ___
 
@@ -56,7 +56,7 @@ Get value for the specified {@link key}
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeKeychainAccess.ts#L19)
+[src/INativeKeychainAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeKeychainAccess.ts#L19)
 
 ___
 
@@ -72,7 +72,7 @@ Initialize the module
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeKeychainAccess.ts#L38)
+[src/INativeKeychainAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeKeychainAccess.ts#L38)
 
 ___
 
@@ -88,7 +88,7 @@ List all key-value pairs added by the applicaion
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeKeychainAccess.ts#L34)
+[src/INativeKeychainAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeKeychainAccess.ts#L34)
 
 ___
 
@@ -111,4 +111,4 @@ Add key-value pair to keychain
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeKeychainAccess.ts#L25)
+[src/INativeKeychainAccess.ts:25](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeKeychainAccess.ts#L25)

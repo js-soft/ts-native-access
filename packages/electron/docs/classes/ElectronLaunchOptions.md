@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[electron/src/ElectronLaunchOptions.ts:7](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronLaunchOptions.ts#L7)
+[electron/src/ElectronLaunchOptions.ts:7](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronLaunchOptions.ts#L7)
 
 ## Methods
 
@@ -53,4 +53,4 @@ when the app was started to open a file.
 
 #### Defined in
 
-[electron/src/ElectronLaunchOptions.ts:9](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronLaunchOptions.ts#L9)
+[electron/src/ElectronLaunchOptions.ts:9](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronLaunchOptions.ts#L9)

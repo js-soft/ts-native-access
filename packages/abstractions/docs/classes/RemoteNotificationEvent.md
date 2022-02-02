@@ -2,7 +2,7 @@
 
 # Class: RemoteNotificationEvent
 
-Event fired when the [push notification module](./INativePushNotification.md) received a remote notification
+Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotificationAccess.md) received a remote notification
 
 ## Hierarchy
 
@@ -40,7 +40,7 @@ Event fired when the [push notification module](./INativePushNotification.md) re
 
 #### Defined in
 
-[src/NativeEvents.ts:19](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/NativeEvents.ts#L19)
+[src/NativeEvents.ts:19](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/NativeEvents.ts#L19)
 
 ## Properties
 
@@ -70,4 +70,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:18](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/NativeEvents.ts#L18)
+[src/NativeEvents.ts:18](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/NativeEvents.ts#L18)

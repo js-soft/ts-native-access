@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[CommonDatabaseFactory.ts:8](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonDatabaseFactory.ts#L8)
+[CommonDatabaseFactory.ts:8](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonDatabaseFactory.ts#L8)
 
 ## Methods
 
@@ -56,4 +56,4 @@ INativeDatabaseFactory.create
 
 #### Defined in
 
-[CommonDatabaseFactory.ts:10](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonDatabaseFactory.ts#L10)
+[CommonDatabaseFactory.ts:10](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonDatabaseFactory.ts#L10)

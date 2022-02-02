@@ -2,7 +2,7 @@ import { INativePushNotification } from "./INativePushNotification";
 import { NativeEvent } from "./NativeEvent";
 
 /**
- * Event fired when the [push notification module](./INativePushNotification.md) sucessfully received a registration token
+ * Event fired when {@link INativePushNotificationAccess} sucessfully received a registration token
  */
 export class RemoteNotificationRegistrationEvent extends NativeEvent {
     public static namespace = "RemoteNotificationRegistration";
@@ -12,7 +12,7 @@ export class RemoteNotificationRegistrationEvent extends NativeEvent {
 }
 
 /**
- * Event fired when the [push notification module](./INativePushNotification.md) received a remote notification
+ * Event fired when {@link INativePushNotificationAccess} received a remote notification
  */
 export class RemoteNotificationEvent extends NativeEvent {
     public static namespace = "RemoteNotification";
@@ -22,7 +22,7 @@ export class RemoteNotificationEvent extends NativeEvent {
 }
 
 /**
- * Event fired when the [configuration module](./INativeConfigAccess.md) finishes a save operation
+ * Event fired when {@link INativeConfigAccess} finishes a save operation
  */
 export class ConfigurationSaveEvent extends NativeEvent {
     public static namespace = "ConfigurationSave";
@@ -32,7 +32,7 @@ export class ConfigurationSaveEvent extends NativeEvent {
 }
 
 /**
- * Event fired when the [configuration module](./INativeConfigAccess.md) changes the configuration
+ * Event fired when {@link INativeConfigAccess} changes the configuration
  */
 export class ConfigurationSetEvent extends NativeEvent {
     public static readonly namespace = "ConfigurationSet";
@@ -42,7 +42,7 @@ export class ConfigurationSetEvent extends NativeEvent {
 }
 
 /**
- * Event fired when the [configuration module](./INativeConfigAccess.md) removes a configuration element
+ * Event fired when the {@link INativeConfigAccess} removes a configuration element
  */
 export class ConfigurationRemoveEvent extends NativeEvent {
     public static namespace = "ConfigurationRemove";
@@ -52,7 +52,7 @@ export class ConfigurationRemoveEvent extends NativeEvent {
 }
 
 /**
- * Event fired when the [launch options module](./INativeLaunchOptions.md) registers, that the app was started by an url
+ * Event fired when {@link INativeLaunchOptions} registers, that the app was started by an url
  */
 export class UrlOpenEvent extends NativeEvent {
     public static namespace = "UrlOpenEvent";
@@ -62,7 +62,7 @@ export class UrlOpenEvent extends NativeEvent {
 }
 
 /**
- * Event fired when the [launch options module](./INativeLaunchOptions.md) registers, that the app was started by a file open instruction
+ * Event fired when {@link INativeLaunchOptions} registers, that the app was started by a file open instruction
  */
 export class FileViewEvent extends NativeEvent {
     public static namespace = "FileViewEvent";

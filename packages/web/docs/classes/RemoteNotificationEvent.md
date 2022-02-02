@@ -2,7 +2,7 @@
 
 # Class: RemoteNotificationEvent
 
-Event fired when the [push notification module](./INativePushNotification.md) received a remote notification
+Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotificationAccess.md) received a remote notification
 
 ## Hierarchy
 

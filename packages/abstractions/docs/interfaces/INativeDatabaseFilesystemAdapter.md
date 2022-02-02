@@ -33,7 +33,7 @@ Store the databse on the filesystem.
 
 #### Defined in
 
-[src/INativeDatabaseFactory.ts:31](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeDatabaseFactory.ts#L31)
+[src/INativeDatabaseFactory.ts:31](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeDatabaseFactory.ts#L31)
 
 ___
 
@@ -56,4 +56,4 @@ Load the database from the filesystem.
 
 #### Defined in
 
-[src/INativeDatabaseFactory.ts:24](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeDatabaseFactory.ts#L24)
+[src/INativeDatabaseFactory.ts:24](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeDatabaseFactory.ts#L24)

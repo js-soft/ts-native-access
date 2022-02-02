@@ -2,7 +2,7 @@
 
 # Class: ConfigurationSaveEvent
 
-Event fired when the [configuration module](./INativeConfigAccess.md) finishes a save operation
+Event fired when [INativeConfigAccess](../interfaces/INativeConfigAccess.md) finishes a save operation
 
 ## Hierarchy
 

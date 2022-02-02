@@ -2,7 +2,7 @@
 
 # Class: FileViewEvent
 
-Event fired when the [launch options module](./INativeLaunchOptions.md) registers, that the app was started by a file open instruction
+Event fired when [INativeLaunchOptions](../interfaces/INativeLaunchOptions.md) registers, that the app was started by a file open instruction
 
 ## Hierarchy
 

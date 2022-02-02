@@ -2,7 +2,7 @@
 
 # Class: ConfigurationSetEvent
 
-Event fired when the [configuration module](./INativeConfigAccess.md) changes the configuration
+Event fired when [INativeConfigAccess](../interfaces/INativeConfigAccess.md) changes the configuration
 
 ## Hierarchy
 

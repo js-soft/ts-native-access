@@ -24,7 +24,7 @@ buttons which should be displayed as part of the notification
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:26](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeNotificationAccess.ts#L26)
+[src/INativeNotificationAccess.ts:26](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeNotificationAccess.ts#L26)
 
 ___
 
@@ -36,7 +36,7 @@ callback function for the notification selection
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeNotificationAccess.ts#L34)
+[src/INativeNotificationAccess.ts:34](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeNotificationAccess.ts#L34)
 
 ___
 
@@ -48,7 +48,7 @@ additional data stored as part of the notification => can be accessed for exampl
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeNotificationAccess.ts#L38)
+[src/INativeNotificationAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeNotificationAccess.ts#L38)
 
 ___
 
@@ -60,7 +60,7 @@ explicitly specify the id of the notification
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:42](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeNotificationAccess.ts#L42)
+[src/INativeNotificationAccess.ts:42](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeNotificationAccess.ts#L42)
 
 ___
 
@@ -72,4 +72,4 @@ input field which should be displayed as part of the notification
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeNotificationAccess.ts#L30)
+[src/INativeNotificationAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeNotificationAccess.ts#L30)

@@ -2,7 +2,7 @@
 
 # Class: UrlOpenEvent
 
-Event fired when the [launch options module](./INativeLaunchOptions.md) registers, that the app was started by an url
+Event fired when [INativeLaunchOptions](../interfaces/INativeLaunchOptions.md) registers, that the app was started by an url
 
 ## Hierarchy
 

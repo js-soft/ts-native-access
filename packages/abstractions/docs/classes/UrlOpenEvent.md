@@ -2,7 +2,7 @@
 
 # Class: UrlOpenEvent
 
-Event fired when the [launch options module](./INativeLaunchOptions.md) registers, that the app was started by an url
+Event fired when [INativeLaunchOptions](../interfaces/INativeLaunchOptions.md) registers, that the app was started by an url
 
 ## Hierarchy
 
@@ -40,7 +40,7 @@ Event fired when the [launch options module](./INativeLaunchOptions.md) register
 
 #### Defined in
 
-[src/NativeEvents.ts:59](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/NativeEvents.ts#L59)
+[src/NativeEvents.ts:59](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/NativeEvents.ts#L59)
 
 ## Properties
 
@@ -70,4 +70,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:58](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/NativeEvents.ts#L58)
+[src/NativeEvents.ts:58](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/NativeEvents.ts#L58)

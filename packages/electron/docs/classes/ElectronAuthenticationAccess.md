@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[electron/src/ElectronAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronAuthenticationAccess.ts#L8)
+[electron/src/ElectronAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronAuthenticationAccess.ts#L8)
 
 ## Methods
 
@@ -58,4 +58,4 @@ True if authentication was successful and false if authentication was unsuccessf
 
 #### Defined in
 
-[electron/src/ElectronAuthenticationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronAuthenticationAccess.ts#L10)
+[electron/src/ElectronAuthenticationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronAuthenticationAccess.ts#L10)

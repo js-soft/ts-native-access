@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[CommonScannerAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonScannerAccess.ts#L8)
+[CommonScannerAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonScannerAccess.ts#L8)
 
 ## Methods
 
@@ -48,4 +48,4 @@ INativeScannerAccess.scan
 
 #### Defined in
 
-[CommonScannerAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonScannerAccess.ts#L10)
+[CommonScannerAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonScannerAccess.ts#L10)

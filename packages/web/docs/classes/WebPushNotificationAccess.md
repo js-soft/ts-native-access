@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[web/src/WebPushNotificationAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebPushNotificationAccess.ts#L15)
+[web/src/WebPushNotificationAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebPushNotificationAccess.ts#L15)
 
 ## Methods
 
@@ -55,4 +55,4 @@ It also publishes a [RemoteNotificationEvent](RemoteNotificationEvent.md) when a
 
 #### Defined in
 
-[web/src/WebPushNotificationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebPushNotificationAccess.ts#L22)
+[web/src/WebPushNotificationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/web/src/WebPushNotificationAccess.ts#L22)

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaDeviceInfoAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaDeviceInfoAccess.ts#L9)
+[cordova/src/CordovaDeviceInfoAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaDeviceInfoAccess.ts#L9)
 
 ## Accessors
 
@@ -58,7 +58,7 @@ Available information about the device running the app
 
 #### Defined in
 
-[cordova/src/CordovaDeviceInfoAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaDeviceInfoAccess.ts#L6)
+[cordova/src/CordovaDeviceInfoAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaDeviceInfoAccess.ts#L6)
 
 ## Methods
 
@@ -78,4 +78,4 @@ Initialize the module to retrieve relevant device information
 
 #### Defined in
 
-[cordova/src/CordovaDeviceInfoAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaDeviceInfoAccess.ts#L11)
+[cordova/src/CordovaDeviceInfoAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaDeviceInfoAccess.ts#L11)

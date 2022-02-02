@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaAuthenticationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaAuthenticationAccess.ts#L6)
+[cordova/src/CordovaAuthenticationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaAuthenticationAccess.ts#L6)
 
 ## Methods
 
@@ -58,4 +58,4 @@ True if authentication was successful and false if authentication was unsuccessf
 
 #### Defined in
 
-[cordova/src/CordovaAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaAuthenticationAccess.ts#L8)
+[cordova/src/CordovaAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaAuthenticationAccess.ts#L8)

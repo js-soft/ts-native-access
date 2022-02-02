@@ -41,4 +41,4 @@ ILokiJsDatabaseFactory.create
 
 #### Defined in
 
-[src/INativeDatabaseFactory.ts:12](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeDatabaseFactory.ts#L12)
+[src/INativeDatabaseFactory.ts:12](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeDatabaseFactory.ts#L12)

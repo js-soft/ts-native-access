@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[CommonEventBus.ts:5](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonEventBus.ts#L5)
+[CommonEventBus.ts:5](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonEventBus.ts#L5)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[CommonEventBus.ts:6](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonEventBus.ts#L6)
+[CommonEventBus.ts:6](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonEventBus.ts#L6)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[CommonEventBus.ts:7](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonEventBus.ts#L7)
+[CommonEventBus.ts:7](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonEventBus.ts#L7)
 
 ## Methods
 
@@ -78,7 +78,7 @@ INativeEventBus.init
 
 #### Defined in
 
-[CommonEventBus.ts:9](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonEventBus.ts#L9)
+[CommonEventBus.ts:9](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonEventBus.ts#L9)
 
 ___
 
@@ -102,7 +102,7 @@ INativeEventBus.publish
 
 #### Defined in
 
-[CommonEventBus.ts:29](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonEventBus.ts#L29)
+[CommonEventBus.ts:29](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonEventBus.ts#L29)
 
 ___
 
@@ -127,7 +127,7 @@ INativeEventBus.subscribe
 
 #### Defined in
 
-[CommonEventBus.ts:14](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonEventBus.ts#L14)
+[CommonEventBus.ts:14](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonEventBus.ts#L14)
 
 ___
 
@@ -152,7 +152,7 @@ INativeEventBus.subscribeOnce
 
 #### Defined in
 
-[CommonEventBus.ts:19](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonEventBus.ts#L19)
+[CommonEventBus.ts:19](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonEventBus.ts#L19)
 
 ___
 
@@ -177,4 +177,4 @@ INativeEventBus.unsubscribe
 
 #### Defined in
 
-[CommonEventBus.ts:24](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonEventBus.ts#L24)
+[CommonEventBus.ts:24](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/common/src/CommonEventBus.ts#L24)
