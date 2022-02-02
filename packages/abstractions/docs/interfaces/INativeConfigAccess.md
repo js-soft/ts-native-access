@@ -37,7 +37,7 @@ Read the value of the config associated to the key.
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:152](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L152)
+[src/INativeConfigAccess.ts:152](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L152)
 
 ___
 
@@ -60,7 +60,7 @@ It loads the default config while keeping the runtime config empty.
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:176](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L176)
+[src/INativeConfigAccess.ts:176](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L176)
 
 ___
 
@@ -84,7 +84,7 @@ Initialization of the runtime config in addition to the default config with the 
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:181](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L181)
+[src/INativeConfigAccess.ts:181](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L181)
 
 ___
 
@@ -107,7 +107,7 @@ A [ConfigurationRemoveEvent](../classes/ConfigurationRemoveEvent.md) is publishe
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:165](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L165)
+[src/INativeConfigAccess.ts:165](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L165)
 
 ___
 
@@ -124,7 +124,7 @@ A [ConfigurationSaveEvent](../classes/ConfigurationSaveEvent.md) is published on
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:170](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L170)
+[src/INativeConfigAccess.ts:170](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L170)
 
 ___
 
@@ -148,4 +148,4 @@ A [ConfigurationSetEvent](../classes/ConfigurationSetEvent.md) is published on t
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:159](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L159)
+[src/INativeConfigAccess.ts:159](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L159)

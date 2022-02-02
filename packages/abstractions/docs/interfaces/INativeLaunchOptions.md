@@ -25,4 +25,4 @@ when the app was started to open a file.
 
 #### Defined in
 
-[src/INativeLaunchOptions.ts:11](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeLaunchOptions.ts#L11)
+[src/INativeLaunchOptions.ts:11](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeLaunchOptions.ts#L11)

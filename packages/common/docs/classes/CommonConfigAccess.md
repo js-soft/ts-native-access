@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[CommonConfigAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L18)
+[CommonConfigAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L18)
 
 ## Properties
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-[CommonConfigAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L22)
+[CommonConfigAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L22)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[CommonConfigAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L21)
+[CommonConfigAccess.ts:21](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L21)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[CommonConfigAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L15)
+[CommonConfigAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L15)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[CommonConfigAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L16)
+[CommonConfigAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L16)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[CommonConfigAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L20)
+[CommonConfigAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L20)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[CommonConfigAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L17)
+[CommonConfigAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L17)
 
 ## Methods
 
@@ -129,7 +129,7 @@ INativeConfigAccess.get
 
 #### Defined in
 
-[CommonConfigAccess.ts:79](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L79)
+[CommonConfigAccess.ts:79](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L79)
 
 ___
 
@@ -153,7 +153,7 @@ INativeConfigAccess.initDefaultConfig
 
 #### Defined in
 
-[CommonConfigAccess.ts:32](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L32)
+[CommonConfigAccess.ts:32](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L32)
 
 ___
 
@@ -179,7 +179,7 @@ INativeConfigAccess.initRuntimeConfig
 
 #### Defined in
 
-[CommonConfigAccess.ts:40](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L40)
+[CommonConfigAccess.ts:40](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L40)
 
 ___
 
@@ -196,7 +196,7 @@ The runtime config can overwrite entries of the default config.
 
 #### Defined in
 
-[CommonConfigAccess.ts:28](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L28)
+[CommonConfigAccess.ts:28](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L28)
 
 ___
 
@@ -220,7 +220,7 @@ INativeConfigAccess.remove
 
 #### Defined in
 
-[CommonConfigAccess.ts:98](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L98)
+[CommonConfigAccess.ts:98](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L98)
 
 ___
 
@@ -238,7 +238,7 @@ INativeConfigAccess.save
 
 #### Defined in
 
-[CommonConfigAccess.ts:68](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L68)
+[CommonConfigAccess.ts:68](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L68)
 
 ___
 
@@ -263,4 +263,4 @@ INativeConfigAccess.set
 
 #### Defined in
 
-[CommonConfigAccess.ts:87](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonConfigAccess.ts#L87)
+[CommonConfigAccess.ts:87](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonConfigAccess.ts#L87)

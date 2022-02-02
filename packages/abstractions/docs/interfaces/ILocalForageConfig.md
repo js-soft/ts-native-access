@@ -25,7 +25,7 @@ Description of created storage
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:81](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L81)
+[src/INativeConfigAccess.ts:81](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L81)
 
 ___
 
@@ -37,7 +37,7 @@ Storage location (indexeddb, websql)
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:61](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L61)
+[src/INativeConfigAccess.ts:61](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L61)
 
 ___
 
@@ -49,7 +49,7 @@ Name of app
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:65](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L65)
+[src/INativeConfigAccess.ts:65](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L65)
 
 ___
 
@@ -61,7 +61,7 @@ Size of database
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L73)
+[src/INativeConfigAccess.ts:73](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L73)
 
 ___
 
@@ -73,7 +73,7 @@ Name of created storage
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:77](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L77)
+[src/INativeConfigAccess.ts:77](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L77)
 
 ___
 
@@ -85,4 +85,4 @@ Version number of app
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:69](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeConfigAccess.ts#L69)
+[src/INativeConfigAccess.ts:69](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeConfigAccess.ts#L69)

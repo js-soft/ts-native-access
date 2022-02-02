@@ -51,7 +51,7 @@
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L14)
+[electron/src/ElectronFileAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L14)
 
 ## Properties
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L18)
+[electron/src/ElectronFileAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L18)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L16)
+[electron/src/ElectronFileAccess.ts:16](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L16)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L17)
+[electron/src/ElectronFileAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L17)
 
 ## Methods
 
@@ -108,7 +108,7 @@ Create a directory
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:195](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L195)
+[electron/src/ElectronFileAccess.ts:195](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L195)
 
 ___
 
@@ -135,7 +135,7 @@ Delete a directory
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:205](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L205)
+[electron/src/ElectronFileAccess.ts:205](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L205)
 
 ___
 
@@ -162,7 +162,7 @@ Delete specified file
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:128](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L128)
+[electron/src/ElectronFileAccess.ts:128](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L128)
 
 ___
 
@@ -189,7 +189,7 @@ Test if a directory exists
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:225](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L225)
+[electron/src/ElectronFileAccess.ts:225](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L225)
 
 ___
 
@@ -216,7 +216,7 @@ Test if a file exists
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:138](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L138)
+[electron/src/ElectronFileAccess.ts:138](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L138)
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L37)
+[electron/src/ElectronFileAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L37)
 
 ___
 
@@ -264,7 +264,7 @@ Retrieve information about a specified directory
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:153](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L153)
+[electron/src/ElectronFileAccess.ts:153](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L153)
 
 ___
 
@@ -291,7 +291,7 @@ Retrieve meta information about the specified file
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:71](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L71)
+[electron/src/ElectronFileAccess.ts:71](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L71)
 
 ___
 
@@ -311,7 +311,7 @@ Initialize the native features and create a folder structure
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L20)
+[electron/src/ElectronFileAccess.ts:20](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L20)
 
 ___
 
@@ -338,7 +338,7 @@ Open a file with the standard application specified by the operating system
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:273](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L273)
+[electron/src/ElectronFileAccess.ts:273](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L273)
 
 ___
 
@@ -365,7 +365,7 @@ Create and open a file with the standard application specified by the operating 
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:279](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L279)
+[electron/src/ElectronFileAccess.ts:279](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L279)
 
 ___
 
@@ -392,7 +392,7 @@ Read the data of the specified file as a an array
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:101](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L101)
+[electron/src/ElectronFileAccess.ts:101](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L101)
 
 ___
 
@@ -419,7 +419,7 @@ Read the data of the specified file as a string
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:91](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L91)
+[electron/src/ElectronFileAccess.ts:91](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L91)
 
 ___
 
@@ -439,7 +439,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:52](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L52)
+[electron/src/ElectronFileAccess.ts:52](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L52)
 
 ___
 
@@ -459,7 +459,7 @@ Open the file selection dialog of the operating system and receive the selected 
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:240](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L240)
+[electron/src/ElectronFileAccess.ts:240](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L240)
 
 ___
 
@@ -488,4 +488,4 @@ Write data to a file
 
 #### Defined in
 
-[electron/src/ElectronFileAccess.ts:112](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronFileAccess.ts#L112)
+[electron/src/ElectronFileAccess.ts:112](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronFileAccess.ts#L112)

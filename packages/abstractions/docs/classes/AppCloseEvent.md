@@ -33,7 +33,7 @@ Event fired when the app closes
 
 #### Defined in
 
-[src/NativeEvents.ts:89](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L89)
+[src/NativeEvents.ts:89](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/NativeEvents.ts#L89)
 
 ## Properties
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:88](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L88)
+[src/NativeEvents.ts:88](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/NativeEvents.ts#L88)

@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronNotificationAccess.ts#L12)
+[electron/src/ElectronNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronNotificationAccess.ts#L12)
 
 ## Properties
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronNotificationAccess.ts#L10)
+[electron/src/ElectronNotificationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronNotificationAccess.ts#L10)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronNotificationAccess.ts#L9)
+[electron/src/ElectronNotificationAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronNotificationAccess.ts#L9)
 
 ## Methods
 
@@ -88,7 +88,7 @@ Remove a notification from being displayed
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:72](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronNotificationAccess.ts#L72)
+[electron/src/ElectronNotificationAccess.ts:72](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronNotificationAccess.ts#L72)
 
 ___
 
@@ -108,7 +108,7 @@ Remove all notifications from being displayed
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:78](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronNotificationAccess.ts#L78)
+[electron/src/ElectronNotificationAccess.ts:78](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronNotificationAccess.ts#L78)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:87](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronNotificationAccess.ts#L87)
+[electron/src/ElectronNotificationAccess.ts:87](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronNotificationAccess.ts#L87)
 
 ___
 
@@ -148,7 +148,7 @@ Retrieve all notifications currently being displayed
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:83](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronNotificationAccess.ts#L83)
+[electron/src/ElectronNotificationAccess.ts:83](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronNotificationAccess.ts#L83)
 
 ___
 
@@ -168,7 +168,7 @@ Initialize module
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronNotificationAccess.ts#L14)
+[electron/src/ElectronNotificationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronNotificationAccess.ts#L14)
 
 ___
 
@@ -196,7 +196,7 @@ Display a local notification
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronNotificationAccess.ts#L19)
+[electron/src/ElectronNotificationAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronNotificationAccess.ts#L19)
 
 ___
 
@@ -225,4 +225,4 @@ Update the content of an already displayed notification
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:67](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronNotificationAccess.ts#L67)
+[electron/src/ElectronNotificationAccess.ts:67](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronNotificationAccess.ts#L67)

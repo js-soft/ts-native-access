@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronKeychainAccess.ts#L7)
+[electron/src/ElectronKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronKeychainAccess.ts#L7)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronKeychainAccess.ts#L6)
+[electron/src/ElectronKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronKeychainAccess.ts#L6)
 
 ## Methods
 
@@ -75,7 +75,7 @@ Delete key-value pair
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronKeychainAccess.ts#L37)
+[electron/src/ElectronKeychainAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronKeychainAccess.ts#L37)
 
 ___
 
@@ -101,7 +101,7 @@ Get value for the specified {@link key}
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronKeychainAccess.ts#L15)
+[electron/src/ElectronKeychainAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronKeychainAccess.ts#L15)
 
 ___
 
@@ -121,7 +121,7 @@ Initialize the module
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronKeychainAccess.ts#L11)
+[electron/src/ElectronKeychainAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronKeychainAccess.ts#L11)
 
 ___
 
@@ -141,7 +141,7 @@ List all key-value pairs added by the applicaion
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:46](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronKeychainAccess.ts#L46)
+[electron/src/ElectronKeychainAccess.ts:46](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronKeychainAccess.ts#L46)
 
 ___
 
@@ -168,4 +168,4 @@ Add key-value pair to keychain
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:28](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronKeychainAccess.ts#L28)
+[electron/src/ElectronKeychainAccess.ts:28](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronKeychainAccess.ts#L28)

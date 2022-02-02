@@ -46,7 +46,7 @@ Event fired when the app changes theme
 
 #### Defined in
 
-[src/NativeEvents.ts:104](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L104)
+[src/NativeEvents.ts:104](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/NativeEvents.ts#L104)
 
 ## Properties
 
@@ -94,4 +94,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:103](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L103)
+[src/NativeEvents.ts:103](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/NativeEvents.ts#L103)

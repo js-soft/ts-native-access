@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:52](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L52)
+[cordova/src/CordovaBootstrapper.ts:52](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L52)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:38](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L38)
+[cordova/src/CordovaBootstrapper.ts:38](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L38)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L39)
+[cordova/src/CordovaBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L39)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L40)
+[cordova/src/CordovaBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L40)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L41)
+[cordova/src/CordovaBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L41)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L42)
+[cordova/src/CordovaBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L42)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L43)
+[cordova/src/CordovaBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L43)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L44)
+[cordova/src/CordovaBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L44)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:45](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L45)
+[cordova/src/CordovaBootstrapper.ts:45](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L45)
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:50](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L50)
+[cordova/src/CordovaBootstrapper.ts:50](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L50)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L46)
+[cordova/src/CordovaBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L46)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:47](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L47)
+[cordova/src/CordovaBootstrapper.ts:47](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L47)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:49](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L49)
+[cordova/src/CordovaBootstrapper.ts:49](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L49)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L48)
+[cordova/src/CordovaBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L48)
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:37](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L37)
+[cordova/src/CordovaBootstrapper.ts:37](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L37)
 
 ## Accessors
 
@@ -214,7 +214,7 @@ Indicates whether the initalisation is finished
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:53](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L53)
+[cordova/src/CordovaBootstrapper.ts:53](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L53)
 
 ___
 
@@ -234,7 +234,7 @@ Environment of initialized native features
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:57](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L57)
+[cordova/src/CordovaBootstrapper.ts:57](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L57)
 
 ## Methods
 
@@ -254,7 +254,7 @@ Environment of initialized native features
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:131](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L131)
+[cordova/src/CordovaBootstrapper.ts:131](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L131)
 
 ___
 
@@ -274,4 +274,4 @@ Function for starting the initialization process
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:78](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaBootstrapper.ts#L78)
+[cordova/src/CordovaBootstrapper.ts:78](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaBootstrapper.ts#L78)

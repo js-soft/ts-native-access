@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[web/src/WebAuthenticationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebAuthenticationAccess.ts#L6)
+[web/src/WebAuthenticationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebAuthenticationAccess.ts#L6)
 
 ## Methods
 
@@ -58,4 +58,4 @@ True if authentication was successful and false if authentication was unsuccessf
 
 #### Defined in
 
-[web/src/WebAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebAuthenticationAccess.ts#L8)
+[web/src/WebAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebAuthenticationAccess.ts#L8)

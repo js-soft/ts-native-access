@@ -33,7 +33,7 @@ Event fired when the [configuration module](./INativeConfigAccess.md) finishes a
 
 #### Defined in
 
-[src/NativeEvents.ts:29](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L29)
+[src/NativeEvents.ts:29](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/NativeEvents.ts#L29)
 
 ## Properties
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:28](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/NativeEvents.ts#L28)
+[src/NativeEvents.ts:28](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/NativeEvents.ts#L28)

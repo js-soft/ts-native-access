@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaKeychainAccess.ts#L6)
+[cordova/src/CordovaKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaKeychainAccess.ts#L6)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaKeychainAccess.ts#L8)
+[cordova/src/CordovaKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaKeychainAccess.ts#L8)
 
 ## Methods
 
@@ -75,7 +75,7 @@ Delete key-value pair
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaKeychainAccess.ts#L38)
+[cordova/src/CordovaKeychainAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaKeychainAccess.ts#L38)
 
 ___
 
@@ -101,7 +101,7 @@ Get value for the specified {@link key}
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaKeychainAccess.ts#L19)
+[cordova/src/CordovaKeychainAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaKeychainAccess.ts#L19)
 
 ___
 
@@ -121,7 +121,7 @@ Initialize the module
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaKeychainAccess.ts#L10)
+[cordova/src/CordovaKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaKeychainAccess.ts#L10)
 
 ___
 
@@ -141,7 +141,7 @@ List all key-value pairs added by the applicaion
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:47](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaKeychainAccess.ts#L47)
+[cordova/src/CordovaKeychainAccess.ts:47](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaKeychainAccess.ts#L47)
 
 ___
 
@@ -168,4 +168,4 @@ Add key-value pair to keychain
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaKeychainAccess.ts#L29)
+[cordova/src/CordovaKeychainAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaKeychainAccess.ts#L29)

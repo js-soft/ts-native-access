@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[CommonServiceWorker.ts:2](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/common/src/CommonServiceWorker.ts#L2)
+[CommonServiceWorker.ts:2](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/common/src/CommonServiceWorker.ts#L2)

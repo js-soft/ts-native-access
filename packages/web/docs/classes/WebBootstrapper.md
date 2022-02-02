@@ -53,7 +53,7 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L46)
+[web/src/WebBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L46)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:33](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L33)
+[web/src/WebBootstrapper.ts:33](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L33)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:34](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L34)
+[web/src/WebBootstrapper.ts:34](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L34)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:35](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L35)
+[web/src/WebBootstrapper.ts:35](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L35)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:36](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L36)
+[web/src/WebBootstrapper.ts:36](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L36)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:37](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L37)
+[web/src/WebBootstrapper.ts:37](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L37)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:38](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L38)
+[web/src/WebBootstrapper.ts:38](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L38)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L39)
+[web/src/WebBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L39)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L40)
+[web/src/WebBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L40)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L41)
+[web/src/WebBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L41)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L42)
+[web/src/WebBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L42)
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L44)
+[web/src/WebBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L44)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L43)
+[web/src/WebBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L43)
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:32](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L32)
+[web/src/WebBootstrapper.ts:32](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L32)
 
 ## Accessors
 
@@ -203,7 +203,7 @@ Indicates whether the initalisation is finished
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L48)
+[web/src/WebBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L48)
 
 ___
 
@@ -223,7 +223,7 @@ Environment of initialized native features
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:52](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L52)
+[web/src/WebBootstrapper.ts:52](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L52)
 
 ## Methods
 
@@ -243,7 +243,7 @@ Environment of initialized native features
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:120](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L120)
+[web/src/WebBootstrapper.ts:120](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L120)
 
 ___
 
@@ -263,4 +263,4 @@ Function for starting the initialization process
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:72](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebBootstrapper.ts#L72)
+[web/src/WebBootstrapper.ts:72](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebBootstrapper.ts#L72)

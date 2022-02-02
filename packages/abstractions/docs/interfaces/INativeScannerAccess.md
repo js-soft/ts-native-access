@@ -24,4 +24,4 @@ Scan qr-code
 
 #### Defined in
 
-[src/INativeScannerAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeScannerAccess.ts#L12)
+[src/INativeScannerAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeScannerAccess.ts#L12)

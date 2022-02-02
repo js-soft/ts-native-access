@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:27](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L27)
+[web/src/WebFileAccess.ts:27](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L27)
 
 ## Properties
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L29)
+[web/src/WebFileAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L29)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L30)
+[web/src/WebFileAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L30)
 
 ## Methods
 
@@ -99,7 +99,7 @@ Create a directory
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:236](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L236)
+[web/src/WebFileAccess.ts:236](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L236)
 
 ___
 
@@ -126,7 +126,7 @@ Delete a directory
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:273](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L273)
+[web/src/WebFileAccess.ts:273](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L273)
 
 ___
 
@@ -153,7 +153,7 @@ Delete specified file
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:183](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L183)
+[web/src/WebFileAccess.ts:183](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L183)
 
 ___
 
@@ -180,7 +180,7 @@ Test if a directory exists
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:312](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L312)
+[web/src/WebFileAccess.ts:312](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L312)
 
 ___
 
@@ -207,7 +207,7 @@ Test if a file exists
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:208](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L208)
+[web/src/WebFileAccess.ts:208](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L208)
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:368](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L368)
+[web/src/WebFileAccess.ts:368](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L368)
 
 ___
 
@@ -254,7 +254,7 @@ Retrieve information about a specified directory
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:220](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L220)
+[web/src/WebFileAccess.ts:220](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L220)
 
 ___
 
@@ -281,7 +281,7 @@ Retrieve meta information about the specified file
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:64](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L64)
+[web/src/WebFileAccess.ts:64](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L64)
 
 ___
 
@@ -301,7 +301,7 @@ Initialize the native features and create a folder structure
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:32](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L32)
+[web/src/WebFileAccess.ts:32](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L32)
 
 ___
 
@@ -321,7 +321,7 @@ ___
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L53)
+[web/src/WebFileAccess.ts:53](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L53)
 
 ___
 
@@ -335,7 +335,7 @@ ___
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:324](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L324)
+[web/src/WebFileAccess.ts:324](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L324)
 
 ___
 
@@ -362,7 +362,7 @@ Open a file with the standard application specified by the operating system
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:411](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L411)
+[web/src/WebFileAccess.ts:411](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L411)
 
 ___
 
@@ -389,7 +389,7 @@ Create and open a file with the standard application specified by the operating 
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:428](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L428)
+[web/src/WebFileAccess.ts:428](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L428)
 
 ___
 
@@ -409,7 +409,7 @@ ___
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:359](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L359)
+[web/src/WebFileAccess.ts:359](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L359)
 
 ___
 
@@ -436,7 +436,7 @@ Read the data of the specified file as a an array
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:97](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L97)
+[web/src/WebFileAccess.ts:97](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L97)
 
 ___
 
@@ -463,7 +463,7 @@ Read the data of the specified file as a string
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:81](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L81)
+[web/src/WebFileAccess.ts:81](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L81)
 
 ___
 
@@ -484,7 +484,7 @@ button click listener.
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:396](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L396)
+[web/src/WebFileAccess.ts:396](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L396)
 
 ___
 
@@ -513,4 +513,4 @@ Write data to a file
 
 #### Defined in
 
-[web/src/WebFileAccess.ts:114](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/web/src/WebFileAccess.ts#L114)
+[web/src/WebFileAccess.ts:114](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/web/src/WebFileAccess.ts#L114)

@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaLaunchOptions.ts:6](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaLaunchOptions.ts#L6)
+[cordova/src/CordovaLaunchOptions.ts:6](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaLaunchOptions.ts#L6)
 
 ## Methods
 
@@ -53,4 +53,4 @@ when the app was started to open a file.
 
 #### Defined in
 
-[cordova/src/CordovaLaunchOptions.ts:8](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/cordova/src/CordovaLaunchOptions.ts#L8)
+[cordova/src/CordovaLaunchOptions.ts:8](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/cordova/src/CordovaLaunchOptions.ts#L8)

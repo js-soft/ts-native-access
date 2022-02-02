@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L48)
+[electron/src/ElectronBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L48)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:34](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L34)
+[electron/src/ElectronBootstrapper.ts:34](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L34)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:35](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L35)
+[electron/src/ElectronBootstrapper.ts:35](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L35)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:36](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L36)
+[electron/src/ElectronBootstrapper.ts:36](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L36)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:37](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L37)
+[electron/src/ElectronBootstrapper.ts:37](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L37)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:38](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L38)
+[electron/src/ElectronBootstrapper.ts:38](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L38)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L39)
+[electron/src/ElectronBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L39)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L40)
+[electron/src/ElectronBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L40)
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L41)
+[electron/src/ElectronBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L41)
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L46)
+[electron/src/ElectronBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L46)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L42)
+[electron/src/ElectronBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L42)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L43)
+[electron/src/ElectronBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L43)
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:45](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L45)
+[electron/src/ElectronBootstrapper.ts:45](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L45)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L44)
+[electron/src/ElectronBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L44)
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:33](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L33)
+[electron/src/ElectronBootstrapper.ts:33](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L33)
 
 ## Accessors
 
@@ -214,7 +214,7 @@ Indicates whether the initalisation is finished
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:49](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L49)
+[electron/src/ElectronBootstrapper.ts:49](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L49)
 
 ___
 
@@ -234,7 +234,7 @@ Environment of initialized native features
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:53](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L53)
+[electron/src/ElectronBootstrapper.ts:53](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L53)
 
 ## Methods
 
@@ -254,7 +254,7 @@ Environment of initialized native features
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:122](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L122)
+[electron/src/ElectronBootstrapper.ts:122](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L122)
 
 ___
 
@@ -274,4 +274,4 @@ Function for starting the initialization process
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:74](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/electron/src/ElectronBootstrapper.ts#L74)
+[electron/src/ElectronBootstrapper.ts:74](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/electron/src/ElectronBootstrapper.ts#L74)

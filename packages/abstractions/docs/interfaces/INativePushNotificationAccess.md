@@ -26,4 +26,4 @@ It also publishes a [RemoteNotificationEvent](../classes/RemoteNotificationEvent
 
 #### Defined in
 
-[src/INativePushNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativePushNotificationAccess.ts#L12)
+[src/INativePushNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativePushNotificationAccess.ts#L12)

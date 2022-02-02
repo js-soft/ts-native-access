@@ -22,7 +22,7 @@ Directories the directory contains
 
 #### Defined in
 
-[src/INativeFileAccess.ts:98](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeFileAccess.ts#L98)
+[src/INativeFileAccess.ts:98](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeFileAccess.ts#L98)
 
 ___
 
@@ -34,7 +34,7 @@ Files the directory contains
 
 #### Defined in
 
-[src/INativeFileAccess.ts:94](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeFileAccess.ts#L94)
+[src/INativeFileAccess.ts:94](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeFileAccess.ts#L94)
 
 ___
 
@@ -46,4 +46,4 @@ Meta information of the directory
 
 #### Defined in
 
-[src/INativeFileAccess.ts:102](https://github.com/js-soft/ts-native-access/blob/feba5fc/packages/abstractions/src/INativeFileAccess.ts#L102)
+[src/INativeFileAccess.ts:102](https://github.com/js-soft/ts-native-access/blob/2fee55d/packages/abstractions/src/INativeFileAccess.ts#L102)
