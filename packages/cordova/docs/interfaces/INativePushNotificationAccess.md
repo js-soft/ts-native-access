@@ -6,13 +6,13 @@ Receive and handle remote push notifications
 
 ## Implemented by
 
-- [`CordovaPushNotificationAccess`](../classes/CordovaPushNotificationAccess.md)
+-   [`CordovaPushNotificationAccess`](../classes/CordovaPushNotificationAccess.md)
 
 ## Table of contents
 
 ### Methods
 
-- [init](INativePushNotificationAccess.md#init)
+-   [init](INativePushNotificationAccess.md#init)
 
 ## Methods
 

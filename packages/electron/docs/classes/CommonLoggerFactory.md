@@ -4,27 +4,27 @@
 
 ## Implements
 
-- [`INativeLoggerFactory`](../interfaces/INativeLoggerFactory.md)
+-   [`INativeLoggerFactory`](../interfaces/INativeLoggerFactory.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CommonLoggerFactory.md#constructor)
+-   [constructor](CommonLoggerFactory.md#constructor)
 
 ### Properties
 
-- [addLog](CommonLoggerFactory.md#addlog)
-- [busy](CommonLoggerFactory.md#busy)
-- [fileAccess](CommonLoggerFactory.md#fileaccess)
-- [formatMessages](CommonLoggerFactory.md#formatmessages)
-- [queue](CommonLoggerFactory.md#queue)
-- [saveQueue](CommonLoggerFactory.md#savequeue)
+-   [addLog](CommonLoggerFactory.md#addlog)
+-   [busy](CommonLoggerFactory.md#busy)
+-   [fileAccess](CommonLoggerFactory.md#fileaccess)
+-   [formatMessages](CommonLoggerFactory.md#formatmessages)
+-   [queue](CommonLoggerFactory.md#queue)
+-   [saveQueue](CommonLoggerFactory.md#savequeue)
 
 ### Methods
 
-- [getLogger](CommonLoggerFactory.md#getlogger)
-- [init](CommonLoggerFactory.md#init)
+-   [getLogger](CommonLoggerFactory.md#getlogger)
+-   [init](CommonLoggerFactory.md#init)
 
 ## Constructors
 
@@ -34,8 +34,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name         | Type                                                      |
+| :----------- | :-------------------------------------------------------- |
 | `fileAccess` | [`INativeFileAccess`](../interfaces/INativeFileAccess.md) |
 
 #### Defined in
@@ -54,7 +54,7 @@ Add the log to a queue for saving to filesystem
 
 common/dist/CommonLoggerFactory.d.ts:18
 
-___
+---
 
 ### busy
 
@@ -64,7 +64,7 @@ ___
 
 common/dist/CommonLoggerFactory.d.ts:10
 
-___
+---
 
 ### fileAccess
 
@@ -74,7 +74,7 @@ ___
 
 common/dist/CommonLoggerFactory.d.ts:5
 
-___
+---
 
 ### formatMessages
 
@@ -84,7 +84,7 @@ ___
 
 common/dist/CommonLoggerFactory.d.ts:8
 
-___
+---
 
 ### queue
 
@@ -94,7 +94,7 @@ ___
 
 common/dist/CommonLoggerFactory.d.ts:9
 
-___
+---
 
 ### saveQueue
 
@@ -114,8 +114,8 @@ common/dist/CommonLoggerFactory.d.ts:14
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name    | Type                   |
+| :------ | :--------------------- |
 | `oName` | `string` \| `Function` |
 
 #### Returns
@@ -130,7 +130,7 @@ common/dist/CommonLoggerFactory.d.ts:14
 
 common/dist/CommonLoggerFactory.d.ts:19
 
-___
+---
 
 ### init
 

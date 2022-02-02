@@ -4,21 +4,21 @@
 
 ## Implements
 
-- [`INativeScannerAccess`](../interfaces/INativeScannerAccess.md)
+-   [`INativeScannerAccess`](../interfaces/INativeScannerAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CommonScannerAccess.md#constructor)
+-   [constructor](CommonScannerAccess.md#constructor)
 
 ### Properties
 
-- [logger](CommonScannerAccess.md#logger)
+-   [logger](CommonScannerAccess.md#logger)
 
 ### Methods
 
-- [scan](CommonScannerAccess.md#scan)
+-   [scan](CommonScannerAccess.md#scan)
 
 ## Constructors
 
@@ -28,8 +28,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type      |
+| :------- | :-------- |
 | `logger` | `ILogger` |
 
 #### Defined in

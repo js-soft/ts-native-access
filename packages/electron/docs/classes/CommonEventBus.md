@@ -4,27 +4,27 @@
 
 ## Implements
 
-- [`INativeEventBus`](../interfaces/INativeEventBus.md)
+-   [`INativeEventBus`](../interfaces/INativeEventBus.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CommonEventBus.md#constructor)
+-   [constructor](CommonEventBus.md#constructor)
 
 ### Properties
 
-- [eventBus](CommonEventBus.md#eventbus)
-- [locked](CommonEventBus.md#locked)
-- [queue](CommonEventBus.md#queue)
+-   [eventBus](CommonEventBus.md#eventbus)
+-   [locked](CommonEventBus.md#locked)
+-   [queue](CommonEventBus.md#queue)
 
 ### Methods
 
-- [init](CommonEventBus.md#init)
-- [publish](CommonEventBus.md#publish)
-- [subscribe](CommonEventBus.md#subscribe)
-- [subscribeOnce](CommonEventBus.md#subscribeonce)
-- [unsubscribe](CommonEventBus.md#unsubscribe)
+-   [init](CommonEventBus.md#init)
+-   [publish](CommonEventBus.md#publish)
+-   [subscribe](CommonEventBus.md#subscribe)
+-   [subscribeOnce](CommonEventBus.md#subscribeonce)
+-   [unsubscribe](CommonEventBus.md#unsubscribe)
 
 ## Constructors
 
@@ -42,7 +42,7 @@
 
 common/dist/CommonEventBus.d.ts:4
 
-___
+---
 
 ### locked
 
@@ -52,7 +52,7 @@ ___
 
 common/dist/CommonEventBus.d.ts:5
 
-___
+---
 
 ### queue
 
@@ -84,7 +84,7 @@ The locked event bus queues published events and publishes them once it is unloc
 
 common/dist/CommonEventBus.d.ts:7
 
-___
+---
 
 ### publish
 
@@ -94,7 +94,7 @@ Publish a specific event
 
 #### Parameters
 
-| Name | Type |
+| Name    | Type    |
 | :------ | :------ |
 | `event` | `Event` |
 
@@ -110,7 +110,7 @@ Publish a specific event
 
 common/dist/CommonEventBus.d.ts:11
 
-___
+---
 
 ### subscribe
 
@@ -120,9 +120,9 @@ Subscribe for a handler to be called each time a specific event occurs
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `event` | `Event` |
+| Name      | Type                       |
+| :-------- | :------------------------- |
+| `event`   | `Event`                    |
 | `handler` | (`event`: `any`) => `void` |
 
 #### Returns
@@ -137,7 +137,7 @@ Subscribe for a handler to be called each time a specific event occurs
 
 common/dist/CommonEventBus.d.ts:8
 
-___
+---
 
 ### subscribeOnce
 
@@ -147,9 +147,9 @@ Subscribe for a handler to be called the next time a specific event occurs
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `event` | `Event` |
+| Name      | Type                       |
+| :-------- | :------------------------- |
+| `event`   | `Event`                    |
 | `handler` | (`event`: `any`) => `void` |
 
 #### Returns
@@ -164,7 +164,7 @@ Subscribe for a handler to be called the next time a specific event occurs
 
 common/dist/CommonEventBus.d.ts:9
 
-___
+---
 
 ### unsubscribe
 
@@ -174,10 +174,10 @@ Unsunscribe a handler from being called when a specific event occurs
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `event` | `Event` |
-| `id` | `number` |
+| Name    | Type     |
+| :------ | :------- |
+| `event` | `Event`  |
+| `id`    | `number` |
 
 #### Returns
 

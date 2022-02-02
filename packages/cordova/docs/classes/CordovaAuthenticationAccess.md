@@ -4,17 +4,17 @@
 
 ## Implements
 
-- [`INativeAuthenticationAccess`](../interfaces/INativeAuthenticationAccess.md)
+-   [`INativeAuthenticationAccess`](../interfaces/INativeAuthenticationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CordovaAuthenticationAccess.md#constructor)
+-   [constructor](CordovaAuthenticationAccess.md#constructor)
 
 ### Methods
 
-- [authenticate](CordovaAuthenticationAccess.md#authenticate)
+-   [authenticate](CordovaAuthenticationAccess.md#authenticate)
 
 ## Constructors
 
@@ -24,13 +24,13 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name     | Type      |
+| :------- | :-------- |
 | `logger` | `ILogger` |
 
 #### Defined in
 
-[cordova/src/CordovaAuthenticationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaAuthenticationAccess.ts#L6)
+[cordova/src/CordovaAuthenticationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaAuthenticationAccess.ts#L6)
 
 ## Methods
 
@@ -42,8 +42,8 @@ Start the authentication process
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name       | Type                                                                            |
+| :--------- | :------------------------------------------------------------------------------ |
 | `options?` | [`INativeAuthenticationOptions`](../interfaces/INativeAuthenticationOptions.md) |
 
 #### Returns
@@ -58,4 +58,4 @@ True if authentication was successful and false if authentication was unsuccessf
 
 #### Defined in
 
-[cordova/src/CordovaAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaAuthenticationAccess.ts#L8)
+[cordova/src/CordovaAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaAuthenticationAccess.ts#L8)

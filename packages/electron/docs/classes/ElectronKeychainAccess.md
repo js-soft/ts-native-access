@@ -4,25 +4,25 @@
 
 ## Implements
 
-- [`INativeKeychainAccess`](../interfaces/INativeKeychainAccess.md)
+-   [`INativeKeychainAccess`](../interfaces/INativeKeychainAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ElectronKeychainAccess.md#constructor)
+-   [constructor](ElectronKeychainAccess.md#constructor)
 
 ### Properties
 
-- [service](ElectronKeychainAccess.md#service)
+-   [service](ElectronKeychainAccess.md#service)
 
 ### Methods
 
-- [delete](ElectronKeychainAccess.md#delete)
-- [get](ElectronKeychainAccess.md#get)
-- [init](ElectronKeychainAccess.md#init)
-- [list](ElectronKeychainAccess.md#list)
-- [set](ElectronKeychainAccess.md#set)
+-   [delete](ElectronKeychainAccess.md#delete)
+-   [get](ElectronKeychainAccess.md#get)
+-   [init](ElectronKeychainAccess.md#init)
+-   [list](ElectronKeychainAccess.md#list)
+-   [set](ElectronKeychainAccess.md#set)
 
 ## Constructors
 
@@ -32,14 +32,14 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `logger` | `ILogger` |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
+| `logger` | `ILogger`                                                     |
 | `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronKeychainAccess.ts#L7)
+[electron/src/ElectronKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronKeychainAccess.ts#L7)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronKeychainAccess.ts#L6)
+[electron/src/ElectronKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronKeychainAccess.ts#L6)
 
 ## Methods
 
@@ -61,8 +61,8 @@ Delete key-value pair
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -75,9 +75,9 @@ Delete key-value pair
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronKeychainAccess.ts#L37)
+[electron/src/ElectronKeychainAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronKeychainAccess.ts#L37)
 
-___
+---
 
 ### get
 
@@ -87,8 +87,8 @@ Get value for the specified {@link key}
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -101,9 +101,9 @@ Get value for the specified {@link key}
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronKeychainAccess.ts#L15)
+[electron/src/ElectronKeychainAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronKeychainAccess.ts#L15)
 
-___
+---
 
 ### init
 
@@ -121,9 +121,9 @@ Initialize the module
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronKeychainAccess.ts#L11)
+[electron/src/ElectronKeychainAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronKeychainAccess.ts#L11)
 
-___
+---
 
 ### list
 
@@ -141,9 +141,9 @@ List all key-value pairs added by the applicaion
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:46](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronKeychainAccess.ts#L46)
+[electron/src/ElectronKeychainAccess.ts:46](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronKeychainAccess.ts#L46)
 
-___
+---
 
 ### set
 
@@ -153,10 +153,10 @@ Add key-value pair to keychain
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+| Name    | Type     |
+| :------ | :------- |
+| `key`   | `string` |
+| `value` | `any`    |
 
 #### Returns
 
@@ -168,4 +168,4 @@ Add key-value pair to keychain
 
 #### Defined in
 
-[electron/src/ElectronKeychainAccess.ts:28](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronKeychainAccess.ts#L28)
+[electron/src/ElectronKeychainAccess.ts:28](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronKeychainAccess.ts#L28)

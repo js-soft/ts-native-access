@@ -10,12 +10,12 @@ through the [get](INativeConfigAccess.md#get) method. The default config is read
 
 ### Methods
 
-- [get](INativeConfigAccess.md#get)
-- [initDefaultConfig](INativeConfigAccess.md#initdefaultconfig)
-- [initRuntimeConfig](INativeConfigAccess.md#initruntimeconfig)
-- [remove](INativeConfigAccess.md#remove)
-- [save](INativeConfigAccess.md#save)
-- [set](INativeConfigAccess.md#set)
+-   [get](INativeConfigAccess.md#get)
+-   [initDefaultConfig](INativeConfigAccess.md#initdefaultconfig)
+-   [initRuntimeConfig](INativeConfigAccess.md#initruntimeconfig)
+-   [remove](INativeConfigAccess.md#remove)
+-   [save](INativeConfigAccess.md#save)
+-   [set](INativeConfigAccess.md#set)
 
 ## Methods
 
@@ -27,8 +27,8 @@ Read the value of the config associated to the key.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -37,9 +37,9 @@ Read the value of the config associated to the key.
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:152](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeConfigAccess.ts#L152)
+[src/INativeConfigAccess.ts:152](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeConfigAccess.ts#L152)
 
-___
+---
 
 ### initDefaultConfig
 
@@ -50,8 +50,8 @@ It loads the default config while keeping the runtime config empty.
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
+| Name   | Type     | Description                               |
+| :----- | :------- | :---------------------------------------- |
 | `path` | `string` | Path where the default config is fetched. |
 
 #### Returns
@@ -60,9 +60,9 @@ It loads the default config while keeping the runtime config empty.
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:176](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeConfigAccess.ts#L176)
+[src/INativeConfigAccess.ts:176](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeConfigAccess.ts#L176)
 
-___
+---
 
 ### initRuntimeConfig
 
@@ -72,11 +72,11 @@ Initialization of the runtime config in addition to the default config with the 
 
 #### Parameters
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `path` | `string` | Path where the runtime config is read from the filesystem. |
-| `logger` | `ILogger` | - |
-| `fileAccess` | [`INativeFileAccess`](INativeFileAccess.md) | - |
+| Name         | Type                                        | Description                                                |
+| :----------- | :------------------------------------------ | :--------------------------------------------------------- |
+| `path`       | `string`                                    | Path where the runtime config is read from the filesystem. |
+| `logger`     | `ILogger`                                   | -                                                          |
+| `fileAccess` | [`INativeFileAccess`](INativeFileAccess.md) | -                                                          |
 
 #### Returns
 
@@ -84,9 +84,9 @@ Initialization of the runtime config in addition to the default config with the 
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:181](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeConfigAccess.ts#L181)
+[src/INativeConfigAccess.ts:181](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeConfigAccess.ts#L181)
 
-___
+---
 
 ### remove
 
@@ -97,8 +97,8 @@ A [ConfigurationRemoveEvent](../classes/ConfigurationRemoveEvent.md) is publishe
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -107,9 +107,9 @@ A [ConfigurationRemoveEvent](../classes/ConfigurationRemoveEvent.md) is publishe
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:165](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeConfigAccess.ts#L165)
+[src/INativeConfigAccess.ts:165](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeConfigAccess.ts#L165)
 
-___
+---
 
 ### save
 
@@ -124,9 +124,9 @@ A [ConfigurationSaveEvent](../classes/ConfigurationSaveEvent.md) is published on
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:170](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeConfigAccess.ts#L170)
+[src/INativeConfigAccess.ts:170](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeConfigAccess.ts#L170)
 
-___
+---
 
 ### set
 
@@ -137,10 +137,10 @@ A [ConfigurationSetEvent](../classes/ConfigurationSetEvent.md) is published on t
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+| Name    | Type     |
+| :------ | :------- |
+| `key`   | `string` |
+| `value` | `any`    |
 
 #### Returns
 
@@ -148,4 +148,4 @@ A [ConfigurationSetEvent](../classes/ConfigurationSetEvent.md) is published on t
 
 #### Defined in
 
-[src/INativeConfigAccess.ts:159](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeConfigAccess.ts#L159)
+[src/INativeConfigAccess.ts:159](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeConfigAccess.ts#L159)

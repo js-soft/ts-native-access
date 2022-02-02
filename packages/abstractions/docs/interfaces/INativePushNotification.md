@@ -8,10 +8,10 @@ Remote push notification
 
 ### Properties
 
-- [content](INativePushNotification.md#content)
-- [foreground](INativePushNotification.md#foreground)
-- [id](INativePushNotification.md#id)
-- [limitedProcessingTime](INativePushNotification.md#limitedprocessingtime)
+-   [content](INativePushNotification.md#content)
+-   [foreground](INativePushNotification.md#foreground)
+-   [id](INativePushNotification.md#id)
+-   [limitedProcessingTime](INativePushNotification.md#limitedprocessingtime)
 
 ## Properties
 
@@ -23,9 +23,9 @@ Content sent as part of the notification
 
 #### Defined in
 
-[src/INativePushNotification.ts:8](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativePushNotification.ts#L8)
+[src/INativePushNotification.ts:8](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativePushNotification.ts#L8)
 
-___
+---
 
 ### foreground
 
@@ -35,9 +35,9 @@ Indicator wether the app was in the foreground when receiving the notification
 
 #### Defined in
 
-[src/INativePushNotification.ts:16](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativePushNotification.ts#L16)
+[src/INativePushNotification.ts:16](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativePushNotification.ts#L16)
 
-___
+---
 
 ### id
 
@@ -47,9 +47,9 @@ Id of the notification
 
 #### Defined in
 
-[src/INativePushNotification.ts:12](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativePushNotification.ts#L12)
+[src/INativePushNotification.ts:12](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativePushNotification.ts#L12)
 
-___
+---
 
 ### limitedProcessingTime
 
@@ -59,4 +59,4 @@ Time available for processing the notification (ios)
 
 #### Defined in
 
-[src/INativePushNotification.ts:20](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativePushNotification.ts#L20)
+[src/INativePushNotification.ts:20](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativePushNotification.ts#L20)

@@ -8,10 +8,10 @@ Available storage locations
 
 ### Enumeration members
 
-- [App](NativeFileStorage.md#app)
-- [Data](NativeFileStorage.md#data)
-- [Home](NativeFileStorage.md#home)
-- [Temp](NativeFileStorage.md#temp)
+-   [App](NativeFileStorage.md#app)
+-   [Data](NativeFileStorage.md#data)
+-   [Home](NativeFileStorage.md#home)
+-   [Temp](NativeFileStorage.md#temp)
 
 ## Enumeration members
 
@@ -25,7 +25,7 @@ Used for storing application data on mobile
 
 abstractions/dist/INativeFileAccess.d.ts:50
 
-___
+---
 
 ### Data
 
@@ -37,7 +37,7 @@ Used for storing application data on desktop
 
 abstractions/dist/INativeFileAccess.d.ts:46
 
-___
+---
 
 ### Home
 
@@ -49,7 +49,7 @@ Home folder of the user
 
 abstractions/dist/INativeFileAccess.d.ts:42
 
-___
+---
 
 ### Temp
 

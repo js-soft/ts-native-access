@@ -6,21 +6,21 @@ Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotifi
 
 ## Hierarchy
 
-- [`NativeEvent`](NativeEvent.md)
+-   [`NativeEvent`](NativeEvent.md)
 
-  ↳ **`RemoteNotificationRegistrationEvent`**
+    ↳ **`RemoteNotificationRegistrationEvent`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](RemoteNotificationRegistrationEvent.md#constructor)
+-   [constructor](RemoteNotificationRegistrationEvent.md#constructor)
 
 ### Properties
 
-- [namespace](RemoteNotificationRegistrationEvent.md#namespace)
-- [token](RemoteNotificationRegistrationEvent.md#token)
-- [namespace](RemoteNotificationRegistrationEvent.md#namespace)
+-   [namespace](RemoteNotificationRegistrationEvent.md#namespace)
+-   [token](RemoteNotificationRegistrationEvent.md#token)
+-   [namespace](RemoteNotificationRegistrationEvent.md#namespace)
 
 ## Constructors
 
@@ -30,8 +30,8 @@ Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotifi
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name    | Type     |
+| :------ | :------- |
 | `token` | `string` |
 
 #### Overrides
@@ -56,7 +56,7 @@ abstractions/dist/NativeEvents.d.ts:9
 
 abstractions/node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
-___
+---
 
 ### token
 
@@ -66,7 +66,7 @@ ___
 
 abstractions/dist/NativeEvents.d.ts:7
 
-___
+---
 
 ### namespace
 

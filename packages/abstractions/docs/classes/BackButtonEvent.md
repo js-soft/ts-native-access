@@ -6,20 +6,20 @@ Event fired when the back button is pressed
 
 ## Hierarchy
 
-- [`NativeEvent`](NativeEvent.md)
+-   [`NativeEvent`](NativeEvent.md)
 
-  ↳ **`BackButtonEvent`**
+    ↳ **`BackButtonEvent`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](BackButtonEvent.md#constructor)
+-   [constructor](BackButtonEvent.md#constructor)
 
 ### Properties
 
-- [namespace](BackButtonEvent.md#namespace)
-- [namespace](BackButtonEvent.md#namespace)
+-   [namespace](BackButtonEvent.md#namespace)
+-   [namespace](BackButtonEvent.md#namespace)
 
 ## Constructors
 
@@ -33,7 +33,7 @@ Event fired when the back button is pressed
 
 #### Defined in
 
-[src/NativeEvents.ts:114](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/NativeEvents.ts#L114)
+[src/NativeEvents.ts:114](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L114)
 
 ## Properties
 
@@ -49,7 +49,7 @@ Event fired when the back button is pressed
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
-___
+---
 
 ### namespace
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:113](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/NativeEvents.ts#L113)
+[src/NativeEvents.ts:113](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L113)

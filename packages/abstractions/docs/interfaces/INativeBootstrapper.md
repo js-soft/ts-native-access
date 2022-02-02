@@ -8,12 +8,12 @@ Initialization of native features
 
 ### Properties
 
-- [isInitialized](INativeBootstrapper.md#isinitialized)
-- [nativeEnvironment](INativeBootstrapper.md#nativeenvironment)
+-   [isInitialized](INativeBootstrapper.md#isinitialized)
+-   [nativeEnvironment](INativeBootstrapper.md#nativeenvironment)
 
 ### Methods
 
-- [init](INativeBootstrapper.md#init)
+-   [init](INativeBootstrapper.md#init)
 
 ## Properties
 
@@ -25,9 +25,9 @@ Indicates whether the initalisation is finished
 
 #### Defined in
 
-[src/INativeBootstrapper.ts:11](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeBootstrapper.ts#L11)
+[src/INativeBootstrapper.ts:11](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeBootstrapper.ts#L11)
 
-___
+---
 
 ### nativeEnvironment
 
@@ -37,7 +37,7 @@ Environment of initialized native features
 
 #### Defined in
 
-[src/INativeBootstrapper.ts:15](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeBootstrapper.ts#L15)
+[src/INativeBootstrapper.ts:15](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeBootstrapper.ts#L15)
 
 ## Methods
 
@@ -53,4 +53,4 @@ Function for starting the initialization process
 
 #### Defined in
 
-[src/INativeBootstrapper.ts:19](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeBootstrapper.ts#L19)
+[src/INativeBootstrapper.ts:19](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeBootstrapper.ts#L19)

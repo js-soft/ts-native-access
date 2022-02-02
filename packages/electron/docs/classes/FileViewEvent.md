@@ -6,21 +6,21 @@ Event fired when [INativeLaunchOptions](../interfaces/INativeLaunchOptions.md) r
 
 ## Hierarchy
 
-- [`NativeEvent`](NativeEvent.md)
+-   [`NativeEvent`](NativeEvent.md)
 
-  ↳ **`FileViewEvent`**
+    ↳ **`FileViewEvent`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](FileViewEvent.md#constructor)
+-   [constructor](FileViewEvent.md#constructor)
 
 ### Properties
 
-- [namespace](FileViewEvent.md#namespace)
-- [uri](FileViewEvent.md#uri)
-- [namespace](FileViewEvent.md#namespace)
+-   [namespace](FileViewEvent.md#namespace)
+-   [uri](FileViewEvent.md#uri)
+-   [namespace](FileViewEvent.md#namespace)
 
 ## Constructors
 
@@ -30,8 +30,8 @@ Event fired when [INativeLaunchOptions](../interfaces/INativeLaunchOptions.md) r
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `uri` | `string` |
 
 #### Overrides
@@ -56,7 +56,7 @@ abstractions/dist/NativeEvents.d.ts:57
 
 abstractions/node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
-___
+---
 
 ### uri
 
@@ -66,7 +66,7 @@ ___
 
 abstractions/dist/NativeEvents.d.ts:55
 
-___
+---
 
 ### namespace
 

@@ -4,25 +4,25 @@
 
 ## Implements
 
-- [`INativeKeychainAccess`](../interfaces/INativeKeychainAccess.md)
+-   [`INativeKeychainAccess`](../interfaces/INativeKeychainAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CordovaKeychainAccess.md#constructor)
+-   [constructor](CordovaKeychainAccess.md#constructor)
 
 ### Properties
 
-- [secureStorage](CordovaKeychainAccess.md#securestorage)
+-   [secureStorage](CordovaKeychainAccess.md#securestorage)
 
 ### Methods
 
-- [delete](CordovaKeychainAccess.md#delete)
-- [get](CordovaKeychainAccess.md#get)
-- [init](CordovaKeychainAccess.md#init)
-- [list](CordovaKeychainAccess.md#list)
-- [set](CordovaKeychainAccess.md#set)
+-   [delete](CordovaKeychainAccess.md#delete)
+-   [get](CordovaKeychainAccess.md#get)
+-   [init](CordovaKeychainAccess.md#init)
+-   [list](CordovaKeychainAccess.md#list)
+-   [set](CordovaKeychainAccess.md#set)
 
 ## Constructors
 
@@ -32,14 +32,14 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `logger` | `ILogger` |
+| Name     | Type                                                          |
+| :------- | :------------------------------------------------------------ |
+| `logger` | `ILogger`                                                     |
 | `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaKeychainAccess.ts#L6)
+[cordova/src/CordovaKeychainAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaKeychainAccess.ts#L6)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaKeychainAccess.ts#L8)
+[cordova/src/CordovaKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaKeychainAccess.ts#L8)
 
 ## Methods
 
@@ -61,8 +61,8 @@ Delete key-value pair
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -75,9 +75,9 @@ Delete key-value pair
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaKeychainAccess.ts#L38)
+[cordova/src/CordovaKeychainAccess.ts:38](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaKeychainAccess.ts#L38)
 
-___
+---
 
 ### get
 
@@ -87,8 +87,8 @@ Get value for the specified {@link key}
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -101,9 +101,9 @@ Get value for the specified {@link key}
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaKeychainAccess.ts#L19)
+[cordova/src/CordovaKeychainAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaKeychainAccess.ts#L19)
 
-___
+---
 
 ### init
 
@@ -121,9 +121,9 @@ Initialize the module
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaKeychainAccess.ts#L10)
+[cordova/src/CordovaKeychainAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaKeychainAccess.ts#L10)
 
-___
+---
 
 ### list
 
@@ -141,9 +141,9 @@ List all key-value pairs added by the applicaion
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:47](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaKeychainAccess.ts#L47)
+[cordova/src/CordovaKeychainAccess.ts:47](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaKeychainAccess.ts#L47)
 
-___
+---
 
 ### set
 
@@ -153,10 +153,10 @@ Add key-value pair to keychain
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+| Name    | Type     |
+| :------ | :------- |
+| `key`   | `string` |
+| `value` | `any`    |
 
 #### Returns
 
@@ -168,4 +168,4 @@ Add key-value pair to keychain
 
 #### Defined in
 
-[cordova/src/CordovaKeychainAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/cordova/src/CordovaKeychainAccess.ts#L29)
+[cordova/src/CordovaKeychainAccess.ts:29](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaKeychainAccess.ts#L29)

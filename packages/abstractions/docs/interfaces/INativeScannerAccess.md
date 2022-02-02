@@ -8,7 +8,7 @@ QR-code scanner
 
 ### Methods
 
-- [scan](INativeScannerAccess.md#scan)
+-   [scan](INativeScannerAccess.md#scan)
 
 ## Methods
 
@@ -24,4 +24,4 @@ Scan qr-code
 
 #### Defined in
 
-[src/INativeScannerAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/INativeScannerAccess.ts#L12)
+[src/INativeScannerAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeScannerAccess.ts#L12)

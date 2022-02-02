@@ -8,10 +8,10 @@ Remote push notification
 
 ### Properties
 
-- [content](INativePushNotification.md#content)
-- [foreground](INativePushNotification.md#foreground)
-- [id](INativePushNotification.md#id)
-- [limitedProcessingTime](INativePushNotification.md#limitedprocessingtime)
+-   [content](INativePushNotification.md#content)
+-   [foreground](INativePushNotification.md#foreground)
+-   [id](INativePushNotification.md#id)
+-   [limitedProcessingTime](INativePushNotification.md#limitedprocessingtime)
 
 ## Properties
 
@@ -25,7 +25,7 @@ Content sent as part of the notification
 
 abstractions/dist/INativePushNotification.d.ts:8
 
-___
+---
 
 ### foreground
 
@@ -37,7 +37,7 @@ Indicator wether the app was in the foreground when receiving the notification
 
 abstractions/dist/INativePushNotification.d.ts:16
 
-___
+---
 
 ### id
 
@@ -49,7 +49,7 @@ Id of the notification
 
 abstractions/dist/INativePushNotification.d.ts:12
 
-___
+---
 
 ### limitedProcessingTime
 

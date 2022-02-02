@@ -6,21 +6,21 @@ Event fired when [INativeLaunchOptions](../interfaces/INativeLaunchOptions.md) r
 
 ## Hierarchy
 
-- [`NativeEvent`](NativeEvent.md)
+-   [`NativeEvent`](NativeEvent.md)
 
-  ↳ **`UrlOpenEvent`**
+    ↳ **`UrlOpenEvent`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](UrlOpenEvent.md#constructor)
+-   [constructor](UrlOpenEvent.md#constructor)
 
 ### Properties
 
-- [namespace](UrlOpenEvent.md#namespace)
-- [url](UrlOpenEvent.md#url)
-- [namespace](UrlOpenEvent.md#namespace)
+-   [namespace](UrlOpenEvent.md#namespace)
+-   [url](UrlOpenEvent.md#url)
+-   [namespace](UrlOpenEvent.md#namespace)
 
 ## Constructors
 
@@ -30,8 +30,8 @@ Event fired when [INativeLaunchOptions](../interfaces/INativeLaunchOptions.md) r
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `url` | `string` |
 
 #### Overrides
@@ -40,7 +40,7 @@ Event fired when [INativeLaunchOptions](../interfaces/INativeLaunchOptions.md) r
 
 #### Defined in
 
-[src/NativeEvents.ts:59](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/NativeEvents.ts#L59)
+[src/NativeEvents.ts:59](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L59)
 
 ## Properties
 
@@ -56,13 +56,13 @@ Event fired when [INativeLaunchOptions](../interfaces/INativeLaunchOptions.md) r
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
-___
+---
 
 ### url
 
 • `Readonly` **url**: `string`
 
-___
+---
 
 ### namespace
 
@@ -70,4 +70,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:58](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/NativeEvents.ts#L58)
+[src/NativeEvents.ts:58](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L58)

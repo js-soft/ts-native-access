@@ -6,20 +6,20 @@ Event fired when the app is ready
 
 ## Hierarchy
 
-- [`NativeEvent`](NativeEvent.md)
+-   [`NativeEvent`](NativeEvent.md)
 
-  ↳ **`AppReadyEvent`**
+    ↳ **`AppReadyEvent`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](AppReadyEvent.md#constructor)
+-   [constructor](AppReadyEvent.md#constructor)
 
 ### Properties
 
-- [namespace](AppReadyEvent.md#namespace)
-- [namespace](AppReadyEvent.md#namespace)
+-   [namespace](AppReadyEvent.md#namespace)
+-   [namespace](AppReadyEvent.md#namespace)
 
 ## Constructors
 
@@ -33,7 +33,7 @@ Event fired when the app is ready
 
 #### Defined in
 
-[src/NativeEvents.ts:79](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/NativeEvents.ts#L79)
+[src/NativeEvents.ts:79](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L79)
 
 ## Properties
 
@@ -49,7 +49,7 @@ Event fired when the app is ready
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
-___
+---
 
 ### namespace
 
@@ -57,4 +57,4 @@ ___
 
 #### Defined in
 
-[src/NativeEvents.ts:78](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/abstractions/src/NativeEvents.ts#L78)
+[src/NativeEvents.ts:78](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L78)

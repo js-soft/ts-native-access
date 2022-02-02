@@ -4,33 +4,33 @@
 
 ## Implements
 
-- [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md)
+-   [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](CommonConfigAccess.md#constructor)
+-   [constructor](CommonConfigAccess.md#constructor)
 
 ### Properties
 
-- [config](CommonConfigAccess.md#config)
-- [defaultConfig](CommonConfigAccess.md#defaultconfig)
-- [eventBus](CommonConfigAccess.md#eventbus)
-- [fileAccess](CommonConfigAccess.md#fileaccess)
-- [logger](CommonConfigAccess.md#logger)
-- [refreshConfig](CommonConfigAccess.md#refreshconfig)
-- [runtimeConfig](CommonConfigAccess.md#runtimeconfig)
-- [runtimeConfigPath](CommonConfigAccess.md#runtimeconfigpath)
+-   [config](CommonConfigAccess.md#config)
+-   [defaultConfig](CommonConfigAccess.md#defaultconfig)
+-   [eventBus](CommonConfigAccess.md#eventbus)
+-   [fileAccess](CommonConfigAccess.md#fileaccess)
+-   [logger](CommonConfigAccess.md#logger)
+-   [refreshConfig](CommonConfigAccess.md#refreshconfig)
+-   [runtimeConfig](CommonConfigAccess.md#runtimeconfig)
+-   [runtimeConfigPath](CommonConfigAccess.md#runtimeconfigpath)
 
 ### Methods
 
-- [get](CommonConfigAccess.md#get)
-- [initDefaultConfig](CommonConfigAccess.md#initdefaultconfig)
-- [initRuntimeConfig](CommonConfigAccess.md#initruntimeconfig)
-- [remove](CommonConfigAccess.md#remove)
-- [save](CommonConfigAccess.md#save)
-- [set](CommonConfigAccess.md#set)
+-   [get](CommonConfigAccess.md#get)
+-   [initDefaultConfig](CommonConfigAccess.md#initdefaultconfig)
+-   [initRuntimeConfig](CommonConfigAccess.md#initruntimeconfig)
+-   [remove](CommonConfigAccess.md#remove)
+-   [save](CommonConfigAccess.md#save)
+-   [set](CommonConfigAccess.md#set)
 
 ## Constructors
 
@@ -40,8 +40,8 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name       | Type                                                  |
+| :--------- | :---------------------------------------------------- |
 | `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
 
 #### Defined in
@@ -58,7 +58,7 @@ common/dist/CommonConfigAccess.d.ts:9
 
 common/dist/CommonConfigAccess.d.ts:12
 
-___
+---
 
 ### defaultConfig
 
@@ -68,7 +68,7 @@ ___
 
 common/dist/CommonConfigAccess.d.ts:11
 
-___
+---
 
 ### eventBus
 
@@ -78,7 +78,7 @@ ___
 
 common/dist/CommonConfigAccess.d.ts:5
 
-___
+---
 
 ### fileAccess
 
@@ -88,7 +88,7 @@ ___
 
 common/dist/CommonConfigAccess.d.ts:6
 
-___
+---
 
 ### logger
 
@@ -98,7 +98,7 @@ ___
 
 common/dist/CommonConfigAccess.d.ts:7
 
-___
+---
 
 ### refreshConfig
 
@@ -111,7 +111,7 @@ The runtime config can overwrite entries of the default config.
 
 common/dist/CommonConfigAccess.d.ts:17
 
-___
+---
 
 ### runtimeConfig
 
@@ -121,7 +121,7 @@ ___
 
 common/dist/CommonConfigAccess.d.ts:10
 
-___
+---
 
 ### runtimeConfigPath
 
@@ -141,8 +141,8 @@ Read the value of the config associated to the key.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -157,7 +157,7 @@ Read the value of the config associated to the key.
 
 common/dist/CommonConfigAccess.d.ts:21
 
-___
+---
 
 ### initDefaultConfig
 
@@ -168,8 +168,8 @@ It loads the default config while keeping the runtime config empty.
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name   | Type     |
+| :----- | :------- |
 | `path` | `string` |
 
 #### Returns
@@ -184,7 +184,7 @@ It loads the default config while keeping the runtime config empty.
 
 common/dist/CommonConfigAccess.d.ts:18
 
-___
+---
 
 ### initRuntimeConfig
 
@@ -194,10 +194,10 @@ Initialization of the runtime config in addition to the default config with the 
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `path` | `string` |
-| `logger` | `ILogger` |
+| Name         | Type                                                      |
+| :----------- | :-------------------------------------------------------- |
+| `path`       | `string`                                                  |
+| `logger`     | `ILogger`                                                 |
 | `fileAccess` | [`INativeFileAccess`](../interfaces/INativeFileAccess.md) |
 
 #### Returns
@@ -212,7 +212,7 @@ Initialization of the runtime config in addition to the default config with the 
 
 common/dist/CommonConfigAccess.d.ts:19
 
-___
+---
 
 ### remove
 
@@ -223,8 +223,8 @@ A [ConfigurationRemoveEvent](ConfigurationRemoveEvent.md) is published on the [I
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
+| Name  | Type     |
+| :---- | :------- |
 | `key` | `string` |
 
 #### Returns
@@ -239,7 +239,7 @@ A [ConfigurationRemoveEvent](ConfigurationRemoveEvent.md) is published on the [I
 
 common/dist/CommonConfigAccess.d.ts:23
 
-___
+---
 
 ### save
 
@@ -260,7 +260,7 @@ A [ConfigurationSaveEvent](ConfigurationSaveEvent.md) is published on the [INati
 
 common/dist/CommonConfigAccess.d.ts:20
 
-___
+---
 
 ### set
 
@@ -271,10 +271,10 @@ A [ConfigurationSetEvent](ConfigurationSetEvent.md) is published on the [INative
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-| `value` | `any` |
+| Name    | Type     |
+| :------ | :------- |
+| `key`   | `string` |
+| `value` | `any`    |
 
 #### Returns
 

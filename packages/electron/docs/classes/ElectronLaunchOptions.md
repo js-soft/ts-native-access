@@ -4,17 +4,17 @@
 
 ## Implements
 
-- [`INativeLaunchOptions`](../interfaces/INativeLaunchOptions.md)
+-   [`INativeLaunchOptions`](../interfaces/INativeLaunchOptions.md)
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](ElectronLaunchOptions.md#constructor)
+-   [constructor](ElectronLaunchOptions.md#constructor)
 
 ### Methods
 
-- [init](ElectronLaunchOptions.md#init)
+-   [init](ElectronLaunchOptions.md#init)
 
 ## Constructors
 
@@ -24,15 +24,15 @@
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `logger` | `ILogger` |
-| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
-| `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
+| Name       | Type                                                          |
+| :--------- | :------------------------------------------------------------ |
+| `logger`   | `ILogger`                                                     |
+| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md)         |
+| `config`   | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
 
-[electron/src/ElectronLaunchOptions.ts:7](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronLaunchOptions.ts#L7)
+[electron/src/ElectronLaunchOptions.ts:7](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronLaunchOptions.ts#L7)
 
 ## Methods
 
@@ -53,4 +53,4 @@ when the app was started to open a file.
 
 #### Defined in
 
-[electron/src/ElectronLaunchOptions.ts:9](https://github.com/js-soft/ts-native-access/blob/0bbfc64/packages/electron/src/ElectronLaunchOptions.ts#L9)
+[electron/src/ElectronLaunchOptions.ts:9](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronLaunchOptions.ts#L9)
