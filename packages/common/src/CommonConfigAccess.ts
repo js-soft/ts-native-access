@@ -16,11 +16,6 @@ export class CommonConfigAccess implements INativeConfigAccess {
     private logger: ILogger;
     public constructor(private readonly path: string, private readonly eventBus: INativeEventBus) {}
 
-    private _dirty: boolean;
-    public isDirty(): boolean {
-        return this._dirty;
-    }
-
     private runtimeConfig: any = {};
     private defaultConfig: any = {};
     private config: any = {};
@@ -92,7 +87,6 @@ export class CommonConfigAccess implements INativeConfigAccess {
             return Result.fail(new ApplicationError(NativeErrorCodes.CONFIG_NOT_FOUND, "Provided key is not a string."));
         }
 
-        this._dirty = true;
         this.runtimeConfig[key] = value;
         this.refreshConfig();
         this.eventBus.publish(new ConfigurationSetEvent(key, value));
@@ -104,7 +98,6 @@ export class CommonConfigAccess implements INativeConfigAccess {
             return Result.fail(new ApplicationError(NativeErrorCodes.CONFIG_NOT_FOUND, "Provided key is not a string."));
         }
 
-        this._dirty = true;
         delete this.runtimeConfig[key];
         this.refreshConfig();
         this.eventBus.publish(new ConfigurationRemoveEvent(key));
