@@ -7,4 +7,5 @@ export * from "./CordovaFileAccess";
 export * from "./CordovaKeychainAccess";
 export * from "./CordovaLaunchOptions";
 export * from "./CordovaNotificationAccess";
+export * from "./CordovaPermissionsAccess";
 export * from "./CordovaPushNotificationAccess";

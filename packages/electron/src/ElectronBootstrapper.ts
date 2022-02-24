@@ -13,6 +13,7 @@ import {
     INativeLaunchOptions,
     INativeLoggerFactory,
     INativeNotificationAccess,
+    INativePermissionsAccess,
     INativePushNotificationAccess,
     INativeScannerAccess,
     NativeErrorCodes,
@@ -27,6 +28,7 @@ import { ElectronFileAccess } from "./ElectronFileAccess";
 import { ElectronKeychainAccess } from "./ElectronKeychainAccess";
 import { ElectronLaunchOptions } from "./ElectronLaunchOptions";
 import { ElectronNotificationAccess } from "./ElectronNotificationAccess";
+import { ElectronPermissionsAccess } from "./ElectronPermissionsAccess";
 import { ElectronPushNotificationAccess } from "./ElectronPushNotificationAccess";
 
 export class ElectronBootstrapper implements INativeBootstrapper {
@@ -44,6 +46,7 @@ export class ElectronBootstrapper implements INativeBootstrapper {
     private nativeScannerAccess: INativeScannerAccess;
     private nativePushNotificationAccess: INativePushNotificationAccess;
     private nativeLaunchOptions: INativeLaunchOptions;
+    private nativePermissionsAccess: INativePermissionsAccess;
 
     private initialized = false;
     public get isInitialized(): boolean {
@@ -67,7 +70,8 @@ export class ElectronBootstrapper implements INativeBootstrapper {
             loggerFactory: this.nativeLoggerFactory,
             notificationAccess: this.nativeNotificationAccess,
             pushNotificationAccess: this.nativePushNotificationAccess,
-            scannerAccess: this.nativeScannerAccess
+            scannerAccess: this.nativeScannerAccess,
+            permissionsAccess: this.nativePermissionsAccess
         };
     }
 
@@ -81,6 +85,8 @@ export class ElectronBootstrapper implements INativeBootstrapper {
         window.addEventListener("beforeunload", () => {
             this.nativeEventBus.publish(new AppCloseEvent());
         });
+
+        this.nativePermissionsAccess = new ElectronPermissionsAccess();
 
         const configAccess = new CommonConfigAccess(this.nativeEventBus);
         await configAccess.initDefaultConfig(ElectronBootstrapper.configPath);

@@ -10,6 +10,7 @@ export * from "./INativeKeychainAccess";
 export * from "./INativeLaunchOptions";
 export * from "./INativeLoggerFactory";
 export * from "./INativeNotificationAccess";
+export * from "./INativePermissionsAccess";
 export * from "./INativePushNotification";
 export * from "./INativePushNotificationAccess";
 export * from "./INativeScannerAccess";

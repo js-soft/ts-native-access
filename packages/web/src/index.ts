@@ -5,4 +5,5 @@ export * from "./WebBootstrapper";
 export * from "./WebDeviceInfoAccess";
 export * from "./WebFileAccess";
 export * from "./WebKeychainAccess";
+export * from "./WebPermissionsAccess";
 export * from "./WebPushNotificationAccess";

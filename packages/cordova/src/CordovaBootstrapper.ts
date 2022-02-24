@@ -14,6 +14,7 @@ import {
     INativeLaunchOptions,
     INativeLoggerFactory,
     INativeNotificationAccess,
+    INativePermissionsAccess,
     INativePushNotificationAccess,
     INativeScannerAccess,
     NativeErrorCodes,
@@ -30,6 +31,7 @@ import { CordovaFileAccess } from "./CordovaFileAccess";
 import { CordovaKeychainAccess } from "./CordovaKeychainAccess";
 import { CordovaLaunchOptions } from "./CordovaLaunchOptions";
 import { CordovaNotificationAccess } from "./CordovaNotificationAccess";
+import { CordovaPermissionsAccess } from "./CordovaPermissionsAccess";
 import { CordovaPushNotificationAccess } from "./CordovaPushNotificationAccess";
 import { CordovaScannerAccess } from "./CordovaScannerAccess";
 
@@ -48,6 +50,7 @@ export class CordovaBootstrapper implements INativeBootstrapper {
     private nativeScannerAccess: INativeScannerAccess;
     private nativePushNotificationAccess: INativePushNotificationAccess;
     private nativeLaunchOptions: INativeLaunchOptions;
+    private nativePermissionsAccess: INativePermissionsAccess;
 
     private initialized = false;
     public get isInitialized(): boolean {
@@ -71,7 +74,8 @@ export class CordovaBootstrapper implements INativeBootstrapper {
             loggerFactory: this.nativeLoggerFactory,
             notificationAccess: this.nativeNotificationAccess,
             pushNotificationAccess: this.nativePushNotificationAccess,
-            scannerAccess: this.nativeScannerAccess
+            scannerAccess: this.nativeScannerAccess,
+            permissionsAccess: this.nativePermissionsAccess
         };
     }
 
@@ -87,6 +91,8 @@ export class CordovaBootstrapper implements INativeBootstrapper {
         window.addEventListener("beforeunload", () => {
             this.nativeEventBus.publish(new AppCloseEvent());
         });
+
+        this.nativePermissionsAccess = new CordovaPermissionsAccess();
 
         const configAccess = new CommonConfigAccess(this.nativeEventBus);
         await configAccess.initDefaultConfig(CordovaBootstrapper.configPath);
@@ -119,6 +125,7 @@ export class CordovaBootstrapper implements INativeBootstrapper {
         this.nativeScannerAccess = new CordovaScannerAccess(this.logger);
         this.nativePushNotificationAccess = new CordovaPushNotificationAccess(this.logger, this.nativeConfigAccess, this.nativeEventBus);
         await this.nativePushNotificationAccess.init();
+
         this.initialized = true;
 
         this.nativeEventBus.subscribe(ThemeEvent, this.handleThemeEvent.bind(this));

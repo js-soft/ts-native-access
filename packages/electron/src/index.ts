@@ -7,4 +7,5 @@ export * from "./ElectronFileAccess";
 export * from "./ElectronKeychainAccess";
 export * from "./ElectronLaunchOptions";
 export * from "./ElectronNotificationAccess";
+export * from "./ElectronPermissionsAccess";
 export * from "./ElectronPushNotificationAccess";

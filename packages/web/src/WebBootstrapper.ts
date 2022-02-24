@@ -12,6 +12,7 @@ import {
     INativeKeychainAccess,
     INativeLoggerFactory,
     INativeNotificationAccess,
+    INativePermissionsAccess,
     INativePushNotificationAccess,
     INativeScannerAccess,
     NativeErrorCodes,
@@ -21,13 +22,13 @@ import {
 } from "@js-soft/native-abstractions";
 import { CommonConfigAccess, CommonDatabaseFactory, CommonEventBus, CommonLoggerFactory, CommonScannerAccess } from "@js-soft/native-common";
 import { Result } from "@js-soft/ts-utils";
-import { WebDeviceInfoAccess } from ".";
 import { WebAuthenticationAccess } from "./WebAuthenticationAccess";
+import { WebDeviceInfoAccess } from "./WebDeviceInfoAccess";
 import { WebFileAccess } from "./WebFileAccess";
 import { WebKeychainAccess } from "./WebKeychainAccess";
 import { WebNotificationAccess } from "./WebNotificationAccess";
+import { WebPermissionsAccess } from "./WebPermissionsAccess";
 import { WebPushNotificationAccess } from "./WebPushNotificationAccess";
-
 export class WebBootstrapper implements INativeBootstrapper {
     public static readonly configPath: string = "config.json";
     private logger: ILogger;
@@ -42,6 +43,7 @@ export class WebBootstrapper implements INativeBootstrapper {
     private nativeNotificationAccess: INativeNotificationAccess;
     private nativeScannerAccess: INativeScannerAccess;
     private nativePushNotificationAccess: INativePushNotificationAccess;
+    private nativePermissionsAccess: INativePermissionsAccess;
 
     private initialized = false;
 
@@ -65,7 +67,8 @@ export class WebBootstrapper implements INativeBootstrapper {
             loggerFactory: this.nativeLoggerFactory,
             notificationAccess: this.nativeNotificationAccess,
             scannerAccess: this.nativeScannerAccess,
-            pushNotificationAccess: this.nativePushNotificationAccess
+            pushNotificationAccess: this.nativePushNotificationAccess,
+            permissionsAccess: this.nativePermissionsAccess
         };
     }
 
@@ -81,6 +84,8 @@ export class WebBootstrapper implements INativeBootstrapper {
         window.addEventListener("beforeunload", () => {
             this.nativeEventBus.publish(new AppCloseEvent());
         });
+
+        this.nativePermissionsAccess = new WebPermissionsAccess();
 
         const configAccess = new CommonConfigAccess(this.nativeEventBus);
         await configAccess.initDefaultConfig(WebBootstrapper.configPath);

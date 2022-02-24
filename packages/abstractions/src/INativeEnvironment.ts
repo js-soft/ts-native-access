@@ -7,6 +7,7 @@ import { INativeFileAccess } from "./INativeFileAccess";
 import { INativeKeychainAccess } from "./INativeKeychainAccess";
 import { INativeLoggerFactory } from "./INativeLoggerFactory";
 import { INativeNotificationAccess } from "./INativeNotificationAccess";
+import { INativePermissionsAccess } from "./INativePermissionsAccess";
 import { INativePushNotificationAccess } from "./INativePushNotificationAccess";
 import { INativeScannerAccess } from "./INativeScannerAccess";
 import { NativePlatform } from "./NativePlatform";
@@ -63,4 +64,8 @@ export interface INativeEnvironment {
      * Module for scanning qr-codes
      */
     scannerAccess: INativeScannerAccess;
+    /**
+     * Module for managing permission
+     */
+    permissionsAccess: INativePermissionsAccess;
 }
