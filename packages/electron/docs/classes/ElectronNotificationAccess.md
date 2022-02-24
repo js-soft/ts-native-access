@@ -4,28 +4,28 @@
 
 ## Implements
 
--   [`INativeNotificationAccess`](../interfaces/INativeNotificationAccess.md)
+- [`INativeNotificationAccess`](../interfaces/INativeNotificationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ElectronNotificationAccess.md#constructor)
+- [constructor](ElectronNotificationAccess.md#constructor)
 
 ### Properties
 
--   [applicationId](ElectronNotificationAccess.md#applicationid)
--   [notifications](ElectronNotificationAccess.md#notifications)
+- [applicationId](ElectronNotificationAccess.md#applicationid)
+- [notifications](ElectronNotificationAccess.md#notifications)
 
 ### Methods
 
--   [clear](ElectronNotificationAccess.md#clear)
--   [clearAll](ElectronNotificationAccess.md#clearall)
--   [filterNotifications](ElectronNotificationAccess.md#filternotifications)
--   [getAll](ElectronNotificationAccess.md#getall)
--   [init](ElectronNotificationAccess.md#init)
--   [schedule](ElectronNotificationAccess.md#schedule)
--   [update](ElectronNotificationAccess.md#update)
+- [clear](ElectronNotificationAccess.md#clear)
+- [clearAll](ElectronNotificationAccess.md#clearall)
+- [filterNotifications](ElectronNotificationAccess.md#filternotifications)
+- [getAll](ElectronNotificationAccess.md#getall)
+- [init](ElectronNotificationAccess.md#init)
+- [schedule](ElectronNotificationAccess.md#schedule)
+- [update](ElectronNotificationAccess.md#update)
 
 ## Constructors
 
@@ -35,14 +35,14 @@
 
 #### Parameters
 
-| Name     | Type                                                          |
-| :------- | :------------------------------------------------------------ |
-| `logger` | `ILogger`                                                     |
+| Name | Type |
+| :------ | :------ |
+| `logger` | `ILogger` |
 | `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronNotificationAccess.ts#L12)
+[electron/src/ElectronNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronNotificationAccess.ts#L12)
 
 ## Properties
 
@@ -52,9 +52,9 @@
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronNotificationAccess.ts#L10)
+[electron/src/ElectronNotificationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronNotificationAccess.ts#L10)
 
----
+___
 
 ### notifications
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronNotificationAccess.ts#L9)
+[electron/src/ElectronNotificationAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronNotificationAccess.ts#L9)
 
 ## Methods
 
@@ -74,8 +74,8 @@ Remove a notification from being displayed
 
 #### Parameters
 
-| Name | Type     |
-| :--- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `id` | `number` |
 
 #### Returns
@@ -88,9 +88,9 @@ Remove a notification from being displayed
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:72](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronNotificationAccess.ts#L72)
+[electron/src/ElectronNotificationAccess.ts:72](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronNotificationAccess.ts#L72)
 
----
+___
 
 ### clearAll
 
@@ -108,9 +108,9 @@ Remove all notifications from being displayed
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:78](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronNotificationAccess.ts#L78)
+[electron/src/ElectronNotificationAccess.ts:78](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronNotificationAccess.ts#L78)
 
----
+___
 
 ### filterNotifications
 
@@ -118,8 +118,8 @@ Remove all notifications from being displayed
 
 #### Parameters
 
-| Name | Type     |
-| :--- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `id` | `number` |
 
 #### Returns
@@ -128,9 +128,9 @@ Remove all notifications from being displayed
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:87](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronNotificationAccess.ts#L87)
+[electron/src/ElectronNotificationAccess.ts:87](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronNotificationAccess.ts#L87)
 
----
+___
 
 ### getAll
 
@@ -148,9 +148,9 @@ Retrieve all notifications currently being displayed
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:83](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronNotificationAccess.ts#L83)
+[electron/src/ElectronNotificationAccess.ts:83](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronNotificationAccess.ts#L83)
 
----
+___
 
 ### init
 
@@ -168,9 +168,9 @@ Initialize module
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronNotificationAccess.ts#L14)
+[electron/src/ElectronNotificationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronNotificationAccess.ts#L14)
 
----
+___
 
 ### schedule
 
@@ -180,10 +180,10 @@ Display a local notification
 
 #### Parameters
 
-| Name       | Type                                                                                        |
-| :--------- | :------------------------------------------------------------------------------------------ |
-| `title`    | `string`                                                                                    |
-| `body`     | `string`                                                                                    |
+| Name | Type |
+| :------ | :------ |
+| `title` | `string` |
+| `body` | `string` |
 | `options?` | [`INativeNotificationScheduleOptions`](../interfaces/INativeNotificationScheduleOptions.md) |
 
 #### Returns
@@ -196,9 +196,9 @@ Display a local notification
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronNotificationAccess.ts#L19)
+[electron/src/ElectronNotificationAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronNotificationAccess.ts#L19)
 
----
+___
 
 ### update
 
@@ -208,11 +208,11 @@ Update the content of an already displayed notification
 
 #### Parameters
 
-| Name       | Type                                                                                        |
-| :--------- | :------------------------------------------------------------------------------------------ |
-| `id`       | `number`                                                                                    |
-| `title`    | `string`                                                                                    |
-| `body`     | `string`                                                                                    |
+| Name | Type |
+| :------ | :------ |
+| `id` | `number` |
+| `title` | `string` |
+| `body` | `string` |
 | `options?` | [`INativeNotificationScheduleOptions`](../interfaces/INativeNotificationScheduleOptions.md) |
 
 #### Returns
@@ -225,4 +225,4 @@ Update the content of an already displayed notification
 
 #### Defined in
 
-[electron/src/ElectronNotificationAccess.ts:67](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronNotificationAccess.ts#L67)
+[electron/src/ElectronNotificationAccess.ts:67](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronNotificationAccess.ts#L67)

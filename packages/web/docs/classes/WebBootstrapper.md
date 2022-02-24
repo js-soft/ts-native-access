@@ -4,40 +4,41 @@
 
 ## Implements
 
--   [`INativeBootstrapper`](../interfaces/INativeBootstrapper.md)
+- [`INativeBootstrapper`](../interfaces/INativeBootstrapper.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](WebBootstrapper.md#constructor)
+- [constructor](WebBootstrapper.md#constructor)
 
 ### Properties
 
--   [initialized](WebBootstrapper.md#initialized)
--   [logger](WebBootstrapper.md#logger)
--   [nativeAuthenticationAccess](WebBootstrapper.md#nativeauthenticationaccess)
--   [nativeConfigAccess](WebBootstrapper.md#nativeconfigaccess)
--   [nativeDatabaseFactory](WebBootstrapper.md#nativedatabasefactory)
--   [nativeDeviceInfoAccess](WebBootstrapper.md#nativedeviceinfoaccess)
--   [nativeEventBus](WebBootstrapper.md#nativeeventbus)
--   [nativeFileAccess](WebBootstrapper.md#nativefileaccess)
--   [nativeKeychainAccess](WebBootstrapper.md#nativekeychainaccess)
--   [nativeLoggerFactory](WebBootstrapper.md#nativeloggerfactory)
--   [nativeNotificationAccess](WebBootstrapper.md#nativenotificationaccess)
--   [nativePushNotificationAccess](WebBootstrapper.md#nativepushnotificationaccess)
--   [nativeScannerAccess](WebBootstrapper.md#nativescanneraccess)
--   [configPath](WebBootstrapper.md#configpath)
+- [initialized](WebBootstrapper.md#initialized)
+- [logger](WebBootstrapper.md#logger)
+- [nativeAuthenticationAccess](WebBootstrapper.md#nativeauthenticationaccess)
+- [nativeConfigAccess](WebBootstrapper.md#nativeconfigaccess)
+- [nativeDatabaseFactory](WebBootstrapper.md#nativedatabasefactory)
+- [nativeDeviceInfoAccess](WebBootstrapper.md#nativedeviceinfoaccess)
+- [nativeEventBus](WebBootstrapper.md#nativeeventbus)
+- [nativeFileAccess](WebBootstrapper.md#nativefileaccess)
+- [nativeKeychainAccess](WebBootstrapper.md#nativekeychainaccess)
+- [nativeLoggerFactory](WebBootstrapper.md#nativeloggerfactory)
+- [nativeNotificationAccess](WebBootstrapper.md#nativenotificationaccess)
+- [nativePermissionsAccess](WebBootstrapper.md#nativepermissionsaccess)
+- [nativePushNotificationAccess](WebBootstrapper.md#nativepushnotificationaccess)
+- [nativeScannerAccess](WebBootstrapper.md#nativescanneraccess)
+- [configPath](WebBootstrapper.md#configpath)
 
 ### Accessors
 
--   [isInitialized](WebBootstrapper.md#isinitialized)
--   [nativeEnvironment](WebBootstrapper.md#nativeenvironment)
+- [isInitialized](WebBootstrapper.md#isinitialized)
+- [nativeEnvironment](WebBootstrapper.md#nativeenvironment)
 
 ### Methods
 
--   [handleThemeEvent](WebBootstrapper.md#handlethemeevent)
--   [init](WebBootstrapper.md#init)
+- [handleThemeEvent](WebBootstrapper.md#handlethemeevent)
+- [init](WebBootstrapper.md#init)
 
 ## Constructors
 
@@ -53,9 +54,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L46)
+[web/src/WebBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L48)
 
----
+___
 
 ### logger
 
@@ -63,9 +64,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:33](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L33)
+[web/src/WebBootstrapper.ts:34](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L34)
 
----
+___
 
 ### nativeAuthenticationAccess
 
@@ -73,9 +74,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:34](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L34)
+[web/src/WebBootstrapper.ts:35](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L35)
 
----
+___
 
 ### nativeConfigAccess
 
@@ -83,9 +84,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:35](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L35)
+[web/src/WebBootstrapper.ts:36](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L36)
 
----
+___
 
 ### nativeDatabaseFactory
 
@@ -93,9 +94,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:36](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L36)
+[web/src/WebBootstrapper.ts:37](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L37)
 
----
+___
 
 ### nativeDeviceInfoAccess
 
@@ -103,9 +104,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:37](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L37)
+[web/src/WebBootstrapper.ts:38](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L38)
 
----
+___
 
 ### nativeEventBus
 
@@ -113,9 +114,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:38](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L38)
+[web/src/WebBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L39)
 
----
+___
 
 ### nativeFileAccess
 
@@ -123,9 +124,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L39)
+[web/src/WebBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L40)
 
----
+___
 
 ### nativeKeychainAccess
 
@@ -133,9 +134,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L40)
+[web/src/WebBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L41)
 
----
+___
 
 ### nativeLoggerFactory
 
@@ -143,9 +144,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L41)
+[web/src/WebBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L42)
 
----
+___
 
 ### nativeNotificationAccess
 
@@ -153,9 +154,19 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L42)
+[web/src/WebBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L43)
 
----
+___
+
+### nativePermissionsAccess
+
+• `Private` **nativePermissionsAccess**: [`INativePermissionsAccess`](../interfaces/INativePermissionsAccess.md)
+
+#### Defined in
+
+[web/src/WebBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L46)
+
+___
 
 ### nativePushNotificationAccess
 
@@ -163,9 +174,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L44)
+[web/src/WebBootstrapper.ts:45](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L45)
 
----
+___
 
 ### nativeScannerAccess
 
@@ -173,9 +184,9 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L43)
+[web/src/WebBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L44)
 
----
+___
 
 ### configPath
 
@@ -183,7 +194,7 @@
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:32](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L32)
+[web/src/WebBootstrapper.ts:33](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L33)
 
 ## Accessors
 
@@ -203,9 +214,9 @@ Indicates whether the initalisation is finished
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L48)
+[web/src/WebBootstrapper.ts:50](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L50)
 
----
+___
 
 ### nativeEnvironment
 
@@ -223,7 +234,7 @@ Environment of initialized native features
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:52](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L52)
+[web/src/WebBootstrapper.ts:54](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L54)
 
 ## Methods
 
@@ -233,8 +244,8 @@ Environment of initialized native features
 
 #### Parameters
 
-| Name    | Type                          |
-| :------ | :---------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `event` | [`ThemeEvent`](ThemeEvent.md) |
 
 #### Returns
@@ -243,9 +254,9 @@ Environment of initialized native features
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:120](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L120)
+[web/src/WebBootstrapper.ts:125](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L125)
 
----
+___
 
 ### init
 
@@ -263,4 +274,4 @@ Function for starting the initialization process
 
 #### Defined in
 
-[web/src/WebBootstrapper.ts:72](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebBootstrapper.ts#L72)
+[web/src/WebBootstrapper.ts:75](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebBootstrapper.ts#L75)

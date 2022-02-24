@@ -8,12 +8,12 @@ Meta information about a file
 
 ### Properties
 
--   [mimeType](INativeFileMetadata.md#mimetype)
--   [modifiedAt](INativeFileMetadata.md#modifiedat)
--   [name](INativeFileMetadata.md#name)
--   [path](INativeFileMetadata.md#path)
--   [size](INativeFileMetadata.md#size)
--   [storage](INativeFileMetadata.md#storage)
+- [mimeType](INativeFileMetadata.md#mimetype)
+- [modifiedAt](INativeFileMetadata.md#modifiedat)
+- [name](INativeFileMetadata.md#name)
+- [path](INativeFileMetadata.md#path)
+- [size](INativeFileMetadata.md#size)
+- [storage](INativeFileMetadata.md#storage)
 
 ## Properties
 
@@ -25,9 +25,9 @@ Mime type of the file used to determine which applications can be used to open t
 
 #### Defined in
 
-[src/INativeFileAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeFileAccess.ts#L22)
+[src/INativeFileAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeFileAccess.ts#L22)
 
----
+___
 
 ### modifiedAt
 
@@ -37,9 +37,9 @@ Modification date
 
 #### Defined in
 
-[src/INativeFileAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeFileAccess.ts#L30)
+[src/INativeFileAccess.ts:30](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeFileAccess.ts#L30)
 
----
+___
 
 ### name
 
@@ -49,9 +49,9 @@ Name of the file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeFileAccess.ts#L10)
+[src/INativeFileAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeFileAccess.ts#L10)
 
----
+___
 
 ### path
 
@@ -61,9 +61,9 @@ Path to the file relative to the [storage](INativeFileMetadata.md#storage)
 
 #### Defined in
 
-[src/INativeFileAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeFileAccess.ts#L14)
+[src/INativeFileAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeFileAccess.ts#L14)
 
----
+___
 
 ### size
 
@@ -73,9 +73,9 @@ Size of the file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:26](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeFileAccess.ts#L26)
+[src/INativeFileAccess.ts:26](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeFileAccess.ts#L26)
 
----
+___
 
 ### storage
 
@@ -85,4 +85,4 @@ storage location of the file
 
 #### Defined in
 
-[src/INativeFileAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeFileAccess.ts#L18)
+[src/INativeFileAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeFileAccess.ts#L18)

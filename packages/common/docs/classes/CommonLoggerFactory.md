@@ -4,26 +4,26 @@
 
 ## Implements
 
--   `INativeLoggerFactory`
+- `INativeLoggerFactory`
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CommonLoggerFactory.md#constructor)
+- [constructor](CommonLoggerFactory.md#constructor)
 
 ### Properties
 
--   [busy](CommonLoggerFactory.md#busy)
--   [queue](CommonLoggerFactory.md#queue)
+- [busy](CommonLoggerFactory.md#busy)
+- [queue](CommonLoggerFactory.md#queue)
 
 ### Methods
 
--   [addLog](CommonLoggerFactory.md#addlog)
--   [formatMessages](CommonLoggerFactory.md#formatmessages)
--   [getLogger](CommonLoggerFactory.md#getlogger)
--   [init](CommonLoggerFactory.md#init)
--   [saveQueue](CommonLoggerFactory.md#savequeue)
+- [addLog](CommonLoggerFactory.md#addlog)
+- [formatMessages](CommonLoggerFactory.md#formatmessages)
+- [getLogger](CommonLoggerFactory.md#getlogger)
+- [init](CommonLoggerFactory.md#init)
+- [saveQueue](CommonLoggerFactory.md#savequeue)
 
 ## Constructors
 
@@ -33,13 +33,13 @@
 
 #### Parameters
 
-| Name         | Type                |
-| :----------- | :------------------ |
+| Name | Type |
+| :------ | :------ |
 | `fileAccess` | `INativeFileAccess` |
 
 #### Defined in
 
-[CommonLoggerFactory.ts:7](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/common/src/CommonLoggerFactory.ts#L7)
+[CommonLoggerFactory.ts:7](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/common/src/CommonLoggerFactory.ts#L7)
 
 ## Properties
 
@@ -49,17 +49,17 @@
 
 #### Defined in
 
-[CommonLoggerFactory.ts:33](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/common/src/CommonLoggerFactory.ts#L33)
+[CommonLoggerFactory.ts:33](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/common/src/CommonLoggerFactory.ts#L33)
 
----
+___
 
 ### queue
 
-• `Private` `Readonly` **queue**: { `loggerName`: `string` ; `message`: `string` }[] = `[]`
+• `Private` `Readonly` **queue**: { `loggerName`: `string` ; `message`: `string`  }[] = `[]`
 
 #### Defined in
 
-[CommonLoggerFactory.ts:32](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/common/src/CommonLoggerFactory.ts#L32)
+[CommonLoggerFactory.ts:32](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/common/src/CommonLoggerFactory.ts#L32)
 
 ## Methods
 
@@ -71,10 +71,10 @@ Add the log to a queue for saving to filesystem
 
 #### Parameters
 
-| Name         | Type     |
-| :----------- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `loggerName` | `string` |
-| `message`    | `string` |
+| `message` | `string` |
 
 #### Returns
 
@@ -82,9 +82,9 @@ Add the log to a queue for saving to filesystem
 
 #### Defined in
 
-[CommonLoggerFactory.ts:70](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/common/src/CommonLoggerFactory.ts#L70)
+[CommonLoggerFactory.ts:70](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/common/src/CommonLoggerFactory.ts#L70)
 
----
+___
 
 ### formatMessages
 
@@ -92,9 +92,9 @@ Add the log to a queue for saving to filesystem
 
 #### Parameters
 
-| Name       | Type       |
-| :--------- | :--------- |
-| `messages` | `any`[]    |
+| Name | Type |
+| :------ | :------ |
+| `messages` | `any`[] |
 | `context?` | `Function` |
 
 #### Returns
@@ -103,9 +103,9 @@ Add the log to a queue for saving to filesystem
 
 #### Defined in
 
-[CommonLoggerFactory.ts:26](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/common/src/CommonLoggerFactory.ts#L26)
+[CommonLoggerFactory.ts:26](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/common/src/CommonLoggerFactory.ts#L26)
 
----
+___
 
 ### getLogger
 
@@ -113,8 +113,8 @@ Add the log to a queue for saving to filesystem
 
 #### Parameters
 
-| Name    | Type                   |
-| :------ | :--------------------- |
+| Name | Type |
+| :------ | :------ |
 | `oName` | `string` \| `Function` |
 
 #### Returns
@@ -127,9 +127,9 @@ INativeLoggerFactory.getLogger
 
 #### Defined in
 
-[CommonLoggerFactory.ts:77](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/common/src/CommonLoggerFactory.ts#L77)
+[CommonLoggerFactory.ts:77](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/common/src/CommonLoggerFactory.ts#L77)
 
----
+___
 
 ### init
 
@@ -145,9 +145,9 @@ INativeLoggerFactory.init
 
 #### Defined in
 
-[CommonLoggerFactory.ts:22](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/common/src/CommonLoggerFactory.ts#L22)
+[CommonLoggerFactory.ts:22](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/common/src/CommonLoggerFactory.ts#L22)
 
----
+___
 
 ### saveQueue
 
@@ -161,4 +161,4 @@ Save the queue of logs to the filesystem
 
 #### Defined in
 
-[CommonLoggerFactory.ts:38](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/common/src/CommonLoggerFactory.ts#L38)
+[CommonLoggerFactory.ts:38](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/common/src/CommonLoggerFactory.ts#L38)

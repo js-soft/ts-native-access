@@ -6,7 +6,7 @@
 
 ### Methods
 
--   [translate](INativeTranslationProvider.md#translate)
+- [translate](INativeTranslationProvider.md#translate)
 
 ## Methods
 
@@ -16,10 +16,10 @@
 
 #### Parameters
 
-| Name        | Type                                                                |
-| :---------- | :------------------------------------------------------------------ |
-| `key`       | `string`                                                            |
-| `...values` | (`string` \| `number` \| `boolean` \| { `toString`: `Function` })[] |
+| Name | Type |
+| :------ | :------ |
+| `key` | `string` |
+| `...values` | (`string` \| `number` \| `boolean` \| { `toString`: `Function`  })[] |
 
 #### Returns
 

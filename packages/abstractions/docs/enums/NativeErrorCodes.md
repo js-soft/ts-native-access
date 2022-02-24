@@ -6,388 +6,388 @@
 
 ### Enumeration members
 
--   [BIOMETRIC_AUTHENTICATION_FAILED](NativeErrorCodes.md#biometric_authentication_failed)
--   [BIOMETRIC_DISMISSED](NativeErrorCodes.md#biometric_dismissed)
--   [BIOMETRIC_HARDWARE_NOT_SUPPORTED](NativeErrorCodes.md#biometric_hardware_not_supported)
--   [BIOMETRIC_INTERNAL_PLUGIN_ERROR](NativeErrorCodes.md#biometric_internal_plugin_error)
--   [BIOMETRIC_LOCKED_OUT](NativeErrorCodes.md#biometric_locked_out)
--   [BIOMETRIC_LOCKED_OUT_PERMANENT](NativeErrorCodes.md#biometric_locked_out_permanent)
--   [BIOMETRIC_NOT_ENROLLED](NativeErrorCodes.md#biometric_not_enrolled)
--   [BIOMETRIC_PERMISSION_NOT_GRANTED](NativeErrorCodes.md#biometric_permission_not_granted)
--   [BIOMETRIC_PIN_OR_PATTERN_DISMISSED](NativeErrorCodes.md#biometric_pin_or_pattern_dismissed)
--   [BIOMETRIC_SCREEN_GUARD_UNSECURED](NativeErrorCodes.md#biometric_screen_guard_unsecured)
--   [BIOMETRIC_SDK_NOT_SUPPORTED](NativeErrorCodes.md#biometric_sdk_not_supported)
--   [BIOMETRIC_SECRET_NOT_FOUND](NativeErrorCodes.md#biometric_secret_not_found)
--   [BIOMETRIC_UNAVAILABLE](NativeErrorCodes.md#biometric_unavailable)
--   [BIOMETRIC_UNKNOWN_ERROR](NativeErrorCodes.md#biometric_unknown_error)
--   [BOOTSTRAP_ALREADY_INITIALIZED](NativeErrorCodes.md#bootstrap_already_initialized)
--   [BOOTSTRAP_NOT_INITIALIZED](NativeErrorCodes.md#bootstrap_not_initialized)
--   [CONFIG_FILESYSTEM](NativeErrorCodes.md#config_filesystem)
--   [CONFIG_INIT](NativeErrorCodes.md#config_init)
--   [CONFIG_NOT_FOUND](NativeErrorCodes.md#config_not_found)
--   [CONFIG_UNKNOWN](NativeErrorCodes.md#config_unknown)
--   [FILESYSTEM_INVALID_MODIFICATION](NativeErrorCodes.md#filesystem_invalid_modification)
--   [FILESYSTEM_NOT_FOUND](NativeErrorCodes.md#filesystem_not_found)
--   [FILESYSTEM_NO_MODIFICATION_ALLOWED](NativeErrorCodes.md#filesystem_no_modification_allowed)
--   [FILESYSTEM_PATH_EXISTS](NativeErrorCodes.md#filesystem_path_exists)
--   [FILESYSTEM_SECURITY](NativeErrorCodes.md#filesystem_security)
--   [FILESYSTEM_SELECTION_CANCELLED](NativeErrorCodes.md#filesystem_selection_cancelled)
--   [FILESYSTEM_UNKNOWN](NativeErrorCodes.md#filesystem_unknown)
--   [KEYCHAIN_NOT_FOUND](NativeErrorCodes.md#keychain_not_found)
--   [KEYCHAIN_UNKNOWN](NativeErrorCodes.md#keychain_unknown)
--   [NOTIFICATION_UNKNOWN](NativeErrorCodes.md#notification_unknown)
--   [NOT_IMPLEMENTED_ERROR](NativeErrorCodes.md#not_implemented_error)
--   [SCANNER_CANCELLED](NativeErrorCodes.md#scanner_cancelled)
--   [SCANNER_TIMEOUT](NativeErrorCodes.md#scanner_timeout)
--   [SCANNER_UNKNOWN](NativeErrorCodes.md#scanner_unknown)
--   [THEME_COULD_NOT_BE_APPLIED](NativeErrorCodes.md#theme_could_not_be_applied)
+- [BIOMETRIC\_AUTHENTICATION\_FAILED](NativeErrorCodes.md#biometric_authentication_failed)
+- [BIOMETRIC\_DISMISSED](NativeErrorCodes.md#biometric_dismissed)
+- [BIOMETRIC\_HARDWARE\_NOT\_SUPPORTED](NativeErrorCodes.md#biometric_hardware_not_supported)
+- [BIOMETRIC\_INTERNAL\_PLUGIN\_ERROR](NativeErrorCodes.md#biometric_internal_plugin_error)
+- [BIOMETRIC\_LOCKED\_OUT](NativeErrorCodes.md#biometric_locked_out)
+- [BIOMETRIC\_LOCKED\_OUT\_PERMANENT](NativeErrorCodes.md#biometric_locked_out_permanent)
+- [BIOMETRIC\_NOT\_ENROLLED](NativeErrorCodes.md#biometric_not_enrolled)
+- [BIOMETRIC\_PERMISSION\_NOT\_GRANTED](NativeErrorCodes.md#biometric_permission_not_granted)
+- [BIOMETRIC\_PIN\_OR\_PATTERN\_DISMISSED](NativeErrorCodes.md#biometric_pin_or_pattern_dismissed)
+- [BIOMETRIC\_SCREEN\_GUARD\_UNSECURED](NativeErrorCodes.md#biometric_screen_guard_unsecured)
+- [BIOMETRIC\_SDK\_NOT\_SUPPORTED](NativeErrorCodes.md#biometric_sdk_not_supported)
+- [BIOMETRIC\_SECRET\_NOT\_FOUND](NativeErrorCodes.md#biometric_secret_not_found)
+- [BIOMETRIC\_UNAVAILABLE](NativeErrorCodes.md#biometric_unavailable)
+- [BIOMETRIC\_UNKNOWN\_ERROR](NativeErrorCodes.md#biometric_unknown_error)
+- [BOOTSTRAP\_ALREADY\_INITIALIZED](NativeErrorCodes.md#bootstrap_already_initialized)
+- [BOOTSTRAP\_NOT\_INITIALIZED](NativeErrorCodes.md#bootstrap_not_initialized)
+- [CONFIG\_FILESYSTEM](NativeErrorCodes.md#config_filesystem)
+- [CONFIG\_INIT](NativeErrorCodes.md#config_init)
+- [CONFIG\_NOT\_FOUND](NativeErrorCodes.md#config_not_found)
+- [CONFIG\_UNKNOWN](NativeErrorCodes.md#config_unknown)
+- [FILESYSTEM\_INVALID\_MODIFICATION](NativeErrorCodes.md#filesystem_invalid_modification)
+- [FILESYSTEM\_NOT\_FOUND](NativeErrorCodes.md#filesystem_not_found)
+- [FILESYSTEM\_NO\_MODIFICATION\_ALLOWED](NativeErrorCodes.md#filesystem_no_modification_allowed)
+- [FILESYSTEM\_PATH\_EXISTS](NativeErrorCodes.md#filesystem_path_exists)
+- [FILESYSTEM\_SECURITY](NativeErrorCodes.md#filesystem_security)
+- [FILESYSTEM\_SELECTION\_CANCELLED](NativeErrorCodes.md#filesystem_selection_cancelled)
+- [FILESYSTEM\_UNKNOWN](NativeErrorCodes.md#filesystem_unknown)
+- [KEYCHAIN\_NOT\_FOUND](NativeErrorCodes.md#keychain_not_found)
+- [KEYCHAIN\_UNKNOWN](NativeErrorCodes.md#keychain_unknown)
+- [NOTIFICATION\_UNKNOWN](NativeErrorCodes.md#notification_unknown)
+- [NOT\_IMPLEMENTED\_ERROR](NativeErrorCodes.md#not_implemented_error)
+- [SCANNER\_CANCELLED](NativeErrorCodes.md#scanner_cancelled)
+- [SCANNER\_TIMEOUT](NativeErrorCodes.md#scanner_timeout)
+- [SCANNER\_UNKNOWN](NativeErrorCodes.md#scanner_unknown)
+- [THEME\_COULD\_NOT\_BE\_APPLIED](NativeErrorCodes.md#theme_could_not_be_applied)
 
 ## Enumeration members
 
-### BIOMETRIC_AUTHENTICATION_FAILED
+### BIOMETRIC\_AUTHENTICATION\_FAILED
 
-• **BIOMETRIC_AUTHENTICATION_FAILED** = `"BIOMETRIC_AUTHENTICATION_FAILED"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:6](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L6)
-
----
-
-### BIOMETRIC_DISMISSED
-
-• **BIOMETRIC_DISMISSED** = `"BIOMETRIC_DISMISSED"`
+• **BIOMETRIC\_AUTHENTICATION\_FAILED** = `"BIOMETRIC_AUTHENTICATION_FAILED"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:12](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L12)
+[src/NativeErrorCodes.ts:6](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L6)
 
----
+___
 
-### BIOMETRIC_HARDWARE_NOT_SUPPORTED
+### BIOMETRIC\_DISMISSED
 
-• **BIOMETRIC_HARDWARE_NOT_SUPPORTED** = `"BIOMETRIC_HARDWARE_NOT_SUPPORTED"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:8](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L8)
-
----
-
-### BIOMETRIC_INTERNAL_PLUGIN_ERROR
-
-• **BIOMETRIC_INTERNAL_PLUGIN_ERROR** = `"BIOMETRIC_INTERNAL_PLUGIN_ERROR"`
+• **BIOMETRIC\_DISMISSED** = `"BIOMETRIC_DISMISSED"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:11](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L11)
+[src/NativeErrorCodes.ts:12](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L12)
 
----
+___
 
-### BIOMETRIC_LOCKED_OUT
+### BIOMETRIC\_HARDWARE\_NOT\_SUPPORTED
 
-• **BIOMETRIC_LOCKED_OUT** = `"BIOMETRIC_LOCKED_OUT"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:15](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L15)
-
----
-
-### BIOMETRIC_LOCKED_OUT_PERMANENT
-
-• **BIOMETRIC_LOCKED_OUT_PERMANENT** = `"BIOMETRIC_LOCKED_OUT_PERMANENT"`
+• **BIOMETRIC\_HARDWARE\_NOT\_SUPPORTED** = `"BIOMETRIC_HARDWARE_NOT_SUPPORTED"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:16](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L16)
+[src/NativeErrorCodes.ts:8](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L8)
 
----
+___
 
-### BIOMETRIC_NOT_ENROLLED
+### BIOMETRIC\_INTERNAL\_PLUGIN\_ERROR
 
-• **BIOMETRIC_NOT_ENROLLED** = `"BIOMETRIC_NOT_ENROLLED"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:10](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L10)
-
----
-
-### BIOMETRIC_PERMISSION_NOT_GRANTED
-
-• **BIOMETRIC_PERMISSION_NOT_GRANTED** = `"BIOMETRIC_PERMISSION_NOT_GRANTED"`
+• **BIOMETRIC\_INTERNAL\_PLUGIN\_ERROR** = `"BIOMETRIC_INTERNAL_PLUGIN_ERROR"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:9](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L9)
+[src/NativeErrorCodes.ts:11](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L11)
 
----
+___
 
-### BIOMETRIC_PIN_OR_PATTERN_DISMISSED
+### BIOMETRIC\_LOCKED\_OUT
 
-• **BIOMETRIC_PIN_OR_PATTERN_DISMISSED** = `"BIOMETRIC_PIN_OR_PATTERN_DISMISSED"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:13](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L13)
-
----
-
-### BIOMETRIC_SCREEN_GUARD_UNSECURED
-
-• **BIOMETRIC_SCREEN_GUARD_UNSECURED** = `"BIOMETRIC_SCREEN_GUARD_UNSECURED"`
+• **BIOMETRIC\_LOCKED\_OUT** = `"BIOMETRIC_LOCKED_OUT"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:14](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L14)
+[src/NativeErrorCodes.ts:15](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L15)
 
----
+___
 
-### BIOMETRIC_SDK_NOT_SUPPORTED
+### BIOMETRIC\_LOCKED\_OUT\_PERMANENT
 
-• **BIOMETRIC_SDK_NOT_SUPPORTED** = `"BIOMETRIC_SDK_NOT_SUPPORTED"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:7](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L7)
-
----
-
-### BIOMETRIC_SECRET_NOT_FOUND
-
-• **BIOMETRIC_SECRET_NOT_FOUND** = `"BIOMETRIC_SECRET_NOT_FOUND"`
+• **BIOMETRIC\_LOCKED\_OUT\_PERMANENT** = `"BIOMETRIC_LOCKED_OUT_PERMANENT"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:17](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L17)
+[src/NativeErrorCodes.ts:16](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L16)
 
----
+___
 
-### BIOMETRIC_UNAVAILABLE
+### BIOMETRIC\_NOT\_ENROLLED
 
-• **BIOMETRIC_UNAVAILABLE** = `"BIOMETRIC_UNAVAILABLE"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:5](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L5)
-
----
-
-### BIOMETRIC_UNKNOWN_ERROR
-
-• **BIOMETRIC_UNKNOWN_ERROR** = `"BIOMETRIC_UNKNOWN_ERROR"`
+• **BIOMETRIC\_NOT\_ENROLLED** = `"BIOMETRIC_NOT_ENROLLED"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:4](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L4)
+[src/NativeErrorCodes.ts:10](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L10)
 
----
+___
 
-### BOOTSTRAP_ALREADY_INITIALIZED
+### BIOMETRIC\_PERMISSION\_NOT\_GRANTED
 
-• **BOOTSTRAP_ALREADY_INITIALIZED** = `"BOOTSTRAP_ALREADY_INITIALIZED"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:34](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L34)
-
----
-
-### BOOTSTRAP_NOT_INITIALIZED
-
-• **BOOTSTRAP_NOT_INITIALIZED** = `"BOOTSTRAP_NOT_INITIALIZED"`
+• **BIOMETRIC\_PERMISSION\_NOT\_GRANTED** = `"BIOMETRIC_PERMISSION_NOT_GRANTED"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:35](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L35)
+[src/NativeErrorCodes.ts:9](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L9)
 
----
+___
 
-### CONFIG_FILESYSTEM
+### BIOMETRIC\_PIN\_OR\_PATTERN\_DISMISSED
 
-• **CONFIG_FILESYSTEM** = `"CONFIG_FILESYSTEM"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:31](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L31)
-
----
-
-### CONFIG_INIT
-
-• **CONFIG_INIT** = `"CONFIG_INIT"`
+• **BIOMETRIC\_PIN\_OR\_PATTERN\_DISMISSED** = `"BIOMETRIC_PIN_OR_PATTERN_DISMISSED"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:32](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L32)
+[src/NativeErrorCodes.ts:13](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L13)
 
----
+___
 
-### CONFIG_NOT_FOUND
+### BIOMETRIC\_SCREEN\_GUARD\_UNSECURED
 
-• **CONFIG_NOT_FOUND** = `"CONFIG_NOT_FOUND"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:33](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L33)
-
----
-
-### CONFIG_UNKNOWN
-
-• **CONFIG_UNKNOWN** = `"CONFIG_UNKNOWN"`
+• **BIOMETRIC\_SCREEN\_GUARD\_UNSECURED** = `"BIOMETRIC_SCREEN_GUARD_UNSECURED"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:30](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L30)
+[src/NativeErrorCodes.ts:14](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L14)
 
----
+___
 
-### FILESYSTEM_INVALID_MODIFICATION
+### BIOMETRIC\_SDK\_NOT\_SUPPORTED
 
-• **FILESYSTEM_INVALID_MODIFICATION** = `"FILESYSTEM_INVALID_MODIFICATION"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:27](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L27)
-
----
-
-### FILESYSTEM_NOT_FOUND
-
-• **FILESYSTEM_NOT_FOUND** = `"FILESYSTEM_NOT_FOUND"`
+• **BIOMETRIC\_SDK\_NOT\_SUPPORTED** = `"BIOMETRIC_SDK_NOT_SUPPORTED"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:24](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L24)
+[src/NativeErrorCodes.ts:7](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L7)
 
----
+___
 
-### FILESYSTEM_NO_MODIFICATION_ALLOWED
+### BIOMETRIC\_SECRET\_NOT\_FOUND
 
-• **FILESYSTEM_NO_MODIFICATION_ALLOWED** = `"FILESYSTEM_NO_MODIFICATION_ALLOWED"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:26](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L26)
-
----
-
-### FILESYSTEM_PATH_EXISTS
-
-• **FILESYSTEM_PATH_EXISTS** = `"FILESYSTEM_PATH_EXISTS"`
+• **BIOMETRIC\_SECRET\_NOT\_FOUND** = `"BIOMETRIC_SECRET_NOT_FOUND"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:28](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L28)
+[src/NativeErrorCodes.ts:17](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L17)
 
----
+___
 
-### FILESYSTEM_SECURITY
+### BIOMETRIC\_UNAVAILABLE
 
-• **FILESYSTEM_SECURITY** = `"FILESYSTEM_SECURITY"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:25](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L25)
-
----
-
-### FILESYSTEM_SELECTION_CANCELLED
-
-• **FILESYSTEM_SELECTION_CANCELLED** = `"FILESYSTEM_SELECTION_CANCELLED"`
+• **BIOMETRIC\_UNAVAILABLE** = `"BIOMETRIC_UNAVAILABLE"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:29](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L29)
+[src/NativeErrorCodes.ts:5](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L5)
 
----
+___
 
-### FILESYSTEM_UNKNOWN
+### BIOMETRIC\_UNKNOWN\_ERROR
 
-• **FILESYSTEM_UNKNOWN** = `"FILESYSTEM_UNKNOWN"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:23](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L23)
-
----
-
-### KEYCHAIN_NOT_FOUND
-
-• **KEYCHAIN_NOT_FOUND** = `"KEYCHAIN_NOT_FOUND"`
+• **BIOMETRIC\_UNKNOWN\_ERROR** = `"BIOMETRIC_UNKNOWN_ERROR"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:22](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L22)
+[src/NativeErrorCodes.ts:4](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L4)
 
----
+___
 
-### KEYCHAIN_UNKNOWN
+### BOOTSTRAP\_ALREADY\_INITIALIZED
 
-• **KEYCHAIN_UNKNOWN** = `"KEYCHAIN_UNKNOWN"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:21](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L21)
-
----
-
-### NOTIFICATION_UNKNOWN
-
-• **NOTIFICATION_UNKNOWN** = `"NOTIFICATION_UNKNOWN"`
+• **BOOTSTRAP\_ALREADY\_INITIALIZED** = `"BOOTSTRAP_ALREADY_INITIALIZED"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:37](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L37)
+[src/NativeErrorCodes.ts:34](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L34)
 
----
+___
 
-### NOT_IMPLEMENTED_ERROR
+### BOOTSTRAP\_NOT\_INITIALIZED
 
-• **NOT_IMPLEMENTED_ERROR** = `"NOT_IMPLEMENTED_ERROR"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:3](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L3)
-
----
-
-### SCANNER_CANCELLED
-
-• **SCANNER_CANCELLED** = `"SCANNER_CANCELLED"`
+• **BOOTSTRAP\_NOT\_INITIALIZED** = `"BOOTSTRAP_NOT_INITIALIZED"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:18](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L18)
+[src/NativeErrorCodes.ts:35](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L35)
 
----
+___
 
-### SCANNER_TIMEOUT
+### CONFIG\_FILESYSTEM
 
-• **SCANNER_TIMEOUT** = `"SCANNER_TIMEOUT"`
-
-#### Defined in
-
-[src/NativeErrorCodes.ts:19](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L19)
-
----
-
-### SCANNER_UNKNOWN
-
-• **SCANNER_UNKNOWN** = `"SCANNER_UNKNOWN"`
+• **CONFIG\_FILESYSTEM** = `"CONFIG_FILESYSTEM"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:20](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L20)
+[src/NativeErrorCodes.ts:31](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L31)
 
----
+___
 
-### THEME_COULD_NOT_BE_APPLIED
+### CONFIG\_INIT
 
-• **THEME_COULD_NOT_BE_APPLIED** = `"THEME_COULD_NOT_BE_APPLIED"`
+• **CONFIG\_INIT** = `"CONFIG_INIT"`
 
 #### Defined in
 
-[src/NativeErrorCodes.ts:36](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeErrorCodes.ts#L36)
+[src/NativeErrorCodes.ts:32](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L32)
+
+___
+
+### CONFIG\_NOT\_FOUND
+
+• **CONFIG\_NOT\_FOUND** = `"CONFIG_NOT_FOUND"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:33](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L33)
+
+___
+
+### CONFIG\_UNKNOWN
+
+• **CONFIG\_UNKNOWN** = `"CONFIG_UNKNOWN"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:30](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L30)
+
+___
+
+### FILESYSTEM\_INVALID\_MODIFICATION
+
+• **FILESYSTEM\_INVALID\_MODIFICATION** = `"FILESYSTEM_INVALID_MODIFICATION"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:27](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L27)
+
+___
+
+### FILESYSTEM\_NOT\_FOUND
+
+• **FILESYSTEM\_NOT\_FOUND** = `"FILESYSTEM_NOT_FOUND"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:24](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L24)
+
+___
+
+### FILESYSTEM\_NO\_MODIFICATION\_ALLOWED
+
+• **FILESYSTEM\_NO\_MODIFICATION\_ALLOWED** = `"FILESYSTEM_NO_MODIFICATION_ALLOWED"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:26](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L26)
+
+___
+
+### FILESYSTEM\_PATH\_EXISTS
+
+• **FILESYSTEM\_PATH\_EXISTS** = `"FILESYSTEM_PATH_EXISTS"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:28](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L28)
+
+___
+
+### FILESYSTEM\_SECURITY
+
+• **FILESYSTEM\_SECURITY** = `"FILESYSTEM_SECURITY"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:25](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L25)
+
+___
+
+### FILESYSTEM\_SELECTION\_CANCELLED
+
+• **FILESYSTEM\_SELECTION\_CANCELLED** = `"FILESYSTEM_SELECTION_CANCELLED"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:29](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L29)
+
+___
+
+### FILESYSTEM\_UNKNOWN
+
+• **FILESYSTEM\_UNKNOWN** = `"FILESYSTEM_UNKNOWN"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:23](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L23)
+
+___
+
+### KEYCHAIN\_NOT\_FOUND
+
+• **KEYCHAIN\_NOT\_FOUND** = `"KEYCHAIN_NOT_FOUND"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:22](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L22)
+
+___
+
+### KEYCHAIN\_UNKNOWN
+
+• **KEYCHAIN\_UNKNOWN** = `"KEYCHAIN_UNKNOWN"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:21](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L21)
+
+___
+
+### NOTIFICATION\_UNKNOWN
+
+• **NOTIFICATION\_UNKNOWN** = `"NOTIFICATION_UNKNOWN"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:37](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L37)
+
+___
+
+### NOT\_IMPLEMENTED\_ERROR
+
+• **NOT\_IMPLEMENTED\_ERROR** = `"NOT_IMPLEMENTED_ERROR"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:3](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L3)
+
+___
+
+### SCANNER\_CANCELLED
+
+• **SCANNER\_CANCELLED** = `"SCANNER_CANCELLED"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:18](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L18)
+
+___
+
+### SCANNER\_TIMEOUT
+
+• **SCANNER\_TIMEOUT** = `"SCANNER_TIMEOUT"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:19](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L19)
+
+___
+
+### SCANNER\_UNKNOWN
+
+• **SCANNER\_UNKNOWN** = `"SCANNER_UNKNOWN"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:20](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L20)
+
+___
+
+### THEME\_COULD\_NOT\_BE\_APPLIED
+
+• **THEME\_COULD\_NOT\_BE\_APPLIED** = `"THEME_COULD_NOT_BE_APPLIED"`
+
+#### Defined in
+
+[src/NativeErrorCodes.ts:36](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeErrorCodes.ts#L36)

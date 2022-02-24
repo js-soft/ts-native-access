@@ -6,11 +6,11 @@
 
 ### Constructors
 
--   [constructor](CommonServiceWorker.md#constructor)
+- [constructor](CommonServiceWorker.md#constructor)
 
 ### Methods
 
--   [init](CommonServiceWorker.md#init)
+- [init](CommonServiceWorker.md#init)
 
 ## Constructors
 

@@ -6,20 +6,20 @@ Event fired when [INativeConfigAccess](../interfaces/INativeConfigAccess.md) fin
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`ConfigurationSaveEvent`**
+  ↳ **`ConfigurationSaveEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ConfigurationSaveEvent.md#constructor)
+- [constructor](ConfigurationSaveEvent.md#constructor)
 
 ### Properties
 
--   [namespace](ConfigurationSaveEvent.md#namespace)
--   [namespace](ConfigurationSaveEvent.md#namespace)
+- [namespace](ConfigurationSaveEvent.md#namespace)
+- [namespace](ConfigurationSaveEvent.md#namespace)
 
 ## Constructors
 
@@ -49,7 +49,7 @@ abstractions/dist/NativeEvents.d.ts:24
 
 abstractions/node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### namespace
 

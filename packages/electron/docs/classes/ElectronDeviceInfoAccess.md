@@ -4,25 +4,25 @@
 
 ## Implements
 
--   [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
+- [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ElectronDeviceInfoAccess.md#constructor)
+- [constructor](ElectronDeviceInfoAccess.md#constructor)
 
 ### Properties
 
--   [\_deviceInfo](ElectronDeviceInfoAccess.md#_deviceinfo)
+- [\_deviceInfo](ElectronDeviceInfoAccess.md#_deviceinfo)
 
 ### Accessors
 
--   [deviceInfo](ElectronDeviceInfoAccess.md#deviceinfo)
+- [deviceInfo](ElectronDeviceInfoAccess.md#deviceinfo)
 
 ### Methods
 
--   [init](ElectronDeviceInfoAccess.md#init)
+- [init](ElectronDeviceInfoAccess.md#init)
 
 ## Constructors
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[electron/src/ElectronDeviceInfoAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronDeviceInfoAccess.ts#L10)
+[electron/src/ElectronDeviceInfoAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronDeviceInfoAccess.ts#L10)
 
 ## Accessors
 
@@ -58,7 +58,7 @@ Available information about the device running the app
 
 #### Defined in
 
-[electron/src/ElectronDeviceInfoAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronDeviceInfoAccess.ts#L7)
+[electron/src/ElectronDeviceInfoAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronDeviceInfoAccess.ts#L7)
 
 ## Methods
 
@@ -78,4 +78,4 @@ Initialize the module to retrieve relevant device information
 
 #### Defined in
 
-[electron/src/ElectronDeviceInfoAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronDeviceInfoAccess.ts#L12)
+[electron/src/ElectronDeviceInfoAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronDeviceInfoAccess.ts#L12)

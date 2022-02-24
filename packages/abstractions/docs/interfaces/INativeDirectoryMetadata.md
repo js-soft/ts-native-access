@@ -8,9 +8,9 @@ Meta information of directory
 
 ### Properties
 
--   [modifiedAt](INativeDirectoryMetadata.md#modifiedat)
--   [path](INativeDirectoryMetadata.md#path)
--   [storage](INativeDirectoryMetadata.md#storage)
+- [modifiedAt](INativeDirectoryMetadata.md#modifiedat)
+- [path](INativeDirectoryMetadata.md#path)
+- [storage](INativeDirectoryMetadata.md#storage)
 
 ## Properties
 
@@ -22,9 +22,9 @@ Modification date
 
 #### Defined in
 
-[src/INativeFileAccess.ts:76](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeFileAccess.ts#L76)
+[src/INativeFileAccess.ts:76](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeFileAccess.ts#L76)
 
----
+___
 
 ### path
 
@@ -34,9 +34,9 @@ path of the directory relative to the [storage](INativeDirectoryMetadata.md#stor
 
 #### Defined in
 
-[src/INativeFileAccess.ts:80](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeFileAccess.ts#L80)
+[src/INativeFileAccess.ts:80](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeFileAccess.ts#L80)
 
----
+___
 
 ### storage
 
@@ -46,4 +46,4 @@ storage location of the directory
 
 #### Defined in
 
-[src/INativeFileAccess.ts:84](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeFileAccess.ts#L84)
+[src/INativeFileAccess.ts:84](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeFileAccess.ts#L84)

@@ -6,20 +6,20 @@ Event fired when the app closes
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`AppCloseEvent`**
+  ↳ **`AppCloseEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](AppCloseEvent.md#constructor)
+- [constructor](AppCloseEvent.md#constructor)
 
 ### Properties
 
--   [namespace](AppCloseEvent.md#namespace)
--   [namespace](AppCloseEvent.md#namespace)
+- [namespace](AppCloseEvent.md#namespace)
+- [namespace](AppCloseEvent.md#namespace)
 
 ## Constructors
 
@@ -49,7 +49,7 @@ abstractions/dist/NativeEvents.d.ts:71
 
 abstractions/node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### namespace
 

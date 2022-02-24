@@ -6,21 +6,21 @@ Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotifi
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`RemoteNotificationRegistrationEvent`**
+  ↳ **`RemoteNotificationRegistrationEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](RemoteNotificationRegistrationEvent.md#constructor)
+- [constructor](RemoteNotificationRegistrationEvent.md#constructor)
 
 ### Properties
 
--   [namespace](RemoteNotificationRegistrationEvent.md#namespace)
--   [token](RemoteNotificationRegistrationEvent.md#token)
--   [namespace](RemoteNotificationRegistrationEvent.md#namespace)
+- [namespace](RemoteNotificationRegistrationEvent.md#namespace)
+- [token](RemoteNotificationRegistrationEvent.md#token)
+- [namespace](RemoteNotificationRegistrationEvent.md#namespace)
 
 ## Constructors
 
@@ -30,8 +30,8 @@ Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotifi
 
 #### Parameters
 
-| Name    | Type     |
-| :------ | :------- |
+| Name | Type |
+| :------ | :------ |
 | `token` | `string` |
 
 #### Overrides
@@ -40,7 +40,7 @@ Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotifi
 
 #### Defined in
 
-[src/NativeEvents.ts:9](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L9)
+[src/NativeEvents.ts:9](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeEvents.ts#L9)
 
 ## Properties
 
@@ -56,13 +56,13 @@ Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotifi
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### token
 
 • `Readonly` **token**: `string`
 
----
+___
 
 ### namespace
 
@@ -70,4 +70,4 @@ node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
 #### Defined in
 
-[src/NativeEvents.ts:8](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L8)
+[src/NativeEvents.ts:8](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeEvents.ts#L8)

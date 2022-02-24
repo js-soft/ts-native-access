@@ -8,8 +8,8 @@ Entry of the keychain
 
 ### Properties
 
--   [key](INativeKeychainEntry.md#key)
--   [value](INativeKeychainEntry.md#value)
+- [key](INativeKeychainEntry.md#key)
+- [value](INativeKeychainEntry.md#value)
 
 ## Properties
 
@@ -19,9 +19,9 @@ Entry of the keychain
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeKeychainAccess.ts#L7)
+[src/INativeKeychainAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeKeychainAccess.ts#L7)
 
----
+___
 
 ### value
 
@@ -29,4 +29,4 @@ Entry of the keychain
 
 #### Defined in
 
-[src/INativeKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeKeychainAccess.ts#L8)
+[src/INativeKeychainAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeKeychainAccess.ts#L8)

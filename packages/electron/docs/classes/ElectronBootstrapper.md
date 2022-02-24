@@ -4,41 +4,42 @@
 
 ## Implements
 
--   [`INativeBootstrapper`](../interfaces/INativeBootstrapper.md)
+- [`INativeBootstrapper`](../interfaces/INativeBootstrapper.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ElectronBootstrapper.md#constructor)
+- [constructor](ElectronBootstrapper.md#constructor)
 
 ### Properties
 
--   [initialized](ElectronBootstrapper.md#initialized)
--   [logger](ElectronBootstrapper.md#logger)
--   [nativeAuthenticationAccess](ElectronBootstrapper.md#nativeauthenticationaccess)
--   [nativeConfigAccess](ElectronBootstrapper.md#nativeconfigaccess)
--   [nativeDatabaseFactory](ElectronBootstrapper.md#nativedatabasefactory)
--   [nativeDeviceInfoAccess](ElectronBootstrapper.md#nativedeviceinfoaccess)
--   [nativeEventBus](ElectronBootstrapper.md#nativeeventbus)
--   [nativeFileAccess](ElectronBootstrapper.md#nativefileaccess)
--   [nativeKeychainAccess](ElectronBootstrapper.md#nativekeychainaccess)
--   [nativeLaunchOptions](ElectronBootstrapper.md#nativelaunchoptions)
--   [nativeLoggerFactory](ElectronBootstrapper.md#nativeloggerfactory)
--   [nativeNotificationAccess](ElectronBootstrapper.md#nativenotificationaccess)
--   [nativePushNotificationAccess](ElectronBootstrapper.md#nativepushnotificationaccess)
--   [nativeScannerAccess](ElectronBootstrapper.md#nativescanneraccess)
--   [configPath](ElectronBootstrapper.md#configpath)
+- [initialized](ElectronBootstrapper.md#initialized)
+- [logger](ElectronBootstrapper.md#logger)
+- [nativeAuthenticationAccess](ElectronBootstrapper.md#nativeauthenticationaccess)
+- [nativeConfigAccess](ElectronBootstrapper.md#nativeconfigaccess)
+- [nativeDatabaseFactory](ElectronBootstrapper.md#nativedatabasefactory)
+- [nativeDeviceInfoAccess](ElectronBootstrapper.md#nativedeviceinfoaccess)
+- [nativeEventBus](ElectronBootstrapper.md#nativeeventbus)
+- [nativeFileAccess](ElectronBootstrapper.md#nativefileaccess)
+- [nativeKeychainAccess](ElectronBootstrapper.md#nativekeychainaccess)
+- [nativeLaunchOptions](ElectronBootstrapper.md#nativelaunchoptions)
+- [nativeLoggerFactory](ElectronBootstrapper.md#nativeloggerfactory)
+- [nativeNotificationAccess](ElectronBootstrapper.md#nativenotificationaccess)
+- [nativePermissionsAccess](ElectronBootstrapper.md#nativepermissionsaccess)
+- [nativePushNotificationAccess](ElectronBootstrapper.md#nativepushnotificationaccess)
+- [nativeScannerAccess](ElectronBootstrapper.md#nativescanneraccess)
+- [configPath](ElectronBootstrapper.md#configpath)
 
 ### Accessors
 
--   [isInitialized](ElectronBootstrapper.md#isinitialized)
--   [nativeEnvironment](ElectronBootstrapper.md#nativeenvironment)
+- [isInitialized](ElectronBootstrapper.md#isinitialized)
+- [nativeEnvironment](ElectronBootstrapper.md#nativeenvironment)
 
 ### Methods
 
--   [handleThemeEvent](ElectronBootstrapper.md#handlethemeevent)
--   [init](ElectronBootstrapper.md#init)
+- [handleThemeEvent](ElectronBootstrapper.md#handlethemeevent)
+- [init](ElectronBootstrapper.md#init)
 
 ## Constructors
 
@@ -54,9 +55,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L48)
+[electron/src/ElectronBootstrapper.ts:51](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L51)
 
----
+___
 
 ### logger
 
@@ -64,9 +65,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:34](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L34)
+[electron/src/ElectronBootstrapper.ts:36](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L36)
 
----
+___
 
 ### nativeAuthenticationAccess
 
@@ -74,9 +75,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:35](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L35)
+[electron/src/ElectronBootstrapper.ts:37](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L37)
 
----
+___
 
 ### nativeConfigAccess
 
@@ -84,9 +85,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:36](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L36)
+[electron/src/ElectronBootstrapper.ts:38](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L38)
 
----
+___
 
 ### nativeDatabaseFactory
 
@@ -94,9 +95,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:37](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L37)
+[electron/src/ElectronBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L39)
 
----
+___
 
 ### nativeDeviceInfoAccess
 
@@ -104,9 +105,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:38](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L38)
+[electron/src/ElectronBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L40)
 
----
+___
 
 ### nativeEventBus
 
@@ -114,9 +115,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L39)
+[electron/src/ElectronBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L41)
 
----
+___
 
 ### nativeFileAccess
 
@@ -124,9 +125,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L40)
+[electron/src/ElectronBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L42)
 
----
+___
 
 ### nativeKeychainAccess
 
@@ -134,9 +135,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L41)
+[electron/src/ElectronBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L43)
 
----
+___
 
 ### nativeLaunchOptions
 
@@ -144,9 +145,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L46)
+[electron/src/ElectronBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L48)
 
----
+___
 
 ### nativeLoggerFactory
 
@@ -154,9 +155,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L42)
+[electron/src/ElectronBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L44)
 
----
+___
 
 ### nativeNotificationAccess
 
@@ -164,9 +165,19 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L43)
+[electron/src/ElectronBootstrapper.ts:45](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L45)
 
----
+___
+
+### nativePermissionsAccess
+
+• `Private` **nativePermissionsAccess**: [`INativePermissionsAccess`](../interfaces/INativePermissionsAccess.md)
+
+#### Defined in
+
+[electron/src/ElectronBootstrapper.ts:49](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L49)
+
+___
 
 ### nativePushNotificationAccess
 
@@ -174,9 +185,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:45](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L45)
+[electron/src/ElectronBootstrapper.ts:47](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L47)
 
----
+___
 
 ### nativeScannerAccess
 
@@ -184,9 +195,9 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L44)
+[electron/src/ElectronBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L46)
 
----
+___
 
 ### configPath
 
@@ -194,7 +205,7 @@
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:33](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L33)
+[electron/src/ElectronBootstrapper.ts:35](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L35)
 
 ## Accessors
 
@@ -214,9 +225,9 @@ Indicates whether the initalisation is finished
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:49](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L49)
+[electron/src/ElectronBootstrapper.ts:52](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L52)
 
----
+___
 
 ### nativeEnvironment
 
@@ -234,7 +245,7 @@ Environment of initialized native features
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:53](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L53)
+[electron/src/ElectronBootstrapper.ts:56](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L56)
 
 ## Methods
 
@@ -244,8 +255,8 @@ Environment of initialized native features
 
 #### Parameters
 
-| Name    | Type                          |
-| :------ | :---------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `event` | [`ThemeEvent`](ThemeEvent.md) |
 
 #### Returns
@@ -254,9 +265,9 @@ Environment of initialized native features
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:122](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L122)
+[electron/src/ElectronBootstrapper.ts:128](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L128)
 
----
+___
 
 ### init
 
@@ -274,4 +285,4 @@ Function for starting the initialization process
 
 #### Defined in
 
-[electron/src/ElectronBootstrapper.ts:74](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronBootstrapper.ts#L74)
+[electron/src/ElectronBootstrapper.ts:78](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/electron/src/ElectronBootstrapper.ts#L78)

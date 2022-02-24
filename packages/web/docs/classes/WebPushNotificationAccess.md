@@ -4,17 +4,17 @@
 
 ## Implements
 
--   [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
+- [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](WebPushNotificationAccess.md#constructor)
+- [constructor](WebPushNotificationAccess.md#constructor)
 
 ### Methods
 
--   [init](WebPushNotificationAccess.md#init)
+- [init](WebPushNotificationAccess.md#init)
 
 ## Constructors
 
@@ -24,16 +24,16 @@
 
 #### Parameters
 
-| Name            | Type                                                          |
-| :-------------- | :------------------------------------------------------------ |
-| `logger`        | `ILogger`                                                     |
-| `config`        | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
-| `eventBus`      | [`INativeEventBus`](../interfaces/INativeEventBus.md)         |
-| `serviceWorker` | `ServiceWorkerRegistration`                                   |
+| Name | Type |
+| :------ | :------ |
+| `logger` | `ILogger` |
+| `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
+| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
+| `serviceWorker` | `ServiceWorkerRegistration` |
 
 #### Defined in
 
-[web/src/WebPushNotificationAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebPushNotificationAccess.ts#L15)
+[web/src/WebPushNotificationAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebPushNotificationAccess.ts#L15)
 
 ## Methods
 
@@ -55,4 +55,4 @@ It also publishes a [RemoteNotificationEvent](RemoteNotificationEvent.md) when a
 
 #### Defined in
 
-[web/src/WebPushNotificationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebPushNotificationAccess.ts#L22)
+[web/src/WebPushNotificationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/web/src/WebPushNotificationAccess.ts#L22)

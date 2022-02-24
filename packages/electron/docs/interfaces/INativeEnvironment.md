@@ -8,18 +8,19 @@ Modules for native functionalities: These modules provide an interface for acces
 
 ### Properties
 
--   [authenticationAccess](INativeEnvironment.md#authenticationaccess)
--   [configAccess](INativeEnvironment.md#configaccess)
--   [databaseFactory](INativeEnvironment.md#databasefactory)
--   [deviceInfoAccess](INativeEnvironment.md#deviceinfoaccess)
--   [eventBus](INativeEnvironment.md#eventbus)
--   [fileAccess](INativeEnvironment.md#fileaccess)
--   [keychainAccess](INativeEnvironment.md#keychainaccess)
--   [loggerFactory](INativeEnvironment.md#loggerfactory)
--   [notificationAccess](INativeEnvironment.md#notificationaccess)
--   [platform](INativeEnvironment.md#platform)
--   [pushNotificationAccess](INativeEnvironment.md#pushnotificationaccess)
--   [scannerAccess](INativeEnvironment.md#scanneraccess)
+- [authenticationAccess](INativeEnvironment.md#authenticationaccess)
+- [configAccess](INativeEnvironment.md#configaccess)
+- [databaseFactory](INativeEnvironment.md#databasefactory)
+- [deviceInfoAccess](INativeEnvironment.md#deviceinfoaccess)
+- [eventBus](INativeEnvironment.md#eventbus)
+- [fileAccess](INativeEnvironment.md#fileaccess)
+- [keychainAccess](INativeEnvironment.md#keychainaccess)
+- [loggerFactory](INativeEnvironment.md#loggerfactory)
+- [notificationAccess](INativeEnvironment.md#notificationaccess)
+- [permissionsAccess](INativeEnvironment.md#permissionsaccess)
+- [platform](INativeEnvironment.md#platform)
+- [pushNotificationAccess](INativeEnvironment.md#pushnotificationaccess)
+- [scannerAccess](INativeEnvironment.md#scanneraccess)
 
 ## Properties
 
@@ -31,9 +32,9 @@ Module for biometric user authentication
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:28
+abstractions/dist/INativeEnvironment.d.ts:29
 
----
+___
 
 ### configAccess
 
@@ -43,9 +44,9 @@ Module for configuration of the app
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:32
+abstractions/dist/INativeEnvironment.d.ts:33
 
----
+___
 
 ### databaseFactory
 
@@ -55,9 +56,9 @@ Module for database creation
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:36
+abstractions/dist/INativeEnvironment.d.ts:37
 
----
+___
 
 ### deviceInfoAccess
 
@@ -67,9 +68,9 @@ Module for retrieving information about the device running the app
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:40
+abstractions/dist/INativeEnvironment.d.ts:41
 
----
+___
 
 ### eventBus
 
@@ -79,9 +80,9 @@ Event bus for sending and receiving events
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:24
+abstractions/dist/INativeEnvironment.d.ts:25
 
----
+___
 
 ### fileAccess
 
@@ -91,9 +92,9 @@ Module for accessing the filesystem (read/write)
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:44
+abstractions/dist/INativeEnvironment.d.ts:45
 
----
+___
 
 ### keychainAccess
 
@@ -103,9 +104,9 @@ Module for accessing the native keychain (read/write)
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:48
+abstractions/dist/INativeEnvironment.d.ts:49
 
----
+___
 
 ### loggerFactory
 
@@ -115,9 +116,9 @@ Module for creating a logger
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:52
+abstractions/dist/INativeEnvironment.d.ts:53
 
----
+___
 
 ### notificationAccess
 
@@ -127,9 +128,21 @@ Module for creating local notifications
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:56
+abstractions/dist/INativeEnvironment.d.ts:57
 
----
+___
+
+### permissionsAccess
+
+• **permissionsAccess**: [`INativePermissionsAccess`](INativePermissionsAccess.md)
+
+Module for managing permission
+
+#### Defined in
+
+abstractions/dist/INativeEnvironment.d.ts:69
+
+___
 
 ### platform
 
@@ -139,9 +152,9 @@ Framework used to access native functionalities
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:20
+abstractions/dist/INativeEnvironment.d.ts:21
 
----
+___
 
 ### pushNotificationAccess
 
@@ -151,9 +164,9 @@ Module for receiving and processing incoming remote push notifications
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:60
+abstractions/dist/INativeEnvironment.d.ts:61
 
----
+___
 
 ### scannerAccess
 
@@ -163,4 +176,4 @@ Module for scanning qr-codes
 
 #### Defined in
 
-abstractions/dist/INativeEnvironment.d.ts:64
+abstractions/dist/INativeEnvironment.d.ts:65

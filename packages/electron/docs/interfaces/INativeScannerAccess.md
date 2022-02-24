@@ -6,13 +6,13 @@ QR-code scanner
 
 ## Implemented by
 
--   [`CommonScannerAccess`](../classes/CommonScannerAccess.md)
+- [`CommonScannerAccess`](../classes/CommonScannerAccess.md)
 
 ## Table of contents
 
 ### Methods
 
--   [scan](INativeScannerAccess.md#scan)
+- [scan](INativeScannerAccess.md#scan)
 
 ## Methods
 

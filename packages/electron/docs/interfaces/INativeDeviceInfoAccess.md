@@ -6,17 +6,17 @@ Get information about the device running the app
 
 ## Implemented by
 
--   [`ElectronDeviceInfoAccess`](../classes/ElectronDeviceInfoAccess.md)
+- [`ElectronDeviceInfoAccess`](../classes/ElectronDeviceInfoAccess.md)
 
 ## Table of contents
 
 ### Properties
 
--   [deviceInfo](INativeDeviceInfoAccess.md#deviceinfo)
+- [deviceInfo](INativeDeviceInfoAccess.md#deviceinfo)
 
 ### Methods
 
--   [init](INativeDeviceInfoAccess.md#init)
+- [init](INativeDeviceInfoAccess.md#init)
 
 ## Properties
 

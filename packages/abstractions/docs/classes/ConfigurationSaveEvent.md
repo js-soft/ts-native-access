@@ -6,20 +6,20 @@ Event fired when [INativeConfigAccess](../interfaces/INativeConfigAccess.md) fin
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`ConfigurationSaveEvent`**
+  ↳ **`ConfigurationSaveEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ConfigurationSaveEvent.md#constructor)
+- [constructor](ConfigurationSaveEvent.md#constructor)
 
 ### Properties
 
--   [namespace](ConfigurationSaveEvent.md#namespace)
--   [namespace](ConfigurationSaveEvent.md#namespace)
+- [namespace](ConfigurationSaveEvent.md#namespace)
+- [namespace](ConfigurationSaveEvent.md#namespace)
 
 ## Constructors
 
@@ -33,7 +33,7 @@ Event fired when [INativeConfigAccess](../interfaces/INativeConfigAccess.md) fin
 
 #### Defined in
 
-[src/NativeEvents.ts:29](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L29)
+[src/NativeEvents.ts:29](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeEvents.ts#L29)
 
 ## Properties
 
@@ -49,7 +49,7 @@ Event fired when [INativeConfigAccess](../interfaces/INativeConfigAccess.md) fin
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### namespace
 
@@ -57,4 +57,4 @@ node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
 #### Defined in
 
-[src/NativeEvents.ts:28](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L28)
+[src/NativeEvents.ts:28](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/NativeEvents.ts#L28)

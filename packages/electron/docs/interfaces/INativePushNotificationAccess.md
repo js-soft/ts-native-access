@@ -6,13 +6,13 @@ Receive and handle remote push notifications
 
 ## Implemented by
 
--   [`ElectronPushNotificationAccess`](../classes/ElectronPushNotificationAccess.md)
+- [`ElectronPushNotificationAccess`](../classes/ElectronPushNotificationAccess.md)
 
 ## Table of contents
 
 ### Methods
 
--   [init](INativePushNotificationAccess.md#init)
+- [init](INativePushNotificationAccess.md#init)
 
 ## Methods
 

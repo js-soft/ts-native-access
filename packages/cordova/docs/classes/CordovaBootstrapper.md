@@ -4,41 +4,42 @@
 
 ## Implements
 
--   [`INativeBootstrapper`](../interfaces/INativeBootstrapper.md)
+- [`INativeBootstrapper`](../interfaces/INativeBootstrapper.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CordovaBootstrapper.md#constructor)
+- [constructor](CordovaBootstrapper.md#constructor)
 
 ### Properties
 
--   [initialized](CordovaBootstrapper.md#initialized)
--   [logger](CordovaBootstrapper.md#logger)
--   [nativeAuthenticationAccess](CordovaBootstrapper.md#nativeauthenticationaccess)
--   [nativeConfigAccess](CordovaBootstrapper.md#nativeconfigaccess)
--   [nativeDatabaseFactory](CordovaBootstrapper.md#nativedatabasefactory)
--   [nativeDeviceInfoAccess](CordovaBootstrapper.md#nativedeviceinfoaccess)
--   [nativeEventBus](CordovaBootstrapper.md#nativeeventbus)
--   [nativeFileAccess](CordovaBootstrapper.md#nativefileaccess)
--   [nativeKeychainAccess](CordovaBootstrapper.md#nativekeychainaccess)
--   [nativeLaunchOptions](CordovaBootstrapper.md#nativelaunchoptions)
--   [nativeLoggerFactory](CordovaBootstrapper.md#nativeloggerfactory)
--   [nativeNotificationAccess](CordovaBootstrapper.md#nativenotificationaccess)
--   [nativePushNotificationAccess](CordovaBootstrapper.md#nativepushnotificationaccess)
--   [nativeScannerAccess](CordovaBootstrapper.md#nativescanneraccess)
--   [configPath](CordovaBootstrapper.md#configpath)
+- [initialized](CordovaBootstrapper.md#initialized)
+- [logger](CordovaBootstrapper.md#logger)
+- [nativeAuthenticationAccess](CordovaBootstrapper.md#nativeauthenticationaccess)
+- [nativeConfigAccess](CordovaBootstrapper.md#nativeconfigaccess)
+- [nativeDatabaseFactory](CordovaBootstrapper.md#nativedatabasefactory)
+- [nativeDeviceInfoAccess](CordovaBootstrapper.md#nativedeviceinfoaccess)
+- [nativeEventBus](CordovaBootstrapper.md#nativeeventbus)
+- [nativeFileAccess](CordovaBootstrapper.md#nativefileaccess)
+- [nativeKeychainAccess](CordovaBootstrapper.md#nativekeychainaccess)
+- [nativeLaunchOptions](CordovaBootstrapper.md#nativelaunchoptions)
+- [nativeLoggerFactory](CordovaBootstrapper.md#nativeloggerfactory)
+- [nativeNotificationAccess](CordovaBootstrapper.md#nativenotificationaccess)
+- [nativePermissionsAccess](CordovaBootstrapper.md#nativepermissionsaccess)
+- [nativePushNotificationAccess](CordovaBootstrapper.md#nativepushnotificationaccess)
+- [nativeScannerAccess](CordovaBootstrapper.md#nativescanneraccess)
+- [configPath](CordovaBootstrapper.md#configpath)
 
 ### Accessors
 
--   [isInitialized](CordovaBootstrapper.md#isinitialized)
--   [nativeEnvironment](CordovaBootstrapper.md#nativeenvironment)
+- [isInitialized](CordovaBootstrapper.md#isinitialized)
+- [nativeEnvironment](CordovaBootstrapper.md#nativeenvironment)
 
 ### Methods
 
--   [handleThemeEvent](CordovaBootstrapper.md#handlethemeevent)
--   [init](CordovaBootstrapper.md#init)
+- [handleThemeEvent](CordovaBootstrapper.md#handlethemeevent)
+- [init](CordovaBootstrapper.md#init)
 
 ## Constructors
 
@@ -54,9 +55,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:52](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L52)
+[cordova/src/CordovaBootstrapper.ts:55](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L55)
 
----
+___
 
 ### logger
 
@@ -64,9 +65,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:38](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L38)
+[cordova/src/CordovaBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L40)
 
----
+___
 
 ### nativeAuthenticationAccess
 
@@ -74,9 +75,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L39)
+[cordova/src/CordovaBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L41)
 
----
+___
 
 ### nativeConfigAccess
 
@@ -84,9 +85,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:40](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L40)
+[cordova/src/CordovaBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L42)
 
----
+___
 
 ### nativeDatabaseFactory
 
@@ -94,9 +95,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:41](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L41)
+[cordova/src/CordovaBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L43)
 
----
+___
 
 ### nativeDeviceInfoAccess
 
@@ -104,9 +105,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:42](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L42)
+[cordova/src/CordovaBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L44)
 
----
+___
 
 ### nativeEventBus
 
@@ -114,9 +115,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:43](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L43)
+[cordova/src/CordovaBootstrapper.ts:45](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L45)
 
----
+___
 
 ### nativeFileAccess
 
@@ -124,9 +125,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:44](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L44)
+[cordova/src/CordovaBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L46)
 
----
+___
 
 ### nativeKeychainAccess
 
@@ -134,9 +135,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:45](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L45)
+[cordova/src/CordovaBootstrapper.ts:47](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L47)
 
----
+___
 
 ### nativeLaunchOptions
 
@@ -144,9 +145,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:50](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L50)
+[cordova/src/CordovaBootstrapper.ts:52](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L52)
 
----
+___
 
 ### nativeLoggerFactory
 
@@ -154,9 +155,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:46](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L46)
+[cordova/src/CordovaBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L48)
 
----
+___
 
 ### nativeNotificationAccess
 
@@ -164,9 +165,19 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:47](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L47)
+[cordova/src/CordovaBootstrapper.ts:49](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L49)
 
----
+___
+
+### nativePermissionsAccess
+
+• `Private` **nativePermissionsAccess**: [`INativePermissionsAccess`](../interfaces/INativePermissionsAccess.md)
+
+#### Defined in
+
+[cordova/src/CordovaBootstrapper.ts:53](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L53)
+
+___
 
 ### nativePushNotificationAccess
 
@@ -174,9 +185,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:49](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L49)
+[cordova/src/CordovaBootstrapper.ts:51](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L51)
 
----
+___
 
 ### nativeScannerAccess
 
@@ -184,9 +195,9 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:48](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L48)
+[cordova/src/CordovaBootstrapper.ts:50](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L50)
 
----
+___
 
 ### configPath
 
@@ -194,7 +205,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:37](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L37)
+[cordova/src/CordovaBootstrapper.ts:39](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L39)
 
 ## Accessors
 
@@ -214,9 +225,9 @@ Indicates whether the initalisation is finished
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:53](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L53)
+[cordova/src/CordovaBootstrapper.ts:56](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L56)
 
----
+___
 
 ### nativeEnvironment
 
@@ -234,7 +245,7 @@ Environment of initialized native features
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:57](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L57)
+[cordova/src/CordovaBootstrapper.ts:60](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L60)
 
 ## Methods
 
@@ -244,8 +255,8 @@ Environment of initialized native features
 
 #### Parameters
 
-| Name    | Type                          |
-| :------ | :---------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `event` | [`ThemeEvent`](ThemeEvent.md) |
 
 #### Returns
@@ -254,9 +265,9 @@ Environment of initialized native features
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:131](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L131)
+[cordova/src/CordovaBootstrapper.ts:138](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L138)
 
----
+___
 
 ### init
 
@@ -274,4 +285,4 @@ Function for starting the initialization process
 
 #### Defined in
 
-[cordova/src/CordovaBootstrapper.ts:78](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaBootstrapper.ts#L78)
+[cordova/src/CordovaBootstrapper.ts:82](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/cordova/src/CordovaBootstrapper.ts#L82)

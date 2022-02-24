@@ -6,21 +6,21 @@ Event fired when the [INativeConfigAccess](../interfaces/INativeConfigAccess.md)
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`ConfigurationRemoveEvent`**
+  ↳ **`ConfigurationRemoveEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ConfigurationRemoveEvent.md#constructor)
+- [constructor](ConfigurationRemoveEvent.md#constructor)
 
 ### Properties
 
--   [key](ConfigurationRemoveEvent.md#key)
--   [namespace](ConfigurationRemoveEvent.md#namespace)
--   [namespace](ConfigurationRemoveEvent.md#namespace)
+- [key](ConfigurationRemoveEvent.md#key)
+- [namespace](ConfigurationRemoveEvent.md#namespace)
+- [namespace](ConfigurationRemoveEvent.md#namespace)
 
 ## Constructors
 
@@ -30,8 +30,8 @@ Event fired when the [INativeConfigAccess](../interfaces/INativeConfigAccess.md)
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `key` | `string` |
 
 #### Overrides
@@ -52,7 +52,7 @@ abstractions/dist/NativeEvents.d.ts:41
 
 abstractions/dist/NativeEvents.d.ts:39
 
----
+___
 
 ### namespace
 
@@ -66,7 +66,7 @@ abstractions/dist/NativeEvents.d.ts:39
 
 abstractions/node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### namespace
 

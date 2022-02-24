@@ -6,15 +6,15 @@ Database factory which creates a lokijs database with a persistance adapter [INa
 
 ## Hierarchy
 
--   `ILokiJsDatabaseFactory`
+- `ILokiJsDatabaseFactory`
 
-    ↳ **`INativeDatabaseFactory`**
+  ↳ **`INativeDatabaseFactory`**
 
 ## Table of contents
 
 ### Methods
 
--   [create](INativeDatabaseFactory.md#create)
+- [create](INativeDatabaseFactory.md#create)
 
 ## Methods
 
@@ -26,10 +26,10 @@ Create or load a database.
 
 #### Parameters
 
-| Name       | Type                                                                                                             | Description          |
-| :--------- | :--------------------------------------------------------------------------------------------------------------- | :------------------- |
-| `name`     | `string`                                                                                                         | name of the database |
-| `options?` | `Partial`<`LokiConstructorOptions`\> & `Partial`<`LokiConfigOptions`\> & `Partial`<`ThrottledSaveDrainOptions`\> |                      |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `name` | `string` | name of the database |
+| `options?` | `Partial`<`LokiConstructorOptions`\> & `Partial`<`LokiConfigOptions`\> & `Partial`<`ThrottledSaveDrainOptions`\> |  |
 
 #### Returns
 
@@ -41,4 +41,4 @@ ILokiJsDatabaseFactory.create
 
 #### Defined in
 
-[src/INativeDatabaseFactory.ts:12](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeDatabaseFactory.ts#L12)
+[src/INativeDatabaseFactory.ts:12](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativeDatabaseFactory.ts#L12)

@@ -2,26 +2,20 @@
 
 # Interface: INativePermissionsAccess
 
-Access to native keychain
-
 ## Table of contents
 
 ### Methods
 
-- [hasPermission](INativePermissionsAccess.md#haspermission)
-- [requestPermission](INativePermissionsAccess.md#requestpermission)
+- [hasCameraPermission](INativePermissionsAccess.md#hascamerapermission)
+- [hasRemoteNotificationPermission](INativePermissionsAccess.md#hasremotenotificationpermission)
+- [requestCameraPermission](INativePermissionsAccess.md#requestcamerapermission)
+- [requestRemoteNotificationPermission](INativePermissionsAccess.md#requestremotenotificationpermission)
 
 ## Methods
 
-### hasPermission
+### hasCameraPermission
 
-▸ **hasPermission**(`permission`): `Promise`<`Result`<`boolean`, `ApplicationError`\>\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `permission` | `Permissions` |
+▸ **hasCameraPermission**(): `Promise`<`Result`<`boolean`, `ApplicationError`\>\>
 
 #### Returns
 
@@ -29,19 +23,13 @@ Access to native keychain
 
 #### Defined in
 
-src/INativePermissionsAccess.ts:12
+[src/INativePermissionsAccess.ts:4](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativePermissionsAccess.ts#L4)
 
 ___
 
-### requestPermission
+### hasRemoteNotificationPermission
 
-▸ **requestPermission**(`permission`): `Promise`<`Result`<`boolean`, `ApplicationError`\>\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `permission` | `Permissions` |
+▸ **hasRemoteNotificationPermission**(): `Promise`<`Result`<`boolean`, `ApplicationError`\>\>
 
 #### Returns
 
@@ -49,4 +37,32 @@ ___
 
 #### Defined in
 
-src/INativePermissionsAccess.ts:14
+[src/INativePermissionsAccess.ts:5](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativePermissionsAccess.ts#L5)
+
+___
+
+### requestCameraPermission
+
+▸ **requestCameraPermission**(): `Promise`<`Result`<`boolean`, `ApplicationError`\>\>
+
+#### Returns
+
+`Promise`<`Result`<`boolean`, `ApplicationError`\>\>
+
+#### Defined in
+
+[src/INativePermissionsAccess.ts:7](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativePermissionsAccess.ts#L7)
+
+___
+
+### requestRemoteNotificationPermission
+
+▸ **requestRemoteNotificationPermission**(): `Promise`<`Result`<`boolean`, `ApplicationError`\>\>
+
+#### Returns
+
+`Promise`<`Result`<`boolean`, `ApplicationError`\>\>
+
+#### Defined in
+
+[src/INativePermissionsAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/dceb9d6/packages/abstractions/src/INativePermissionsAccess.ts#L8)

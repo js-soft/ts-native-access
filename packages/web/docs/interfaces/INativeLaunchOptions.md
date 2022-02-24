@@ -8,7 +8,7 @@ Handle launches of the app originating from an open url or open file instruction
 
 ### Methods
 
--   [init](INativeLaunchOptions.md#init)
+- [init](INativeLaunchOptions.md#init)
 
 ## Methods
 
