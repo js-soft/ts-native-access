@@ -14,11 +14,10 @@ export class CordovaPermissionsAccess implements INativePermissionsAccess {
 
     public hasRemoteNotificationPermission(): Promise<Result<boolean>> {
         return new Promise((resolve, reject) =>
-            cordova.plugins.diagnostic.isRemoteNotificationsEnabled({
-                successCallback: (authorized: any) => resolve(Result.ok(authorized)),
-                errorCallback: (error: any) => reject(Result.fail(error)),
-                externalStorage: false
-            })
+            cordova.plugins.diagnostic.isRemoteNotificationsEnabled(
+                (authorized: any) => resolve(Result.ok(authorized)),
+                (error: any) => reject(Result.fail(error))
+            )
         );
     }
 
