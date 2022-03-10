@@ -8,11 +8,11 @@ Get information about the device running the app
 
 ### Properties
 
--   [deviceInfo](INativeDeviceInfoAccess.md#deviceinfo)
+- [deviceInfo](INativeDeviceInfoAccess.md#deviceinfo)
 
 ### Methods
 
--   [init](INativeDeviceInfoAccess.md#init)
+- [init](INativeDeviceInfoAccess.md#init)
 
 ## Properties
 
@@ -24,7 +24,7 @@ Available information about the device running the app
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:23](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeDeviceInfoAccess.ts#L23)
+[src/INativeDeviceInfoAccess.ts:23](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeDeviceInfoAccess.ts#L23)
 
 ## Methods
 
@@ -40,4 +40,4 @@ Initialize the module to retrieve relevant device information
 
 #### Defined in
 
-[src/INativeDeviceInfoAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeDeviceInfoAccess.ts#L19)
+[src/INativeDeviceInfoAccess.ts:19](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeDeviceInfoAccess.ts#L19)

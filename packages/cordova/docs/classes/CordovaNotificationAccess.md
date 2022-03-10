@@ -4,22 +4,22 @@
 
 ## Implements
 
--   [`INativeNotificationAccess`](../interfaces/INativeNotificationAccess.md)
+- [`INativeNotificationAccess`](../interfaces/INativeNotificationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CordovaNotificationAccess.md#constructor)
+- [constructor](CordovaNotificationAccess.md#constructor)
 
 ### Methods
 
--   [clear](CordovaNotificationAccess.md#clear)
--   [clearAll](CordovaNotificationAccess.md#clearall)
--   [getAll](CordovaNotificationAccess.md#getall)
--   [init](CordovaNotificationAccess.md#init)
--   [schedule](CordovaNotificationAccess.md#schedule)
--   [update](CordovaNotificationAccess.md#update)
+- [clear](CordovaNotificationAccess.md#clear)
+- [clearAll](CordovaNotificationAccess.md#clearall)
+- [getAll](CordovaNotificationAccess.md#getall)
+- [init](CordovaNotificationAccess.md#init)
+- [schedule](CordovaNotificationAccess.md#schedule)
+- [update](CordovaNotificationAccess.md#update)
 
 ## Constructors
 
@@ -29,14 +29,14 @@
 
 #### Parameters
 
-| Name     | Type                                                          |
-| :------- | :------------------------------------------------------------ |
-| `logger` | `ILogger`                                                     |
+| Name | Type |
+| :------ | :------ |
+| `logger` | `ILogger` |
 | `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaNotificationAccess.ts#L6)
+[cordova/src/CordovaNotificationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaNotificationAccess.ts#L6)
 
 ## Methods
 
@@ -48,8 +48,8 @@ Remove a notification from being displayed
 
 #### Parameters
 
-| Name | Type     |
-| :--- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `id` | `number` |
 
 #### Returns
@@ -62,9 +62,9 @@ Remove a notification from being displayed
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:102](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaNotificationAccess.ts#L102)
+[cordova/src/CordovaNotificationAccess.ts:102](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaNotificationAccess.ts#L102)
 
----
+___
 
 ### clearAll
 
@@ -82,9 +82,9 @@ Remove all notifications from being displayed
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:107](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaNotificationAccess.ts#L107)
+[cordova/src/CordovaNotificationAccess.ts:107](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaNotificationAccess.ts#L107)
 
----
+___
 
 ### getAll
 
@@ -102,9 +102,9 @@ Retrieve all notifications currently being displayed
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:113](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaNotificationAccess.ts#L113)
+[cordova/src/CordovaNotificationAccess.ts:113](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaNotificationAccess.ts#L113)
 
----
+___
 
 ### init
 
@@ -122,9 +122,9 @@ Initialize module
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaNotificationAccess.ts#L8)
+[cordova/src/CordovaNotificationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaNotificationAccess.ts#L8)
 
----
+___
 
 ### schedule
 
@@ -134,10 +134,10 @@ Display a local notification
 
 #### Parameters
 
-| Name       | Type                                                                                        |
-| :--------- | :------------------------------------------------------------------------------------------ |
-| `title`    | `string`                                                                                    |
-| `body`     | `string`                                                                                    |
+| Name | Type |
+| :------ | :------ |
+| `title` | `string` |
+| `body` | `string` |
 | `options?` | [`INativeNotificationScheduleOptions`](../interfaces/INativeNotificationScheduleOptions.md) |
 
 #### Returns
@@ -150,9 +150,9 @@ Display a local notification
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaNotificationAccess.ts#L12)
+[cordova/src/CordovaNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaNotificationAccess.ts#L12)
 
----
+___
 
 ### update
 
@@ -162,11 +162,11 @@ Update the content of an already displayed notification
 
 #### Parameters
 
-| Name       | Type                                                                                        |
-| :--------- | :------------------------------------------------------------------------------------------ |
-| `id`       | `number`                                                                                    |
-| `title`    | `string`                                                                                    |
-| `body`     | `string`                                                                                    |
+| Name | Type |
+| :------ | :------ |
+| `id` | `number` |
+| `title` | `string` |
+| `body` | `string` |
 | `options?` | [`INativeNotificationScheduleOptions`](../interfaces/INativeNotificationScheduleOptions.md) |
 
 #### Returns
@@ -179,4 +179,4 @@ Update the content of an already displayed notification
 
 #### Defined in
 
-[cordova/src/CordovaNotificationAccess.ts:64](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaNotificationAccess.ts#L64)
+[cordova/src/CordovaNotificationAccess.ts:64](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaNotificationAccess.ts#L64)

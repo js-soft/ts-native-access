@@ -6,21 +6,21 @@ Event fired when the [INativeConfigAccess](../interfaces/INativeConfigAccess.md)
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`ConfigurationRemoveEvent`**
+  ↳ **`ConfigurationRemoveEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ConfigurationRemoveEvent.md#constructor)
+- [constructor](ConfigurationRemoveEvent.md#constructor)
 
 ### Properties
 
--   [key](ConfigurationRemoveEvent.md#key)
--   [namespace](ConfigurationRemoveEvent.md#namespace)
--   [namespace](ConfigurationRemoveEvent.md#namespace)
+- [key](ConfigurationRemoveEvent.md#key)
+- [namespace](ConfigurationRemoveEvent.md#namespace)
+- [namespace](ConfigurationRemoveEvent.md#namespace)
 
 ## Constructors
 
@@ -30,8 +30,8 @@ Event fired when the [INativeConfigAccess](../interfaces/INativeConfigAccess.md)
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `key` | `string` |
 
 #### Overrides
@@ -40,7 +40,7 @@ Event fired when the [INativeConfigAccess](../interfaces/INativeConfigAccess.md)
 
 #### Defined in
 
-[src/NativeEvents.ts:49](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L49)
+[src/NativeEvents.ts:49](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/NativeEvents.ts#L49)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Event fired when the [INativeConfigAccess](../interfaces/INativeConfigAccess.md)
 
 • `Readonly` **key**: `string`
 
----
+___
 
 ### namespace
 
@@ -62,7 +62,7 @@ Event fired when the [INativeConfigAccess](../interfaces/INativeConfigAccess.md)
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### namespace
 
@@ -70,4 +70,4 @@ node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
 #### Defined in
 
-[src/NativeEvents.ts:48](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L48)
+[src/NativeEvents.ts:48](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/NativeEvents.ts#L48)

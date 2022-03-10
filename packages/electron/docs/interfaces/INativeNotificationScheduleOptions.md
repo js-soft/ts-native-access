@@ -8,11 +8,11 @@ Additional options for displaying notifications
 
 ### Properties
 
--   [buttonInput](INativeNotificationScheduleOptions.md#buttoninput)
--   [callback](INativeNotificationScheduleOptions.md#callback)
--   [data](INativeNotificationScheduleOptions.md#data)
--   [id](INativeNotificationScheduleOptions.md#id)
--   [textInput](INativeNotificationScheduleOptions.md#textinput)
+- [buttonInput](INativeNotificationScheduleOptions.md#buttoninput)
+- [callback](INativeNotificationScheduleOptions.md#callback)
+- [data](INativeNotificationScheduleOptions.md#data)
+- [id](INativeNotificationScheduleOptions.md#id)
+- [textInput](INativeNotificationScheduleOptions.md#textinput)
 
 ## Properties
 
@@ -26,7 +26,7 @@ buttons which should be displayed as part of the notification
 
 abstractions/dist/INativeNotificationAccess.d.ts:22
 
----
+___
 
 ### callback
 
@@ -38,7 +38,7 @@ callback function for the notification selection
 
 abstractions/dist/INativeNotificationAccess.d.ts:30
 
----
+___
 
 ### data
 
@@ -50,7 +50,7 @@ additional data stored as part of the notification => can be accessed for exampl
 
 abstractions/dist/INativeNotificationAccess.d.ts:34
 
----
+___
 
 ### id
 
@@ -62,7 +62,7 @@ explicitly specify the id of the notification
 
 abstractions/dist/INativeNotificationAccess.d.ts:38
 
----
+___
 
 ### textInput
 

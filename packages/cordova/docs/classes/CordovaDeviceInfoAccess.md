@@ -4,25 +4,25 @@
 
 ## Implements
 
--   [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
+- [`INativeDeviceInfoAccess`](../interfaces/INativeDeviceInfoAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CordovaDeviceInfoAccess.md#constructor)
+- [constructor](CordovaDeviceInfoAccess.md#constructor)
 
 ### Properties
 
--   [\_deviceInfo](CordovaDeviceInfoAccess.md#_deviceinfo)
+- [\_deviceInfo](CordovaDeviceInfoAccess.md#_deviceinfo)
 
 ### Accessors
 
--   [deviceInfo](CordovaDeviceInfoAccess.md#deviceinfo)
+- [deviceInfo](CordovaDeviceInfoAccess.md#deviceinfo)
 
 ### Methods
 
--   [init](CordovaDeviceInfoAccess.md#init)
+- [init](CordovaDeviceInfoAccess.md#init)
 
 ## Constructors
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaDeviceInfoAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaDeviceInfoAccess.ts#L9)
+[cordova/src/CordovaDeviceInfoAccess.ts:9](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaDeviceInfoAccess.ts#L9)
 
 ## Accessors
 
@@ -58,7 +58,7 @@ Available information about the device running the app
 
 #### Defined in
 
-[cordova/src/CordovaDeviceInfoAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaDeviceInfoAccess.ts#L6)
+[cordova/src/CordovaDeviceInfoAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaDeviceInfoAccess.ts#L6)
 
 ## Methods
 
@@ -78,4 +78,4 @@ Initialize the module to retrieve relevant device information
 
 #### Defined in
 
-[cordova/src/CordovaDeviceInfoAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaDeviceInfoAccess.ts#L11)
+[cordova/src/CordovaDeviceInfoAccess.ts:11](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaDeviceInfoAccess.ts#L11)

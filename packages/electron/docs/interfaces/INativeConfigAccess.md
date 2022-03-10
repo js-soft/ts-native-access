@@ -8,18 +8,18 @@ through the [get](INativeConfigAccess.md#get) method. The default config is read
 
 ## Implemented by
 
--   [`CommonConfigAccess`](../classes/CommonConfigAccess.md)
+- [`CommonConfigAccess`](../classes/CommonConfigAccess.md)
 
 ## Table of contents
 
 ### Methods
 
--   [get](INativeConfigAccess.md#get)
--   [initDefaultConfig](INativeConfigAccess.md#initdefaultconfig)
--   [initRuntimeConfig](INativeConfigAccess.md#initruntimeconfig)
--   [remove](INativeConfigAccess.md#remove)
--   [save](INativeConfigAccess.md#save)
--   [set](INativeConfigAccess.md#set)
+- [get](INativeConfigAccess.md#get)
+- [initDefaultConfig](INativeConfigAccess.md#initdefaultconfig)
+- [initRuntimeConfig](INativeConfigAccess.md#initruntimeconfig)
+- [remove](INativeConfigAccess.md#remove)
+- [save](INativeConfigAccess.md#save)
+- [set](INativeConfigAccess.md#set)
 
 ## Methods
 
@@ -31,8 +31,8 @@ Read the value of the config associated to the key.
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `key` | `string` |
 
 #### Returns
@@ -43,7 +43,7 @@ Read the value of the config associated to the key.
 
 abstractions/dist/INativeConfigAccess.d.ts:144
 
----
+___
 
 ### initDefaultConfig
 
@@ -54,8 +54,8 @@ It loads the default config while keeping the runtime config empty.
 
 #### Parameters
 
-| Name   | Type     | Description                               |
-| :----- | :------- | :---------------------------------------- |
+| Name | Type | Description |
+| :------ | :------ | :------ |
 | `path` | `string` | Path where the default config is fetched. |
 
 #### Returns
@@ -66,7 +66,7 @@ It loads the default config while keeping the runtime config empty.
 
 abstractions/dist/INativeConfigAccess.d.ts:168
 
----
+___
 
 ### initRuntimeConfig
 
@@ -76,11 +76,11 @@ Initialization of the runtime config in addition to the default config with the 
 
 #### Parameters
 
-| Name         | Type                                        | Description                                                |
-| :----------- | :------------------------------------------ | :--------------------------------------------------------- |
-| `path`       | `string`                                    | Path where the runtime config is read from the filesystem. |
-| `logger`     | `ILogger`                                   | -                                                          |
-| `fileAccess` | [`INativeFileAccess`](INativeFileAccess.md) | -                                                          |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | Path where the runtime config is read from the filesystem. |
+| `logger` | `ILogger` | - |
+| `fileAccess` | [`INativeFileAccess`](INativeFileAccess.md) | - |
 
 #### Returns
 
@@ -90,7 +90,7 @@ Initialization of the runtime config in addition to the default config with the 
 
 abstractions/dist/INativeConfigAccess.d.ts:173
 
----
+___
 
 ### remove
 
@@ -101,8 +101,8 @@ A [ConfigurationRemoveEvent](../classes/ConfigurationRemoveEvent.md) is publishe
 
 #### Parameters
 
-| Name  | Type     |
-| :---- | :------- |
+| Name | Type |
+| :------ | :------ |
 | `key` | `string` |
 
 #### Returns
@@ -113,7 +113,7 @@ A [ConfigurationRemoveEvent](../classes/ConfigurationRemoveEvent.md) is publishe
 
 abstractions/dist/INativeConfigAccess.d.ts:157
 
----
+___
 
 ### save
 
@@ -130,7 +130,7 @@ A [ConfigurationSaveEvent](../classes/ConfigurationSaveEvent.md) is published on
 
 abstractions/dist/INativeConfigAccess.d.ts:162
 
----
+___
 
 ### set
 
@@ -141,10 +141,10 @@ A [ConfigurationSetEvent](../classes/ConfigurationSetEvent.md) is published on t
 
 #### Parameters
 
-| Name    | Type     |
-| :------ | :------- |
-| `key`   | `string` |
-| `value` | `any`    |
+| Name | Type |
+| :------ | :------ |
+| `key` | `string` |
+| `value` | `any` |
 
 #### Returns
 

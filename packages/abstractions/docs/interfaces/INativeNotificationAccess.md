@@ -8,12 +8,12 @@ Mangage local notifications
 
 ### Methods
 
--   [clear](INativeNotificationAccess.md#clear)
--   [clearAll](INativeNotificationAccess.md#clearall)
--   [getAll](INativeNotificationAccess.md#getall)
--   [init](INativeNotificationAccess.md#init)
--   [schedule](INativeNotificationAccess.md#schedule)
--   [update](INativeNotificationAccess.md#update)
+- [clear](INativeNotificationAccess.md#clear)
+- [clearAll](INativeNotificationAccess.md#clearall)
+- [getAll](INativeNotificationAccess.md#getall)
+- [init](INativeNotificationAccess.md#init)
+- [schedule](INativeNotificationAccess.md#schedule)
+- [update](INativeNotificationAccess.md#update)
 
 ## Methods
 
@@ -25,8 +25,8 @@ Remove a notification from being displayed
 
 #### Parameters
 
-| Name | Type     | Description                      |
-| :--- | :------- | :------------------------------- |
+| Name | Type | Description |
+| :------ | :------ | :------ |
 | `id` | `number` | id of the notification to remove |
 
 #### Returns
@@ -35,9 +35,9 @@ Remove a notification from being displayed
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:68](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeNotificationAccess.ts#L68)
+[src/INativeNotificationAccess.ts:68](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeNotificationAccess.ts#L68)
 
----
+___
 
 ### clearAll
 
@@ -51,9 +51,9 @@ Remove all notifications from being displayed
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:72](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeNotificationAccess.ts#L72)
+[src/INativeNotificationAccess.ts:72](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeNotificationAccess.ts#L72)
 
----
+___
 
 ### getAll
 
@@ -67,9 +67,9 @@ Retrieve all notifications currently being displayed
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:76](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeNotificationAccess.ts#L76)
+[src/INativeNotificationAccess.ts:76](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeNotificationAccess.ts#L76)
 
----
+___
 
 ### init
 
@@ -83,9 +83,9 @@ Initialize module
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:80](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeNotificationAccess.ts#L80)
+[src/INativeNotificationAccess.ts:80](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeNotificationAccess.ts#L80)
 
----
+___
 
 ### schedule
 
@@ -95,11 +95,11 @@ Display a local notification
 
 #### Parameters
 
-| Name       | Type                                                                          | Description                     |
-| :--------- | :---------------------------------------------------------------------------- | :------------------------------ |
-| `title`    | `string`                                                                      | title displayed in notification |
-| `body`     | `string`                                                                      | body displayed in notification  |
-| `options?` | [`INativeNotificationScheduleOptions`](INativeNotificationScheduleOptions.md) | additional options              |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `title` | `string` | title displayed in notification |
+| `body` | `string` | body displayed in notification |
+| `options?` | [`INativeNotificationScheduleOptions`](INativeNotificationScheduleOptions.md) | additional options |
 
 #### Returns
 
@@ -107,9 +107,9 @@ Display a local notification
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:55](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeNotificationAccess.ts#L55)
+[src/INativeNotificationAccess.ts:55](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeNotificationAccess.ts#L55)
 
----
+___
 
 ### update
 
@@ -119,11 +119,11 @@ Update the content of an already displayed notification
 
 #### Parameters
 
-| Name       | Type                                                                          | Description                                |
-| :--------- | :---------------------------------------------------------------------------- | :----------------------------------------- |
-| `id`       | `number`                                                                      | id of the notification to update           |
-| `title`    | `string`                                                                      | new title of the notification              |
-| `body`     | `string`                                                                      | new body of the notification               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `id` | `number` | id of the notification to update |
+| `title` | `string` | new title of the notification |
+| `body` | `string` | new body of the notification |
 | `options?` | [`INativeNotificationScheduleOptions`](INativeNotificationScheduleOptions.md) | new additional options of the notification |
 
 #### Returns
@@ -132,4 +132,4 @@ Update the content of an already displayed notification
 
 #### Defined in
 
-[src/INativeNotificationAccess.ts:63](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeNotificationAccess.ts#L63)
+[src/INativeNotificationAccess.ts:63](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeNotificationAccess.ts#L63)

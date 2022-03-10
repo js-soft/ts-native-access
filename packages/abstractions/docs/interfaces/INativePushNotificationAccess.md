@@ -8,7 +8,7 @@ Receive and handle remote push notifications
 
 ### Methods
 
--   [init](INativePushNotificationAccess.md#init)
+- [init](INativePushNotificationAccess.md#init)
 
 ## Methods
 
@@ -26,4 +26,4 @@ It also publishes a [RemoteNotificationEvent](../classes/RemoteNotificationEvent
 
 #### Defined in
 
-[src/INativePushNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativePushNotificationAccess.ts#L12)
+[src/INativePushNotificationAccess.ts:12](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativePushNotificationAccess.ts#L12)

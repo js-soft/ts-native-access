@@ -8,8 +8,8 @@ Configuration for the cordova platform
 
 ### Properties
 
--   [localNotificationConfig](ICordovaConfig.md#localnotificationconfig)
--   [pushChannelConfig](ICordovaConfig.md#pushchannelconfig)
+- [localNotificationConfig](ICordovaConfig.md#localnotificationconfig)
+- [pushChannelConfig](ICordovaConfig.md#pushchannelconfig)
 
 ## Properties
 
@@ -21,19 +21,19 @@ Configuration of the cordova local push notifiction plugin (ios/android)
 
 #### Type declaration
 
-| Name         | Type      |
-| :----------- | :-------- |
-| `channel`    | `string`  |
+| Name | Type |
+| :------ | :------ |
+| `channel` | `string` |
 | `foreground` | `boolean` |
-| `icon`       | `string`  |
-| `launch`     | `boolean` |
-| `smallIcon`  | `string`  |
+| `icon` | `string` |
+| `launch` | `boolean` |
+| `smallIcon` | `string` |
 
 #### Defined in
 
 abstractions/dist/INativeConfigAccess.d.ts:126
 
----
+___
 
 ### pushChannelConfig
 
@@ -43,13 +43,13 @@ Configuration of the cordova remote push notifiction plugin (ios/android)
 
 #### Type declaration
 
-| Name          | Type      |
-| :------------ | :-------- |
-| `description` | `string`  |
-| `id`          | `string`  |
-| `importance`  | `number`  |
-| `vibration`   | `boolean` |
-| `visibility`  | `number`  |
+| Name | Type |
+| :------ | :------ |
+| `description` | `string` |
+| `id` | `string` |
+| `importance` | `number` |
+| `vibration` | `boolean` |
+| `visibility` | `number` |
 
 #### Defined in
 

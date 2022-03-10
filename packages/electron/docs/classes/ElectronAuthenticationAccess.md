@@ -4,17 +4,17 @@
 
 ## Implements
 
--   [`INativeAuthenticationAccess`](../interfaces/INativeAuthenticationAccess.md)
+- [`INativeAuthenticationAccess`](../interfaces/INativeAuthenticationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ElectronAuthenticationAccess.md#constructor)
+- [constructor](ElectronAuthenticationAccess.md#constructor)
 
 ### Methods
 
--   [authenticate](ElectronAuthenticationAccess.md#authenticate)
+- [authenticate](ElectronAuthenticationAccess.md#authenticate)
 
 ## Constructors
 
@@ -24,13 +24,13 @@
 
 #### Parameters
 
-| Name     | Type      |
-| :------- | :-------- |
+| Name | Type |
+| :------ | :------ |
 | `logger` | `ILogger` |
 
 #### Defined in
 
-[electron/src/ElectronAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronAuthenticationAccess.ts#L8)
+[electron/src/ElectronAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/electron/src/ElectronAuthenticationAccess.ts#L8)
 
 ## Methods
 
@@ -42,8 +42,8 @@ Start the authentication process
 
 #### Parameters
 
-| Name       | Type                                                                            |
-| :--------- | :------------------------------------------------------------------------------ |
+| Name | Type |
+| :------ | :------ |
 | `options?` | [`INativeAuthenticationOptions`](../interfaces/INativeAuthenticationOptions.md) |
 
 #### Returns
@@ -58,4 +58,4 @@ True if authentication was successful and false if authentication was unsuccessf
 
 #### Defined in
 
-[electron/src/ElectronAuthenticationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/electron/src/ElectronAuthenticationAccess.ts#L10)
+[electron/src/ElectronAuthenticationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/electron/src/ElectronAuthenticationAccess.ts#L10)
