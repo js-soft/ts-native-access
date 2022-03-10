@@ -1,6 +1,6 @@
 {
     "name": "@js-soft/native-common",
-    "version": "1.0.6",
+    "version": "1.1.0",
     "description": "Native Common",
     "homepage": "https://github.com/js-soft/ts-native-access#readme",
     "repository": {
@@ -16,8 +16,8 @@
         "dist"
     ],
     "scripts": {
-        "build": "tsc",
-        "license-check": "license-check"
+        "license-check": "license-check",
+        "build": "tsc && npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts"
     },
     "dependencies": {
         "@js-soft/docdb-access-loki": "^1.0.2",

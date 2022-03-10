@@ -82,8 +82,8 @@ export class WebBootstrapper implements INativeBootstrapper {
             this.nativeEventBus.publish(new AppCloseEvent());
         });
 
-        const configAccess = new CommonConfigAccess(WebBootstrapper.configPath, this.nativeEventBus);
-        await configAccess.initDefaultConfig();
+        const configAccess = new CommonConfigAccess(this.nativeEventBus);
+        await configAccess.initDefaultConfig(WebBootstrapper.configPath);
         this.nativeConfigAccess = configAccess;
         const fileAccess = new WebFileAccess(this.nativeConfigAccess);
         await fileAccess.init();
@@ -97,7 +97,7 @@ export class WebBootstrapper implements INativeBootstrapper {
         this.nativeLoggerFactory = new CommonLoggerFactory(this.nativeFileAccess);
         await this.nativeLoggerFactory.init();
         this.logger = this.nativeLoggerFactory.getLogger(WebBootstrapper);
-        await configAccess.initRuntimeConfig(this.logger, this.nativeFileAccess);
+        await configAccess.initRuntimeConfig(WebBootstrapper.configPath, this.logger, this.nativeFileAccess);
         this.nativeAuthenticationAccess = new WebAuthenticationAccess(this.logger);
         this.nativeDatabaseFactory = new CommonDatabaseFactory(this.logger, this.nativeFileAccess);
         this.nativeDeviceInfoAccess = new WebDeviceInfoAccess(this.nativeConfigAccess);

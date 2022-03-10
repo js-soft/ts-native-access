@@ -2,11 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/@js-soft%2fnative-abstractions.svg)](https://www.npmjs.com/package/@js-soft/native-abstractions)
 
-This package defines native abstractions.
-
-## Documentation
-
-The documentation for this package is currently under construction.
+This package defines native abstractions. See [modules](./docs/./modules.md) for more information.
 
 ## License
 

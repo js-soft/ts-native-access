@@ -1,6 +1,7 @@
 export * from "./INativeAuthenticationAccess";
 export * from "./INativeBootstrapper";
 export * from "./INativeConfigAccess";
+export * from "./INativeDatabaseFactory";
 export * from "./INativeDeviceInfoAccess";
 export * from "./INativeEnvironment";
 export * from "./INativeEventBus";

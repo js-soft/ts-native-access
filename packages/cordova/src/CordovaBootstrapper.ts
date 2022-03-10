@@ -88,8 +88,8 @@ export class CordovaBootstrapper implements INativeBootstrapper {
             this.nativeEventBus.publish(new AppCloseEvent());
         });
 
-        const configAccess = new CommonConfigAccess(CordovaBootstrapper.configPath, this.nativeEventBus);
-        await configAccess.initDefaultConfig();
+        const configAccess = new CommonConfigAccess(this.nativeEventBus);
+        await configAccess.initDefaultConfig(CordovaBootstrapper.configPath);
         this.nativeConfigAccess = configAccess;
         const fileAccess = new CordovaFileAccess(this.nativeConfigAccess);
         await fileAccess.init();
@@ -104,7 +104,7 @@ export class CordovaBootstrapper implements INativeBootstrapper {
         this.nativeLoggerFactory = new CommonLoggerFactory(this.nativeFileAccess);
         await this.nativeLoggerFactory.init();
         this.logger = this.nativeLoggerFactory.getLogger(CordovaBootstrapper);
-        await configAccess.initRuntimeConfig(this.logger, this.nativeFileAccess);
+        await configAccess.initRuntimeConfig(CordovaBootstrapper.configPath, this.logger, this.nativeFileAccess);
         this.nativeLaunchOptions = new CordovaLaunchOptions(this.logger, this.nativeEventBus, this.nativeConfigAccess);
         await this.nativeLaunchOptions.init();
         this.nativeAuthenticationAccess = new CordovaAuthenticationAccess(this.logger);

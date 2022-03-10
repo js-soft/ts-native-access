@@ -1,11 +1,10 @@
-import { ILokiJsDatabaseFactory } from "@js-soft/docdb-access-loki";
 import { ILogger } from "@js-soft/logging-abstractions";
-import { INativeFileAccess, NativeErrorCodes } from "@js-soft/native-abstractions";
+import { INativeDatabaseFactory, INativeDatabaseFilesystemAdapter, INativeFileAccess, NativeErrorCodes } from "@js-soft/native-abstractions";
 import { deserialize, Document, serialize } from "bson";
 import loki from "lokijs";
 import pako from "pako";
 
-export class CommonDatabaseFactory implements ILokiJsDatabaseFactory {
+export class CommonDatabaseFactory implements INativeDatabaseFactory {
     public constructor(private readonly logger: ILogger, private readonly fileAccess: INativeFileAccess) {}
 
     public create(name: string, options?: Partial<LokiConstructorOptions> & Partial<LokiConfigOptions> & Partial<ThrottledSaveDrainOptions>): Loki {
@@ -19,7 +18,7 @@ export class CommonDatabaseFactory implements ILokiJsDatabaseFactory {
     }
 }
 
-class DatabaseFilesystemAdapter {
+class DatabaseFilesystemAdapter implements INativeDatabaseFilesystemAdapter {
     public mode: string;
 
     public constructor(private readonly logger: ILogger, private readonly fileAccess: INativeFileAccess) {
@@ -29,6 +28,9 @@ class DatabaseFilesystemAdapter {
     }
 
     public async loadDatabase(dbname: string, callback: Function) {
+        /**
+         * Load database content except for the content of the collections from the filesystem.
+         */
         const loadDatabaseMetadata = async () => {
             const result = await this.fileAccess.readFileAsText(metadataPath);
             if (result.isSuccess) {
@@ -45,6 +47,9 @@ class DatabaseFilesystemAdapter {
             }
         };
 
+        /**
+         * Load a compressed collection of the database from the filesystem.
+         */
         const loadCollectionData = async (collectionName: string) => {
             const collectionPath = `${dbname}_${collectionName}`;
             const collectionResult = await this.fileAccess.existsFile(collectionPath);
@@ -62,6 +67,9 @@ class DatabaseFilesystemAdapter {
             throw new Error(error);
         };
 
+        /**
+         * Load all collections listed in the database metadata from the filesystem.
+         */
         const loadDatabaseInternal = async () => {
             try {
                 const dbmeta = await loadDatabaseMetadata();
@@ -95,6 +103,9 @@ class DatabaseFilesystemAdapter {
     }
 
     public async exportDatabase(dbname: string, dbref: Loki, callback: Function) {
+        /**
+         * Save the database without the collections to the filesystem.
+         */
         const saveDatabaseMetadata = async () => {
             const metadataPath = `${dbname}_metadata`;
             for (const collection of dbref.collections) {
@@ -108,6 +119,9 @@ class DatabaseFilesystemAdapter {
             }
         };
 
+        /**
+         * Save a compressed collection to the filesystem.
+         */
         const saveCollectionData = async (collection: any) => {
             const collectionPath = `${dbname}_${collection.name}`;
             const compressed = pako.deflate(serialize(collection));
@@ -119,6 +133,9 @@ class DatabaseFilesystemAdapter {
             }
         };
 
+        /**
+         * Save the database and each collection individually to the filesystem.
+         */
         const saveDatabase = async () => {
             try {
                 const promisesArray: Promise<void>[] = [];

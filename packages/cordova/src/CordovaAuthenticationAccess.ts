@@ -26,6 +26,7 @@ export class CordovaAuthenticationAccess implements INativeAuthenticationAccess 
             return Result.ok(true);
         } catch (error: any) {
             let errorCode: string;
+            // translate error codes to human readable values
             switch (error.code) {
                 case -100:
                     errorCode = NativeErrorCodes.BIOMETRIC_UNKNOWN_ERROR;
