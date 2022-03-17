@@ -8,7 +8,7 @@ Handle launches of the app originating from an open url or open file instruction
 
 ### Methods
 
--   [init](INativeLaunchOptions.md#init)
+- [init](INativeLaunchOptions.md#init)
 
 ## Methods
 
@@ -25,4 +25,4 @@ when the app was started to open a file.
 
 #### Defined in
 
-[src/INativeLaunchOptions.ts:11](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeLaunchOptions.ts#L11)
+[src/INativeLaunchOptions.ts:11](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeLaunchOptions.ts#L11)

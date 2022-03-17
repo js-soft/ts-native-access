@@ -8,12 +8,12 @@
 
 ### Properties
 
--   [description](ILocalForageConfig.md#description)
--   [driver](ILocalForageConfig.md#driver)
--   [name](ILocalForageConfig.md#name)
--   [size](ILocalForageConfig.md#size)
--   [storeName](ILocalForageConfig.md#storename)
--   [version](ILocalForageConfig.md#version)
+- [description](ILocalForageConfig.md#description)
+- [driver](ILocalForageConfig.md#driver)
+- [name](ILocalForageConfig.md#name)
+- [size](ILocalForageConfig.md#size)
+- [storeName](ILocalForageConfig.md#storename)
+- [version](ILocalForageConfig.md#version)
 
 ## Properties
 
@@ -27,7 +27,7 @@ Description of created storage
 
 abstractions/dist/INativeConfigAccess.d.ts:77
 
----
+___
 
 ### driver
 
@@ -39,7 +39,7 @@ Storage location (indexeddb, websql)
 
 abstractions/dist/INativeConfigAccess.d.ts:57
 
----
+___
 
 ### name
 
@@ -51,7 +51,7 @@ Name of app
 
 abstractions/dist/INativeConfigAccess.d.ts:61
 
----
+___
 
 ### size
 
@@ -63,7 +63,7 @@ Size of database
 
 abstractions/dist/INativeConfigAccess.d.ts:69
 
----
+___
 
 ### storeName
 
@@ -75,7 +75,7 @@ Name of created storage
 
 abstractions/dist/INativeConfigAccess.d.ts:73
 
----
+___
 
 ### version
 

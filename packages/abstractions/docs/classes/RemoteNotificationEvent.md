@@ -6,21 +6,21 @@ Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotifi
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`RemoteNotificationEvent`**
+  ↳ **`RemoteNotificationEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](RemoteNotificationEvent.md#constructor)
+- [constructor](RemoteNotificationEvent.md#constructor)
 
 ### Properties
 
--   [namespace](RemoteNotificationEvent.md#namespace)
--   [notification](RemoteNotificationEvent.md#notification)
--   [namespace](RemoteNotificationEvent.md#namespace)
+- [namespace](RemoteNotificationEvent.md#namespace)
+- [notification](RemoteNotificationEvent.md#notification)
+- [namespace](RemoteNotificationEvent.md#namespace)
 
 ## Constructors
 
@@ -30,8 +30,8 @@ Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotifi
 
 #### Parameters
 
-| Name           | Type                                                                  |
-| :------------- | :-------------------------------------------------------------------- |
+| Name | Type |
+| :------ | :------ |
 | `notification` | [`INativePushNotification`](../interfaces/INativePushNotification.md) |
 
 #### Overrides
@@ -40,7 +40,7 @@ Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotifi
 
 #### Defined in
 
-[src/NativeEvents.ts:19](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L19)
+[src/NativeEvents.ts:19](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/NativeEvents.ts#L19)
 
 ## Properties
 
@@ -56,13 +56,13 @@ Event fired when [INativePushNotificationAccess](../interfaces/INativePushNotifi
 
 node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### notification
 
 • `Readonly` **notification**: [`INativePushNotification`](../interfaces/INativePushNotification.md)
 
----
+___
 
 ### namespace
 
@@ -70,4 +70,4 @@ node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
 #### Defined in
 
-[src/NativeEvents.ts:18](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L18)
+[src/NativeEvents.ts:18](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/NativeEvents.ts#L18)

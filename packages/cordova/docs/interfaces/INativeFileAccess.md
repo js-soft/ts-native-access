@@ -6,26 +6,26 @@ Access the native filesystem (read/write)
 
 ## Implemented by
 
--   [`CordovaFileAccess`](../classes/CordovaFileAccess.md)
+- [`CordovaFileAccess`](../classes/CordovaFileAccess.md)
 
 ## Table of contents
 
 ### Methods
 
--   [createDirectory](INativeFileAccess.md#createdirectory)
--   [deleteDirectory](INativeFileAccess.md#deletedirectory)
--   [deleteFile](INativeFileAccess.md#deletefile)
--   [existsDirectory](INativeFileAccess.md#existsdirectory)
--   [existsFile](INativeFileAccess.md#existsfile)
--   [infoDirectory](INativeFileAccess.md#infodirectory)
--   [infoFile](INativeFileAccess.md#infofile)
--   [init](INativeFileAccess.md#init)
--   [openFile](INativeFileAccess.md#openfile)
--   [openFileContent](INativeFileAccess.md#openfilecontent)
--   [readFileAsBinary](INativeFileAccess.md#readfileasbinary)
--   [readFileAsText](INativeFileAccess.md#readfileastext)
--   [select](INativeFileAccess.md#select)
--   [writeFile](INativeFileAccess.md#writefile)
+- [createDirectory](INativeFileAccess.md#createdirectory)
+- [deleteDirectory](INativeFileAccess.md#deletedirectory)
+- [deleteFile](INativeFileAccess.md#deletefile)
+- [existsDirectory](INativeFileAccess.md#existsdirectory)
+- [existsFile](INativeFileAccess.md#existsfile)
+- [infoDirectory](INativeFileAccess.md#infodirectory)
+- [infoFile](INativeFileAccess.md#infofile)
+- [init](INativeFileAccess.md#init)
+- [openFile](INativeFileAccess.md#openfile)
+- [openFileContent](INativeFileAccess.md#openfilecontent)
+- [readFileAsBinary](INativeFileAccess.md#readfileasbinary)
+- [readFileAsText](INativeFileAccess.md#readfileastext)
+- [select](INativeFileAccess.md#select)
+- [writeFile](INativeFileAccess.md#writefile)
 
 ## Methods
 
@@ -37,10 +37,10 @@ Create a directory
 
 #### Parameters
 
-| Name       | Type                                                 | Description                                                                     |
-| :--------- | :--------------------------------------------------- | :------------------------------------------------------------------------------ |
-| `path`     | `string`                                             | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory                                               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory |
 
 #### Returns
 
@@ -50,7 +50,7 @@ Create a directory
 
 abstractions/dist/INativeFileAccess.d.ts:152
 
----
+___
 
 ### deleteDirectory
 
@@ -60,10 +60,10 @@ Delete a directory
 
 #### Parameters
 
-| Name       | Type                                                 | Description                                                                     |
-| :--------- | :--------------------------------------------------- | :------------------------------------------------------------------------------ |
-| `path`     | `string`                                             | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory                                               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory |
 
 #### Returns
 
@@ -73,7 +73,7 @@ Delete a directory
 
 abstractions/dist/INativeFileAccess.d.ts:158
 
----
+___
 
 ### deleteFile
 
@@ -83,10 +83,10 @@ Delete specified file
 
 #### Parameters
 
-| Name       | Type                                                 | Description                                                                |
-| :--------- | :--------------------------------------------------- | :------------------------------------------------------------------------- |
-| `path`     | `string`                                             | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file                                               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -96,7 +96,7 @@ Delete specified file
 
 abstractions/dist/INativeFileAccess.d.ts:134
 
----
+___
 
 ### existsDirectory
 
@@ -106,10 +106,10 @@ Test if a directory exists
 
 #### Parameters
 
-| Name       | Type                                                 | Description                                                                     |
-| :--------- | :--------------------------------------------------- | :------------------------------------------------------------------------------ |
-| `path`     | `string`                                             | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory                                               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory |
 
 #### Returns
 
@@ -119,7 +119,7 @@ Test if a directory exists
 
 abstractions/dist/INativeFileAccess.d.ts:164
 
----
+___
 
 ### existsFile
 
@@ -129,10 +129,10 @@ Test if a file exists
 
 #### Parameters
 
-| Name       | Type                                                 | Description                                                                |
-| :--------- | :--------------------------------------------------- | :------------------------------------------------------------------------- |
-| `path`     | `string`                                             | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file                                               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -142,7 +142,7 @@ Test if a file exists
 
 abstractions/dist/INativeFileAccess.d.ts:140
 
----
+___
 
 ### infoDirectory
 
@@ -152,10 +152,10 @@ Retrieve information about a specified directory
 
 #### Parameters
 
-| Name       | Type                                                 | Description                                                                     |
-| :--------- | :--------------------------------------------------- | :------------------------------------------------------------------------------ |
-| `path`     | `string`                                             | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory                                               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path of the directory relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the directory |
 
 #### Returns
 
@@ -165,7 +165,7 @@ Retrieve information about a specified directory
 
 abstractions/dist/INativeFileAccess.d.ts:146
 
----
+___
 
 ### infoFile
 
@@ -175,10 +175,10 @@ Retrieve meta information about the specified file
 
 #### Parameters
 
-| Name       | Type                                                 | Description                                                                |
-| :--------- | :--------------------------------------------------- | :------------------------------------------------------------------------- |
-| `path`     | `string`                                             | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file                                               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -188,7 +188,7 @@ Retrieve meta information about the specified file
 
 abstractions/dist/INativeFileAccess.d.ts:108
 
----
+___
 
 ### init
 
@@ -204,7 +204,7 @@ Initialize the native features and create a folder structure
 
 abstractions/dist/INativeFileAccess.d.ts:184
 
----
+___
 
 ### openFile
 
@@ -214,10 +214,10 @@ Open a file with the standard application specified by the operating system
 
 #### Parameters
 
-| Name       | Type                                                 | Description                                                                |
-| :--------- | :--------------------------------------------------- | :------------------------------------------------------------------------- |
-| `path`     | `string`                                             | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file                                               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -227,7 +227,7 @@ Open a file with the standard application specified by the operating system
 
 abstractions/dist/INativeFileAccess.d.ts:174
 
----
+___
 
 ### openFileContent
 
@@ -237,9 +237,9 @@ Create and open a file with the standard application specified by the operating 
 
 #### Parameters
 
-| Name       | Type                                            | Description          |
-| :--------- | :---------------------------------------------- | :------------------- |
-| `content`  | `Uint8Array`                                    | content of the file  |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `content` | `Uint8Array` | content of the file |
 | `metadata` | [`INativeFileMetadata`](INativeFileMetadata.md) | metadata of the file |
 
 #### Returns
@@ -250,7 +250,7 @@ Create and open a file with the standard application specified by the operating 
 
 abstractions/dist/INativeFileAccess.d.ts:180
 
----
+___
 
 ### readFileAsBinary
 
@@ -260,10 +260,10 @@ Read the data of the specified file as a an array
 
 #### Parameters
 
-| Name       | Type                                                 | Description                                                                |
-| :--------- | :--------------------------------------------------- | :------------------------------------------------------------------------- |
-| `path`     | `string`                                             | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file                                               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -273,7 +273,7 @@ Read the data of the specified file as a an array
 
 abstractions/dist/INativeFileAccess.d.ts:120
 
----
+___
 
 ### readFileAsText
 
@@ -283,10 +283,10 @@ Read the data of the specified file as a string
 
 #### Parameters
 
-| Name       | Type                                                 | Description                                                                |
-| :--------- | :--------------------------------------------------- | :------------------------------------------------------------------------- |
-| `path`     | `string`                                             | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file                                               |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
 
 #### Returns
 
@@ -296,7 +296,7 @@ Read the data of the specified file as a string
 
 abstractions/dist/INativeFileAccess.d.ts:114
 
----
+___
 
 ### select
 
@@ -312,7 +312,7 @@ Open the file selection dialog of the operating system and receive the selected 
 
 abstractions/dist/INativeFileAccess.d.ts:168
 
----
+___
 
 ### writeFile
 
@@ -322,12 +322,12 @@ Write data to a file
 
 #### Parameters
 
-| Name       | Type                                                 | Description                                                                |
-| :--------- | :--------------------------------------------------- | :------------------------------------------------------------------------- |
-| `path`     | `string`                                             | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
-| `data`     | `string` \| `Uint8Array`                             | data to write to the file                                                  |
-| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file                                               |
-| `append?`  | `boolean`                                            | overwrite file or append data on the end of the file                       |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `path` | `string` | path to the file relative to the [storage](INativeFileMetadata.md#storage) |
+| `data` | `string` \| `Uint8Array` | data to write to the file |
+| `storage?` | [`NativeFileStorage`](../enums/NativeFileStorage.md) | storage location of the file |
+| `append?` | `boolean` | overwrite file or append data on the end of the file |
 
 #### Returns
 

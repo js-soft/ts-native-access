@@ -4,6 +4,7 @@
     "scripts": {
         "build": "lerna run build",
         "test": "lerna run test",
+        "typedoc": "lerna run typedoc",
         "lint": "npm run lint:prettier && npm run lint:eslint && npm run lint:tsc",
         "lint:prettier": "prettier --check .",
         "lint:eslint": "eslint ./packages/*/src/**/*.ts",

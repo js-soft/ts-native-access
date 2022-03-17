@@ -6,8 +6,8 @@
 
 ### Enumeration members
 
--   [Dark](ThemeTextStyle.md#dark)
--   [Light](ThemeTextStyle.md#light)
+- [Dark](ThemeTextStyle.md#dark)
+- [Light](ThemeTextStyle.md#light)
 
 ## Enumeration members
 
@@ -17,9 +17,9 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:95](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L95)
+[src/NativeEvents.ts:95](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/NativeEvents.ts#L95)
 
----
+___
 
 ### Light
 
@@ -27,4 +27,4 @@
 
 #### Defined in
 
-[src/NativeEvents.ts:96](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/NativeEvents.ts#L96)
+[src/NativeEvents.ts:96](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/NativeEvents.ts#L96)

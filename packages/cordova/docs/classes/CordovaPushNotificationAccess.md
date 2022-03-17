@@ -4,23 +4,23 @@
 
 ## Implements
 
--   [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
+- [`INativePushNotificationAccess`](../interfaces/INativePushNotificationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](CordovaPushNotificationAccess.md#constructor)
+- [constructor](CordovaPushNotificationAccess.md#constructor)
 
 ### Properties
 
--   [push](CordovaPushNotificationAccess.md#push)
+- [push](CordovaPushNotificationAccess.md#push)
 
 ### Methods
 
--   [handleError](CordovaPushNotificationAccess.md#handleerror)
--   [handleRegistration](CordovaPushNotificationAccess.md#handleregistration)
--   [init](CordovaPushNotificationAccess.md#init)
+- [handleError](CordovaPushNotificationAccess.md#handleerror)
+- [handleRegistration](CordovaPushNotificationAccess.md#handleregistration)
+- [init](CordovaPushNotificationAccess.md#init)
 
 ## Constructors
 
@@ -30,15 +30,15 @@
 
 #### Parameters
 
-| Name       | Type                                                          |
-| :--------- | :------------------------------------------------------------ |
-| `logger`   | `ILogger`                                                     |
-| `config`   | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
-| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md)         |
+| Name | Type |
+| :------ | :------ |
+| `logger` | `ILogger` |
+| `config` | [`INativeConfigAccess`](../interfaces/INativeConfigAccess.md) |
+| `eventBus` | [`INativeEventBus`](../interfaces/INativeEventBus.md) |
 
 #### Defined in
 
-[cordova/src/CordovaPushNotificationAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaPushNotificationAccess.ts#L15)
+[cordova/src/CordovaPushNotificationAccess.ts:15](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaPushNotificationAccess.ts#L15)
 
 ## Properties
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[cordova/src/CordovaPushNotificationAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaPushNotificationAccess.ts#L17)
+[cordova/src/CordovaPushNotificationAccess.ts:17](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaPushNotificationAccess.ts#L17)
 
 ## Methods
 
@@ -60,8 +60,8 @@ Handle an error during the bootstrap of remote push notifications
 
 #### Parameters
 
-| Name  | Type      | Description      |
-| :---- | :-------- | :--------------- |
+| Name | Type | Description |
+| :------ | :------ | :------ |
 | `err` | `unknown` | Error to publish |
 
 #### Returns
@@ -70,9 +70,9 @@ Handle an error during the bootstrap of remote push notifications
 
 #### Defined in
 
-[cordova/src/CordovaPushNotificationAccess.ts:33](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaPushNotificationAccess.ts#L33)
+[cordova/src/CordovaPushNotificationAccess.ts:33](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaPushNotificationAccess.ts#L33)
 
----
+___
 
 ### handleRegistration
 
@@ -82,8 +82,8 @@ Handle the registration of a push token for remote push notifications
 
 #### Parameters
 
-| Name    | Type     |
-| :------ | :------- |
+| Name | Type |
+| :------ | :------ |
 | `token` | `string` |
 
 #### Returns
@@ -92,9 +92,9 @@ Handle the registration of a push token for remote push notifications
 
 #### Defined in
 
-[cordova/src/CordovaPushNotificationAccess.ts:23](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaPushNotificationAccess.ts#L23)
+[cordova/src/CordovaPushNotificationAccess.ts:23](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaPushNotificationAccess.ts#L23)
 
----
+___
 
 ### init
 
@@ -114,4 +114,4 @@ It also publishes a [RemoteNotificationEvent](RemoteNotificationEvent.md) when a
 
 #### Defined in
 
-[cordova/src/CordovaPushNotificationAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/cordova/src/CordovaPushNotificationAccess.ts#L37)
+[cordova/src/CordovaPushNotificationAccess.ts:37](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/cordova/src/CordovaPushNotificationAccess.ts#L37)

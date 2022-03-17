@@ -4,17 +4,17 @@
 
 ## Implements
 
--   [`INativeAuthenticationAccess`](../interfaces/INativeAuthenticationAccess.md)
+- [`INativeAuthenticationAccess`](../interfaces/INativeAuthenticationAccess.md)
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](WebAuthenticationAccess.md#constructor)
+- [constructor](WebAuthenticationAccess.md#constructor)
 
 ### Methods
 
--   [authenticate](WebAuthenticationAccess.md#authenticate)
+- [authenticate](WebAuthenticationAccess.md#authenticate)
 
 ## Constructors
 
@@ -24,13 +24,13 @@
 
 #### Parameters
 
-| Name     | Type      |
-| :------- | :-------- |
+| Name | Type |
+| :------ | :------ |
 | `logger` | `ILogger` |
 
 #### Defined in
 
-[web/src/WebAuthenticationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebAuthenticationAccess.ts#L6)
+[web/src/WebAuthenticationAccess.ts:6](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/web/src/WebAuthenticationAccess.ts#L6)
 
 ## Methods
 
@@ -42,8 +42,8 @@ Start the authentication process
 
 #### Parameters
 
-| Name        | Type                                                                            |
-| :---------- | :------------------------------------------------------------------------------ |
+| Name | Type |
+| :------ | :------ |
 | `_options?` | [`INativeAuthenticationOptions`](../interfaces/INativeAuthenticationOptions.md) |
 
 #### Returns
@@ -58,4 +58,4 @@ True if authentication was successful and false if authentication was unsuccessf
 
 #### Defined in
 
-[web/src/WebAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/web/src/WebAuthenticationAccess.ts#L8)
+[web/src/WebAuthenticationAccess.ts:8](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/web/src/WebAuthenticationAccess.ts#L8)

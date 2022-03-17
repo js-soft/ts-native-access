@@ -6,24 +6,24 @@ Event fired when the app changes theme
 
 ## Hierarchy
 
--   [`NativeEvent`](NativeEvent.md)
+- [`NativeEvent`](NativeEvent.md)
 
-    ↳ **`ThemeEvent`**
+  ↳ **`ThemeEvent`**
 
 ## Table of contents
 
 ### Constructors
 
--   [constructor](ThemeEvent.md#constructor)
+- [constructor](ThemeEvent.md#constructor)
 
 ### Properties
 
--   [backgroundColor](ThemeEvent.md#backgroundcolor)
--   [image](ThemeEvent.md#image)
--   [namespace](ThemeEvent.md#namespace)
--   [textColor](ThemeEvent.md#textcolor)
--   [textStyle](ThemeEvent.md#textstyle)
--   [namespace](ThemeEvent.md#namespace)
+- [backgroundColor](ThemeEvent.md#backgroundcolor)
+- [image](ThemeEvent.md#image)
+- [namespace](ThemeEvent.md#namespace)
+- [textColor](ThemeEvent.md#textcolor)
+- [textStyle](ThemeEvent.md#textstyle)
+- [namespace](ThemeEvent.md#namespace)
 
 ## Constructors
 
@@ -33,12 +33,12 @@ Event fired when the app changes theme
 
 #### Parameters
 
-| Name              | Type                                           |
-| :---------------- | :--------------------------------------------- |
-| `backgroundColor` | `string`                                       |
-| `textStyle`       | [`ThemeTextStyle`](../enums/ThemeTextStyle.md) |
-| `textColor?`      | `string`                                       |
-| `image?`          | `string`                                       |
+| Name | Type |
+| :------ | :------ |
+| `backgroundColor` | `string` |
+| `textStyle` | [`ThemeTextStyle`](../enums/ThemeTextStyle.md) |
+| `textColor?` | `string` |
+| `image?` | `string` |
 
 #### Overrides
 
@@ -58,7 +58,7 @@ abstractions/dist/NativeEvents.d.ts:86
 
 abstractions/dist/NativeEvents.d.ts:81
 
----
+___
 
 ### image
 
@@ -68,7 +68,7 @@ abstractions/dist/NativeEvents.d.ts:81
 
 abstractions/dist/NativeEvents.d.ts:84
 
----
+___
 
 ### namespace
 
@@ -82,7 +82,7 @@ abstractions/dist/NativeEvents.d.ts:84
 
 abstractions/node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
----
+___
 
 ### textColor
 
@@ -92,7 +92,7 @@ abstractions/node_modules/@js-soft/ts-utils/dist/events/Event.d.ts:2
 
 abstractions/dist/NativeEvents.d.ts:83
 
----
+___
 
 ### textStyle
 
@@ -102,7 +102,7 @@ abstractions/dist/NativeEvents.d.ts:83
 
 abstractions/dist/NativeEvents.d.ts:82
 
----
+___
 
 ### namespace
 

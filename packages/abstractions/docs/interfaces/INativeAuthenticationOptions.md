@@ -8,10 +8,10 @@ Options for authentication process
 
 ### Properties
 
--   [cancelButtonTitle](INativeAuthenticationOptions.md#cancelbuttontitle)
--   [description](INativeAuthenticationOptions.md#description)
--   [subtitle](INativeAuthenticationOptions.md#subtitle)
--   [title](INativeAuthenticationOptions.md#title)
+- [cancelButtonTitle](INativeAuthenticationOptions.md#cancelbuttontitle)
+- [description](INativeAuthenticationOptions.md#description)
+- [subtitle](INativeAuthenticationOptions.md#subtitle)
+- [title](INativeAuthenticationOptions.md#title)
 
 ## Properties
 
@@ -23,9 +23,9 @@ Text of the button which cancels the authentication process
 
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeAuthenticationAccess.ts#L22)
+[src/INativeAuthenticationAccess.ts:22](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeAuthenticationAccess.ts#L22)
 
----
+___
 
 ### description
 
@@ -35,9 +35,9 @@ Text which is displayed to the user during authentication request
 
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeAuthenticationAccess.ts#L18)
+[src/INativeAuthenticationAccess.ts:18](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeAuthenticationAccess.ts#L18)
 
----
+___
 
 ### subtitle
 
@@ -47,9 +47,9 @@ Text which is displayed to the user during authentication request
 
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeAuthenticationAccess.ts#L14)
+[src/INativeAuthenticationAccess.ts:14](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeAuthenticationAccess.ts#L14)
 
----
+___
 
 ### title
 
@@ -59,4 +59,4 @@ Text which is displayed to the user during authentication request
 
 #### Defined in
 
-[src/INativeAuthenticationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeAuthenticationAccess.ts#L10)
+[src/INativeAuthenticationAccess.ts:10](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeAuthenticationAccess.ts#L10)

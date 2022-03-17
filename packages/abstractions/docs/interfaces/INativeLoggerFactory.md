@@ -6,16 +6,16 @@ Create logger
 
 ## Hierarchy
 
--   `ILoggerFactory`
+- `ILoggerFactory`
 
-    ↳ **`INativeLoggerFactory`**
+  ↳ **`INativeLoggerFactory`**
 
 ## Table of contents
 
 ### Methods
 
--   [getLogger](INativeLoggerFactory.md#getlogger)
--   [init](INativeLoggerFactory.md#init)
+- [getLogger](INativeLoggerFactory.md#getlogger)
+- [init](INativeLoggerFactory.md#init)
 
 ## Methods
 
@@ -25,8 +25,8 @@ Create logger
 
 #### Parameters
 
-| Name   | Type                   |
-| :----- | :--------------------- |
+| Name | Type |
+| :------ | :------ |
 | `name` | `string` \| `Function` |
 
 #### Returns
@@ -41,7 +41,7 @@ ILoggerFactory.getLogger
 
 node_modules/@js-soft/logging-abstractions/dist/ILoggerFactory.d.ts:3
 
----
+___
 
 ### init
 
@@ -55,4 +55,4 @@ Initialize logger
 
 #### Defined in
 
-[src/INativeLoggerFactory.ts:11](https://github.com/js-soft/ts-native-access/blob/68cf98a/packages/abstractions/src/INativeLoggerFactory.ts#L11)
+[src/INativeLoggerFactory.ts:11](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeLoggerFactory.ts#L11)

@@ -6,13 +6,13 @@ Receive and handle remote push notifications
 
 ## Implemented by
 
--   [`WebPushNotificationAccess`](../classes/WebPushNotificationAccess.md)
+- [`WebPushNotificationAccess`](../classes/WebPushNotificationAccess.md)
 
 ## Table of contents
 
 ### Methods
 
--   [init](INativePushNotificationAccess.md#init)
+- [init](INativePushNotificationAccess.md#init)
 
 ## Methods
 

@@ -8,8 +8,8 @@ Entry of the keychain
 
 ### Properties
 
--   [key](INativeKeychainEntry.md#key)
--   [value](INativeKeychainEntry.md#value)
+- [key](INativeKeychainEntry.md#key)
+- [value](INativeKeychainEntry.md#value)
 
 ## Properties
 
@@ -21,7 +21,7 @@ Entry of the keychain
 
 abstractions/dist/INativeKeychainAccess.d.ts:6
 
----
+___
 
 ### value
 
