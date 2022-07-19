@@ -21,8 +21,8 @@ export class CommonEventBus implements INativeEventBus {
         return Result.ok(id);
     }
 
-    public unsubscribe(event: Event, id: number): Result<void> {
-        this.eventBus.unsubscribe(event.namespace, id);
+    public unsubscribe(id: number): Result<void> {
+        this.eventBus.unsubscribe(id);
         return Result.ok(undefined);
     }
 

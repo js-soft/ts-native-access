@@ -12,14 +12,14 @@
         "versionBump": "lerna version"
     },
     "devDependencies": {
-        "@js-soft/eslint-config-ts": "^1.4.2",
-        "@js-soft/license-check": "^1.0.3",
+        "@js-soft/eslint-config-ts": "^1.6.0",
+        "@js-soft/license-check": "^1.0.4",
         "better-lerna-audit": "^1.0.0",
-        "eslint": "^8.8.0",
-        "lerna": "^4.0.0",
-        "prettier": "^2.5.1",
-        "typescript": "^4.5.5",
-        "typedoc": "^0.22.11",
-        "typedoc-plugin-markdown": "^3.11.12"
+        "eslint": "^8.20.0",
+        "lerna": "^5.1.8",
+        "prettier": "^2.7.1",
+        "typescript": "^4.7.4",
+        "typedoc": "^0.23.8",
+        "typedoc-plugin-markdown": "^3.13.3"
     }
 }

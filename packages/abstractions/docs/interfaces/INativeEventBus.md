@@ -30,7 +30,7 @@ The locked event bus queues published events and publishes them once it is unloc
 
 #### Defined in
 
-[src/INativeEventBus.ts:35](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeEventBus.ts#L35)
+[src/INativeEventBus.ts:34](https://github.com/js-soft/ts-native-access/blob/53d2b76/packages/abstractions/src/INativeEventBus.ts#L34)
 
 ___
 
@@ -52,7 +52,7 @@ Publish a specific event
 
 #### Defined in
 
-[src/INativeEventBus.ts:29](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeEventBus.ts#L29)
+[src/INativeEventBus.ts:28](https://github.com/js-soft/ts-native-access/blob/53d2b76/packages/abstractions/src/INativeEventBus.ts#L28)
 
 ___
 
@@ -75,7 +75,7 @@ Subscribe for a handler to be called each time a specific event occurs
 
 #### Defined in
 
-[src/INativeEventBus.ts:12](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeEventBus.ts#L12)
+[src/INativeEventBus.ts:12](https://github.com/js-soft/ts-native-access/blob/53d2b76/packages/abstractions/src/INativeEventBus.ts#L12)
 
 ___
 
@@ -98,13 +98,13 @@ Subscribe for a handler to be called the next time a specific event occurs
 
 #### Defined in
 
-[src/INativeEventBus.ts:18](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeEventBus.ts#L18)
+[src/INativeEventBus.ts:18](https://github.com/js-soft/ts-native-access/blob/53d2b76/packages/abstractions/src/INativeEventBus.ts#L18)
 
 ___
 
 ### unsubscribe
 
-▸ **unsubscribe**(`event`, `id`): `Result`<`void`, `ApplicationError`\>
+▸ **unsubscribe**(`id`): `Result`<`void`, `ApplicationError`\>
 
 Unsunscribe a handler from being called when a specific event occurs
 
@@ -112,7 +112,6 @@ Unsunscribe a handler from being called when a specific event occurs
 
 | Name | Type |
 | :------ | :------ |
-| `event` | `Event` |
 | `id` | `number` |
 
 #### Returns
@@ -121,4 +120,4 @@ Unsunscribe a handler from being called when a specific event occurs
 
 #### Defined in
 
-[src/INativeEventBus.ts:24](https://github.com/js-soft/ts-native-access/blob/99aa731/packages/abstractions/src/INativeEventBus.ts#L24)
+[src/INativeEventBus.ts:23](https://github.com/js-soft/ts-native-access/blob/53d2b76/packages/abstractions/src/INativeEventBus.ts#L23)
