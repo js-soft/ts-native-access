@@ -1,4 +1,4 @@
-import { Event, Result } from "@js-soft/ts-utils";
+import {Event, Result} from "@js-soft/ts-utils";
 
 /**
  * Event bus used for sending and receiving messages
@@ -18,10 +18,9 @@ export interface INativeEventBus {
     subscribeOnce(event: Event, handler: Function): Result<number>;
     /**
      * Unsunscribe a handler from being called when a specific event occurs
-     * @param event
      * @param id
      */
-    unsubscribe(event: Event, id: number): Result<void>;
+    unsubscribe(id: number): Result<void>;
     /**
      * Publish a specific event
      * @param event
