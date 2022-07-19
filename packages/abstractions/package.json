@@ -1,6 +1,6 @@
 {
     "name": "@js-soft/native-abstractions",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Native Abstractions",
     "homepage": "https://github.com/js-soft/ts-native-access#readme",
     "repository": {
@@ -21,15 +21,15 @@
         "typedoc": "npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts"
     },
     "dependencies": {
-        "@js-soft/docdb-access-loki": "^1.0.2",
+        "@js-soft/docdb-access-loki": "^1.0.3",
         "@js-soft/logging-abstractions": "^1.0.0",
-        "@js-soft/ts-utils": "^1.1.1"
+        "@js-soft/ts-utils": "^2.0.1"
     },
     "devDependencies": {
-        "@types/node": "^16.11.11",
-        "typedoc": "^0.22.11",
-        "typedoc-plugin-markdown": "^3.11.12",
-        "typescript": "^4.5.2"
+        "@types/node": "^18.0.6",
+        "typedoc": "^0.23.8",
+        "typedoc-plugin-markdown": "^3.13.3",
+        "typescript": "^4.7.4"
     },
     "publishConfig": {
         "access": "public"
