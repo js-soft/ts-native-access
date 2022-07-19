@@ -1,5 +1,5 @@
-import {AppReadyEvent, INativeEventBus} from "@js-soft/native-abstractions";
-import {Event, EventBus, EventEmitter2EventBus, Result} from "@js-soft/ts-utils";
+import { AppReadyEvent, INativeEventBus } from "@js-soft/native-abstractions";
+import { Event, EventBus, EventEmitter2EventBus, Result } from "@js-soft/ts-utils";
 
 export class CommonEventBus implements INativeEventBus {
     private eventBus: EventBus;

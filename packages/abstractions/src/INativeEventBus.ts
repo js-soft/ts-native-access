@@ -1,4 +1,4 @@
-import {Event, Result} from "@js-soft/ts-utils";
+import { Event, Result } from "@js-soft/ts-utils";
 
 /**
  * Event bus used for sending and receiving messages
