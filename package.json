@@ -14,7 +14,7 @@
         "lint:eslint": "eslint ./packages/*/src/**/*.ts",
         "lint:prettier": "prettier --check .",
         "lint:tsc": "npm run build --workspaces",
-        "test": "npm run test --workspaces",
+        "test": "npm run test --workspaces --if-present",
         "typedoc": "npm run typedoc --workspaces"
     },
     "devDependencies": {
