@@ -34,25 +34,18 @@ The packages above provide the following modules:
 
 ## Setup
 
-1. run `npm i` in the root folder
-2. run `npx lerna bootstrap` in the root folder. The [bootstrap command](https://github.com/lerna/lerna/tree/main/commands/bootstrap) will run `npm i`, `npm run prepublish` and `npm run prepare` in all packages, and link the coherent packages using `npm link`.
+Simply run `npm i` in the root folder. The npm workspaces feature will link coherent packages for you.
 
 ## Tests
 
 ### All
 
-run `lerna run test:local` in the root folder
-
-`lerna run **` will run the given npm script in all packages that contain it. In that case it will run the `test:local` script in the packages.
+run `npm run test --workspaces` in the root folder
 
 ### One Package
 
 1. cd in the package directory
 2. run `npm run test:local`
-
-## Increment version
-
-Before putting a PR you should run `lerna version <major | minor | patch>` to increment the version of all changed packages.
 
 ## Publishing
 
