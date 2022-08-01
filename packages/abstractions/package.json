@@ -16,8 +16,8 @@
         "dist"
     ],
     "scripts": {
-        "license-check": "license-check",
         "build": "tsc",
+        "license-check": "license-check",
         "typedoc": "npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts"
     },
     "dependencies": {
