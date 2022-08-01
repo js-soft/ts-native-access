@@ -44,7 +44,7 @@
         "node-notifier": "^10.0.1",
         "os": "^0.1.2",
         "pako": "^2.0.4",
-        "platform-folders": "^0.5.4",
+        "platform-folders": "^0.6.0",
         "punycode": "^2.1.1",
         "push-receiver": "^2.1.1",
         "rimraf": "^3.0.2",
