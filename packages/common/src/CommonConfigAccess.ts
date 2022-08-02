@@ -9,7 +9,7 @@ import {
     NativeErrorCodes
 } from "@js-soft/native-abstractions";
 import { ApplicationError, Result } from "@js-soft/ts-utils";
-import * as lodash from "lodash";
+import lodash from "lodash";
 
 export class CommonConfigAccess implements INativeConfigAccess {
     private fileAccess: INativeFileAccess;

@@ -17,8 +17,7 @@
         "strictNullChecks": true,
         "strictPropertyInitialization": false,
         "downlevelIteration": true,
-        "lib": ["es2019", "dom"],
-        "typeRoots": ["./node_modules/@types"]
+        "lib": ["es2019", "dom"]
     },
     "include": ["./global-types.d.ts", "cordova-plugin-push.d.ts", "./cordova-plugin-file.d.ts", "cordova-plugin-chooser.d.ts", "cordova-plugin-device.d.ts", "src/**/*.ts"]
 }

@@ -6,8 +6,14 @@ export class CommonEventBus implements INativeEventBus {
     private locked = true;
     private queue: Event[] = [];
 
-    public init(): Promise<Result<void>> {
-        this.eventBus = new EventEmitter2EventBus();
+    public init(errorCallback?: (error: unknown, namespace: string) => void): Promise<Result<void>> {
+        this.eventBus = new EventEmitter2EventBus(
+            errorCallback ??
+                ((error: unknown, namespace: string) => {
+                    // eslint-disable-next-line no-console
+                    console.error(`Error in EventBus for namespace '${namespace}':`, error);
+                })
+        );
         return Promise.resolve(Result.ok(undefined));
     }
 
