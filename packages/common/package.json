@@ -1,6 +1,6 @@
 {
     "name": "@js-soft/native-common",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Native Common",
     "homepage": "https://github.com/js-soft/ts-native-access#readme",
     "repository": {
@@ -24,7 +24,7 @@
         "@js-soft/docdb-access-loki": "^1.0.3",
         "@js-soft/logging-abstractions": "^1.0.0",
         "@js-soft/native-abstractions": "^1.2.0",
-        "@js-soft/qr-code-scanner": "^1.1.0",
+        "@js-soft/qr-code-scanner": "^1.1.2",
         "@js-soft/ts-utils": "^2.2.1",
         "bson": "^4.6.5",
         "js-logger": "1.6.1",
