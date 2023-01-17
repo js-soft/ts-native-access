@@ -26,7 +26,7 @@ export class CommonLoggerFactory implements INativeLoggerFactory {
     private formatMessages(messages: any[], context?: Function) {
         let message = "";
         for (const item of messages) message += JSON.stringify(item);
-        return `${new Date().toISOString()} [${!context || !context.name ? "default" : context.name}] ${message}`;
+        return `${new Date().toISOString()} [${!context?.name ? "default" : context.name}] ${message}`;
     }
 
     private readonly queue: { loggerName: string; message: string }[] = []; // queue of logs which are not yet saved to the filesystem

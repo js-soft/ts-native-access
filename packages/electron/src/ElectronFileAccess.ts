@@ -215,7 +215,7 @@ export class ElectronFileAccess implements INativeFileAccess {
                 return Result.fail(this.resolveErrorCode("EACCES"));
             }
 
-            await new Promise((resolve) => rimraf(directoryPath, resolve));
+            await rimraf(directoryPath);
             return Result.ok(undefined);
         } catch (err) {
             return Result.fail(this.resolveErrorCode(err));
