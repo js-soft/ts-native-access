@@ -330,7 +330,7 @@ export class WebFileAccess implements INativeFileAccess {
                     clearTimeout(focusTimer);
                 }
 
-                if (!event.target || !event.target.files || !event.target.files.length) {
+                if (!event.target?.files?.length) {
                     reject(new ApplicationError(NativeErrorCodes.FILESYSTEM_UNKNOWN, "No access to the files property"));
                 }
                 const fileEntry = event.target.files[0];
