@@ -76,8 +76,7 @@ export class CordovaBootstrapper implements INativeBootstrapper {
     }
 
     public constructor() {
-        // eslint-disable-next-line @typescript-eslint/require-await
-        window.handleOpenURL = async (uri) => {
+        window.handleOpenURL = (uri) => {
             window.earlyHandleOpenURLEventContent = uri;
         };
     }
