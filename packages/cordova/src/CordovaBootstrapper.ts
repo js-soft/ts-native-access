@@ -75,6 +75,13 @@ export class CordovaBootstrapper implements INativeBootstrapper {
         };
     }
 
+    public constructor() {
+        // eslint-disable-next-line @typescript-eslint/require-await
+        window.handleOpenURL = async (uri) => {
+            window.earlyHandleOpenURLEventContent = uri;
+        };
+    }
+
     public async init(): Promise<Result<void>> {
         if (this.initialized) {
             throw new Error(NativeErrorCodes.BOOTSTRAP_ALREADY_INITIALIZED);
