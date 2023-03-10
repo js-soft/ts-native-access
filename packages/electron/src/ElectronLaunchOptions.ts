@@ -10,17 +10,15 @@ export class ElectronLaunchOptions implements INativeLaunchOptions {
         const launchOptionsConfig: ILaunchOptionsConfig = this.config.get("launchOptions").value;
         const handleOpenURL = (uri: string) => {
             this.logger.info(`Incoming uri: ${uri}`);
-            const handleURLType = (uri: string) => {
-                if (uri.substr(0, 8) === launchOptionsConfig.uri) {
-                    this.eventBus.publish(new UrlOpenEvent(uri));
-                    this.logger.info(`Electron url open: ${uri}`);
-                } else {
-                    this.eventBus.publish(new FileViewEvent(uri));
-                    this.logger.info(`Electron file view: ${uri}`);
-                }
-            };
 
-            handleURLType(uri);
+            if (uri.startsWith(launchOptionsConfig.uri)) {
+                this.eventBus.publish(new UrlOpenEvent(uri));
+                this.logger.info(`Electron url open: ${uri}`);
+                return;
+            }
+
+            this.eventBus.publish(new FileViewEvent(uri));
+            this.logger.info(`Electron file view: ${uri}`);
         };
 
         // Electrons main process emits an event upon registering an URL press
