@@ -29,7 +29,8 @@ interface Fingerprint {
 interface Window {
     App: App;
     isCordovaApp: boolean;
-    handleOpenURL(uri: string): Promise<void>;
+    earlyHandleOpenURLEventContent: string | undefined;
+    handleOpenURL(uri: string): Promise<void> | void;
 }
 
 interface StatusBar {

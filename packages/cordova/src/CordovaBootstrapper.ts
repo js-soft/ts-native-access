@@ -75,6 +75,12 @@ export class CordovaBootstrapper implements INativeBootstrapper {
         };
     }
 
+    public constructor() {
+        window.handleOpenURL = (uri) => {
+            window.earlyHandleOpenURLEventContent = uri;
+        };
+    }
+
     public async init(): Promise<Result<void>> {
         if (this.initialized) {
             throw new Error(NativeErrorCodes.BOOTSTRAP_ALREADY_INITIALIZED);
