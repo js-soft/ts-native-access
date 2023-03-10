@@ -4,6 +4,6 @@ type: module
 resources:
   configuration:
     paths:
-      /resources/jss.native-electron: ./lib-web/
+      /resources/jss.native-electron/: ./lib-web/
 metadata:
   name: jss.native-electron

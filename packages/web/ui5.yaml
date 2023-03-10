@@ -4,6 +4,6 @@ type: module
 resources:
   configuration:
     paths:
-      /resources/jss.native-web: ./lib-web/
+      /resources/jss.native-web/: ./lib-web/
 metadata:
   name: jss.native-web
