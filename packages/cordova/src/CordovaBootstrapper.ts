@@ -77,7 +77,8 @@ export class CordovaBootstrapper implements INativeBootstrapper {
 
     public constructor() {
         window.handleOpenURL = (uri) => {
-            window.earlyHandleOpenURLEventContent = uri;
+            window.openedByOpenUrlEvent = true;
+            window.earlyOpenUrlEventContent = uri;
         };
     }
 
