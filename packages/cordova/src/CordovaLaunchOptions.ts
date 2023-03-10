@@ -10,14 +10,14 @@ export class CordovaLaunchOptions implements INativeLaunchOptions {
     }
 
     public async init(): Promise<Result<void>> {
-        if (window.earlyHandleOpenURLEventContent) {
-            this.handleUrlOpenEvent(window.earlyHandleOpenURLEventContent);
-            window.earlyHandleOpenURLEventContent = undefined;
+        if (window.earlyOpenUrlEventContent) {
+            this.handleOpenUrlEvent(window.earlyOpenUrlEventContent);
+            window.earlyOpenUrlEventContent = undefined;
         }
 
         // This function gets called by cordova-plugin-customurlscheme on android and ios
         // has to be assigned to window because of cordova plugin
-        window.handleOpenURL = (uri) => this.handleUrlOpenEvent(uri);
+        window.handleOpenURL = (uri) => this.handleOpenUrlEvent(uri);
 
         if (cordova.platformId === "android") await this.initAndroidIntent();
         return Result.ok(undefined);
@@ -36,7 +36,9 @@ export class CordovaLaunchOptions implements INativeLaunchOptions {
         }
     }
 
-    private handleUrlOpenEvent(uri: string): void {
+    private handleOpenUrlEvent(uri: string): void {
+        window.openedByOpenUrlEvent = true;
+
         this.logger.info(`Incoming uri: ${uri}`);
 
         if (uri.startsWith(this.launchOptionsConfig.uri)) {
