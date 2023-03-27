@@ -74,7 +74,7 @@ export class WebBootstrapper implements INativeBootstrapper {
             throw new Error(NativeErrorCodes.BOOTSTRAP_ALREADY_INITIALIZED);
         }
 
-        const serviceWorker: ServiceWorkerRegistration = await navigator.serviceWorker.register("./resources/jss.native-webWebServiceWorker.js");
+        const serviceWorker: ServiceWorkerRegistration = await navigator.serviceWorker.register("./resources/jss.native-web/WebServiceWorker.js");
         this.nativeEventBus = new CommonEventBus();
         await this.nativeEventBus.init();
 
