@@ -5,10 +5,23 @@ import { Result } from "@js-soft/ts-utils";
 export class CordovaNotificationAccess implements INativeNotificationAccess {
     public constructor(private readonly logger: ILogger, private readonly config: INativeConfigAccess) {}
 
-    public init(): Promise<Result<void>> {
-        return new Promise((resolve, reject) => {
-            cordova.plugins.permissions.requestPermission(cordova.plugins.permissions.POST_NOTIFICATIONS, resolve, reject);
-        });
+    public async init(): Promise<Result<void>> {
+        try {
+            await new Promise<void>((resolve) => {
+                cordova.plugins.permissions.requestPermission(
+                    cordova.plugins.permissions.POST_NOTIFICATIONS,
+                    () => resolve(),
+                    () => {
+                        this.logger.info("Permission for notifications not granted");
+                        resolve();
+                    }
+                );
+            });
+        } catch (err) {
+            this.logger.error("Error while requesting notification permission", err);
+        }
+
+        return await Promise.resolve(Result.ok(undefined));
     }
 
     public async schedule(title: string, body: string, options?: INativeNotificationScheduleOptions): Promise<Result<number>> {
