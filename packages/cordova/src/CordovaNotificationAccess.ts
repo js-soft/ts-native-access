@@ -6,7 +6,9 @@ export class CordovaNotificationAccess implements INativeNotificationAccess {
     public constructor(private readonly logger: ILogger, private readonly config: INativeConfigAccess) {}
 
     public init(): Promise<Result<void>> {
-        return Promise.resolve(Result.ok(undefined));
+        return new Promise((resolve, reject) => {
+            cordova.plugins.permissions.requestPermission(cordova.plugins.permissions.POST_NOTIFICATIONS, resolve, reject);
+        });
     }
 
     public async schedule(title: string, body: string, options?: INativeNotificationScheduleOptions): Promise<Result<number>> {
