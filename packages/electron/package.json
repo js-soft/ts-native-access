@@ -58,6 +58,7 @@
         "@types/rimraf": "^3.0.2"
     },
     "publishConfig": {
-        "access": "public"
+        "access": "public",
+        "provenance": true
     }
 }
