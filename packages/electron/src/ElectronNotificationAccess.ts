@@ -9,7 +9,10 @@ export class ElectronNotificationAccess implements INativeNotificationAccess {
     private notifications: number[] = [];
     private applicationId: string;
 
-    public constructor(private readonly logger: ILogger, private readonly config: INativeConfigAccess) {}
+    public constructor(
+        private readonly logger: ILogger,
+        private readonly config: INativeConfigAccess
+    ) {}
 
     public init(): Promise<Result<void>> {
         this.applicationId = this.config.get("applicationId").value;

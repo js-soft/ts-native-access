@@ -3,7 +3,10 @@ import { INativeConfigAccess, INativeKeychainAccess, INativeKeychainEntry, Nativ
 import { ApplicationError, Result } from "@js-soft/ts-utils";
 
 export class CordovaKeychainAccess implements INativeKeychainAccess {
-    public constructor(private readonly logger: ILogger, private readonly config: INativeConfigAccess) {}
+    public constructor(
+        private readonly logger: ILogger,
+        private readonly config: INativeConfigAccess
+    ) {}
 
     private secureStorage: any;
 

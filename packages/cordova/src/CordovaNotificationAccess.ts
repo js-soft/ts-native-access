@@ -3,7 +3,10 @@ import { ICordovaConfig, INativeConfigAccess, INativeNotificationAccess, INative
 import { Result } from "@js-soft/ts-utils";
 
 export class CordovaNotificationAccess implements INativeNotificationAccess {
-    public constructor(private readonly logger: ILogger, private readonly config: INativeConfigAccess) {}
+    public constructor(
+        private readonly logger: ILogger,
+        private readonly config: INativeConfigAccess
+    ) {}
 
     public async init(): Promise<Result<void>> {
         try {

@@ -5,7 +5,11 @@ import { Result } from "@js-soft/ts-utils";
 export class CordovaLaunchOptions implements INativeLaunchOptions {
     private readonly launchOptionsConfig: ILaunchOptionsConfig;
 
-    public constructor(private readonly logger: ILogger, private readonly eventBus: INativeEventBus, private readonly config: INativeConfigAccess) {
+    public constructor(
+        private readonly logger: ILogger,
+        private readonly eventBus: INativeEventBus,
+        private readonly config: INativeConfigAccess
+    ) {
         this.launchOptionsConfig = this.config.get("launchOptions").value;
     }
 

@@ -4,7 +4,11 @@ import { Result } from "@js-soft/ts-utils";
 import { ipcRenderer } from "electron";
 
 export class ElectronLaunchOptions implements INativeLaunchOptions {
-    public constructor(private readonly logger: ILogger, private readonly eventBus: INativeEventBus, private readonly config: INativeConfigAccess) {}
+    public constructor(
+        private readonly logger: ILogger,
+        private readonly eventBus: INativeEventBus,
+        private readonly config: INativeConfigAccess
+    ) {}
 
     public init(): Promise<Result<void>> {
         const launchOptionsConfig: ILaunchOptionsConfig = this.config.get("launchOptions").value;

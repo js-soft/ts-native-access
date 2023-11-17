@@ -5,7 +5,10 @@ import loki from "lokijs";
 import pako from "pako";
 
 export class CommonDatabaseFactory implements INativeDatabaseFactory {
-    public constructor(private readonly logger: ILogger, private readonly fileAccess: INativeFileAccess) {}
+    public constructor(
+        private readonly logger: ILogger,
+        private readonly fileAccess: INativeFileAccess
+    ) {}
 
     public create(name: string, options?: Partial<LokiConstructorOptions> & Partial<LokiConfigOptions> & Partial<ThrottledSaveDrainOptions>): Loki {
         return new loki(name, {
@@ -21,7 +24,10 @@ export class CommonDatabaseFactory implements INativeDatabaseFactory {
 class DatabaseFilesystemAdapter implements INativeDatabaseFilesystemAdapter {
     public mode: string;
 
-    public constructor(private readonly logger: ILogger, private readonly fileAccess: INativeFileAccess) {
+    public constructor(
+        private readonly logger: ILogger,
+        private readonly fileAccess: INativeFileAccess
+    ) {
         this.mode = "reference";
         this.logger = logger;
         this.fileAccess = fileAccess;

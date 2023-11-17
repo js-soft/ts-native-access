@@ -6,7 +6,10 @@ export class WebNotificationAccess implements INativeNotificationAccess {
     private actions: Record<string, Function> = {}; // In memory storage of all actions => Callbacks are lost when application closes
     private callbacks: Record<string, Function> = {}; // In memory storage of all selection callbacks => Callbacks are lost when application closes
 
-    public constructor(private readonly logger: ILogger, private readonly serviceWorker: ServiceWorkerRegistration) {}
+    public constructor(
+        private readonly logger: ILogger,
+        private readonly serviceWorker: ServiceWorkerRegistration
+    ) {}
 
     public init(): Promise<Result<void>> {
         // receive notificationaction from service worker and call memorized handler

@@ -12,7 +12,11 @@ import {
 import { Result } from "@js-soft/ts-utils";
 
 export class CordovaPushNotificationAccess implements INativePushNotificationAccess {
-    public constructor(private readonly logger: ILogger, private readonly config: INativeConfigAccess, private readonly eventBus: INativeEventBus) {}
+    public constructor(
+        private readonly logger: ILogger,
+        private readonly config: INativeConfigAccess,
+        private readonly eventBus: INativeEventBus
+    ) {}
 
     private push: any;
 
