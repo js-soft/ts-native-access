@@ -1,6 +1,6 @@
 {
     "name": "@js-soft/native-electron",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "description": "Native Electron",
     "homepage": "https://github.com/js-soft/ts-native-access#readme",
     "repository": {
@@ -28,8 +28,8 @@
     "dependencies": {
         "@js-soft/docdb-access-loki": "^1.0.5",
         "@js-soft/logging-abstractions": "^1.0.1",
-        "@js-soft/native-abstractions": "^1.2.1",
-        "@js-soft/native-common": "^1.2.3",
+        "@js-soft/native-abstractions": "^1.2.2",
+        "@js-soft/native-common": "^1.2.4",
         "@js-soft/ts-utils": "^2.3.3",
         "app-data-folder": "^1.0.0",
         "assert": "^2.0.0",
