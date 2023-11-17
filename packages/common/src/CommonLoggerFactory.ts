@@ -1,19 +1,19 @@
 import { ILogger } from "@js-soft/logging-abstractions";
 import { INativeFileAccess, INativeLoggerFactory } from "@js-soft/native-abstractions";
 import { Result } from "@js-soft/ts-utils";
-import Logger from "js-logger";
+import jsLogger from "js-logger";
 
 export class CommonLoggerFactory implements INativeLoggerFactory {
     public constructor(private readonly fileAccess: INativeFileAccess) {
-        Logger.useDefaults({ defaultLevel: Logger.INFO });
+        jsLogger.useDefaults({ defaultLevel: jsLogger.INFO });
 
-        const consoleHandler = Logger.createDefaultHandler({
+        const consoleHandler = jsLogger.createDefaultHandler({
             formatter: function (messages, context) {
-                messages.unshift(`${new Date().toISOString()} [${context.name === undefined ? "default" : context.name}]`);
+                messages.unshift(`${new Date().toISOString()} [${context.name ?? "default"}]`);
             }
         });
 
-        Logger.setHandler(async (messages: any[], context: any) => {
+        jsLogger.setHandler(async (messages: any[], context: any) => {
             await this.addLog(context.name === undefined ? "default" : context.name, this.formatMessages(messages, context));
             consoleHandler(messages, context);
         });
@@ -83,6 +83,6 @@ export class CommonLoggerFactory implements INativeLoggerFactory {
         } else {
             sName = "default";
         }
-        return Logger.get(sName) as unknown as ILogger;
+        return jsLogger.get(sName) as unknown as ILogger;
     }
 }
