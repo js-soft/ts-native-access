@@ -36,7 +36,10 @@ export class ConfigurationSaveEvent extends NativeEvent {
  */
 export class ConfigurationSetEvent extends NativeEvent {
     public static readonly namespace = "ConfigurationSet";
-    public constructor(public readonly key: string, public readonly value: any) {
+    public constructor(
+        public readonly key: string,
+        public readonly value: any
+    ) {
         super(ConfigurationSetEvent.namespace);
     }
 }
@@ -101,7 +104,12 @@ export enum ThemeTextStyle {
  */
 export class ThemeEvent extends NativeEvent {
     public static namespace = "ThemeEvent";
-    public constructor(public readonly backgroundColor: string, public readonly textStyle: ThemeTextStyle, public readonly textColor?: string, public readonly image?: string) {
+    public constructor(
+        public readonly backgroundColor: string,
+        public readonly textStyle: ThemeTextStyle,
+        public readonly textColor?: string,
+        public readonly image?: string
+    ) {
         super(ThemeEvent.namespace);
     }
 }

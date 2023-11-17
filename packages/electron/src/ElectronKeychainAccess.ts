@@ -4,7 +4,10 @@ import { ApplicationError, Result } from "@js-soft/ts-utils";
 import keytar from "keytar";
 export class ElectronKeychainAccess implements INativeKeychainAccess {
     private readonly service: string;
-    public constructor(private readonly logger: ILogger, private readonly config: INativeConfigAccess) {
+    public constructor(
+        private readonly logger: ILogger,
+        private readonly config: INativeConfigAccess
+    ) {
         this.service = this.config.get("name").value;
     }
 

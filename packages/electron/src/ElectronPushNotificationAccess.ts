@@ -48,7 +48,11 @@ export class PersistentIDs {
 }
 
 export class ElectronPushNotificationAccess implements INativePushNotificationAccess {
-    public constructor(private readonly logger: ILogger, private readonly config: INativeConfigAccess, private readonly eventBus: INativeEventBus) {}
+    public constructor(
+        private readonly logger: ILogger,
+        private readonly config: INativeConfigAccess,
+        private readonly eventBus: INativeEventBus
+    ) {}
 
     public async init(): Promise<Result<void>> {
         let electronConfig: IElectronConfig = this.config.get("electron").value;
